@@ -126,4 +126,4 @@ test*
 #/Millennial/R/simulation/KBS/scenario_out*.csv
 
 # LFS files
-/KBS_results/mean_daily_results.csv
+#/KBS_results/mean_daily_results.csv

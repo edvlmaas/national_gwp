@@ -1,0 +1,274 @@
+---
+title: "Site_treatment_trends"
+author: "Ellen Maas"
+date: "7/27/2022"
+output: html_document
+description: 'Illustrates the observed data at the Kellogg Biological Station, MI for all 4 row crop treatments.'
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+knitr::opts_chunk$set(echo = TRUE, params="ask")
+```
+
+
+```{r libraries, message=FALSE}
+library(readxl)
+library(lubridate)
+library(tidyverse)
+library(ggplot2)
+```
+
+```{r constants}
+
+obs_path <- "Calibration/"
+
+# 9-color palette with grey and black. Colors in order are:
+#[1]black, [2]dark blue, [3]green, [4]light blue, [5]grey,
+#[6]pink, [7]red, [8]orange, [9]yellow
+cbPalette9 <- c("#000000","#0072B2","#009E73","#56B4E9","#999999",
+                "#CC79A7","#D55E00","#E69F00","#F0E442")
+
+
+```
+
+```{r import_and_clean}
+
+#######################
+# measured observations
+#######################
+
+## Bulk density
+ObsBD_raw <- read.csv(paste0(obs_path,"71-soil+bulk+density+surface+1656513020.csv"),
+                  skip=23) %>%
+  mutate(date=as.Date(Date, format="%m/%d/%Y"),
+         year=year(date))
+ObsBD_mean <- ObsBD_raw %>%
+  group_by(year,Treatment,Replicate) %>%
+  summarize(mean_BD=round(mean(Bulk_density),2),
+            Treatment=str_trim(Treatment))
+ObsBD <- ObsBD_mean[ObsBD_mean$Treatment %in% c("T1","T2","T3","T4"),] %>%
+  group_by(year,Treatment) %>%
+  summarize(mean_BD=round(mean(mean_BD),2))
+
+## C percent
+ObsC_pct_raw <- read.csv(paste0(obs_path,"Soil Total Carbon and Nitrogen - Surface.csv"),
+                     skip=27)
+ObsC_pct <- ObsC_pct_raw[ObsC_pct_raw$treatment %in% 1:4,] %>%
+  mutate(date=as.Date(sample_date, format="%m/%d/%Y"),
+         treatment=as.character(paste0("T",treatment)))
+
+##  C stock
+ObsC_Mgha <- ObsC_pct[ObsC_pct$treatment %in% c("T1","T2","T3","T4"),] %>%
+  group_by(year,treatment) %>%
+  summarize(mean_cpct=round(mean(mean_c,na.rm=T),2)) %>%
+  inner_join(ObsBD[,2:3],by= c("treatment"="Treatment")) %>%
+  mutate(cstock=mean_cpct*mean_BD*25)
+
+## Yield
+ObsYield_raw <- read.csv(paste0(obs_path,"Yield by Year and Treatment.csv"))
+ObsYield <- ObsYield_raw[ObsYield_raw$Treatment %in% c("T1","T2","T3","T4"),]
+ObsYield$mean_yield <- ObsYield$mean_yield/1000
+
+## Soil gases
+ObsGas_raw <- read.csv(paste0(obs_path,"28-n2o+ch4+co2+fluxes+via+static+chambers+1656512661.csv"),
+                   skip=36)
+
+ObsGas <- ObsGas_raw[ObsGas_raw$Treatment %in% c("T1","T2","T3","T4"),c("Sample_Date","Year","Treatment",
+                                                                        "Replicate","CH4_C","CO2_C","N2O_N")] %>%
+  mutate(date=as.Date(Sample_Date, format="%m/%d/%Y"),
+         year=Year) %>%
+  group_by(date,year,Treatment) %>%
+  summarize(mean_CO2C=round(mean(CO2_C,na.rm=T),2),
+            mean_CH4C=round(mean(CH4_C,na.rm=T),2),
+            mean_N2ON=round(mean(N2O_N,na.rm=T),2))
+  
+
+```
+
+
+```{r temporal_trends}
+
+MYfit_T1 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Maize" & 
+                                                          ObsYield$Treatment=="T1",]))
+MYfit_T2 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Maize" & 
+                                                          ObsYield$Treatment=="T2",]))
+MYfit_T3 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Maize" & 
+                                                          ObsYield$Treatment=="T3",]))
+MYfit_T4 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Maize" & 
+                                                          ObsYield$Treatment=="T4",]))
+
+gMY <- ObsYield[ObsYield$crop=="Maize",] %>%
+ggplot(aes(x=year, y=mean_yield, color=Treatment, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  geom_abline(intercept=MYfit_T1[1], slope=MYfit_T1[2], color=cbPalette9[2]) +
+  geom_abline(intercept=MYfit_T2[1], slope=MYfit_T2[2], color=cbPalette9[3]) +
+  geom_abline(intercept=MYfit_T3[1], slope=MYfit_T3[2], color=cbPalette9[7]) +
+  geom_abline(intercept=MYfit_T4[1], slope=MYfit_T4[2], color=cbPalette9[9]) +
+  xlab("Year") +
+  ylab(expression('Maize Yield (Mg ha ' ^-1*')')) +
+  scale_color_manual(labels=c("Conventional","No Tillage","Reduced Input","Biologically Based"),
+                     values=cbPalette9[c(2,3,7,9)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gMY
+
+SYfit_T1 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Soybean" & 
+                                                          ObsYield$Treatment=="T1",]))
+SYfit_T2 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Soybean" & 
+                                                          ObsYield$Treatment=="T2",]))
+SYfit_T3 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Soybean" & 
+                                                          ObsYield$Treatment=="T3",]))
+SYfit_T4 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Soybean" & 
+                                                          ObsYield$Treatment=="T4",]))
+
+gSY <- ObsYield[ObsYield$crop=="Soybean",] %>%
+ggplot(aes(x=year, y=mean_yield, color=Treatment, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  geom_abline(intercept=SYfit_T1[1], slope=SYfit_T1[2], color=cbPalette9[2]) +
+  geom_abline(intercept=SYfit_T2[1], slope=SYfit_T2[2], color=cbPalette9[3]) +
+  geom_abline(intercept=SYfit_T3[1], slope=SYfit_T3[2], color=cbPalette9[7]) +
+  geom_abline(intercept=SYfit_T4[1], slope=SYfit_T4[2], color=cbPalette9[9]) +
+  xlab("Year") +
+  ylab(expression('Soybean Yield (Mg ha ' ^-1*')')) +
+  scale_color_manual(labels=c("Conventional","No Tillage","Reduced Input","Biologically Based"),
+                     values=cbPalette9[c(2,3,7,9)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gSY
+
+WYfit_T1 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Wheat" & 
+                                                          ObsYield$Treatment=="T1",]))
+WYfit_T2 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Wheat" & 
+                                                          ObsYield$Treatment=="T2",]))
+WYfit_T3 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Wheat" & 
+                                                          ObsYield$Treatment=="T3",]))
+WYfit_T4 <- coef(lm(mean_yield ~ year, data = ObsYield[ObsYield$crop=="Wheat" & 
+                                                          ObsYield$Treatment=="T4",]))
+
+gWY <- ObsYield[ObsYield$crop=="Wheat",] %>%
+ggplot(aes(x=year, y=mean_yield, color=Treatment, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  geom_abline(intercept=WYfit_T1[1], slope=WYfit_T1[2], color=cbPalette9[2]) +
+  geom_abline(intercept=WYfit_T2[1], slope=WYfit_T2[2], color=cbPalette9[3]) +
+  geom_abline(intercept=WYfit_T3[1], slope=WYfit_T3[2], color=cbPalette9[7]) +
+  geom_abline(intercept=WYfit_T4[1], slope=WYfit_T4[2], color=cbPalette9[9]) +
+  xlab("Year") +
+  ylab(expression('Wheat Yield (Mg ha ' ^-1*')')) +
+  scale_color_manual(labels=c("Conventional","No Tillage","Reduced Input","Biologically Based"),
+                     values=cbPalette9[c(2,3,7,9)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gWY
+
+Cfit_T1 <- coef(lm(cstock ~ year, data = ObsC_Mgha[ObsC_Mgha$treatment=="T1",]))
+Cfit_T2 <- coef(lm(cstock ~ year, data = ObsC_Mgha[ObsC_Mgha$treatment=="T2",]))
+Cfit_T3 <- coef(lm(cstock ~ year, data = ObsC_Mgha[ObsC_Mgha$treatment=="T3",]))
+Cfit_T4 <- coef(lm(cstock ~ year, data = ObsC_Mgha[ObsC_Mgha$treatment=="T4",]))
+
+gC <- ObsC_Mgha %>%
+ggplot(aes(x=year, y=cstock, color=treatment, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  geom_abline(intercept=Cfit_T1[1], slope=Cfit_T1[2], color=cbPalette9[2]) +
+  geom_abline(intercept=Cfit_T2[1], slope=Cfit_T2[2], color=cbPalette9[3]) +
+  geom_abline(intercept=Cfit_T3[1], slope=Cfit_T3[2], color=cbPalette9[7]) +
+  geom_abline(intercept=Cfit_T4[1], slope=Cfit_T4[2], color=cbPalette9[9]) +
+  xlab("Year") +
+  ylab(expression('SOC (Mg C ha ' ^-1*')')) +
+  scale_color_manual(labels=c("Conventional","No Tillage","Reduced Input","Biologically Based"),
+                     values=cbPalette9[c(2,3,7,9)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gC
+
+CO2fit_T1 <- coef(lm(mean_CO2C ~ date, data = ObsGas[ObsGas$Treatment=="T1",1:4]))
+CO2fit_T2 <- coef(lm(mean_CO2C ~ date, data = ObsGas[ObsGas$Treatment=="T2",1:4]))
+CO2fit_T3 <- coef(lm(mean_CO2C ~ date, data = ObsGas[ObsGas$Treatment=="T3",1:4]))
+CO2fit_T4 <- coef(lm(mean_CO2C ~ date, data = ObsGas[ObsGas$Treatment=="T4",1:4]))
+
+gCG <- ObsGas[,1:4] %>%
+ggplot(aes(x=date, y=mean_CO2C, color=Treatment, show.legend=TRUE)) +
+  geom_line()+
+  geom_abline(intercept=CO2fit_T1[1], slope=CO2fit_T1[2], color=cbPalette9[2]) +
+  geom_abline(intercept=CO2fit_T2[1], slope=CO2fit_T2[2], color=cbPalette9[3]) +
+  geom_abline(intercept=CO2fit_T3[1], slope=CO2fit_T3[2], color=cbPalette9[7]) +
+  geom_abline(intercept=CO2fit_T4[1], slope=CO2fit_T4[2], color=cbPalette9[9]) +
+  xlab("Year") +
+  ylab(expression('Daily CO '[2]*' (kg C ha ' ^-1*' day ' ^-1*')')) +
+  scale_color_manual(labels=c("Conventional","No Tillage","Reduced Input","Biologically Based"),
+                     values=cbPalette9[c(2,3,7,9)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gCG
+
+CH4fit_T1 <- coef(lm(mean_CH4C ~ date, data = ObsGas[ObsGas$Treatment=="T1",c(1:3,5)]))
+CH4fit_T2 <- coef(lm(mean_CH4C ~ date, data = ObsGas[ObsGas$Treatment=="T2",c(1:3,5)]))
+CH4fit_T3 <- coef(lm(mean_CH4C ~ date, data = ObsGas[ObsGas$Treatment=="T3",c(1:3,5)]))
+CH4fit_T4 <- coef(lm(mean_CH4C ~ date, data = ObsGas[ObsGas$Treatment=="T4",c(1:3,5)]))
+
+gMG <- ObsGas[,c(1:3,5)] %>%
+ggplot(aes(x=date, y=mean_CH4C, color=Treatment, show.legend=TRUE)) +
+  geom_line()+
+  geom_abline(intercept=CH4fit_T1[1], slope=CH4fit_T1[2], color=cbPalette9[2]) +
+  geom_abline(intercept=CH4fit_T2[1], slope=CH4fit_T2[2], color=cbPalette9[3]) +
+  geom_abline(intercept=CH4fit_T3[1], slope=CH4fit_T3[2], color=cbPalette9[7]) +
+  geom_abline(intercept=CH4fit_T4[1], slope=CH4fit_T4[2], color=cbPalette9[9]) +
+  xlab("Year") +
+  ylab(expression('Daily CH '[4]*' (kg C ha ' ^-1*' day ' ^-1*')')) +
+  scale_color_manual(labels=c("Conventional","No Tillage","Reduced Input","Biologically Based"),
+                     values=cbPalette9[c(2,3,7,9)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gMG
+ 
+N2Ofit_T1 <- coef(lm(mean_N2ON ~ date, data = ObsGas[ObsGas$Treatment=="T1",c(1:3,6)]))
+N2Ofit_T2 <- coef(lm(mean_N2ON ~ date, data = ObsGas[ObsGas$Treatment=="T2",c(1:3,6)]))
+N2Ofit_T3 <- coef(lm(mean_N2ON ~ date, data = ObsGas[ObsGas$Treatment=="T3",c(1:3,6)]))
+N2Ofit_T4 <- coef(lm(mean_N2ON ~ date, data = ObsGas[ObsGas$Treatment=="T4",c(1:3,6)]))
+
+gNG <- ObsGas[,c(1:3,6)] %>%
+ggplot(aes(x=date, y=mean_N2ON, color=Treatment, show.legend=TRUE)) +
+  geom_line()+
+  geom_abline(intercept=N2Ofit_T1[1], slope=N2Ofit_T1[2], color=cbPalette9[2]) +
+  geom_abline(intercept=N2Ofit_T2[1], slope=N2Ofit_T2[2], color=cbPalette9[3]) +
+  geom_abline(intercept=N2Ofit_T3[1], slope=N2Ofit_T3[2], color=cbPalette9[7]) +
+  geom_abline(intercept=N2Ofit_T4[1], slope=N2Ofit_T4[2], color=cbPalette9[9]) +
+  xlab("Year") +
+  ylab(expression('Daily N '[2]*' O (kg N ha ' ^-1*' day ' ^-1*')')) +
+  scale_color_manual(labels=c("Conventional","No Tillage","Reduced Input","Biologically Based"),
+                     values=cbPalette9[c(2,3,7,9)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gNG
+
+ggsave(filename="Maize_yield_comparison.jpg",plot=gMY)
+ggsave(filename="Soybean_yield_comparison.jpg",plot=gSY)
+ggsave(filename="Wheat_yield_comparison.jpg",plot=gWY)
+ggsave(filename="SOC_comparison.jpg",plot=gC)
+ggsave(filename="CO2_comparison.jpg",plot=gCG)
+ggsave(filename="CH4_comparison.jpg",plot=gMG)
+ggsave(filename="N2O_comparison.jpg",plot=gNG)
+
+```
+

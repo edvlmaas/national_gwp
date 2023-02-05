@@ -1,0 +1,2418 @@
+# Activity report,,,,
+#,,,,
+# Original Data Source: https://lter.kbs.msu.edu/datatables/162,,,,
+# The newest version of the data https://lter.kbs.msu.edu/datatables/162.csv,,,,
+# Full EML Metadata: https://lter.kbs.msu.edu/datasets/7.eml,,,,
+#,,,,
+# These Data are copyrighted and use in a publication requires written permission,,,,
+# as detailed in our Terms of use:  https://lter.kbs.msu.edu/data/terms-of-use/,,,,
+# Use of the data constitutes acceptance of the terms.,,,,
+#,,,,
+#     VARIATE TABLE,,,,
+"# Obs_date		observation date",,,,
+"# Treatment		experimental treatment",,,,
+"# Plot		plot where the activity occured",,,,
+"# Observation_type		type of activity.",,,,
+"# Equipment		equipment used during the activity.",,,,
+#,,,,
+#,,,,
+#        DATA TABLE CORRECTIONS AND COMMENTS,,,,
+#,,,,
+#,,,,
+Obs_date,Treatment,Plot,Observation_type,Equipment
+7/6/2022,T5,T5R1,Weed control,John Deere 6' Brushhog Mower
+7/6/2022,T5,T5R1,Mowing,John Deere 6' Brushhog Mower
+6/9/2022,T1,T1R1,Pesticide application,Top Air Sprayer
+6/9/2022,T2,T2R1,Pesticide application,Top Air Sprayer
+6/2/2022,T1,T1R1,Pesticide application,Top Air Sprayer
+6/2/2022,T3,T3R1,Pesticide application,Top Air Sprayer
+6/1/2022,T2,T2R1,Pesticide application,Top Air Sprayer
+5/18/2022,T6,T6R1,Fertilizer application,Top Air Sprayer
+5/17/2022,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/13/2022,T3,T3R1,Fertilizer application,Top Air Sprayer
+5/12/2022,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/12/2022,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/12/2022,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/10/2022,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/10/2022,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/10/2022,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/9/2022,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/5/2022,T1,T1R1,Fertilizer application,Top Air Sprayer
+5/5/2022,T2,T2R1,Fertilizer application,Top Air Sprayer
+5/5/2022,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+4/29/2022,T3,T3R1,Pesticide application,Top Air Sprayer
+4/29/2022,T3,T3R1,Herbicide application,Top Air Sprayer
+4/29/2022,T3,T3R1,Weed control,Top Air Sprayer
+4/28/2022,T1,T1R1,Weed control,Top Air Sprayer
+4/28/2022,T1,T1R1,Pesticide application,Top Air Sprayer
+4/28/2022,T1,T1R1,Herbicide application,Top Air Sprayer
+4/28/2022,T8,T8ntR1,Weed control,Top Air Sprayer
+4/28/2022,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/28/2022,T8,T8ntR1,Herbicide application,Top Air Sprayer
+4/21/2022,T2,T2R1,Pesticide application,Top Air Sprayer
+4/21/2022,T2,T2R1,Herbicide application,Top Air Sprayer
+4/21/2022,T2,T2R1,Weed control,Top Air Sprayer
+3/28/2022,T8,T8R1,Fertilizer application,Top Air Sprayer
+3/22/2022,T1,T1R1,Fertilizer application,Top Air Sprayer
+3/21/2022,T3,T3R1,Fertilizer application,Top Air Sprayer
+3/17/2022,T2,T2R1,Fertilizer application,Top Air Sprayer
+3/4/2022,T4,T4R1,Planting,Gandy Orbit-Air (15' boom)
+11/9/2021,T1,T1R1,Planting,John Deere 1590 15' no-till drill
+11/9/2021,T8,T8ntR1,Planting,10' Tye ‘Series 5’ grain drill 
+11/9/2021,T8,T8R1,Mowing,John Deere 115 15' flail mower
+11/9/2021,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+11/9/2021,T8,T8ntR1,Planting,10' Tye ‘Series 5’ grain drill 
+11/8/2021,T4,T4R1,Planting,John Deere 1590 15' no-till drill
+11/8/2021,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/7/2021,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/7/2021,T3,T3R1,Planting,John Deere 1590 15' no-till drill
+11/6/2021,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/6/2021,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/20/2021,T4,T4R1,Harvest,Truck #892 (Blue/Red)
+10/20/2021,T4,T4R1,Harvest,truck - for hauling
+10/20/2021,T4,T4R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/20/2021,T4,T4R1,Harvest,John Deere S660 Combine
+10/20/2021,T4,T4R1,Harvest,Wagon
+10/20/2021,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/19/2021,T3,T3R1,Harvest,Truck #1270 (White/Green)
+10/19/2021,T3,T3R1,Harvest,Truck #892 (Blue/Red)
+10/19/2021,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/19/2021,T3,T3R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/19/2021,T3,T3R1,Harvest,John Deere S660 Combine
+10/18/2021,T2,T2R1,Planting,John Deere 1590 15' no-till drill
+10/1/2021,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+9/30/2021,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+9/30/2021,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+9/30/2021,T1,T1R1,Harvest,John Deere S660 Combine
+9/30/2021,T1,T1R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+9/30/2021,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+9/30/2021,T1,T1R1,Harvest,Truck #1270 (White/Green)
+9/30/2021,T2,T2R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+9/30/2021,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+9/30/2021,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+9/30/2021,T2,T2R1,Harvest,Truck #1270 (White/Green)
+9/30/2021,T2,T2R1,Harvest,John Deere S660 Combine
+9/30/2021,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+9/1/2021,T6,T6R1,Mowing,mower
+8/23/2021,T6,T6R1,Harvest,rake
+8/23/2021,T6,T6R1,Harvest,Trailer 34 ft (Gooseneck) Low-Profile with Hydraulic Dove Tail 
+8/23/2021,T6,T6R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+8/23/2021,T6,T6R1,Harvest,Krone Baler (Big Pack 1270 XC  Multi-Bale)
+8/19/2021,T6,T6R1,Mowing,"John Deere 4995 Discbine with 14'6"" cutting head"
+8/19/2021,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+7/27/2021,T1,T1R1,Weed control,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+7/27/2021,T1,T1R1,Pesticide application,Top Air Sprayer
+7/27/2021,T1,T1R1,Weed control,Top Air Sprayer
+7/27/2021,T1,T1R1,Pesticide application,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+7/27/2021,T2,T2R1,Pesticide application,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+7/27/2021,T2,T2R1,Weed control,Top Air Sprayer
+7/27/2021,T2,T2R1,Pesticide application,Top Air Sprayer
+7/27/2021,T2,T2R1,Weed control,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+7/27/2021,T8,T8ntR1,Weed control,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+7/27/2021,T8,T8ntR1,Pesticide application,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+7/27/2021,T8,T8ntR1,Pesticide application,Top Air Sprayer
+7/27/2021,T8,T8ntR1,Weed control,Top Air Sprayer
+7/26/2021,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/21/2021,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+7/15/2021,T5,T5R1,Weed control,John Deere 6' Brushhog Mower
+7/6/2021,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/2/2021,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/24/2021,T3,T3R1,Pesticide application,Top Air Sprayer
+6/24/2021,T3,T3R1,Weed control,Top Air Sprayer
+6/24/2021,T3,T3R1,Pesticide application,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+6/24/2021,T3,T3R1,Weed control,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+6/24/2021,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/17/2021,T1,T1R1,Weed control,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+6/17/2021,T1,T1R1,Weed control,Top Air Sprayer
+6/17/2021,T1,T1R1,Pesticide application,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+6/17/2021,T1,T1R1,Pesticide application,Top Air Sprayer
+6/17/2021,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/16/2021,T2,T2R1,Weed control,Top Air Sprayer
+6/16/2021,T2,T2R1,Weed control,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+6/16/2021,T2,T2R1,Pesticide application,Top Air Sprayer
+6/16/2021,T2,T2R1,Pesticide application,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+6/10/2021,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/9/2021,T8,T8ntR1,Pesticide application,Top Air Sprayer
+6/9/2021,T8,T8ntR1,Weed control,Top Air Sprayer
+6/9/2021,T8,T8ntR1,Pesticide application,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+6/9/2021,T8,T8ntR1,Weed control,Turbo TeeJet Induction TTI-11003 Flat Spray Tip (Nozzle)
+6/1/2021,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+5/27/2021,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/27/2021,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/27/2021,T6,T6R1,Fertilizer application,Top Air Sprayer
+5/27/2021,T6,T6R1,Fertilizer application,Chafer Stream Bars
+5/22/2021,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/21/2021,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/21/2021,T3,T3R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+5/21/2021,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/19/2021,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/18/2021,T2,T2R1,Pesticide application,Top Air Sprayer
+5/18/2021,T2,T2R1,Pesticide application,TeeJet 8001 Flat Fan Nozzles
+5/14/2021,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/13/2021,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/11/2021,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/10/2021,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/10/2021,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/8/2021,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/6/2021,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/30/2021,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/30/2021,T3,T3R1P,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/30/2021,T3,T3R1P,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/30/2021,T3,T3R1P,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/30/2021,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/27/2021,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+11/18/2020,T8,T8R1,Mowing,John Deere 115 15' flail mower
+11/16/2020,T3,T3R1,Planting,John Deere 1590 15' no-till drill
+11/16/2020,T4,T4R1,Planting,John Deere 1590 15' no-till drill
+11/10/2020,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+11/7/2020,T1,T1R1,Mowing,John Deere 115 15' flail mower
+11/7/2020,T2,T2R1,Mowing,John Deere 115 15' flail mower
+11/5/2020,T3,T3R1,Mowing,John Deere 115 15' flail mower
+11/2/2020,T4,T4R1,Mowing,John Deere 115 15' flail mower
+10/29/2020,T1,T1R1,Harvest,John Deere S660 Combine
+10/29/2020,T1,T1R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/29/2020,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/29/2020,T1,T1R1,Harvest,Truck #1270 (White/Green)
+10/29/2020,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+10/29/2020,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+10/29/2020,T2,T2R1,Harvest,Truck #1270 (White/Green)
+10/29/2020,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+10/29/2020,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+10/29/2020,T2,T2R1,Harvest,John Deere S660 Combine
+10/29/2020,T2,T2R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/29/2020,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/29/2020,T3,T3R1,Harvest,Truck #1270 (White/Green)
+10/29/2020,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/29/2020,T3,T3R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/29/2020,T3,T3R1,Harvest,John Deere S660 Combine
+10/29/2020,T3,T3R1,Harvest,Truck #892 (Blue/Red)
+10/29/2020,T3,T3R1,Harvest,Truck #1271 (Blue/White)
+10/29/2020,T4,T4R1,Harvest,Truck #1270 (White/Green)
+10/29/2020,T4,T4R1,Harvest,John Deere S660 Combine
+10/29/2020,T4,T4R1,Harvest,Truck #892 (Blue/Red)
+10/29/2020,T4,T4R1,Harvest,Truck #1271 (Blue/White)
+10/29/2020,T4,T4R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/29/2020,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/21/2020,T1,T1R1,Harvest,Kincaid 8XP Plot Combine
+10/21/2020,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+8/21/2020,T6,T6R1,Harvest,Krone Baler (Big Pack 1270 XC  Multi-Bale)
+8/21/2020,T6,T6R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+8/21/2020,T6,T6R1,Harvest,Trailer 34 ft (Gooseneck) Low-Profile with Hydraulic Dove Tail 
+8/18/2020,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+8/5/2020,T5,T5R1,Weed control,John Deere 6' Brushhog Mower
+8/5/2020,T5,T5R1,Mowing,John Deere 6' Brushhog Mower
+7/30/2020,T6,T6R1,Pesticide application,Top Air Sprayer
+7/30/2020,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+7/30/2020,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+7/30/2020,T6,T6R1,Weed control,Top Air Sprayer
+7/9/2020,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/26/2020,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/25/2020,T3,T3R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/25/2020,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/25/2020,T3,T3R1,Pesticide application,Top Air Sprayer
+6/25/2020,T3,T3R1,Weed control,Top Air Sprayer
+6/24/2020,T1,T1R1,Fertilizer application,28% (FSC Built) Six Row Fertilizer Applicator
+6/24/2020,T2,T2R1,Fertilizer application,28% (FSC Built) Six Row Fertilizer Applicator
+6/19/2020,T3,T3R1P,Mowing,John Deere 115 15' flail mower
+6/19/2020,T4,T4R1P,Mowing,John Deere 115 15' flail mower
+6/18/2020,T1,T1R1,Fertilizer application,28% (FSC Built) Six Row Fertilizer Applicator
+6/18/2020,T2,T2R1,Fertilizer application,28% (FSC Built) Six Row Fertilizer Applicator
+6/12/2020,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/11/2020,T8,T8ntR1,Fertilizer application,28% (FSC Built) Six Row Fertilizer Applicator
+6/9/2020,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/9/2020,T5,T5R1,Mowing,John Deere 6' Brushhog Mower
+6/9/2020,T5,T5R1,Weed control,John Deere 6' Brushhog Mower
+6/8/2020,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/8/2020,T6,T6R1,Mowing,John Deere 115 15' flail mower
+6/1/2020,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/1/2020,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/30/2020,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/30/2020,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+5/30/2020,T6,T6R1,Weed control,Top Air Sprayer
+5/30/2020,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/30/2020,T6,T6R1,Pesticide application,Top Air Sprayer
+5/28/2020,T3,T3R1,Weed control,Top Air Sprayer
+5/28/2020,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/28/2020,T3,T3R1,Pesticide application,Top Air Sprayer
+5/28/2020,T3,T3R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+5/28/2020,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/26/2020,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/26/2020,T3,T3R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/26/2020,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/23/2020,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/23/2020,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/22/2020,T6,T6R1,Fertilizer application,Top Air Sprayer
+5/22/2020,T6,T6R1,Fertilizer application,Chafer Stream Bars
+5/13/2020,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/13/2020,T1,T1R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/13/2020,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/13/2020,T8,T8ntR1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/12/2020,T2,T2R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/12/2020,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/12/2020,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/7/2020,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/6/2020,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+5/5/2020,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/4/2020,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+5/4/2020,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/28/2020,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+4/28/2020,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+4/28/2020,T8,T8ntR1,Weed control,Top Air Sprayer
+4/28/2020,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/20/2020,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/16/2020,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/16/2020,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+1/15/2020,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+11/7/2019,T8,T8R1,Mowing,John Deere 115 15' flail mower
+11/5/2019,T6,T6R1,Planting,John Deere 1590 15' no-till drill
+10/18/2019,T1,T1R1,Weed control,Top Air Sprayer
+10/18/2019,T1,T1R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+10/18/2019,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+10/18/2019,T1,T1R1,Pesticide application,Top Air Sprayer
+10/18/2019,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+10/18/2019,T2,T2R1,Pesticide application,Top Air Sprayer
+10/18/2019,T2,T2R1,Weed control,Top Air Sprayer
+10/18/2019,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+10/18/2019,T8,T8ntR1,Pesticide application,Top Air Sprayer
+10/18/2019,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+10/18/2019,T8,T8ntR1,Weed control,Top Air Sprayer
+10/18/2019,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+9/17/2019,T5,T5R1,Pesticide application,John Deere Gator 620i
+9/17/2019,T5,T5R1,Pesticide application,Sprayer: Fimco Industries 12volt 15 gallon Spot/ Hand Sprayer
+8/30/2019,T4,T4R1,Mowing,John Deere 115 15' flail mower
+8/30/2019,T4,T4R1,Weed control,John Deere 115 15' flail mower
+8/22/2019,T3,T3R1,Weed control,John Deere 115 15' flail mower
+8/22/2019,T3,T3R1,Planting,John Deere 1590 15' no-till drill
+8/22/2019,T3,T3R1,Mowing,John Deere 115 15' flail mower
+8/20/2019,T6,T6R1,Weed control,John Deere 115 15' flail mower
+8/20/2019,T6,T6R1,Mowing,John Deere 115 15' flail mower
+8/13/2019,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+8/13/2019,T1,T1R1,Pesticide application,Top Air Sprayer
+8/13/2019,T1,T1R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+8/13/2019,T1,T1R1,Weed control,Top Air Sprayer
+8/13/2019,T2,T2R1,Pesticide application,Top Air Sprayer
+8/13/2019,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+8/13/2019,T2,T2R1,Weed control,Top Air Sprayer
+8/13/2019,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+8/13/2019,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+8/13/2019,T8,T8ntR1,Weed control,Top Air Sprayer
+8/13/2019,T8,T8ntR1,Pesticide application,Top Air Sprayer
+8/13/2019,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+8/12/2019,T3,T3R1,Pesticide application,Top Air Sprayer
+8/12/2019,T3,T3R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+8/12/2019,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+8/12/2019,T3,T3R1,Weed control,Top Air Sprayer
+7/25/2019,T3,T3R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+7/25/2019,T3,T3R1,Harvest,Truck #1270 (White/Green)
+7/25/2019,T3,T3R1,Harvest,Truck #1271 (Blue/White)
+7/25/2019,T3,T3R1,Harvest,Truck #892 (Blue/Red)
+7/25/2019,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/25/2019,T3,T3R1,Harvest,John Deere  9410 combine
+7/25/2019,T4,T4R1,Harvest,Truck #1270 (White/Green)
+7/25/2019,T4,T4R1,Harvest,John Deere  9410 combine
+7/25/2019,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/25/2019,T4,T4R1,Harvest,Truck #892 (Blue/Red)
+7/25/2019,T4,T4R1,Harvest,Truck #1271 (Blue/White)
+7/25/2019,T4,T4R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+7/25/2019,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+7/24/2019,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+7/24/2019,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/24/2019,T1,T1R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+7/24/2019,T1,T1R1,Harvest,John Deere  9410 combine
+7/24/2019,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+7/24/2019,T1,T1R1,Harvest,Truck #1270 (White/Green)
+7/24/2019,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+7/24/2019,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/24/2019,T2,T2R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+7/24/2019,T2,T2R1,Harvest,John Deere  9410 combine
+7/24/2019,T2,T2R1,Harvest,Truck #1270 (White/Green)
+7/24/2019,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+7/24/2019,T3,T3R1P,Mowing,John Deere 115 15' flail mower
+7/24/2019,T4,T4R1P,Mowing,John Deere 115 15' flail mower
+6/28/2019,T6,T6R1,Pesticide application,Top Air Sprayer
+6/28/2019,T6,T6R1,Weed control,Top Air Sprayer
+6/28/2019,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/28/2019,T6,T6R1,Planting,John Deere 1590 15' no-till drill
+6/28/2019,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/24/2019,T5,T5R1,Weed control,Top Air Sprayer
+6/24/2019,T5,T5R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/24/2019,T5,T5R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/24/2019,T5,T5R1,Pesticide application,Top Air Sprayer
+6/21/2019,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/21/2019,T1,T1R1,Pesticide application,Top Air Sprayer
+6/21/2019,T2,T2R1,Pesticide application,Top Air Sprayer
+6/21/2019,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/21/2019,T3,T3R1,Pesticide application,Top Air Sprayer
+6/21/2019,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/21/2019,T8,T8ntR1,Pesticide application,Top Air Sprayer
+6/21/2019,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/12/2019,T5,T5R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+6/7/2019,T6,T6R1,Weed control,Top Air Sprayer
+6/7/2019,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/7/2019,T6,T6R1,Pesticide application,Top Air Sprayer
+6/7/2019,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/6/2019,T5,T5R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/6/2019,T5,T5R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/6/2019,T5,T5R1,Pesticide application,Top Air Sprayer
+6/6/2019,T5,T5R1,Weed control,Top Air Sprayer
+6/4/2019,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/4/2019,T3,T3R1,Pesticide application,Top Air Sprayer
+6/3/2019,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/3/2019,T1,T1R1,Pesticide application,Top Air Sprayer
+6/3/2019,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/3/2019,T2,T2R1,Pesticide application,Top Air Sprayer
+6/3/2019,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/3/2019,T8,T8ntR1,Pesticide application,Top Air Sprayer
+5/21/2019,T7,T7R1,Soil Preparation,John Deere 960 10' field cultivator
+5/8/2019,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+5/8/2019,T8,T8ntR1,Fertilizer application,Chafer Stream Bars
+5/6/2019,T3,T3R1,Fertilizer application,Chafer Stream Bars
+5/6/2019,T3,T3R1,Fertilizer application,Top Air Sprayer
+5/5/2019,T1,T1R1,Fertilizer application,Top Air Sprayer
+5/5/2019,T1,T1R1,Fertilizer application,Chafer Stream Bars
+5/5/2019,T2,T2R1,Fertilizer application,Top Air Sprayer
+5/5/2019,T2,T2R1,Fertilizer application,Chafer Stream Bars
+4/25/2019,T3,T3R1P,Planting,Truax No Till Seed Drill
+4/25/2019,T4,T4R1P,Planting,Truax No Till Seed Drill
+4/24/2019,T5,T5R1,Mowing,John Deere 115 15' flail mower
+4/22/2019,T3,T3R1,Weed control,Top Air Sprayer
+4/22/2019,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+4/22/2019,T3,T3R1,Pesticide application,Top Air Sprayer
+4/22/2019,T3,T3R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+4/17/2019,T1,T1R1,Pesticide application,Top Air Sprayer
+4/17/2019,T1,T1R1,Weed control,Top Air Sprayer
+4/17/2019,T1,T1R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+4/17/2019,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+4/17/2019,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+4/17/2019,T2,T2R1,Weed control,Top Air Sprayer
+4/17/2019,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+4/17/2019,T2,T2R1,Pesticide application,Top Air Sprayer
+4/17/2019,T8,T8ntR1,Weed control,Top Air Sprayer
+4/17/2019,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+4/17/2019,T8,T8R1,Mowing,John Deere 115 15' flail mower
+4/17/2019,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+4/17/2019,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/8/2019,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/28/2019,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/28/2019,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/28/2019,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/26/2019,T1,T1R1,Fertilizer application,Chafer Stream Bars
+3/26/2019,T1,T1R1,Fertilizer application,Top Air Sprayer
+3/26/2019,T3,T3R1,Fertilizer application,Chafer Stream Bars
+3/26/2019,T3,T3R1,Fertilizer application,Top Air Sprayer
+3/25/2019,T2,T2R1,Fertilizer application,Chafer Stream Bars
+3/25/2019,T2,T2R1,Fertilizer application,Top Air Sprayer
+3/23/2019,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+3/23/2019,T8,T8ntR1,Fertilizer application,Chafer Stream Bars
+3/18/2019,T4,T4R1,Planting,Gandy Orbit-Air (15' boom)
+10/30/2018,T3,T3R1,Pesticide application,Sprayer - Unknown 
+10/30/2018,T3,T3R1,Weed control,Sprayer - Unknown 
+10/27/2018,T4,T4R1,Soil Preparation,John Deere 1590 15' no-till drill
+10/27/2018,T4,T4R1,Planting,John Deere 1590 15' no-till drill
+10/26/2018,T3,T3R1,Planting,John Deere 1590 15' no-till drill
+10/26/2018,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/26/2018,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+10/19/2018,T1,T1R1,Planting,John Deere 1590 15' no-till drill
+10/19/2018,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+10/18/2018,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/18/2018,T4,T4R1,Harvest,John Deere  9410 combine
+10/18/2018,T4,T4R1,Harvest,Truck #892 (Blue/Red)
+10/18/2018,T4,T4R1,Harvest,Wagon
+10/18/2018,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/18/2018,T4,T4R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/17/2018,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+10/17/2018,T2,T2R1,Planting,John Deere 1590 15' no-till drill
+10/17/2018,T8,T8ntR1,Planting,John Deere 1590 15' no-till drill
+10/16/2018,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+10/16/2018,T8,T8ntR1,Harvest,Truck #892 (Blue/Red)
+10/10/2018,T2,T2R1,Planting,John Deere 1590 15' no-till drill
+10/9/2018,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+10/9/2018,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+10/9/2018,T1,T1R1,Harvest,Truck #1270 (White/Green)
+10/9/2018,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/9/2018,T1,T1R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/9/2018,T1,T1R1,Harvest,John Deere  9410 combine
+10/9/2018,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/9/2018,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+10/9/2018,T2,T2R1,Harvest,John Deere  9410 combine
+10/9/2018,T2,T2R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/9/2018,T2,T2R1,Harvest,Truck #1270 (White/Green)
+10/9/2018,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+10/9/2018,T3,T3R1,Harvest,John Deere  9410 combine
+10/9/2018,T3,T3R1,Harvest,Truck #1271 (Blue/White)
+10/9/2018,T3,T3R1,Harvest,Truck #1270 (White/Green)
+10/9/2018,T3,T3R1,Harvest,Truck #892 (Blue/Red)
+10/9/2018,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/9/2018,T3,T3R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/9/2018,T5,T5R1,Pesticide application,Hagie Sprayer
+10/9/2018,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+10/9/2018,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+10/9/2018,T6,T6R1,Weed control,Top Air Sprayer
+10/9/2018,T6,T6R1,Pesticide application,Top Air Sprayer
+9/12/2018,T6,T6R1,Mowing,mower
+7/31/2018,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/19/2018,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/13/2018,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/12/2018,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+7/12/2018,T1,T1R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+7/12/2018,T1,T1R1,Weed control,Top Air Sprayer
+7/12/2018,T1,T1R1,Pesticide application,Top Air Sprayer
+7/12/2018,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+7/12/2018,T2,T2R1,Weed control,Top Air Sprayer
+7/12/2018,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+7/12/2018,T2,T2R1,Pesticide application,Top Air Sprayer
+7/11/2018,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+7/11/2018,T8,T8ntR1,Weed control,Top Air Sprayer
+7/11/2018,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+7/11/2018,T8,T8ntR1,Pesticide application,Top Air Sprayer
+6/29/2018,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/28/2018,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/28/2018,T3,T3R1,Weed control,Top Air Sprayer
+6/28/2018,T3,T3R1,Pesticide application,Top Air Sprayer
+6/28/2018,T3,T3R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/26/2018,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/25/2018,T6,T6R1,Weed control,Top Air Sprayer
+6/25/2018,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/25/2018,T6,T6R1,Pesticide application,Top Air Sprayer
+6/25/2018,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/18/2018,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/14/2018,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/14/2018,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+6/12/2018,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/12/2018,T6,T6R1,Pesticide application,Top Air Sprayer
+6/12/2018,T6,T6R1,Weed control,Top Air Sprayer
+6/12/2018,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/6/2018,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/29/2018,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/29/2018,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/27/2018,T1,T1R1,Weed control,Top Air Sprayer
+5/27/2018,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/27/2018,T1,T1R1,Pesticide application,Top Air Sprayer
+5/27/2018,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/27/2018,T1,T1R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+5/27/2018,T2,T2R1,Pesticide application,Top Air Sprayer
+5/27/2018,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+5/27/2018,T2,T2R1,Weed control,Top Air Sprayer
+5/27/2018,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/26/2018,T8,T8ntR1,Weed control,Top Air Sprayer
+5/26/2018,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/26/2018,T8,T8ntR1,Pesticide application,Top Air Sprayer
+5/26/2018,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/26/2018,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+5/25/2018,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/25/2018,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/24/2018,T1,T1R1,Fertilizer application,spreader
+5/24/2018,T2,T2R1,Fertilizer application,spreader
+5/24/2018,T3,T3R1,Fertilizer application,spreader
+5/9/2018,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/8/2018,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/8/2018,T2,T2R1,Weed control,Top Air Sprayer
+5/8/2018,T2,T2R1,Pesticide application,Top Air Sprayer
+5/8/2018,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+5/8/2018,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/8/2018,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/8/2018,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+5/8/2018,T6,T6R1,Pesticide application,Top Air Sprayer
+5/8/2018,T6,T6R1,Weed control,Top Air Sprayer
+5/8/2018,T8,T8ntR1,Weed control,Top Air Sprayer
+5/8/2018,T8,T8ntR1,Pesticide application,Top Air Sprayer
+5/8/2018,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/8/2018,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+12/2/2017,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+11/8/2017,T3,T3R1,Planting,John Deere 1590 15' no-till drill
+11/7/2017,T1,T1R1,Mowing,John Deere 115 15' flail mower
+11/7/2017,T2,T2R1,Mowing,John Deere 115 15' flail mower
+11/7/2017,T3,T3R1,Mowing,John Deere 115 15' flail mower
+11/7/2017,T8,T8R1,Mowing,John Deere 115 15' flail mower
+11/7/2017,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+11/1/2017,T4,T4R1,Planting,John Deere 1590 15' no-till drill
+11/1/2017,T4,T4R1,Mowing,John Deere 115 15' flail mower
+10/27/2017,T8,T8ntR1,Harvest,Truck #892 (Blue/Red)
+10/27/2017,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+10/18/2017,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/18/2017,T1,T1R1,Harvest,John Deere  9410 combine
+10/18/2017,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+10/18/2017,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+10/18/2017,T1,T1R1,Harvest,Truck #1270 (White/Green)
+10/18/2017,T1,T1R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/18/2017,T2,T2R1,Harvest,John Deere  9410 combine
+10/18/2017,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+10/18/2017,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+10/18/2017,T2,T2R1,Harvest,Truck #1270 (White/Green)
+10/18/2017,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/18/2017,T2,T2R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/18/2017,T3,T3R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/18/2017,T3,T3R1,Harvest,John Deere  9410 combine
+10/18/2017,T3,T3R1,Harvest,Truck #892 (Blue/Red)
+10/18/2017,T3,T3R1,Harvest,Truck #1271 (Blue/White)
+10/18/2017,T3,T3R1,Harvest,Truck #1270 (White/Green)
+10/18/2017,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/18/2017,T4,T4R1,Harvest,John Deere  9410 combine
+10/18/2017,T4,T4R1,Harvest,Truck # 1653 (White Dodge RAM 5500 with Flat Bed)
+10/18/2017,T4,T4R1,Harvest,Truck #892 (Blue/Red)
+10/18/2017,T4,T4R1,Harvest,Truck #1271 (Blue/White)
+10/18/2017,T4,T4R1,Harvest,Truck #1270 (White/Green)
+10/18/2017,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+9/8/2017,T6,T6R1,Harvest,Wagon
+9/8/2017,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+9/8/2017,T6,T6R1,Harvest,rake
+9/8/2017,T6,T6R1,Harvest,New Holland Baler
+7/17/2017,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/17/2017,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+7/6/2017,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/6/2017,T8,T8ntR1,Pesticide application,Top Air Sprayer
+7/6/2017,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+7/6/2017,T8,T8ntR1,Weed control,Top Air Sprayer
+7/6/2017,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+7/5/2017,T3,T3R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/28/2017,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/28/2017,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/27/2017,T8,T8ntR1,Fertilizer application,28% (FSC Built) Six Row Fertilizer Applicator
+6/21/2017,T1,T1R1,Fertilizer application,28% (FSC Built) Six Row Fertilizer Applicator
+6/21/2017,T2,T2R1,Fertilizer application,28% (FSC Built) Six Row Fertilizer Applicator
+6/14/2017,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/12/2017,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/12/2017,T6,T6R1,Harvest,New Holland BR7060 Cropcutter Baler (round baler)
+6/12/2017,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+6/9/2017,T1,T1R1,Pesticide application,Top Air Sprayer
+6/9/2017,T1,T1R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/9/2017,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/9/2017,T1,T1R1,Weed control,Top Air Sprayer
+6/9/2017,T2,T2R1,Pesticide application,Top Air Sprayer
+6/9/2017,T2,T2R1,Weed control,Top Air Sprayer
+6/9/2017,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/9/2017,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/8/2017,T3,T3R1,Weed control,Top Air Sprayer
+6/8/2017,T3,T3R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+6/8/2017,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/8/2017,T3,T3R1,Pesticide application,Top Air Sprayer
+6/8/2017,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/3/2017,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/2/2017,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+6/1/2017,T4,T4R1,Soil Preparation,Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc
+5/24/2017,T3,T3R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/24/2017,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/23/2017,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/18/2017,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/17/2017,T3,T3R1,Soil Preparation,Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc
+5/17/2017,T4,T4R1,Mowing,John Deere 115 15' flail mower
+5/16/2017,T1,T1R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/16/2017,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/15/2017,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/15/2017,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/15/2017,T2,T2R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/13/2017,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/10/2017,T3,T3R1,Mowing,John Deere 115 15' flail mower
+5/10/2017,T8,T8ntR1,Weed control,Top Air Sprayer
+5/10/2017,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+5/10/2017,T8,T8ntR1,Pesticide application,Top Air Sprayer
+5/10/2017,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/10/2017,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+5/10/2017,T8,T8ntR1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/9/2017,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/8/2017,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/8/2017,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/8/2017,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/27/2017,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+4/24/2017,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+4/24/2017,T2,T2R1,Pesticide application,Top Air Sprayer
+4/24/2017,T2,T2R1,Weed control,Top Air Sprayer
+4/24/2017,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+4/24/2017,T8,T8ntR1,Weed control,Top Air Sprayer
+4/24/2017,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+4/24/2017,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+4/24/2017,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/19/2017,T6,T6R1,Planting,John Deere 1590 15' no-till drill
+4/18/2017,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+11/7/2016,T8,T8R1,Mowing,John Deere 115 15' flail mower
+10/19/2016,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+10/19/2016,T6,T6R1,Weed control,Top Air Sprayer
+10/19/2016,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+10/19/2016,T6,T6R1,Pesticide application,Top Air Sprayer
+9/1/2016,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+9/1/2016,T2,T2R1,Pesticide application,Top Air Sprayer
+9/1/2016,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+9/1/2016,T2,T2R1,Pesticide application,Top Air Sprayer
+9/1/2016,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+9/1/2016,T2,T2R1,Weed control,Top Air Sprayer
+9/1/2016,T2,T2R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+9/1/2016,T2,T2R1,Weed control,Top Air Sprayer
+8/29/2016,T1,T1R1,Pesticide application,Top Air Sprayer
+8/29/2016,T1,T1R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+8/29/2016,T1,T1R1,Weed control,Top Air Sprayer
+8/29/2016,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+8/26/2016,T6,T6R1,Planting,John Deere 1590 15' no-till drill
+8/24/2016,T4,T4R1,Mowing,John Deere 115 15' flail mower
+8/18/2016,T6,T6R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+8/18/2016,T6,T6R1,Weed control,Top Air Sprayer
+8/18/2016,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+8/18/2016,T6,T6R1,Pesticide application,Top Air Sprayer
+8/18/2016,T8,T8ntR1,Weed control,Top Air Sprayer
+8/18/2016,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+8/18/2016,T8,T8ntR1,Pesticide application,Top Air Sprayer
+8/18/2016,T8,T8ntR1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+8/11/2016,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+8/11/2016,T8,T8ntR1,Weed control,John Deere 115 15' flail mower
+8/10/2016,T6,T6R1,Mowing,John Deere 115 15' flail mower
+8/3/2016,T3,T3R1,Planting,John Deere 1590 15' no-till drill
+8/2/2016,T3,T3R1,Weed control,Top Air Sprayer
+8/2/2016,T3,T3R1,Weed control,TurboTwinJet 1103 Flat Fan Nozzles
+8/2/2016,T3,T3R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+8/2/2016,T3,T3R1,Pesticide application,Top Air Sprayer
+7/19/2016,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+7/12/2016,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+7/12/2016,T1,T1R1,Harvest,John Deere  9410 combine
+7/12/2016,T1,T1R1,Harvest,truck - for hauling
+7/12/2016,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/12/2016,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+7/12/2016,T2,T2R1,Harvest,John Deere  9410 combine
+7/12/2016,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+7/12/2016,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+7/12/2016,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/12/2016,T2,T2R1,Harvest,truck - for hauling
+6/3/2016,T1,T1R1,Pesticide application,Top Air Sprayer
+6/3/2016,T1,T1R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/3/2016,T2,T2R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/3/2016,T2,T2R1,Pesticide application,Top Air Sprayer
+6/3/2016,T6,T6R1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/3/2016,T6,T6R1,Pesticide application,Top Air Sprayer
+6/3/2016,T8,T8ntR1,Pesticide application,TurboTwinJet 1103 Flat Fan Nozzles
+6/3/2016,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/27/2016,T3,T3R1,Fertilizer application,Chafer Stream Bars
+4/27/2016,T3,T3R1,Fertilizer application,Top Air Sprayer
+4/27/2016,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+4/27/2016,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+4/27/2016,T8,T8ntR1,Fertilizer application,Chafer Stream Bars
+4/27/2016,T8,T8ntR1,Fertilizer application,Chafer Stream Bars
+4/24/2016,T1,T1R1,Fertilizer application,Top Air Sprayer
+4/24/2016,T1,T1R1,Fertilizer application,Chafer Stream Bars
+4/22/2016,T2,T2R1,Fertilizer application,Chafer Stream Bars
+4/22/2016,T2,T2R1,Fertilizer application,Top Air Sprayer
+4/16/2016,T1,T1R1,Weed control,Top Air Sprayer
+4/16/2016,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/16/2016,T1,T1R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+4/16/2016,T1,T1R1,Pesticide application,Top Air Sprayer
+4/16/2016,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/16/2016,T2,T2R1,Weed control,Top Air Sprayer
+4/16/2016,T2,T2R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+4/16/2016,T2,T2R1,Pesticide application,Top Air Sprayer
+4/16/2016,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/16/2016,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/16/2016,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/16/2016,T8,T8ntR1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+4/16/2016,T8,T8ntR1,Weed control,Top Air Sprayer
+4/15/2016,T3,T3R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/15/2016,T3,T3R1,Weed control,Top Air Sprayer
+4/15/2016,T3,T3R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+4/15/2016,T3,T3R1,Pesticide application,Top Air Sprayer
+4/15/2016,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/15/2016,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/5/2016,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/30/2016,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/29/2016,T6,T6R1,Weed control,Top Air Sprayer
+3/29/2016,T6,T6R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+3/29/2016,T6,T6R1,Pesticide application,Top Air Sprayer
+3/29/2016,T6,T6R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+3/23/2016,T4,T4R1,Planting,Gandy Orbit-Air (15' boom)
+3/22/2016,T8,T8ntR1,Fertilizer application,Chafer Stream Bars
+3/22/2016,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+3/21/2016,T1,T1R1,Fertilizer application,Chafer Stream Bars
+3/21/2016,T1,T1R1,Fertilizer application,Top Air Sprayer
+3/21/2016,T2,T2R1,Fertilizer application,Chafer Stream Bars
+3/21/2016,T2,T2R1,Fertilizer application,Top Air Sprayer
+3/21/2016,T3,T3R1,Fertilizer application,Chafer Stream Bars
+3/21/2016,T3,T3R1,Fertilizer application,Top Air Sprayer
+10/23/2015,T4,T4R1,Planting,John Deere 1590 15' no-till drill
+10/22/2015,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/21/2015,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+10/20/2015,T4,T4R1,Harvest,Truck #1271 (Blue/White)
+10/20/2015,T4,T4R1,Harvest,John Deere  9410 combine
+10/20/2015,T4,T4R1,Harvest,Truck #1270 (White/Green)
+10/20/2015,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/20/2015,T8,T8ntR1,Planting,John Deere 1590 15' no-till drill
+10/19/2015,T8,T8ntR1,Harvest,Truck #1271 (Blue/White)
+10/19/2015,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+10/9/2015,T6,T6R1,Planting,John Deere 1590 15' no-till drill
+10/7/2015,T3,T3R1,Planting,John Deere 1590 15' no-till drill
+10/6/2015,T1,T1R1,Planting,John Deere 1590 15' no-till drill
+10/6/2015,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/5/2015,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/5/2015,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+10/5/2015,T6,T6R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+10/5/2015,T6,T6R1,Pesticide application,Top Air Sprayer
+10/5/2015,T6,T6R1,Weed control,Top Air Sprayer
+10/5/2015,T6,T6R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+10/3/2015,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+10/2/2015,T2,T2R1,Planting,John Deere 1590 15' no-till drill
+10/1/2015,T8,T8R1,Mowing,John Deere 115 15' flail mower
+9/30/2015,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+9/30/2015,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+9/30/2015,T1,T1R1,Harvest,Truck #1270 (White/Green)
+9/30/2015,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+9/30/2015,T1,T1R1,Harvest,John Deere  9410 combine
+9/30/2015,T2,T2R1,Harvest,John Deere  9410 combine
+9/30/2015,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+9/30/2015,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+9/30/2015,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+9/30/2015,T2,T2R1,Harvest,Truck #1270 (White/Green)
+9/30/2015,T3,T3R1,Harvest,Truck #892 (Blue/Red)
+9/30/2015,T3,T3R1,Harvest,Truck #1270 (White/Green)
+9/30/2015,T3,T3R1,Harvest,Truck #1271 (Blue/White)
+9/30/2015,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+9/30/2015,T3,T3R1,Harvest,John Deere  9410 combine
+8/21/2015,T6,T6R1,Pesticide application,Top Air Sprayer
+8/21/2015,T6,T6R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+8/21/2015,T6,T6R1,Weed control,Top Air Sprayer
+8/21/2015,T6,T6R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+8/7/2015,T6,T6R1,Mowing,John Deere 115 15' flail mower
+7/29/2015,T8,T8ntR1,Pesticide application,Top Air Sprayer
+7/29/2015,T8,T8ntR1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+7/29/2015,T8,T8ntR1,Weed control,Top Air Sprayer
+7/29/2015,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+7/23/2015,T1,T1R1,Pesticide application,Top Air Sprayer
+7/23/2015,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+7/23/2015,T1,T1R1,Weed control,Top Air Sprayer
+7/23/2015,T1,T1R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+7/23/2015,T2,T2R1,Pesticide application,Top Air Sprayer
+7/23/2015,T2,T2R1,Weed control,Top Air Sprayer
+7/23/2015,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+7/23/2015,T2,T2R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+7/22/2015,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/6/2015,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/1/2015,T3,T3R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+7/1/2015,T3,T3R1,Pesticide application,Top Air Sprayer
+7/1/2015,T3,T3R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+7/1/2015,T3,T3R1,Weed control,Top Air Sprayer
+6/30/2015,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/23/2015,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+6/22/2015,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/11/2015,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/10/2015,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/10/2015,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/4/2015,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/4/2015,T4,T4R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+6/3/2015,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+6/3/2015,T8,T8ntR1,Pesticide application,Turbo TeeJet 11002 Flat Fan Nozzles
+6/3/2015,T8,T8ntR1,Weed control,Turbo TeeJet 11002 Flat Fan Nozzles
+6/3/2015,T8,T8ntR1,Weed control,Top Air Sprayer
+6/3/2015,T8,T8ntR1,Pesticide application,Top Air Sprayer
+5/23/2015,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/23/2015,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/22/2015,T1,T1R1,Weed control,Turbo TeeJet 11002 Flat Fan Nozzles
+5/22/2015,T1,T1R1,Weed control,Top Air Sprayer
+5/22/2015,T1,T1R1,Pesticide application,Turbo TeeJet 11002 Flat Fan Nozzles
+5/22/2015,T1,T1R1,Pesticide application,Top Air Sprayer
+5/22/2015,T2,T2R1,Pesticide application,Top Air Sprayer
+5/22/2015,T2,T2R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+5/22/2015,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/22/2015,T2,T2R1,Weed control,Top Air Sprayer
+5/22/2015,T3,T3R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+5/22/2015,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/22/2015,T6,T6R1,Harvest,Wagon - Richardton 700 Forage Dump Wagon
+5/22/2015,T6,T6R1,Harvest,New Holland FP230 Forage Harvester - Pull Type
+5/22/2015,T6,T6R1,Harvest,Truck #1271 (Blue/White)
+5/21/2015,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+5/21/2015,T6,T6R1,Mowing,"John Deere 4995 Discbine with 14'6"" cutting head"
+5/20/2015,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/20/2015,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/19/2015,T1,T1R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+5/19/2015,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/18/2015,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/2/2015,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+4/23/2015,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/15/2015,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/14/2015,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/14/2015,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/14/2015,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/14/2015,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/7/2015,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/6/2015,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/6/2015,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/6/2015,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+11/7/2014,T1,T1R1,Mowing,John Deere 115 15' flail mower
+11/7/2014,T2,T2R1,Mowing,John Deere 115 15' flail mower
+11/7/2014,T3,T3R1,Mowing,John Deere 115 15' flail mower
+11/7/2014,T3,T3R1,Planting,John Deere 1590 15' no-till drill
+11/7/2014,T4,T4R1,Harvest,Truck #892 (Blue/Red)
+11/7/2014,T4,T4R1,Harvest,Truck #1271 (Blue/White)
+11/7/2014,T4,T4R1,Harvest,John Deere  9410 combine
+11/7/2014,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+11/7/2014,T4,T4R1,Harvest,Truck #1270 (White/Green)
+11/7/2014,T4,T4R1,Planting,John Deere 1590 15' no-till drill
+11/7/2014,T4,T4R1,Mowing,John Deere 115 15' flail mower
+11/7/2014,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+11/5/2014,T3,T3R1,Harvest,John Deere  9410 combine
+11/5/2014,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+11/5/2014,T3,T3R1,Harvest,Truck #1270 (White/Green)
+11/5/2014,T3,T3R1,Harvest,Truck #1271 (Blue/White)
+11/5/2014,T3,T3R1,Harvest,Truck #892 (Blue/Red)
+10/30/2014,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/30/2014,T1,T1R1,Harvest,John Deere  9410 combine
+10/30/2014,T1,T1R1,Harvest,Wagon
+10/30/2014,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+10/30/2014,T1,T1R1,Harvest,Truck #1270 (White/Green)
+10/30/2014,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+10/30/2014,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+10/30/2014,T2,T2R1,Harvest,Wagon
+10/30/2014,T2,T2R1,Harvest,Truck #1270 (White/Green)
+10/30/2014,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+10/30/2014,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/30/2014,T2,T2R1,Harvest,John Deere  9410 combine
+10/29/2014,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+10/27/2014,T8,T8R1,Mowing,John Deere 115 15' flail mower
+8/27/2014,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+8/15/2014,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+8/10/2014,T6,T6R1,Harvest,New Holland 1469 - Haybiner
+8/10/2014,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+8/9/2014,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+8/9/2014,T6,T6R1,Harvest,"New Holland 258 Rake - single rake, left hand delivery."
+8/8/2014,T6,T6R1,Harvest,"Hay Tedder (Sitrex 2-rotor, rotary tedder)"
+8/6/2014,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+8/6/2014,T6,T6R1,Mowing,"John Deere 4995 Discbine with 14'6"" cutting head"
+7/6/2014,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/3/2014,T6,T6R1,Harvest,Truck #1270 (White/Green)
+7/3/2014,T6,T6R1,Harvest,Wagon - Richardton 700 Forage Dump Wagon
+7/3/2014,T6,T6R1,Harvest,New Holland FP230 Forage Harvester - Pull Type
+7/3/2014,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+7/2/2014,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+6/28/2014,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/27/2014,T3,T3R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+6/18/2014,T2,T2R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/18/2014,T8,T8ntR1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/17/2014,T1,T1R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/10/2014,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/6/2014,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/4/2014,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/2/2014,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+5/31/2014,T4,T4R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+5/31/2014,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/30/2014,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/30/2014,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+5/30/2014,T6,T6R1,Mowing,"John Deere 4995 Discbine with 14'6"" cutting head"
+5/29/2014,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/24/2014,T1,T1R1,Pesticide application,Top Air Sprayer
+5/24/2014,T1,T1R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+5/24/2014,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/24/2014,T1,T1R1,Weed control,Top Air Sprayer
+5/24/2014,T3,T3R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/24/2014,T3,T3R1,Weed control,Top Air Sprayer
+5/24/2014,T3,T3R1,Pesticide application,Top Air Sprayer
+5/24/2014,T3,T3R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+5/24/2014,T3,T3R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/24/2014,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/23/2014,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/23/2014,T3,T3R1,Soil Preparation,Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc
+5/23/2014,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/22/2014,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/21/2014,T2,T2R1,Weed control,Top Air Sprayer
+5/21/2014,T2,T2R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+5/21/2014,T2,T2R1,Pesticide application,Top Air Sprayer
+5/21/2014,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/21/2014,T4,T4R1,Mowing,John Deere 115 15' flail mower
+5/21/2014,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/21/2014,T8,T8ntR1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+5/21/2014,T8,T8ntR1,Pesticide application,Top Air Sprayer
+5/21/2014,T8,T8ntR1,Weed control,Top Air Sprayer
+5/20/2014,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/20/2014,T1,T1R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/20/2014,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/20/2014,T2,T2R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/20/2014,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/20/2014,T3,T3R1,Mowing,John Deere 115 15' flail mower
+5/19/2014,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/19/2014,T8,T8ntR1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/12/2014,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/12/2014,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/12/2014,T1,T1R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/10/2014,T2,T2R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/10/2014,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/6/2014,T2,T2R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+5/6/2014,T2,T2R1,Weed control,Top Air Sprayer
+5/6/2014,T2,T2R1,Pesticide application,Top Air Sprayer
+5/6/2014,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/5/2014,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/5/2014,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/5/2014,T8,T8ntR1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+5/5/2014,T8,T8ntR1,Weed control,Top Air Sprayer
+5/5/2014,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/24/2014,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/23/2014,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+4/21/2014,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/21/2014,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/18/2014,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/18/2014,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+9/12/2013,T8,T8R1,Mowing,John Deere 115 15' flail mower
+9/10/2013,T4,T4R1,Mowing,John Deere 115 15' flail mower
+8/29/2013,T1,T1R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+8/29/2013,T1,T1R1,Pesticide application,Top Air Sprayer
+8/29/2013,T1,T1R1,Weed control,Top Air Sprayer
+8/29/2013,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+8/29/2013,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+8/29/2013,T2,T2R1,Weed control,Top Air Sprayer
+8/28/2013,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+8/28/2013,T8,T8ntR1,Weed control,Top Air Sprayer
+8/21/2013,T6,T6R1,Harvest,New Holland Baler
+8/21/2013,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+8/21/2013,T6,T6R1,Harvest,"New Holland 258 Rake - single rake, left hand delivery."
+8/21/2013,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+8/20/2013,T1,T1R1,Weed control,John Deere 115 15' flail mower
+8/20/2013,T1,T1R1,Pesticide application,John Deere 115 15' flail mower
+8/20/2013,T1,T1R1,Mowing,John Deere 115 15' flail mower
+8/20/2013,T2,T2R1,Pesticide application,John Deere 115 15' flail mower
+8/20/2013,T2,T2R1,Mowing,John Deere 115 15' flail mower
+8/20/2013,T2,T2R1,Weed control,John Deere 115 15' flail mower
+8/20/2013,T6,T6R1,Harvest,"New Holland 258 Rake - single rake, left hand delivery."
+8/20/2013,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+8/20/2013,T8,T8ntR1,Pesticide application,John Deere 115 15' flail mower
+8/20/2013,T8,T8ntR1,Weed control,John Deere 115 15' flail mower
+8/20/2013,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+8/19/2013,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+8/19/2013,T6,T6R1,Harvest,"New Holland 258 Rake - single rake, left hand delivery."
+8/16/2013,T3,T3R1,Planting,John Deere 750 10' no-till drill
+8/16/2013,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+8/10/2013,T3,T3R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+8/10/2013,T3,T3R1,Weed control,Top Air Sprayer
+7/25/2013,T1,T1R1,Harvest,John Deere 385 round baler
+7/25/2013,T1,T1R1,Harvest,truck - for hauling
+7/25/2013,T2,T2R1,Harvest,truck - for hauling
+7/25/2013,T2,T2R1,Harvest,John Deere 385 round baler
+7/24/2013,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+7/24/2013,T1,T1R1,Harvest,John Deere  9410 combine
+7/24/2013,T1,T1R1,Harvest,Truck #892 (Blue/Red)
+7/24/2013,T1,T1R1,Harvest,Truck #1270 (White/Green)
+7/24/2013,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/24/2013,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/24/2013,T2,T2R1,Harvest,Truck #1270 (White/Green)
+7/24/2013,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+7/24/2013,T2,T2R1,Harvest,Truck #892 (Blue/Red)
+7/24/2013,T2,T2R1,Harvest,John Deere  9410 combine
+7/24/2013,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+7/19/2013,T3,T3R1,Observation,Truck #892 (Blue/Red)
+7/19/2013,T3,T3R1,Observation,Truck #1271 (Blue/White)
+7/19/2013,T3,T3R1,Observation,John Deere  9410 combine
+7/19/2013,T3,T3R1,Observation,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/19/2013,T3,T3R1,Observation,10' Tye ‘Series 5’ grain drill 
+7/19/2013,T3,T3R1,Observation,Truck #1270 (White/Green)
+7/19/2013,T3,T3R1,Harvest,Truck #892 (Blue/Red)
+7/19/2013,T3,T3R1,Harvest,Truck #1271 (Blue/White)
+7/19/2013,T3,T3R1,Harvest,Truck #1270 (White/Green)
+7/19/2013,T3,T3R1,Harvest,10' Tye ‘Series 5’ grain drill 
+7/19/2013,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/19/2013,T3,T3R1,Harvest,John Deere  9410 combine
+7/19/2013,T4,T4R1,Observation,Truck #1270 (White/Green)
+7/19/2013,T4,T4R1,Observation,John Deere  9410 combine
+7/19/2013,T4,T4R1,Observation,Truck #892 (Blue/Red)
+7/19/2013,T4,T4R1,Harvest,John Deere  9410 combine
+7/19/2013,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/19/2013,T4,T4R1,Harvest,10' Tye ‘Series 5’ grain drill 
+7/19/2013,T4,T4R1,Harvest,Truck #1270 (White/Green)
+7/19/2013,T4,T4R1,Harvest,Truck #1271 (Blue/White)
+7/19/2013,T4,T4R1,Harvest,Truck #892 (Blue/Red)
+7/19/2013,T4,T4R1,Observation,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/19/2013,T4,T4R1,Observation,10' Tye ‘Series 5’ grain drill 
+7/19/2013,T4,T4R1,Observation,Truck #1271 (Blue/White)
+7/13/2013,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+7/11/2013,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+7/11/2013,T6,T6R1,Mowing,"John Deere 4995 Discbine with 14'6"" cutting head"
+6/5/2013,T6,T6R1,Harvest,Truck #1270 (White/Green)
+6/5/2013,T6,T6R1,Harvest,Truck #1271 (Blue/White)
+6/5/2013,T6,T6R1,Harvest,John Deere 7350 Self-propelled forage harvester/chopper
+6/4/2013,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+6/4/2013,T6,T6R1,Mowing,"John Deere 4995 Discbine with 14'6"" cutting head"
+5/17/2013,T2,T2R1,Weed control,Top Air Sprayer
+5/17/2013,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/16/2013,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+5/16/2013,T8,T8ntR1,Fertilizer application,TurboTeeJet 11003 Flat Fan Nozzle
+5/3/2013,T3,T3R1,Fertilizer application,Top Air Sprayer
+5/3/2013,T3,T3R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+5/2/2013,T1,T1R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+5/2/2013,T1,T1R1,Fertilizer application,Top Air Sprayer
+5/2/2013,T2,T2R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+5/2/2013,T2,T2R1,Fertilizer application,Top Air Sprayer
+5/2/2013,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/2/2013,T8,T8ntR1,Weed control,Top Air Sprayer
+5/1/2013,T3,T3R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/1/2013,T3,T3R1,Weed control,Top Air Sprayer
+4/29/2013,T1,T1R1,Weed control,Top Air Sprayer
+4/29/2013,T1,T1R1,Pesticide application,Top Air Sprayer
+4/29/2013,T1,T1R1,Pesticide application,TurboTeeJet 11003 Flat Fan Nozzle
+4/29/2013,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/22/2013,T2,T2R1,Weed control,Top Air Sprayer
+3/28/2013,T3,T3R1,Planting,Gandy Orbit-Air (15' boom)
+3/27/2013,T4,T4R1,Planting,Gandy Orbit-Air (15' boom)
+1/7/2013,T7,T7R1,Pesticide application,Backpack sprayer
+11/20/2012,T8,T8ntR1,Planting,John Deere 1590 15' no-till drill
+11/13/2012,T8,T8R1,Mowing,John Deere 115 15' flail mower
+11/8/2012,T4,T4R1,Planting,John Deere 750 10' no-till drill
+11/7/2012,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/6/2012,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/6/2012,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/5/2012,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/29/2012,T2,T2R1,Planting,John Deere 750 10' no-till drill
+10/29/2012,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/29/2012,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/25/2012,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/25/2012,T4,T4R1,Harvest,John Deere  9410 combine
+10/25/2012,T4,T4R1,Harvest,Truck #1270 (White/Green)
+10/25/2012,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+10/11/2012,T1,T1R1,Harvest,John Deere  9410 combine
+10/11/2012,T1,T1R1,Harvest,Truck #1270 (White/Green)
+10/11/2012,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/11/2012,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/11/2012,T2,T2R1,Harvest,Truck #1270 (White/Green)
+10/11/2012,T2,T2R1,Harvest,John Deere  9410 combine
+10/11/2012,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/11/2012,T3,T3R1,Harvest,Truck #1270 (White/Green)
+10/11/2012,T3,T3R1,Harvest,John Deere  9410 combine
+10/2/2012,T1,T1R1,Mowing,John Deere 115 15' flail mower
+10/2/2012,T2,T2R1,Mowing,John Deere 115 15' flail mower
+8/3/2012,T1,T1R1,Pesticide application,ridger...for ridging?
+8/3/2012,T1,T1R1,Pesticide application,Hagie Sprayer
+8/3/2012,T2,T2R1,Pesticide application,ridger...for ridging?
+8/3/2012,T2,T2R1,Pesticide application,Hagie Sprayer
+8/3/2012,T3,T3R1,Pesticide application,ridger...for ridging?
+8/3/2012,T3,T3R1,Pesticide application,Hagie Sprayer
+8/1/2012,T6,T6R1,Harvest,New Holland Baler
+7/30/2012,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+7/23/2012,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/20/2012,T4,T4R1,Weed control,hand-hoe
+7/13/2012,T3,T3R1,Weed control,hand-hoe
+7/5/2012,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/3/2012,T4,T4R1,Weed control,hand-hoe
+6/26/2012,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/26/2012,T8,T8ntR1,Weed control,Top Air Sprayer
+6/25/2012,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/25/2012,T2,T2R1,Weed control,Top Air Sprayer
+6/22/2012,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/22/2012,T1,T1R1,Weed control,Top Air Sprayer
+6/22/2012,T3,T3R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/22/2012,T3,T3R1,Weed control,Top Air Sprayer
+6/22/2012,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/15/2012,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/13/2012,T6,T6R1,Harvest,Truck #1271 (Blue/White)
+6/13/2012,T6,T6R1,Harvest,New Holland FP230 Forage Harvester - Pull Type
+6/13/2012,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+6/13/2012,T6,T6R1,Harvest,Wagon - Richardton 700 Forage Dump Wagon
+6/12/2012,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+6/12/2012,T6,T6R1,Mowing,"John Deere 4995 Discbine with 14'6"" cutting head"
+6/8/2012,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/7/2012,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/6/2012,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/24/2012,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/23/2012,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/23/2012,T4,T4R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+5/22/2012,T3,T3R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+5/22/2012,T6,T6R1,Fertilizer application,Gandy Air Seeder
+5/19/2012,T1,T1R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+5/19/2012,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/19/2012,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/19/2012,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/18/2012,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/18/2012,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/18/2012,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/17/2012,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/16/2012,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+5/16/2012,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/16/2012,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+5/16/2012,T6,T6R1,Harvest,Truck #1270 (White/Green)
+5/16/2012,T6,T6R1,Harvest,New Holland FP230 Forage Harvester - Pull Type
+5/16/2012,T6,T6R1,Harvest,Wagon - Richardton 700 Forage Dump Wagon
+5/15/2012,T6,T6R1,Harvest,"John Deere 4995 Discbine with 14'6"" cutting head"
+5/15/2012,T6,T6R1,Mowing,"John Deere 4995 Discbine with 14'6"" cutting head"
+5/14/2012,T3,T3R1,Mowing,John Deere 115 15' flail mower
+5/14/2012,T4,T4R1,Mowing,John Deere 115 15' flail mower
+5/11/2012,T8,T8ntR1,Weed control,Top Air Sprayer
+5/11/2012,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/10/2012,T2,T2R1,Weed control,Top Air Sprayer
+5/10/2012,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/24/2012,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/24/2012,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/23/2012,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/23/2012,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/19/2012,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/17/2012,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/17/2012,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/13/2012,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/11/2012,T1,T1R1,Fertilizer application,Other
+4/11/2012,T2,T2R1,Fertilizer application,Other
+4/11/2012,T3,T3R1,Fertilizer application,Other
+4/11/2012,T4,T4R1,Fertilizer application,Other
+4/11/2012,T6,T6R1,Fertilizer application,Other
+12/20/2011,T4,T4R1,Mowing,John Deere 115 15' flail mower
+12/20/2011,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+12/19/2011,T3,T3R1,Mowing,John Deere 115 15' flail mower
+12/17/2011,T1,T1R1,Mowing,John Deere 115 15' flail mower
+12/17/2011,T2,T2R1,Mowing,John Deere 115 15' flail mower
+11/19/2011,T3,T3R1,Planting,John Deere 750 10' no-till drill
+11/19/2011,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+11/18/2011,T4,T4R1,Planting,John Deere 750 10' no-till drill
+11/14/2011,T1,T1R1,Harvest,Truck #1271 (Blue/White)
+11/14/2011,T1,T1R1,Harvest,Truck #1270 (White/Green)
+11/14/2011,T1,T1R1,Harvest,John Deere  9410 combine
+11/14/2011,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+11/14/2011,T2,T2R1,Harvest,Truck #1271 (Blue/White)
+11/14/2011,T2,T2R1,Harvest,Truck #1270 (White/Green)
+11/14/2011,T2,T2R1,Harvest,John Deere  9410 combine
+11/14/2011,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+11/14/2011,T3,T3R1,Harvest,John Deere  9410 combine
+11/14/2011,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+11/14/2011,T3,T3R1,Harvest,Truck #1271 (Blue/White)
+11/14/2011,T3,T3R1,Harvest,Truck #1270 (White/Green)
+11/14/2011,T4,T4R1,Harvest,John Deere  9410 combine
+11/14/2011,T4,T4R1,Harvest,Truck #1271 (Blue/White)
+11/14/2011,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+11/14/2011,T4,T4R1,Harvest,Truck #1270 (White/Green)
+7/7/2011,T3,T3R1,Weed control,Top Air Sprayer
+7/7/2011,T3,T3R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+7/5/2011,T3,T3R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+7/5/2011,T4,T4R1,Weed control,hand-hoe
+7/5/2011,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/5/2011,T4,T4R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/27/2011,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/27/2011,T8,T8ntR1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/20/2011,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/20/2011,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/20/2011,T8,T8ntR1,Weed control,Top Air Sprayer
+6/17/2011,T3,T3R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/17/2011,T3,T3R1,Weed control,Top Air Sprayer
+6/15/2011,T1,T1R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/15/2011,T2,T2R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/8/2011,T4,T4R1,Weed control,John Deere 400 15' rotor hoe
+6/8/2011,T5,T5R1,Fertilizer application,Gandy Air Seeder
+6/4/2011,T4,T4R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+6/4/2011,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/3/2011,T3,T3R1,Observation,Yetter 3415 MT 15' Rotary Hoe
+6/3/2011,T3,T3R1,Planting,Yetter 3415 MT 15' Rotary Hoe
+6/3/2011,T3,T3R1,Soil Preparation,Yetter 3415 MT 15' Rotary Hoe
+6/3/2011,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+6/2/2011,T3,T3R1,Observation,Yetter 3415 MT 15' Rotary Hoe
+6/2/2011,T3,T3R1,Planting,Yetter 3415 MT 15' Rotary Hoe
+6/2/2011,T3,T3R1,Soil Preparation,Yetter 3415 MT 15' Rotary Hoe
+6/2/2011,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/24/2011,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/24/2011,T3,T3R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/24/2011,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/24/2011,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/24/2011,T4,T4R1,Mowing,John Deere 115 15' flail mower
+5/12/2011,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/12/2011,T8,T8ntR1,Weed control,Top Air Sprayer
+5/11/2011,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/11/2011,T1,T1R1,Weed control,Top Air Sprayer
+5/10/2011,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/9/2011,T1,T1R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/9/2011,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/9/2011,T2,T2R1,Weed control,Top Air Sprayer
+5/9/2011,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/6/2011,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/6/2011,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/6/2011,T2,T2R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/5/2011,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+5/2/2011,T2,T2R1,Weed control,Top Air Sprayer
+5/2/2011,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/14/2011,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+4/5/2011,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/30/2011,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/30/2011,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/30/2011,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/30/2011,T6,T6R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+11/1/2010,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+9/10/2010,T1,T1R1,Weed control,John Deere 115 15' flail mower
+9/10/2010,T2,T2R1,Weed control,John Deere 115 15' flail mower
+8/17/2010,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+8/17/2010,T1,T1R1,Weed control,Top Air Sprayer
+8/16/2010,T2,T2R1,Weed control,Top Air Sprayer
+8/16/2010,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+7/19/2010,T6,T6R1,Harvest,baler
+7/19/2010,T6,T6R1,Harvest,rake
+7/17/2010,T3,T3R1,Harvest,Kincaid 8XP Plot Combine
+7/17/2010,T4,T4R1,Harvest,Kincaid 8XP Plot Combine
+7/16/2010,T1,T1R1,Harvest,baler
+7/16/2010,T2,T2R1,Harvest,baler
+7/16/2010,T6,T6R1,Harvest,haybine
+7/14/2010,T1,T1R1,Harvest,combine
+7/14/2010,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/14/2010,T2,T2R1,Harvest,combine
+7/14/2010,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+6/29/2010,T8,T8ntR1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/17/2010,T8,T8ntR1,Weed control,Top Air Sprayer
+6/17/2010,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/4/2010,T6,T6R1,Harvest,John Deere 7350 Self-propelled forage harvester/chopper
+5/26/2010,T5,T5R1,Mowing,brush hog type mower
+5/6/2010,T8,T8ntR1,Weed control,Top Air Sprayer
+5/6/2010,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/3/2010,T3,T3R1,Fertilizer application,Top Air Sprayer
+5/3/2010,T3,T3R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+5/3/2010,T4,T4R1,Fertilizer application,Top Air Sprayer
+5/3/2010,T4,T4R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+4/29/2010,T1,T1R1,Fertilizer application,Top Air Sprayer
+4/29/2010,T1,T1R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+4/29/2010,T2,T2R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+4/29/2010,T2,T2R1,Fertilizer application,Top Air Sprayer
+4/21/2010,T1,T1R1,Fertilizer application,Top Air Sprayer
+4/21/2010,T1,T1R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+4/21/2010,T3,T3R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+4/21/2010,T3,T3R1,Fertilizer application,Top Air Sprayer
+4/20/2010,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/20/2010,T1,T1R1,Weed control,Top Air Sprayer
+4/20/2010,T2,T2R1,Fertilizer application,Top Air Sprayer
+4/20/2010,T2,T2R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+4/19/2010,T5,T5R1,Planting,Shovel (hand powered)
+4/14/2010,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+4/14/2010,T1,T1R1,Weed control,Top Air Sprayer
+4/12/2010,T2,T2R1,Weed control,Top Air Sprayer
+4/12/2010,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+3/22/2010,T4,T4R1,Planting,Gandy Air Seeder
+3/19/2010,T3,T3R1,Planting,Gandy Air Seeder
+11/16/2009,T3,T3R1,Planting,John Deere 750 10' no-till drill
+11/14/2009,T4,T4R1,Planting,John Deere 450 conventional 10' drill
+11/10/2009,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/10/2009,T8,T8R1,Weed control,John Deere 10' brushhog mower
+11/10/2009,T8,T8ntR1,Weed control,John Deere 10' brushhog mower
+11/6/2009,T1,T1R1,Planting,John Deere 750 10' no-till drill
+10/26/2009,T5,T5R1,Pesticide application,Backpack sprayer
+10/22/2009,T2,T2R1,Planting,John Deere 750 10' no-till drill
+10/22/2009,T8,T8ntR1,Planting,John Deere 750 10' no-till drill
+10/22/2009,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+10/16/2009,T1,T1R1,Harvest,John Deere  9410 combine
+10/16/2009,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/16/2009,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/16/2009,T2,T2R1,Harvest,John Deere  9410 combine
+10/16/2009,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/16/2009,T3,T3R1,Harvest,John Deere  9410 combine
+10/16/2009,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/16/2009,T4,T4R1,Harvest,John Deere  9410 combine
+9/4/2009,T5,T5R1,Pesticide application,Backpack sprayer
+7/27/2009,T5,T5R1,Pesticide application,Backpack sprayer
+7/20/2009,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/8/2009,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/2/2009,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/29/2009,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/24/2009,T1,T1R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/24/2009,T1,T1R1,Weed control,Top Air Sprayer
+6/24/2009,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/23/2009,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/23/2009,T2,T2R1,Weed control,Top Air Sprayer
+6/23/2009,T3,T3R1,Weed control,Top Air Sprayer
+6/23/2009,T6,T6R1,Planting,John Deere 1590 15' no-till drill
+6/22/2009,T6,T6R1,Weed control,Top Air Sprayer
+6/22/2009,T6,T6R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+6/13/2009,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/7/2009,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/3/2009,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/3/2009,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/31/2009,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/31/2009,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/31/2009,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/23/2009,T8,T8ntR1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/23/2009,T8,T8ntR1,Weed control,Top Air Sprayer
+5/22/2009,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/22/2009,T6,T6R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/22/2009,T6,T6R1,Weed control,Top Air Sprayer
+5/22/2009,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/21/2009,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/21/2009,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/20/2009,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/20/2009,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/19/2009,T2,T2R1,Weed control,Top Air Sprayer
+5/19/2009,T2,T2R1,Weed control,TurboTeeJet 11003 Flat Fan Nozzle
+5/15/2009,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/15/2009,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+5/15/2009,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/15/2009,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/12/2009,T5,T5R1,Planting,hand
+11/11/2008,T3,T3R1,Planting,John Deere 750 10' no-till drill
+11/7/2008,T4,T4R1,Planting,John Deere 750 10' no-till drill
+11/4/2008,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+11/3/2008,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+11/3/2008,T3,T3R1,Mowing,John Deere 115 15' flail mower
+11/3/2008,T3,T3R1,Harvest,John Deere  9410 combine
+11/3/2008,T3,T3R1,Harvest,truck - for hauling
+11/3/2008,T4,T4R1,Mowing,John Deere 115 15' flail mower
+11/3/2008,T4,T4R1,Harvest,truck - for hauling
+11/3/2008,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+11/3/2008,T4,T4R1,Harvest,John Deere  9410 combine
+11/1/2008,T5,T5R1,Weed control,Demco 3-point mounted sprayer
+11/1/2008,T5,T5R1,Pesticide application,Demco 3-point mounted sprayer
+11/1/2008,T6,T6R1,Pesticide application,Demco 3-point mounted sprayer
+11/1/2008,T6,T6R1,Weed control,Demco 3-point mounted sprayer
+10/31/2008,T8,T8ntR1,Harvest,Kincaid 8XP Plot Combine
+10/22/2008,T1,T1R1,Mowing,John Deere 115 15' flail mower
+10/22/2008,T2,T2R1,Mowing,John Deere 115 15' flail mower
+10/20/2008,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/20/2008,T1,T1R1,Harvest,truck - for hauling
+10/20/2008,T1,T1R1,Harvest,John Deere  9410 combine
+10/20/2008,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+10/20/2008,T2,T2R1,Harvest,truck - for hauling
+10/20/2008,T2,T2R1,Harvest,John Deere  9410 combine
+10/8/2008,T8,T8R1,Mowing,brush hog type mower
+10/8/2008,T8,T8R1,Mowing,John Deere 115 15' flail mower
+10/7/2008,T1,T1R1,Mowing,John Deere 115 15' flail mower
+10/7/2008,T2,T2R1,Mowing,John Deere 115 15' flail mower
+8/12/2008,T6,T6R1,Weed control,Demco 3-point mounted sprayer
+8/12/2008,T6,T6R1,Weed control,8002 Flat Fan Nozzles
+8/1/2008,T6,T6R1,Mowing,John Deere 115 15' flail mower
+7/25/2008,T5,T5R1,Weed control,Top Air Sprayer
+7/25/2008,T5,T5R1,Pesticide application,Top Air Sprayer
+7/23/2008,T6,T6R1,Harvest,Truck #892 (Blue/Red)
+7/23/2008,T6,T6R1,Harvest,John Deere  9410 combine
+7/23/2008,T6,T6R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/14/2008,T4,T4R1,Weed control,John Deere 856 15' 6 row S-tine row crop cultivator 
+7/2/2008,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/25/2008,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/20/2008,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/20/2008,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/20/2008,T8,T8ntR1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/19/2008,T1,T1R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/19/2008,T2,T2R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/19/2008,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/13/2008,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+6/11/2008,T5,T5R1,Weed control,8002 Flat Fan Nozzles
+6/11/2008,T5,T5R1,Weed control,Demco 3-point mounted sprayer
+6/2/2008,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+5/28/2008,T4,T4R1,Weed control,Yetter 3415 MT 15' Rotary Hoe
+5/23/2008,T4,T4R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/23/2008,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/23/2008,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/16/2008,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/16/2008,T3,T3R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/16/2008,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/15/2008,T3,T3R1,Weed control,Demco 3-point mounted sprayer
+5/15/2008,T3,T3R1,Weed control,8002 Flat Fan Nozzles
+5/15/2008,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/15/2008,T8,T8ntR1,Weed control,Demco 3-point mounted sprayer
+5/15/2008,T8,T8ntR1,Weed control,8002 Flat Fan Nozzles
+5/14/2008,T2,T2R1,Weed control,8002 Flat Fan Nozzles
+5/14/2008,T2,T2R1,Weed control,Demco 3-point mounted sprayer
+5/13/2008,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/13/2008,T2,T2R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/13/2008,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/13/2008,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/13/2008,T8,T8ntR1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/12/2008,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/9/2008,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/9/2008,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/9/2008,T1,T1R1,Weed control,Demco 3-point mounted sprayer
+5/9/2008,T1,T1R1,Pesticide application,Demco 3-point mounted sprayer
+5/9/2008,T1,T1R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/9/2008,T1,T1R1,Weed control,8002 Flat Fan Nozzles
+5/9/2008,T1,T1R1,Pesticide application,8002 Flat Fan Nozzles
+5/9/2008,T8,T8ntR1,Pesticide application,8002 Flat Fan Nozzles
+5/9/2008,T8,T8ntR1,Pesticide application,Demco 3-point mounted sprayer
+5/9/2008,T8,T8ntR1,Weed control,8002 Flat Fan Nozzles
+5/9/2008,T8,T8ntR1,Weed control,Demco 3-point mounted sprayer
+5/6/2008,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+5/5/2008,T2,T2R1,Weed control,Top Air Sprayer
+5/5/2008,T2,T2R1,Pesticide application,Top Air Sprayer
+5/4/2008,T6,T6R1,Weed control,Top Air Sprayer
+5/4/2008,T6,T6R1,Pesticide application,Top Air Sprayer
+5/1/2008,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/1/2008,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+5/1/2008,T3,T3R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+10/30/2007,T8,T8R1,Mowing,John Deere 115 15' flail mower
+10/25/2007,T6,T6R1,Planting,John Deere 750 10' no-till drill
+10/9/2007,T3,T3R1,Mowing,John Deere 10' brushhog mower
+10/9/2007,T4,T4R1,Mowing,John Deere 10' brushhog mower
+9/29/2007,T6,T6R1,Pesticide application,Top Air Sprayer
+9/29/2007,T8,T8ntR1,Pesticide application,Top Air Sprayer
+9/24/2007,T2,T2R1,Pesticide application,Top Air Sprayer
+9/22/2007,T1,T1R1,Pesticide application,Top Air Sprayer
+9/19/2007,T2,T2R1,Mowing,John Deere 10' brushhog mower
+9/17/2007,T3,T3R1,Mowing,John Deere 10' brushhog mower
+9/17/2007,T4,T4R1,Mowing,John Deere 10' brushhog mower
+8/31/2007,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+8/31/2007,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+8/31/2007,T6,T6R1,Harvest,baler
+8/31/2007,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+8/30/2007,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+8/29/2007,T1,T1R1,Mowing,John Deere 115 15' flail mower
+8/29/2007,T2,T2R1,Mowing,John Deere 115 15' flail mower
+8/29/2007,T3,T3R1,Mowing,John Deere 115 15' flail mower
+8/29/2007,T4,T4R1,Mowing,John Deere 115 15' flail mower
+8/27/2007,T6,T6R1,Harvest,John Deere 3430 12' haybine
+8/3/2007,T7,T7R1,Soil Preparation,Moldboard plow
+8/3/2007,T7,T7R1,Soil Preparation,disk
+7/20/2007,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/20/2007,T6,T6R1,Harvest,baler
+7/19/2007,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+7/19/2007,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+7/16/2007,T6,T6R1,Harvest,John Deere 3430 12' haybine
+7/13/2007,T1,T1R1,Harvest,baler
+7/13/2007,T2,T2R1,Harvest,baler
+7/10/2007,T1,T1R1,Harvest,John Deere  9410 combine
+7/10/2007,T1,T1R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/10/2007,T1,T1R1,Harvest,truck - for hauling
+7/10/2007,T2,T2R1,Harvest,truck - for hauling
+7/10/2007,T2,T2R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/10/2007,T2,T2R1,Harvest,John Deere  9410 combine
+7/10/2007,T3,T3R1,Harvest,John Deere  9410 combine
+7/10/2007,T3,T3R1,Harvest,truck - for hauling
+7/10/2007,T3,T3R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/10/2007,T4,T4R1,Harvest,"Weigh Wagon, Brent by Unverferth Manufacturing Co."
+7/10/2007,T4,T4R1,Harvest,truck - for hauling
+7/10/2007,T4,T4R1,Harvest,John Deere  9410 combine
+6/11/2007,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+6/11/2007,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+6/11/2007,T6,T6R1,Harvest,John Deere 385 round baler
+6/11/2007,T6,T6R1,Harvest,New Holland Baler
+6/11/2007,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+6/7/2007,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+6/7/2007,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+6/6/2007,T6,T6R1,Harvest,"Hay Tedder (Sitrex 2-rotor, rotary tedder)"
+6/5/2007,T6,T6R1,Harvest,John Deere 3430 12' haybine
+4/30/2007,T3,T3R1,Fertilizer application,Top Air Sprayer
+4/24/2007,T1,T1R1,Fertilizer application,Top Air Sprayer
+4/24/2007,T2,T2R1,Fertilizer application,Top Air Sprayer
+4/24/2007,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+4/21/2007,T1,T1R1,Pesticide application,Top Air Sprayer
+4/21/2007,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/20/2007,T2,T2R1,Pesticide application,Top Air Sprayer
+3/30/2007,T1,T1R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/30/2007,T2,T2R1,Fertilizer application,Gandy Orbit-Air (30' boom)
+3/30/2007,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (30' boom)
+11/10/2006,T4,T4R1,Planting,John Deere 450 conventional 10' drill
+11/9/2006,T3,T3R1,Planting,John Deere 450 conventional 10' drill
+11/9/2006,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/6/2006,T1,T1R1,Planting,John Deere 750 10' no-till drill
+11/6/2006,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+11/1/2006,T2,T2R1,Planting,John Deere 750 10' no-till drill
+11/1/2006,T8,T8ntR1,Planting,John Deere 750 10' no-till drill
+10/31/2006,T8,T8ntR1,Harvest,Wintersteiger plot combine
+10/26/2006,T8,T8R1,Harvest,John Deere 115 15' flail mower
+10/10/2006,T1,T1R1,Harvest,truck - for hauling
+10/10/2006,T1,T1R1,Harvest,John Deere  9410 combine
+10/10/2006,T1,T1R1,Harvest,Weigh Wagon 
+10/10/2006,T2,T2R1,Harvest,truck - for hauling
+10/10/2006,T2,T2R1,Harvest,John Deere  9410 combine
+10/10/2006,T2,T2R1,Harvest,Weigh Wagon 
+10/10/2006,T3,T3R1,Harvest,Weigh Wagon 
+10/10/2006,T3,T3R1,Harvest,John Deere  9410 combine
+10/10/2006,T3,T3R1,Harvest,truck - for hauling
+10/10/2006,T4,T4R1,Harvest,Weigh Wagon 
+10/10/2006,T4,T4R1,Harvest,John Deere  9410 combine
+10/10/2006,T4,T4R1,Harvest,truck - for hauling
+8/15/2006,T6,T6R1,Harvest,baler
+8/15/2006,T6,T6R1,Harvest,John Deere 3430 12' haybine
+8/15/2006,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+8/15/2006,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+8/15/2006,T6,T6R1,Harvest,"New Holland 258 Rake - single rake, left hand delivery."
+8/15/2006,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+7/14/2006,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/14/2006,T6,T6R1,Harvest,baler
+7/14/2006,T6,T6R1,Harvest,rake
+7/14/2006,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/14/2006,T6,T6R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/14/2006,T6,T6R1,Harvest,John Deere 3430 12' haybine
+7/13/2006,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/7/2006,T1,T1R1,Pesticide application,Top Air Sprayer
+7/7/2006,T2,T2R1,Pesticide application,Top Air Sprayer
+7/7/2006,T3,T3R1,Pesticide application,Sprayer - Unknown 
+7/7/2006,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/5/2006,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/26/2006,T3,T3R1,Weed control,Case IH Rotary Hoe 181MT (15 ft) 
+6/26/2006,T4,T4R1,Weed control,Case IH Rotary Hoe 181MT (15 ft) 
+6/26/2006,T4,T4R1,Weed control,Case IH Rotary Hoe 181MT (15 ft) 
+6/14/2006,T8,T8ntR1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/12/2006,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/12/2006,T3,T3R1,Weed control,Rotary Hoe
+6/12/2006,T4,T4R1,Weed control,Rotary Hoe
+6/8/2006,T6,T6R1,Harvest,John Deere 3430 12' haybine
+6/8/2006,T6,T6R1,Harvest,New Holland FP230 Forage Harvester - Pull Type
+6/8/2006,T6,T6R1,Harvest,truck - for hauling
+6/6/2006,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/6/2006,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+6/5/2006,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/26/2006,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/26/2006,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/26/2006,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/26/2006,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/26/2006,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/26/2006,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/24/2006,T2,T2R1,Weed control,Top Air Sprayer
+5/23/2006,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/23/2006,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+5/22/2006,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/22/2006,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+5/18/2006,T3,T3R1,Mowing,John Deere 115 15' flail mower
+5/18/2006,T3,T3R1,Mowing,John Deere 115 15' flail mower
+5/18/2006,T4,T4R1,Mowing,John Deere 115 15' flail mower
+5/18/2006,T4,T4R1,Mowing,John Deere 115 15' flail mower
+5/5/2006,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+4/19/2006,T1,T1R1,Fertilizer application,Gandy Orbit-Air (15' boom)
+4/19/2006,T2,T2R1,Fertilizer application,Gandy Orbit-Air (15' boom)
+4/19/2006,T3,T3R1,Fertilizer application,Gandy Orbit-Air (15' boom)
+4/19/2006,T8,T8ntR1,Fertilizer application,Gandy Orbit-Air (15' boom)
+10/11/2005,T1,T1R1,Harvest,John Deere  9410 combine
+10/11/2005,T1,T1R1,Harvest,Weigh Wagon 
+10/11/2005,T2,T2R1,Harvest,Weigh Wagon 
+10/11/2005,T2,T2R1,Harvest,John Deere  9410 combine
+10/11/2005,T3,T3R1,Harvest,Weigh Wagon 
+10/11/2005,T3,T3R1,Harvest,John Deere  9410 combine
+10/11/2005,T4,T4R1,Harvest,John Deere  9410 combine
+10/11/2005,T4,T4R1,Harvest,Weigh Wagon 
+8/31/2005,T6,T6R1,Fertilizer application,Willmar 6 ton pull-type spinner spreader
+8/25/2005,T6,T6R1,Harvest,single rake
+8/25/2005,T6,T6R1,Harvest,double rake
+8/25/2005,T6,T6R1,Harvest,single rake
+8/25/2005,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+8/25/2005,T6,T6R1,Harvest,New Holland Baler
+8/23/2005,T6,T6R1,Harvest,"Hay Tedder (Sitrex 2-rotor, rotary tedder)"
+8/22/2005,T6,T6R1,Harvest,unknown
+6/29/2005,T4,T4R1,Planting,unknown
+6/24/2005,T3,T3R1,Planting,unknown
+6/23/2005,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/22/2005,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/21/2005,T2,T2R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/20/2005,T1,T1R1,Fertilizer application,28% CLARK Six Row Fertilizer Applicator
+6/17/2005,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/16/2005,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/2/2005,T6,T6R1,Harvest,truck - for hauling
+6/2/2005,T6,T6R1,Harvest,chopper? for chopping...
+6/1/2005,T6,T6R1,Harvest,unknown
+5/25/2005,T4,T4R1,Soil Preparation,John Deere 400 15' rotor hoe
+5/18/2005,T4,T4R1,Soil Preparation,John Deere 400 15' rotor hoe
+5/12/2005,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/12/2005,T2,T2R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/9/2005,T3,T3R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/9/2005,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/9/2005,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/9/2005,T4,T4R1,Planting,John Deere 7300 six row planter
+5/6/2005,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/6/2005,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/5/2005,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/5/2005,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/4/2005,T1,T1R1,Fertilizer application,John Deere 1730 Maxemerge Plus Planter
+5/4/2005,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/3/2005,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+4/29/2005,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+4/28/2005,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+4/27/2005,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+4/25/2005,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+4/19/2005,T3,T3R1,Fertilizer application,Gandy Air Seeder
+4/16/2005,T1,T1R1,Fertilizer application,Gandy Air Seeder
+4/16/2005,T2,T2R1,Fertilizer application,Gandy Air Seeder
+2/24/2005,T3,T3R1,Planting,unknown
+10/13/2004,T8,T8R1,Mowing,John Deere 115 15' flail mower
+9/10/2004,T1,T1R1,Mowing,John Deere 115 15' flail mower
+9/8/2004,T2,T2R1,Mowing,John Deere 115 15' flail mower
+9/8/2004,T8,T8ntR1,Mowing,John Deere 115 15' flail mower
+9/4/2004,T1,T1R1,Pesticide application,Top Air Sprayer
+9/2/2004,T1,T1R1,Mowing,John Deere 115 15' flail mower
+9/2/2004,T2,T2R1,Mowing,John Deere 115 15' flail mower
+9/2/2004,T3,T3R1,Mowing,John Deere 115 15' flail mower
+9/2/2004,T4,T4R1,Mowing,John Deere 115 15' flail mower
+8/21/2004,T6,T6R1,Harvest,rake
+8/21/2004,T6,T6R1,Harvest,"Hay Tedder (Sitrex 2-rotor, rotary tedder)"
+8/21/2004,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+8/21/2004,T6,T6R1,Harvest,chopper? for chopping...
+8/21/2004,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+8/21/2004,T6,T6R1,Harvest,John Deere 3430 12' haybine
+7/15/2004,T8,T8ntR1,Harvest,Wintersteiger plot combine
+7/14/2004,T1,T1R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/14/2004,T1,T1R1,Harvest,baler
+7/14/2004,T2,T2R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/14/2004,T2,T2R1,Harvest,baler
+7/13/2004,T1,T1R1,Harvest,Weigh Wagon 
+7/13/2004,T1,T1R1,Harvest,truck - for hauling
+7/13/2004,T1,T1R1,Harvest,John Deere  9410 combine
+7/13/2004,T2,T2R1,Harvest,Weigh Wagon 
+7/13/2004,T2,T2R1,Harvest,John Deere  9410 combine
+7/13/2004,T2,T2R1,Harvest,truck - for hauling
+7/13/2004,T3,T3R1,Harvest,truck - for hauling
+7/13/2004,T3,T3R1,Harvest,John Deere  9410 combine
+7/13/2004,T3,T3R1,Harvest,Weigh Wagon 
+7/13/2004,T4,T4R1,Harvest,truck - for hauling
+7/13/2004,T4,T4R1,Harvest,Weigh Wagon 
+7/13/2004,T4,T4R1,Harvest,John Deere  9410 combine
+7/9/2004,T6,T6R1,Harvest,"New Holland 258 Rake - double rakes, left hand delivery."
+7/9/2004,T6,T6R1,Harvest,John Deere 3430 12' haybine
+7/9/2004,T6,T6R1,Harvest,"Hay Tedder (Sitrex 2-rotor, rotary tedder)"
+7/9/2004,T6,T6R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/9/2004,T6,T6R1,Harvest,New Holland Baler
+7/9/2004,T6,T6R1,Harvest,"New Holland 260 Rake - single rake, right hand delivery."
+4/16/2004,T1,T1R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+4/16/2004,T1,T1R1,Fertilizer application,Top Air Sprayer
+4/16/2004,T2,T2R1,Fertilizer application,Top Air Sprayer
+4/16/2004,T3,T3R1,Fertilizer application,Turbo TeeJet 11005 Flat Fan Nozzle
+4/16/2004,T3,T3R1,Fertilizer application,Top Air Sprayer
+4/16/2004,T8,T8ntR1,Fertilizer application,Top Air Sprayer
+4/15/2004,T1,T1R1,Pesticide application,Top Air Sprayer
+4/15/2004,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/10/2004,T2,T2R1,Pesticide application,Top Air Sprayer
+3/13/2004,T3,T3R1,Planting,Gandy Air Seeder
+3/10/2004,T4,T4R1,Planting,Gandy Orbit-Air (15' boom)
+10/31/2003,T8,T8R1,Weed control,mower
+10/13/2003,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/13/2003,T3,T3R1,Planting,John Deere 450 conventional 10' drill
+10/11/2003,T4,T4R1,Planting,John Deere 450 conventional 10' drill
+10/10/2003,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/10/2003,T1,T1R1,Planting,John Deere 450 conventional 10' drill
+10/10/2003,T2,T2R1,Planting,John Deere 750 10' no-till drill
+10/9/2003,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+10/8/2003,T1,T1R1,Fertilizer application,Willmar 5-ton PTO-driven spinner spreader
+10/8/2003,T2,T2R1,Fertilizer application,Willmar 5-ton PTO-driven spinner spreader
+10/7/2003,T3,T3R1,Harvest,John Deere  9410 combine
+10/7/2003,T4,T4R1,Harvest,John Deere  9410 combine
+10/6/2003,T1,T1R1,Harvest,John Deere  9410 combine
+10/6/2003,T2,T2R1,Harvest,John Deere  9410 combine
+9/10/2003,T6,T6R1,Fertilizer application,Willmar 5-ton PTO-driven spinner spreader
+8/30/2003,T6,T6R1,Harvest,baler
+8/30/2003,T6,T6R1,Harvest,rake
+8/28/2003,T6,T6R1,Harvest,rake
+8/27/2003,T6,T6R1,Harvest,"Hay Tedder (Sitrex 2-rotor, rotary tedder)"
+8/26/2003,T6,T6R1,Harvest,unknown
+7/14/2003,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/14/2003,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/14/2003,T6,T6R1,Harvest,rake
+7/14/2003,T6,T6R1,Harvest,rake
+7/14/2003,T6,T6R1,Harvest,baler
+7/11/2003,T6,T6R1,Harvest,unknown
+7/1/2003,T3,T3R1,Weed control,6 row Hiniker cultivator
+6/30/2003,T1,T1R1,Weed control,Top Air Sprayer
+6/30/2003,T2,T2R1,Weed control,Top Air Sprayer
+6/30/2003,T4,T4R1,Weed control,6 row Hiniker cultivator
+6/25/2003,T4,T4R1,Weed control,6 row Hiniker cultivator
+6/23/2003,T3,T3R1,Weed control,6 row Hiniker cultivator
+6/16/2003,T4,T4R1,Soil Preparation,Rotary Hoe
+6/16/2003,T4,T4R1,Soil Preparation,Rotary Hoe
+6/6/2003,T3,T3R1,Soil Preparation,Rotary Hoe
+6/6/2003,T4,T4R1,Soil Preparation,Rotary Hoe
+6/6/2003,T6,T6R1,Harvest,chopper? for chopping...
+6/5/2003,T1,T1R1,Weed control,Top Air Sprayer
+6/2/2003,T6,T6R1,Harvest,unknown
+5/29/2003,T3,T3R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/29/2003,T4,T4R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/28/2003,T1,T1R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/28/2003,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+5/27/2003,T1,T1R1,Soil Preparation,John Deere 960 10' field cultivator
+5/27/2003,T2,T2R1,Planting,John Deere 1730 Maxemerge Plus Planter
+5/27/2003,T3,T3R1,Soil Preparation,John Deere 960 10' field cultivator
+5/23/2003,T1,T1R1,Soil Preparation,Chisel plow --type unknown
+5/23/2003,T4,T4R1,Soil Preparation,Chisel plow --type unknown
+5/22/2003,T3,T3R1,Soil Preparation,Chisel plow --type unknown
+5/22/2003,T3,T3R1,Soil Preparation,Chisel plow --type unknown
+4/26/2003,T1,T1R1,Fertilizer application,Willmar 5-ton PTO-driven spinner spreader
+4/26/2003,T2,T2R1,Fertilizer application,Willmar 5-ton PTO-driven spinner spreader
+11/5/2002,T4,T4R1,Weed control,mower
+11/4/2002,T3,T3R1,Weed control,mower
+11/4/2002,T4,T4R1,Harvest,unknown
+11/1/2002,T3,T3R1,Harvest,unknown
+10/31/2002,T1,T1R1,Weed control,mower
+10/31/2002,T1,T1R1,Harvest,unknown
+10/30/2002,T2,T2R1,Weed control,mower
+10/29/2002,T2,T2R1,Harvest,unknown
+10/28/2002,T1,T1R1,Harvest,unknown
+10/28/2002,T2,T2R1,Harvest,unknown
+10/23/2002,T1,T1R1,Harvest,unknown
+10/16/2002,T1,T1R1,Observation,unknown
+10/16/2002,T2,T2R1,Observation,unknown
+10/16/2002,T3,T3R1,Observation,unknown
+10/16/2002,T4,T4R1,Observation,unknown
+8/26/2002,T6,T6R1,Harvest,mower
+7/27/2002,T6,T6R1,Harvest,chopper? for chopping...
+7/12/2002,T6,T6R1,Harvest,baler
+7/12/2002,T6,T6R1,Harvest,rake
+7/12/2002,T6,T6R1,Harvest,baler
+7/12/2002,T6,T6R1,Harvest,rake
+7/9/2002,T6,T6R1,Harvest,mower
+7/5/2002,T3,T3R1,Planting,unknown
+7/5/2002,T4,T4R1,Planting,unknown
+7/3/2002,T4,T4R1,Weed control,row cultivator --type unknown
+7/2/2002,T3,T3R1,Weed control,row cultivator --type unknown
+7/1/2002,T1,T1R1,Fertilizer application,unknown
+7/1/2002,T2,T2R1,Fertilizer application,unknown
+6/29/2002,T3,T3R1,Pesticide application,Top Air Sprayer
+6/27/2002,T2,T2R1,Pesticide application,Top Air Sprayer
+6/19/2002,T1,T1R1,Weed control,row cultivator --type unknown
+6/17/2002,T3,T3R1,Weed control,row cultivator --type unknown
+6/17/2002,T4,T4R1,Weed control,row cultivator --type unknown
+6/12/2002,T6,T6R1,Harvest,mower
+6/10/2002,T4,T4R1,Soil Preparation,Rotary Hoe
+5/29/2002,T3,T3R1,Soil Preparation,Rotary Hoe
+5/29/2002,T4,T4R1,Soil Preparation,Rotary Hoe
+5/28/2002,T1,T1R1,Soil Preparation,Rotary Hoe
+5/24/2002,T3,T3R1,Pesticide application,Top Air Sprayer
+5/15/2002,T3,T3R1,Planting,unknown
+5/15/2002,T3,T3R1,Fertilizer application,unknown
+5/15/2002,T3,T3R1,Soil Preparation,soil finisher --type unknown
+5/15/2002,T4,T4R1,Planting,unknown
+5/15/2002,T4,T4R1,Soil Preparation,soil finisher --type unknown
+5/15/2002,T4,T4R1,Fertilizer application,unknown
+5/15/2002,T8,T8R1,Planting,unknown
+5/13/2002,T6,T6R1,Harvest,chopper? for chopping...
+5/11/2002,T1,T1R1,Pesticide application,Top Air Sprayer
+5/11/2002,T2,T2R1,Pesticide application,Top Air Sprayer
+5/10/2002,T1,T1R1,Planting,John Deere 7300 six row planter
+5/10/2002,T1,T1R1,Fertilizer application,John Deere 7300 six row planter
+5/10/2002,T2,T2R1,Fertilizer application,John Deere 7300 six row planter
+5/10/2002,T2,T2R1,Planting,John Deere 7300 six row planter
+5/8/2002,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+4/26/2002,T2,T2R1,Pesticide application,Top Air Sprayer
+4/23/2002,T2,T2R1,Mowing,mower
+4/20/2002,T1,T1R1,Fertilizer application,Willmar 5-ton PTO-driven spinner spreader
+4/20/2002,T2,T2R1,Fertilizer application,Willmar 5-ton PTO-driven spinner spreader
+4/20/2002,T3,T3R1,Fertilizer application,Willmar 5-ton PTO-driven spinner spreader
+4/20/2002,T3,T3R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+4/19/2002,T1,T1R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+4/19/2002,T3,T3R1,Soil Preparation,John Deere 714 Chisel plow
+4/19/2002,T4,T4R1,Soil Preparation,"John Deere 726 15'9"" soil finisher"
+4/18/2002,T4,T4R1,Soil Preparation,John Deere 714 Chisel plow
+4/17/2002,T1,T1R1,Soil Preparation,John Deere 714 Chisel plow
+10/29/2001,T8,T8R1,Mowing,mower
+8/29/2001,T6,T6R1,Weed control,Top Air Sprayer
+8/29/2001,T8,T8ntR1,Weed control,Top Air Sprayer
+8/27/2001,T3,T3R1,Mowing,mower
+8/27/2001,T4,T4R1,Mowing,mower
+8/24/2001,T1,T1R1,Pesticide application,Top Air Sprayer
+8/24/2001,T2,T2R1,Pesticide application,Top Air Sprayer
+8/21/2001,T6,T6R1,Harvest,John Deere 3430 12' haybine
+8/21/2001,T6,T6R1,Harvest,chopper? for chopping...
+8/21/2001,T6,T6R1,Harvest,rake
+7/30/2001,T1,T1R1,Harvest,baler
+7/30/2001,T1,T1R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/30/2001,T1,T1R1,Harvest,John Deere 385 round baler
+7/30/2001,T2,T2R1,Harvest,John Deere 385 round baler
+7/30/2001,T2,T2R1,Harvest,baler
+7/30/2001,T2,T2R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/30/2001,T3,T3R1,Harvest,John Deere 385 round baler
+7/30/2001,T3,T3R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/30/2001,T3,T3R1,Harvest,baler
+7/30/2001,T4,T4R1,Harvest,New Holland 1038 Stackliner (Bale Stacker)
+7/30/2001,T4,T4R1,Harvest,baler
+7/30/2001,T4,T4R1,Harvest,John Deere 385 round baler
+7/17/2001,T1,T1R1,Harvest,John Deere  9410 combine
+7/17/2001,T1,T1R1,Harvest,Weigh Wagon 
+7/17/2001,T2,T2R1,Harvest,John Deere  9410 combine
+7/17/2001,T2,T2R1,Harvest,Weigh Wagon 
+7/17/2001,T3,T3R1,Harvest,Weigh Wagon 
+7/17/2001,T3,T3R1,Harvest,John Deere  9410 combine
+7/17/2001,T4,T4R1,Harvest,John Deere  9410 combine
+7/17/2001,T4,T4R1,Harvest,Weigh Wagon 
+5/30/2001,T6,T6R1,Planting,John Deere 750 10' no-till drill
+5/29/2001,T6,T6R1,Pesticide application,Top Air Sprayer
+4/28/2001,T1,T1R1,Pesticide application,Top Air Sprayer
+4/28/2001,T6,T6R1,Pesticide application,Top Air Sprayer
+4/28/2001,T8,T8ntR1,Pesticide application,Top Air Sprayer
+4/25/2001,T2,T2R1,Pesticide application,Top Air Sprayer
+4/19/2001,T2,T2R1,Fertilizer application,Top Air Sprayer
+4/18/2001,T1,T1R1,Fertilizer application,Top Air Sprayer
+4/18/2001,T8,T8ntR1,Fertilizer application,JD Combine
+4/5/2001,T1,T1R1,Fertilizer application,Top Air Sprayer
+4/5/2001,T2,T2R1,Fertilizer application,Top Air Sprayer
+4/5/2001,T3,T3R1,Fertilizer application,Top Air Sprayer
+3/31/2001,T6,T6R1,Planting,unknown
+3/20/2001,T3,T3R1,Planting,Gandy Orbit-Air (15' boom)
+3/19/2001,T4,T4R1,Planting,Gandy Orbit-Air (15' boom)
+11/6/2000,T8,T8R1,Mowing,John Deere 10' brushhog mower
+11/1/2000,T3,T3R1,Planting,John Deere 750 10' no-till drill
+11/1/2000,T8,T8ntR1,Planting,John Deere 750 10' no-till drill
+10/31/2000,T4,T4R1,Planting,John Deere 750 10' no-till drill
+10/30/2000,T1,T1R1,Planting,John Deere 750 10' no-till drill
+10/30/2000,T3,T3R1,Soil Preparation,soil finisher --type unknown
+10/30/2000,T4,T4R1,Soil Preparation,soil finisher --type unknown
+10/23/2000,T2,T2R1,Planting,John Deere 750 10' no-till drill
+10/20/2000,T1,T1R1,Soil Preparation,soil finisher --type unknown
+10/19/2000,T4,T4R1,Harvest,unknown
+10/18/2000,T3,T3R1,Harvest,unknown
+10/14/2000,T3,T3R1,Harvest,unknown
+10/14/2000,T4,T4R1,Harvest,unknown
+10/12/2000,T1,T1R1,Harvest,unknown
+10/11/2000,T1,T1R1,Harvest,unknown
+8/25/2000,T6,T6R1,Harvest,John Deere 3430 12' haybine
+7/20/2000,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/20/2000,T3,T3R1,Weed control,row cultivator --type unknown
+7/20/2000,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/20/2000,T4,T4R1,Weed control,row cultivator --type unknown
+7/14/2000,T6,T6R1,Harvest,John Deere 3430 12' haybine
+7/5/2000,T3,T3R1,Weed control,Top Air Sprayer
+6/30/2000,T4,T4R1,Weed control,row cultivator --type unknown
+6/29/2000,T3,T3R1,Weed control,row cultivator --type unknown
+6/23/2000,T1,T1R1,Weed control,Top Air Sprayer
+6/23/2000,T2,T2R1,Weed control,Top Air Sprayer
+6/23/2000,T4,T4R1,Weed control,Rotary Hoe
+6/19/2000,T4,T4R1,Weed control,Rotary Hoe
+6/7/2000,T3,T3R1,Soil Preparation,soil finisher --type unknown
+6/7/2000,T3,T3R1,Planting,John Deere 7300 six row planter
+6/7/2000,T4,T4R1,Planting,John Deere 7300 six row planter
+6/7/2000,T4,T4R1,Soil Preparation,soil finisher --type unknown
+5/26/2000,T2,T2R1,Planting,John Deere 750 10' no-till drill
+5/26/2000,T2,T2R1,Pesticide application,high-boy (dairy)
+5/26/2000,T3,T3R1,Soil Preparation,soil finisher --type unknown
+5/26/2000,T4,T4R1,Soil Preparation,soil finisher --type unknown
+5/25/2000,T1,T1R1,Soil Preparation,soil finisher --type unknown
+5/25/2000,T1,T1R1,Planting,John Deere 750 10' no-till drill
+5/8/2000,T1,T1R1,Soil Preparation,Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc
+5/8/2000,T3,T3R1,Soil Preparation,Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc
+5/8/2000,T4,T4R1,Soil Preparation,Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc
+5/4/2000,T1,T1R1,Soil Preparation,Glencoe Soil Saver - 'Nine Shank Chisel Plow'
+5/3/2000,T3,T3R1,Soil Preparation,Glencoe Soil Saver - 'Nine Shank Chisel Plow'
+5/3/2000,T4,T4R1,Soil Preparation,Glencoe Soil Saver - 'Nine Shank Chisel Plow'
+5/3/2000,T6,T6R1,Planting,John Deere 750 10' no-till drill
+12/1/1999,T8,T8R1,Weed control,mower
+10/14/1999,T3,T3R1,Planting,disk
+10/14/1999,T3,T3R1,Planting,unknown
+10/14/1999,T4,T4R1,Planting,unknown
+10/14/1999,T6,T6R1,Planting,disk
+10/11/1999,T2,T2R1,Harvest,John Deere 4425 combine
+10/11/1999,T3,T3R1,Harvest,John Deere 4425 combine
+10/11/1999,T4,T4R1,Harvest,John Deere 4425 combine
+10/5/1999,T1,T1R1,Harvest,combine
+7/16/1999,T6,T6R1,Harvest,baler
+7/15/1999,T6,T6R1,Harvest,rake
+7/12/1999,T6,T6R1,Harvest,John Deere Haybine
+7/2/1999,T3,T3R1,Planting,unknown
+7/2/1999,T3,T3R1,Soil Preparation,Case IH 183 S-tine 6 row cultivator
+7/2/1999,T4,T4R1,Planting,unknown
+6/30/1999,T1,T1R1,Fertilizer application,Gandy Orbit-Air (15' boom)
+6/30/1999,T1,T1R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/30/1999,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/29/1999,T2,T2R1,Fertilizer application,unknown
+6/17/1999,T4,T4R1,Weed control,row cultivator --type unknown
+6/16/1999,T3,T3R1,Weed control,row cultivator --type unknown
+6/10/1999,T4,T4R1,Weed control,row cultivator --type unknown
+6/7/1999,T3,T3R1,Soil Preparation,Rotary Hoe
+6/7/1999,T4,T4R1,Soil Preparation,Rotary Hoe
+5/27/1999,T3,T3R1,Soil Preparation,Rotary Hoe
+5/27/1999,T4,T4R1,Soil Preparation,Rotary Hoe
+5/19/1999,T1,T1R1,Fertilizer application,Buffalo planter
+5/19/1999,T1,T1R1,Planting,Buffalo planter
+5/19/1999,T2,T2R1,Weed control,broadcast sprayer
+5/14/1999,T2,T2R1,Planting,Buffalo no-till planter
+5/14/1999,T2,T2R1,Fertilizer application,unknown
+5/13/1999,T3,T3R1,Planting,Buffalo planter
+5/13/1999,T3,T3R1,Fertilizer application,Buffalo planter
+5/13/1999,T4,T4R1,Planting,Buffalo planter
+5/13/1999,T4,T4R1,Fertilizer application,Buffalo planter
+5/10/1999,T3,T3R1,Soil Preparation,12 ft glenco field cultivator
+5/9/1999,T2,T2R1,Weed control,unknown
+5/9/1999,T3,T3R1,Soil Preparation,12 ft glenco field cultivator
+5/4/1999,T3,T3R1,Soil Preparation,Chisel plow --type unknown
+5/4/1999,T4,T4R1,Soil Preparation,"chisel plow with narrow 4"" twist spades"
+5/3/1999,T1,T1R1,Soil Preparation,"chisel plow with narrow 4"" twist spades"
+4/26/1999,T6,T6R1,Planting,unknown
+4/20/1999,T1,T1R1,Fertilizer application,Terra-Gator
+4/20/1999,T2,T2R1,Fertilizer application,unknown
+4/20/1999,T3,T3R1,Fertilizer application,Terra-Gator
+4/20/1999,T6,T6R1,Fertilizer application,Terra-Gator
+4/14/1999,T6,T6R1,Weed control,unknown
+12/1/1998,T8,T8R1,Weed control,John Deere Rotary Mower
+12/1/1998,T8,T8R1,Weed control,mower
+9/1/1998,T3,T3R1,Weed control,John Deere Rotary Mower
+9/1/1998,T4,T4R1,Weed control,John Deere Rotary Mower
+8/25/1998,T6,T6R1,Harvest,baler
+8/21/1998,T6,T6R1,Harvest,unknown
+8/1/1998,T3,T3R1,Harvest,baler
+8/1/1998,T4,T4R1,Harvest,baler
+7/20/1998,T1,T1R1,Harvest,combine
+7/20/1998,T2,T2R1,Harvest,combine
+7/14/1998,T2,T2R1,Harvest,combine
+7/11/1998,T1,T1R1,Harvest,combine
+7/11/1998,T3,T3R1,Harvest,combine
+7/11/1998,T4,T4R1,Harvest,combine
+7/11/1998,T6,T6R1,Harvest,chopper? for chopping...
+6/1/1998,T6,T6R1,Harvest,chopper? for chopping...
+5/31/1998,T6,T6R1,Harvest,John Deere Haybine
+4/20/1998,T1,T1R1,Fertilizer application,unknown
+4/20/1998,T2,T2R1,Fertilizer application,unknown
+4/20/1998,T3,T3R1,Fertilizer application,unknown
+3/1/1998,T3,T3R1,Planting,Gandy Air Seeder
+3/1/1998,T4,T4R1,Planting,Gandy Air Seeder
+3/1/1998,T4,T4R1,Planting,unknown
+12/2/1997,T8,T8R1,Weed control,mower
+10/30/1997,T4,T4R1,Planting,John Deere 750 10' no-till drill
+10/26/1997,T3,T3R1,Soil Preparation,cultipacker
+10/26/1997,T3,T3R1,Soil Preparation,John Deere 970 12 ft Cultimulcher
+10/22/1997,T1,T1R1,Planting,unknown
+10/22/1997,T1,T1R1,Soil Preparation,cultipacker
+10/22/1997,T1,T1R1,Soil Preparation,row cultivator --type unknown
+10/22/1997,T2,T2R1,Planting,John Deere 450 conventional 10' drill
+10/21/1997,T1,T1R1,Soil Preparation,disk
+10/21/1997,T2,T2R1,Planting,unknown
+10/21/1997,T4,T4R1,Harvest,John Deere 4425 combine
+10/21/1997,T4,T4R1,Soil Preparation,disk
+10/20/1997,T2,T2R1,Harvest,John Deere 4425 combine
+10/20/1997,T3,T3R1,Soil Preparation,disk
+10/20/1997,T3,T3R1,Harvest,John Deere 4425 combine
+10/19/1997,T2,T2R1,Harvest,John Deere 4425 combine
+10/17/1997,T1,T1R1,Harvest,John Deere 4425 combine
+10/17/1997,T1,T1R1,Harvest,John Deere 4425 combine
+8/21/1997,T6,T6R1,Harvest,unknown
+7/11/1997,T6,T6R1,Harvest,unknown
+7/9/1997,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+7/2/1997,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/30/1997,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/25/1997,T3,T3R1,Weed control,Lely cultivator
+6/19/1997,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/18/1997,T3,T3R1,Weed control,broadcast sprayer
+6/17/1997,T3,T3R1,Weed control,unknown
+6/13/1997,T6,T6R1,Fertilizer application,broadcast sprayer
+6/11/1997,T4,T4R1,Soil Preparation,Rotary Hoe
+6/11/1997,T6,T6R1,Harvest,unknown
+6/10/1997,T6,T6R1,Harvest,unknown
+6/5/1997,T4,T4R1,Weed control,Buffalo planter
+5/23/1997,T3,T3R1,Planting,Buffalo planter
+5/23/1997,T4,T4R1,Planting,Buffalo planter
+5/22/1997,T1,T1R1,Planting,John Deere 750 10' no-till drill
+5/22/1997,T3,T3R1,Soil Preparation,row cultivator --type unknown
+5/22/1997,T4,T4R1,Soil Preparation,cultipacker
+5/22/1997,T4,T4R1,Soil Preparation,row cultivator --type unknown
+5/21/1997,T2,T2R1,Planting,John Deere 750 10' no-till drill
+5/20/1997,T2,T2R1,Weed control,unknown
+5/20/1997,T2,T2R1,Weed control,unknown
+5/13/1997,T1,T1R1,Soil Preparation,disk
+5/13/1997,T3,T3R1,Soil Preparation,disk
+5/13/1997,T3,T3R1,Soil Preparation,Moldboard plow
+5/12/1997,T1,T1R1,Soil Preparation,three bottom moldboard plow
+5/12/1997,T4,T4R1,Soil Preparation,disk
+5/10/1997,T4,T4R1,Soil Preparation,Moldboard plow
+5/7/1997,T3,T3R1,Weed control,unknown
+5/7/1997,T4,T4R1,Soil Preparation,Moldboard plow
+5/6/1997,T6,T6R1,Fertilizer application,unknown
+4/10/1997,T1,T1R1,Fertilizer application,unknown
+4/10/1997,T2,T2R1,Fertilizer application,unknown
+4/10/1997,T3,T3R1,Fertilizer application,bulk spreader
+4/9/1997,T1,T1R1,Fertilizer application,unknown
+4/9/1997,T2,T2R1,Fertilizer application,unknown
+4/4/1997,T1,T1R1,Harvest,flail mower
+4/4/1997,T3,T3R1,Harvest,flail mower
+4/4/1997,T4,T4R1,Harvest,flail mower
+2/1/1997,T7,T7R1,Harvest,unknown
+12/5/1996,T8,T8R1,Weed control,mower
+11/3/1996,T2,T2R1,Harvest,unknown
+11/3/1996,T3,T3R1,Harvest,unknown
+11/3/1996,T4,T4R1,Harvest,unknown
+11/2/1996,T1,T1R1,Harvest,unknown
+8/14/1996,T6,T6R1,Harvest,baler
+8/14/1996,T6,T6R1,Harvest,rake
+8/14/1996,T6,T6R1,Harvest,baler
+8/12/1996,T6,T6R1,Harvest,John Deere Haybine
+8/12/1996,T6,T6R1,Harvest,haybine
+7/23/1996,T6,T6R1,Pesticide application,unknown
+7/15/1996,T5,T5R1,Weed control,broadcast sprayer
+7/12/1996,T5,T5R1,Weed control,broadcast sprayer
+7/10/1996,T5,T5R1,Weed control,broadcast sprayer
+7/2/1996,T6,T6R1,Harvest,chopper? for chopping...
+7/2/1996,T6,T6R1,Harvest,chopper? for chopping...
+7/1/1996,T1,T1R1,Harvest,haybine
+7/1/1996,T2,T2R1,Harvest,haybine
+7/1/1996,T6,T6R1,Harvest,haybine
+6/28/1996,T2,T2R1,Fertilizer application,Gandy Orbit-Air (15' boom)
+6/28/1996,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/28/1996,T3,T3R1,Planting,Gandy Orbit-Air (15' boom)
+6/28/1996,T4,T4R1,Planting,Gandy Orbit-Air (15' boom)
+6/27/1996,T1,T1R1,Fertilizer application,Gandy Orbit-Air (15' boom)
+6/27/1996,T1,T1R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/26/1996,T1,T1R1,Weed control,bander
+6/26/1996,T2,T2R1,Weed control,bander
+6/26/1996,T3,T3R1,Fertilizer application,unknown
+6/26/1996,T3,T3R1,Weed control,bander
+6/26/1996,T4,T4R1,Weed control,bander
+6/26/1996,T6,T6R1,Weed control,bander
+6/23/1996,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/23/1996,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/20/1996,T3,T3R1,Weed control,Hiniker between-row cultivator
+6/20/1996,T3,T3R1,Weed control,Hiniker between-row cultivator
+6/20/1996,T3,T3R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/14/1996,T1,T1R1,Weed control,broadcast sprayer
+6/14/1996,T2,T2R1,Weed control,broadcast sprayer
+6/14/1996,T2,T2R1,Weed control,broadcast sprayer
+6/14/1996,T6,T6R1,Fertilizer application,broadcast sprayer
+6/13/1996,T3,T3R1,Soil Preparation,broadcast sprayer
+6/13/1996,T3,T3R1,Weed control,broadcast sprayer
+6/13/1996,T4,T4R1,Soil Preparation,row cultivator --type unknown
+6/13/1996,T6,T6R1,Fertilizer application,broadcast sprayer
+6/11/1996,T3,T3R1,Weed control,broadcast sprayer
+6/11/1996,T4,T4R1,Weed control,Case IH 183 S-tine 6 row cultivator
+6/5/1996,T3,T3R1,Soil Preparation,Rotary Hoe
+6/5/1996,T4,T4R1,Soil Preparation,Rotary Hoe
+6/5/1996,T6,T6R1,Harvest,chopper? for chopping...
+6/3/1996,T6,T6R1,Harvest,haybine
+6/2/1996,T6,T6R1,Harvest,New Holland 1469 - Haybiner
+5/29/1996,T4,T4R1,Soil Preparation,Rotary Hoe
+5/22/1996,T3,T3R1,Soil Preparation,Rotary Hoe
+5/22/1996,T3,T3R1,Weed control,broadcast sprayer
+5/22/1996,T3,T3R1,Soil Preparation,Rotary Hoe
+5/22/1996,T4,T4R1,Soil Preparation,Rotary Hoe
+5/22/1996,T4,T4R1,Soil Preparation,Rotary Hoe
+5/21/1996,T1,T1R1,Weed control,row cultivator --type unknown
+5/17/1996,T2,T2R1,Planting,Buffalo no-till planter
+5/17/1996,T2,T2R1,Fertilizer application,planter 
+5/14/1996,T1,T1R1,Fertilizer application,planter 
+5/14/1996,T1,T1R1,Soil Preparation,Buffalo no-till planter
+5/14/1996,T1,T1R1,Planting,row cultivator --type unknown
+5/14/1996,T1,T1R1,Fertilizer application,row cultivator --type unknown
+5/14/1996,T1,T1R1,Fertilizer application,Buffalo no-till planter
+5/14/1996,T1,T1R1,Weed control,row cultivator --type unknown
+5/14/1996,T1,T1R1,Planting,Buffalo no-till planter
+5/14/1996,T1,T1R1,Soil Preparation,row cultivator --type unknown
+5/14/1996,T3,T3R1,Fertilizer application,row cultivator --type unknown
+5/14/1996,T3,T3R1,Soil Preparation,row cultivator --type unknown
+5/14/1996,T3,T3R1,Soil Preparation,Buffalo no-till planter
+5/14/1996,T3,T3R1,Fertilizer application,unknown
+5/14/1996,T3,T3R1,Fertilizer application,Buffalo no-till planter
+5/14/1996,T3,T3R1,Planting,row cultivator --type unknown
+5/14/1996,T3,T3R1,Planting,Buffalo no-till planter
+5/14/1996,T3,T3R1,Weed control,row cultivator --type unknown
+5/13/1996,T2,T2R1,Weed control,unknown
+5/13/1996,T2,T2R1,Weed control,unknown
+5/13/1996,T4,T4R1,Soil Preparation,row cultivator --type unknown
+5/13/1996,T4,T4R1,Weed control,row cultivator --type unknown
+5/13/1996,T4,T4R1,Soil Preparation,unknown
+5/13/1996,T4,T4R1,Planting,row cultivator --type unknown
+5/13/1996,T4,T4R1,Planting,unknown
+5/7/1996,T4,T4R1,Soil Preparation,disk
+5/6/1996,T1,T1R1,Soil Preparation,disk
+5/6/1996,T3,T3R1,Soil Preparation,disk
+4/28/1996,T3,T3R1,Soil Preparation,JD plow 
+4/28/1996,T3,T3R1,Soil Preparation,White roll-over plow
+4/28/1996,T3,T3R1,Soil Preparation,Moldboard plow
+4/28/1996,T4,T4R1,Soil Preparation,JD plow 
+4/28/1996,T4,T4R1,Soil Preparation,White roll-over plow
+4/28/1996,T4,T4R1,Soil Preparation,Moldboard plow
+4/18/1996,T1,T1R1,Soil Preparation,Moldboard plow
+3/7/1996,T3,T3R1,Fertilizer application,bulk spreader
+3/4/1996,T1,T1R1,Fertilizer application,spreader
+3/4/1996,T2,T2R1,Fertilizer application,spreader
+11/30/1995,T8,T8R1,Weed control,mower
+10/12/1995,T6,T6R1,Harvest,baler
+10/9/1995,T6,T6R1,Harvest,chopper? for chopping...
+10/8/1995,T2,T2R1,Weed control,broadcast sprayer
+9/18/1995,T1,T1R1,Weed control,broadcast sprayer
+9/18/1995,T2,T2R1,Weed control,broadcast sprayer
+9/15/1995,T2,T2R1,Weed control,broadcast sprayer
+9/6/1995,T3,T3R1,Weed control,John Deere Rotary Mower
+9/6/1995,T4,T4R1,Weed control,John Deere Rotary Mower
+8/25/1995,T6,T6R1,Harvest,baler
+8/21/1995,T6,T6R1,Harvest,chopper? for chopping...
+8/9/1995,T4,T4R1,Harvest,baler
+8/8/1995,T3,T3R1,Harvest,baler
+8/7/1995,T1,T1R1,Harvest,baler
+8/7/1995,T2,T2R1,Harvest,baler
+7/29/1995,T4,T4R1,Harvest,combine
+7/27/1995,T3,T3R1,Harvest,combine
+7/26/1995,T2,T2R1,Harvest,combine
+7/22/1995,T1,T1R1,Harvest,combine
+7/11/1995,T6,T6R1,Harvest,chopper? for chopping...
+6/2/1995,T6,T6R1,Fertilizer application,unknown
+6/1/1995,T6,T6R1,Harvest,chopper? for chopping...
+5/31/1995,T6,T6R1,Harvest,haybine
+5/21/1995,T1,T1R1,Weed control,unknown
+5/6/1995,T1,T1R1,Fertilizer application,8002 Flat Fan Nozzles
+5/6/1995,T2,T2R1,Fertilizer application,8002 Flat Fan Nozzles
+4/20/1995,T3,T3R1,Fertilizer application,unknown
+4/17/1995,T1,T1R1,Fertilizer application,unknown
+4/17/1995,T2,T2R1,Fertilizer application,unknown
+3/9/1995,T3,T3R1,Planting,Gandy Orbit-Air (15' boom)
+3/9/1995,T4,T4R1,Planting,Gandy Orbit-Air (15' boom)
+12/1/1994,T8,T8R1,Weed control,flail mower
+10/25/1994,T4,T4R1,Planting,John Deere 750 10' no-till drill
+10/25/1994,T4,T4R1,Soil Preparation,soil finisher --type unknown
+10/24/1994,T4,T4R1,Soil Preparation,Chisel plow --type unknown
+10/18/1994,T3,T3R1,Planting,John Deere 750 10' no-till drill
+10/18/1994,T3,T3R1,Soil Preparation,soil finisher --type unknown
+10/17/1994,T3,T3R1,Soil Preparation,Chisel plow --type unknown
+10/17/1994,T4,T4R1,Harvest,JD Combine
+10/15/1994,T3,T3R1,Harvest,JD Combine
+10/13/1994,T1,T1R1,Planting,John Deere 750 10' no-till drill
+10/12/1994,T1,T1R1,Soil Preparation,Chisel plow --type unknown
+10/12/1994,T2,T2R1,Planting,unknown
+10/11/1994,T1,T1R1,Harvest,combine
+10/6/1994,T2,T2R1,Harvest,combine
+9/9/1994,T6,T6R1,Harvest,baler
+9/8/1994,T6,T6R1,Harvest,baler
+9/8/1994,T6,T6R1,Harvest,rake
+9/7/1994,T6,T6R1,Harvest,rake
+9/1/1994,T6,T6R1,Harvest,haybine
+7/29/1994,T6,T6R1,Pesticide application,broadcast sprayer
+7/27/1994,T6,T6R1,Fertilizer application,bulk spreader
+7/19/1994,T6,T6R1,Harvest,baler
+7/14/1994,T6,T6R1,Harvest,rake
+7/12/1994,T6,T6R1,Harvest,rake
+7/11/1994,T6,T6R1,Harvest,haybine
+7/1/1994,T3,T3R1,Weed control,Hiniker between-row cultivator
+7/1/1994,T4,T4R1,Weed control,Hiniker between-row cultivator
+6/17/1994,T3,T3R1,Weed control,row cultivator --type unknown
+6/16/1994,T4,T4R1,Weed control,row cultivator --type unknown
+6/16/1994,T6,T6R1,Weed control,broadcast sprayer
+6/9/1994,T3,T3R1,Weed control,broadcast sprayer
+6/9/1994,T3,T3R1,Weed control,broadcast sprayer
+6/7/1994,T1,T1R1,Soil Preparation,Rotary Hoe
+6/1/1994,T3,T3R1,Weed control,Rotary Hoe
+6/1/1994,T3,T3R1,Soil Preparation,Rotary Hoe
+6/1/1994,T4,T4R1,Weed control,Rotary Hoe
+6/1/1994,T4,T4R1,Soil Preparation,Rotary Hoe
+5/23/1994,T2,T2R1,Weed control,broadcast sprayer
+5/23/1994,T2,T2R1,Weed control,broadcast sprayer
+5/20/1994,T2,T2R1,Planting,unknown
+5/18/1994,T1,T1R1,Planting,Tye Drill
+5/17/1994,T4,T4R1,Soil Preparation,row cultivator --type unknown
+5/17/1994,T4,T4R1,Soil Preparation,cultipacker
+5/17/1994,T4,T4R1,Planting,unknown
+5/16/1994,T1,T1R1,Soil Preparation,cultipacker
+5/16/1994,T1,T1R1,Soil Preparation,row cultivator --type unknown
+5/16/1994,T3,T3R1,Planting,Buffalo planter
+5/14/1994,T2,T2R1,Weed control,broadcast sprayer
+5/13/1994,T1,T1R1,Soil Preparation,disk
+5/12/1994,T3,T3R1,Soil Preparation,cultipacker
+5/12/1994,T3,T3R1,Soil Preparation,row cultivator --type unknown
+5/9/1994,T3,T3R1,Soil Preparation,Moldboard plow
+5/9/1994,T4,T4R1,Soil Preparation,Moldboard plow
+4/21/1994,T6,T6R1,Planting,Tye Drill
+4/18/1994,T3,T3R1,Soil Preparation,disk
+4/18/1994,T4,T4R1,Soil Preparation,disk
+4/7/1994,T3,T3R1,Harvest,flail mower
+4/7/1994,T4,T4R1,Harvest,flail mower
+11/22/1993,T1,T1R1,Harvest,flail mower
+11/22/1993,T2,T2R1,Harvest,flail mower
+11/18/1993,T4,T4R1,Harvest,combine
+11/9/1993,T1,T1R1,Harvest,combine
+11/9/1993,T2,T2R1,Harvest,combine
+11/8/1993,T1,T1R1,Harvest,John Deere 4425 combine
+11/6/1993,T4,T4R1,Harvest,combine
+11/2/1993,T3,T3R1,Harvest,combine
+10/29/1993,T3,T3R1,Harvest,combine
+10/18/1993,T6,T6R1,Fertilizer application,unknown
+10/13/1993,T1,T1R1,Soil Preparation,soil finisher --type unknown
+10/5/1993,T6,T6R1,Fertilizer application,broadcast sprayer
+9/1/1993,T6,T6R1,Harvest,New Holland 1469 - Haybiner
+8/27/1993,T6,T6R1,Harvest,haybine
+8/17/1993,T3,T3R1,Planting,broadcast sprayer
+8/17/1993,T3,T3R1,Planting,Tye Drill
+8/17/1993,T3,T3R1,Planting,high-boy (dairy)
+8/17/1993,T4,T4R1,Planting,broadcast sprayer
+8/17/1993,T4,T4R1,Planting,Tye Drill
+8/17/1993,T4,T4R1,Planting,high-boy (dairy)
+7/15/1993,T6,T6R1,Harvest,rake
+7/15/1993,T6,T6R1,Harvest,baler
+7/13/1993,T6,T6R1,Harvest,rake
+7/12/1993,T3,T3R1,Weed control,row cultivator --type unknown
+7/12/1993,T4,T4R1,Weed control,row cultivator --type unknown
+7/12/1993,T4,T4R1,Soil Preparation,ridger...for ridging?
+7/12/1993,T6,T6R1,Harvest,haybine
+7/7/1993,T3,T3R1,Soil Preparation,Hiniker between-row cultivator
+7/2/1993,T3,T3R1,Weed control,Hiniker between-row cultivator
+7/1/1993,T1,T1R1,Fertilizer application,broadcast sprayer
+7/1/1993,T2,T2R1,Fertilizer application,broadcast sprayer
+6/30/1993,T1,T1R1,Fertilizer application,unknown
+6/24/1993,T4,T4R1,Weed control,row cultivator --type unknown
+6/17/1993,T4,T4R1,Weed control,row cultivator --type unknown
+6/16/1993,T3,T3R1,Weed control,row cultivator --type unknown
+6/3/1993,T1,T1R1,Weed control,broadcast sprayer
+6/3/1993,T2,T2R1,Weed control,broadcast sprayer
+6/3/1993,T3,T3R1,Soil Preparation,Rotary Hoe
+6/3/1993,T4,T4R1,Soil Preparation,Rotary Hoe
+5/28/1993,T6,T6R1,Fertilizer application,broadcast sprayer
+5/26/1993,T6,T6R1,Harvest,chopper? for chopping...
+5/25/1993,T6,T6R1,Harvest,haybine
+5/20/1993,T3,T3R1,Soil Preparation,Rotary Hoe
+5/20/1993,T4,T4R1,Soil Preparation,Rotary Hoe
+5/14/1993,T3,T3R1,Fertilizer application,unknown
+5/14/1993,T3,T3R1,Planting,unknown
+5/14/1993,T4,T4R1,Planting,unknown
+5/11/1993,T3,T3R1,Weed control,flail mower
+5/11/1993,T4,T4R1,Weed control,flail mower
+5/7/1993,T1,T1R1,Soil Preparation,row cultivator --type unknown
+5/7/1993,T1,T1R1,Planting,unknown
+5/7/1993,T1,T1R1,Soil Preparation,disk
+5/7/1993,T2,T2R1,Planting,unknown
+5/6/1993,T1,T1R1,Soil Preparation,disk
+5/6/1993,T2,T2R1,Pesticide application,broadcast sprayer
+5/1/1993,T2,T2R1,Weed control,broadcast sprayer
+4/28/1993,T1,T1R1,Soil Preparation,Moldboard plow
+4/27/1993,T1,T1R1,Soil Preparation,plow --type unknown
+4/27/1993,T1,T1R1,Fertilizer application,broadcast sprayer
+4/27/1993,T2,T2R1,Fertilizer application,broadcast sprayer
+4/27/1993,T3,T3R1,Fertilizer application,broadcast sprayer
+10/27/1992,T2,T2R1,Harvest,combine
+10/26/1992,T1,T1R1,Harvest,combine
+10/2/1992,T6,T6R1,Harvest,chopper? for chopping...
+10/1/1992,T6,T6R1,Harvest,haybine
+8/26/1992,T3,T3R1,Soil Preparation,ridger...for ridging?
+8/26/1992,T3,T3R1,Planting,broadcast sprayer
+8/24/1992,T3,T3R1,Weed control,flail mower
+8/20/1992,T3,T3R1,Weed control,unknown
+8/17/1992,T6,T6R1,Harvest,baler
+8/14/1992,T6,T6R1,Harvest,rake
+8/11/1992,T3,T3R1,Weed control,broadcast sprayer
+8/11/1992,T6,T6R1,Harvest,haybine
+8/6/1992,T4,T4R1,Soil Preparation,ridger...for ridging?
+8/6/1992,T4,T4R1,Planting,broadcast sprayer
+8/5/1992,T4,T4R1,Weed control,flail mower
+7/27/1992,T3,T3R1,Harvest,baler
+7/27/1992,T4,T4R1,Harvest,baler
+7/21/1992,T3,T3R1,Harvest,combine
+7/21/1992,T4,T4R1,Harvest,combine
+7/9/1992,T6,T6R1,Harvest,chopper? for chopping...
+7/7/1992,T6,T6R1,Harvest,haybine
+6/3/1992,T6,T6R1,Fertilizer application,unknown
+5/28/1992,T6,T6R1,Harvest,chopper? for chopping...
+5/27/1992,T6,T6R1,Harvest,haybine
+5/20/1992,T2,T2R1,Fertilizer application,broadcast sprayer
+5/19/1992,T2,T2R1,Planting,unknown
+5/18/1992,T1,T1R1,Soil Preparation,disk
+5/18/1992,T1,T1R1,Soil Preparation,cultipacker
+5/18/1992,T1,T1R1,Planting,unknown
+5/18/1992,T1,T1R1,Weed control,broadcast sprayer
+5/15/1992,T1,T1R1,Soil Preparation,disk
+5/15/1992,T1,T1R1,Soil Preparation,Moldboard plow
+5/15/1992,T2,T2R1,Weed control,unknown
+11/1/1991,T8,T8R1,Weed control,flail mower
+10/23/1991,T1,T1R1,Weed control,flail mower
+10/23/1991,T2,T2R1,Weed control,flail mower
+10/17/1991,T6,T6R1,Harvest,baler
+10/17/1991,T6,T6R1,Harvest,rake
+10/14/1991,T3,T3R1,Planting,unknown
+10/14/1991,T4,T4R1,Planting,unknown
+10/10/1991,T1,T1R1,Harvest,combine
+10/10/1991,T2,T2R1,Harvest,combine
+10/9/1991,T3,T3R1,Planting,unknown
+10/9/1991,T4,T4R1,Planting,unknown
+10/8/1991,T6,T6R1,Harvest,haybine
+10/1/1991,T3,T3R1,Harvest,combine
+10/1/1991,T4,T4R1,Harvest,combine
+8/26/1991,T6,T6R1,Harvest,baler
+8/26/1991,T6,T6R1,Harvest,rake
+8/16/1991,T6,T6R1,Harvest,haybine
+7/23/1991,T6,T6R1,Pesticide application,broadcast sprayer
+7/18/1991,T1,T1R1,Fertilizer application,broadcast sprayer
+7/18/1991,T2,T2R1,Fertilizer application,broadcast sprayer
+7/11/1991,T6,T6R1,Harvest,rake
+7/11/1991,T6,T6R1,Harvest,baler
+7/11/1991,T6,T6R1,Harvest,haybine
+7/10/1991,T3,T3R1,Weed control,row cultivator --type unknown
+7/10/1991,T4,T4R1,Weed control,row cultivator --type unknown
+6/17/1991,T2,T2R1,Fertilizer application,broadcast sprayer
+6/15/1991,T1,T1R1,Planting,unknown
+6/15/1991,T1,T1R1,Fertilizer application,broadcast sprayer
+6/15/1991,T2,T2R1,Planting,unknown
+6/14/1991,T3,T3R1,Weed control,row cultivator --type unknown
+6/14/1991,T4,T4R1,Weed control,row cultivator --type unknown
+6/12/1991,T6,T6R1,Fertilizer application,broadcast sprayer
+6/7/1991,T1,T1R1,Weed control,broadcast sprayer
+6/7/1991,T2,T2R1,Weed control,broadcast sprayer
+6/7/1991,T3,T3R1,Weed control,broadcast sprayer
+6/7/1991,T4,T4R1,Weed control,broadcast sprayer
+6/4/1991,T6,T6R1,Weed control,rake
+6/4/1991,T6,T6R1,Weed control,baler
+6/2/1991,T3,T3R1,Weed control,row cultivator --type unknown
+6/2/1991,T4,T4R1,Weed control,row cultivator --type unknown
+5/30/1991,T6,T6R1,Harvest,haybine
+5/28/1991,T2,T2R1,Weed control,broadcast sprayer
+5/24/1991,T1,T1R1,Weed control,broadcast sprayer
+5/21/1991,T3,T3R1,Planting,unknown
+5/21/1991,T3,T3R1,Weed control,mower
+5/21/1991,T4,T4R1,Planting,unknown
+5/21/1991,T4,T4R1,Weed control,mower
+5/7/1991,T2,T2R1,Weed control,broadcast sprayer
+5/3/1991,T2,T2R1,Planting,unknown
+5/2/1991,T1,T1R1,Soil Preparation,disk
+5/2/1991,T1,T1R1,Soil Preparation,row cultivator --type unknown
+5/2/1991,T2,T2R1,Planting,unknown
+4/25/1991,T1,T1R1,Soil Preparation,Moldboard plow
+11/12/1990,T3,T3R1,Weed control,combine
+11/12/1990,T4,T4R1,Weed control,combine
+11/1/1990,T8,T8R1,Weed control,flail mower
+10/22/1990,T6,T6R1,Harvest,haybine
+10/17/1990,T1,T1R1,Harvest,combine
+10/16/1990,T2,T2R1,Harvest,combine
+8/27/1990,T6,T6R1,Harvest,baler
+8/27/1990,T6,T6R1,Harvest,rake
+8/17/1990,T6,T6R1,Harvest,haybine
+8/6/1990,T3,T3R1,Planting,broadcast sprayer
+8/6/1990,T4,T4R1,Planting,broadcast sprayer
+8/1/1990,T6,T6R1,Pesticide application,broadcast sprayer
+7/16/1990,T4,T4R1,Weed control,row cultivator --type unknown
+7/14/1990,T4,T4R1,Weed control,row cultivator --type unknown
+7/11/1990,T3,T3R1,Weed control,row cultivator --type unknown
+7/6/1990,T6,T6R1,Harvest,haybine
+7/6/1990,T6,T6R1,Harvest,rake
+7/6/1990,T6,T6R1,Harvest,baler
+6/12/1990,T3,T3R1,Weed control,row cultivator --type unknown
+6/12/1990,T4,T4R1,Weed control,row cultivator --type unknown
+6/11/1990,T6,T6R1,Weed control,mower
+6/1/1990,T6,T6R1,Harvest,chopper? for chopping...
+5/31/1990,T1,T1R1,Weed control,broadcast sprayer
+5/31/1990,T2,T2R1,Weed control,broadcast sprayer
+5/30/1990,T6,T6R1,Harvest,haybine
+5/29/1990,T1,T1R1,Planting,unknown
+5/29/1990,T3,T3R1,Weed control,row cultivator --type unknown
+5/29/1990,T4,T4R1,Weed control,row cultivator --type unknown
+5/28/1990,T2,T2R1,Planting,unknown
+5/25/1990,T1,T1R1,Soil Preparation,cultipacker
+5/25/1990,T1,T1R1,Soil Preparation,Moldboard plow
+5/25/1990,T1,T1R1,Soil Preparation,disk
+5/25/1990,T1,T1R1,Soil Preparation,row cultivator --type unknown
+5/21/1990,T4,T4R1,Soil Preparation,Rotary Hoe
+5/8/1990,T2,T2R1,Weed control,unknown
+5/7/1990,T3,T3R1,Soil Preparation,Rotary Hoe
+5/7/1990,T4,T4R1,Soil Preparation,Rotary Hoe
+5/1/1990,T4,T4R1,Planting,unknown
+4/30/1990,T3,T3R1,Planting,unknown
+4/30/1990,T3,T3R1,Fertilizer application,unknown
+3/20/1990,T5,T5R1,Planting,unknown
+11/1/1989,T8,T8R1,Weed control,flail mower
+10/23/1989,T1,T1R1,Harvest,combine
+10/23/1989,T2,T2R1,Harvest,combine
+8/25/1989,T6,T6R1,Planting,unknown
+8/17/1989,T6,T6R1,Harvest,haybine
+8/17/1989,T6,T6R1,Harvest,rake
+8/17/1989,T6,T6R1,Harvest,baler
+8/12/1989,T3,T3R1,Planting,broadcast sprayer
+8/12/1989,T4,T4R1,Planting,broadcast sprayer
+8/7/1989,T3,T3R1,Soil Preparation,disk
+8/7/1989,T3,T3R1,Soil Preparation,ridger...for ridging?
+8/7/1989,T4,T4R1,Soil Preparation,ridger...for ridging?
+8/7/1989,T4,T4R1,Soil Preparation,disk
+7/24/1989,T3,T3R1,Harvest,baler
+7/24/1989,T4,T4R1,Harvest,baler
+7/17/1989,T3,T3R1,Harvest,combine
+7/17/1989,T4,T4R1,Harvest,combine
+7/7/1989,T6,T6R1,Harvest,haybine
+7/3/1989,T2,T2R1,Weed control,unknown
+6/29/1989,T2,T2R1,Fertilizer application,broadcast sprayer
+6/29/1989,T5,T5R1,Fertilizer application,broadcast sprayer
+6/26/1989,T1,T1R1,Fertilizer application,Gandy Orbit-Air (15' boom)
+5/16/1989,T1,T1R1,Weed control,broadcast sprayer
+5/16/1989,T7,T7R1,Soil Preparation,row cultivator --type unknown
+5/12/1989,T2,T2R1,Weed control,230 gallon Vicon sprayer
+5/10/1989,T7,T7R1,Soil Preparation,disk
+5/4/1989,T1,T1R1,Planting,Buffalo planter
+5/3/1989,T1,T1R1,Soil Preparation,disk
+5/3/1989,T2,T2R1,Planting,Buffalo planter
+5/1/1989,T1,T1R1,Soil Preparation,row cultivator --type unknown
+5/1/1989,T1,T1R1,Soil Preparation,disk
+5/1/1989,T7,T7R1,Soil Preparation,Moldboard plow
+4/27/1989,T6,T6R1,Soil Preparation,row cultivator --type unknown
+4/27/1989,T6,T6R1,Soil Preparation,cultipacker
+4/27/1989,T6,T6R1,Planting,10' Tye ‘Series 5’ grain drill 
+4/26/1989,T2,T2R1,Soil Preparation,Moldboard plow
+4/26/1989,T7,T7R1,Soil Preparation,Moldboard plow
+4/24/1989,T5,T5R1,Planting,unknown
+4/22/1989,T6,T6R1,Soil Preparation,disk
+4/21/1989,T6,T6R1,Soil Preparation,disk
+4/20/1989,T5,T5R1,Soil Preparation,disk
+4/20/1989,T5,T5R1,Soil Preparation,Moldboard plow
+4/20/1989,T6,T6R1,Soil Preparation,Moldboard plow
+4/19/1989,T5,T5R1,Soil Preparation,disk
+4/18/1989,T5,T5R1,Soil Preparation,Moldboard plow
+4/17/1989,T5,T5R1,Soil Preparation,Moldboard plow
+11/8/1988,T3,T3R1,Planting,unknown
+11/8/1988,T4,T4R1,Planting,unknown
+11/3/1988,T3,T3R1,Planting,no-till implement carrier 
+11/3/1988,T3,T3R1,Planting,10' Tye ‘Series 5’ grain drill 
+11/3/1988,T4,T4R1,Planting,no-till implement carrier 
+11/3/1988,T4,T4R1,Planting,10' Tye ‘Series 5’ grain drill 
+10/27/1988,T2,T2R1,Harvest,John Deere 4425 combine
+5/9/1988,T1,T1R1,Soil Preparation,3 bottom plow
+5/9/1988,T1,T1R1,Soil Preparation,MF 298
+5/9/1988,T2,T2R1,Soil Preparation,3 bottom plow
+5/9/1988,T2,T2R1,Soil Preparation,MF 298
+5/9/1988,T3,T3R1,Soil Preparation,MF 298
+5/9/1988,T3,T3R1,Soil Preparation,3 bottom plow
+5/9/1988,T4,T4R1,Soil Preparation,3 bottom plow
+5/9/1988,T4,T4R1,Soil Preparation,MF 298
+5/9/1988,T5,T5R1,Soil Preparation,MF 298
+5/9/1988,T5,T5R1,Soil Preparation,3 bottom plow
+5/9/1988,T6,T6R1,Soil Preparation,3 bottom plow
+5/9/1988,T6,T6R1,Soil Preparation,MF 298
+5/9/1988,T7,T7R1,Soil Preparation,3 bottom plow
+5/9/1988,T7,T7R1,Soil Preparation,MF 298

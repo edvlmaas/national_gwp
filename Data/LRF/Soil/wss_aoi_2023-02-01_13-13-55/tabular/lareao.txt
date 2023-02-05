@@ -1,0 +1,7 @@
+"Climate Factor Area (USLE)"|"70"|"Climate Factor"|576416|"13328"|"507166"
+"County or Parish"|"TX303"|"Lubbock"|576416|"13328"|"507167"
+"MLRA"|"77C"|"Southern High Plains, Southern Part"|548739|"13328"|"507168"
+"MLRA"|"77E"|"Southern High Plains, Breaks"|27677|"13328"|"507169"
+"Rainfall Factor Area (USLE)"|"120"|"Rainfall Factor"|576416|"13328"|"507170"
+"State or Territory"|"TX"|"Texas"||"13328"|"507171"
+"Texas Administrative Zones"|"1"|"Texas Zone 1 (Lubbock)"||"13328"|"507172"

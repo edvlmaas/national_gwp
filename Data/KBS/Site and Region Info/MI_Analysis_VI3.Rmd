@@ -1,0 +1,288 @@
+---
+title: "MI_Analysis_Evap"
+author: "Ellen Maas"
+date: "10/20/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+knitr::opts_chunk$set(echo = TRUE, params="ask")
+```
+
+
+```{r libraries, message=FALSE}
+library(readxl)
+library(plotly)
+library(magrittr)
+library(dplyr)
+library(data.table)
+```
+
+```{r import}
+# measured C
+MIObs <- read.csv("Site and Crop Info/Sites/KBS - MI/KBS/ObservedC.csv")
+# add control plot C
+MIObs <- rbind(c(1850, 60.12), MIObs)
+# county yields
+
+# import RothC modeled points (MON  YR  DPM  RPM  BIO  HUM  TOTAL  CO2  D14C)
+RothCObs_df<- read.fwf("RothC/MI-RS/graph/MI_1.263",widths=c(3,5,10,9,9,9,9,10,9),
+                      col.names = c("MON","Year","DPM","RPM","BIO","HUM","ModC","CO2","D14C"),
+                      colClasses=c("numeric","numeric","numeric","numeric","numeric","numeric","numeric",
+                                   "numeric","numeric"),skip=1)
+RothCN_df <- read.fwf("RothC/MI-RS/graph/N_2 .263",widths=c(3,5,10,9,9,9,9,10,9),
+                      col.names = c("MON","Year","DPM","RPM","BIO","HUM","ModC","CO2","D14C"),
+                      colClasses=c("numeric","numeric","numeric","numeric","numeric","numeric","numeric",
+                                   "numeric","numeric"),skip=1)
+RothCS_df <- read.fwf("RothC/MI-RS/graph/S_3 .263",widths=c(3,5,10,9,9,9,9,10,9),
+                      col.names = c("MON","Year","DPM","RPM","BIO","HUM","ModC","CO2","D14C"),
+                      colClasses=c("numeric","numeric","numeric","numeric","numeric","numeric","numeric",
+                                   "numeric","numeric"),skip=1)
+RothCM_df <- read.fwf("RothC/MI-RS/graph/M_8 .263",widths=c(3,5,10,9,9,9,9,10,9),
+                      col.names = c("MON","Year","DPM","RPM","BIO","HUM","ModC","CO2","D14C"),
+                      colClasses=c("numeric","numeric","numeric","numeric","numeric","numeric","numeric",
+                                   "numeric","numeric"),skip=1)
+
+
+# merge obs and mod C
+data <- merge(MIObs,
+             RothCObs_df[,c(2,7)], 
+             by="Year", 
+             all=TRUE)
+data <- merge(data,
+             RothCN_df[,c(2,7)], 
+             by="Year", 
+             all=TRUE)
+data <- merge(data,
+             RothCS_df[,c(2,7)], 
+             by="Year", 
+             all=TRUE)
+data <- merge(data,
+             RothCM_df[,c(2,7)], 
+             by="Year", 
+             all=TRUE)
+colnames(data) <- c("Year","ObsC","RObsC","RNC","RSC","RMC")
+
+```
+
+```{r plot_multi_lines}
+
+plot(data$Year, data$RNC, type="l", ylim=c(0,80), col="red", 
+     main="Soil C at Kellogg Biological Station, MI",
+     xlab="Year", ylab="Mg C ha-1", cex.lab=1.5, cex.axis=1.5, cex.main=1.5, cex.sub=1.5)
+abline(v=1900, col="grey", lty=2)
+lines(data$Year,data$RSC, type = "l", col="blue")
+lines(data$Year,data$RMC, type = "l", col="orange")
+lines(data$Year, data$RObsC, type = "l", col="black")
+points(data$Year,data$ObsC, type = "p", col="black", pch=20)
+legend("topright", legend=c("Observed","RothC Observed","RothC NVDI Yield","RothC SAVI Yield",
+                            "RothC MSAVI Yield"),
+       lty=c(NA,1,1,1,1),pch=c(20,NA,NA,NA,NA), col=c("black","black","red","blue","orange"))
+
+```
+
+```{r zoom in on 1989-1999}
+
+subsetDF <- data[data$Year>=1989 & data$Year<=1999,]
+
+par(mgp=c(2.5, 1, 0)) # to move axis labels closer to plot
+plot(subsetDF$Year, subsetDF$RNC, type="l", ylim=c(0,80), col="red", 
+     main="Soil C at Kellogg Biological Station, MI", xlab="Year", 
+     ylab=bquote("Mg C ha"^"-1"), 
+     cex.lab=1.5, cex.axis=1.5, cex.main=1.5, cex.sub=1.5)
+abline(v=1900, col="grey", lty=2)
+lines(subsetDF$Year,subsetDF$RSC, type = "l", col="blue")
+lines(subsetDF$Year,subsetDF$RMC, type = "l", col="orange")
+lines(subsetDF$Year, subsetDF$RObsC, type = "l", col="black")
+points(subsetDF$Year,subsetDF$ObsC, type = "p", col="black", pch=20)
+legend("topright", legend=c("Observed","RothC Observed","RothC NDVI Yield","RothC SAVI Yield",
+                            "RothC MSAVI Yield"),
+       lty=c(NA,1,1,1,1),pch=c(20,NA,NA,NA,NA), col=c("black","black","red","blue","orange"))
+
+```
+
+```{r model_1999_summary}
+
+# transpose data to table format with each column a row instead
+TOC1999 <- as.data.frame(data[data$Year==1999,]) %>%
+  pivot_longer(everything(), names_to=c("ModelName"),values_to="TOCStock") %>%
+  mutate(TOCStock = round(TOCStock,1))
+# remove Year as a row
+TOC1999 <- TOC1999[-c(1,2),]
+  ## then add summary info with quantity and % changes for stock and SOC%
+TOC1999 <- TOC1999 %>%
+  mutate(TOCStock_delta = round(TOC1999$TOCStock-as.double(TOC1999[TOC1999$ModelName=="RObsC",2]),1),
+         TOCStock_pct = round((1-(as.double(TOC1999[TOC1999$ModelName=="RObsC",2])/TOC1999$TOCStock))*100
+                              ,2),
+         SOCpct = round(TOC1999$TOCStock/(25*1.2),2)
+  )
+TOC1999 <- TOC1999 %>%
+  mutate(SOCpct_delta = round(TOC1999$SOCpct-as.double(TOC1999[TOC1999$ModelName=="RObsC",5]),2),
+         SOCpct_pct = round((1-(as.double(TOC1999[TOC1999$ModelName=="RObsC",5])/TOC1999$SOCpct))*100
+                            ,2)
+         )
+
+
+```
+
+```{r statistical analyses RothC Obs vs. NDVI}
+# only care about 1900-2018
+RObsC <- data[data$Year>=1989 & data$Year<=1999,3]
+RNC <- data[data$Year>=1989 & data$Year<=1999,4]
+
+# check for normality
+par(mfrow=c(1,2))
+hist(RObsC, breaks=10)
+qqnorm(RObsC)
+qqline(RObsC)
+
+par(mfrow=c(1,2))
+hist(RNC, breaks=10)
+qqnorm(RNC)
+qqline(RNC)
+
+# perform statistics
+RObs_stats <- summary(RObsC)
+RObs_sd <- sd(RObsC)
+N_stats <- summary(RNC)
+N_sd <- sd(RNC)
+# Welch Two-Sample t-test
+twosampN_ttest <- t.test(RObsC, y=RNC, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test
+#twosampN_wtest <- wilcox.test(RObsC, y=RNC, paired=TRUE, 
+#                                       alternative="two.sided")
+
+##################
+
+# test paired one sample
+difference <- RObsC-RNC
+
+# check for normality
+par(mfrow=c(1,2))
+hist(difference, breaks=10)
+qqnorm(difference)
+qqline(difference)
+
+# perform statistics
+diffN_stats <- summary(difference)
+diffN_sd <- sd(difference)
+# One Sample t-test
+diffN_ttest <- t.test(difference, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test with continuity correction
+diffN_wtest <- wilcox.test(difference, paired=FALSE, alternative="two.sided")
+```
+
+```{r statistical analyses RothC Obs vs. SAVI}
+# only care about 1900-2018
+RObsC <- data[data$Year>=1989 & data$Year<=1999,3]
+RSC <- data[data$Year>=1989 & data$Year<=1999,4]
+
+# check for normality
+par(mfrow=c(1,2))
+hist(RObsC, breaks=10)
+qqnorm(RObsC)
+qqline(RObsC)
+
+par(mfrow=c(1,2))
+hist(RSC, breaks=10)
+qqnorm(RSC)
+qqline(RSC)
+
+# perform statistics
+RObs_stats <- summary(RObsC)
+RObs_sd <- sd(RObsC)
+S_stats <- summary(RSC)
+S_sd <- sd(RSC)
+# Welch Two-Sample t-test
+twosampS_ttest <- t.test(RObsC, y=RSC, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test
+#twosampS_wtest <- wilcox.test(RObsC, y=RSC, paired=TRUE, 
+#                                       alternative="two.sided")
+
+##################
+
+# test paired one sample
+difference <- RObsC-RSC
+
+# check for normality
+par(mfrow=c(1,2))
+hist(difference, breaks=10)
+qqnorm(difference)
+qqline(difference)
+
+# perform statistics
+diffS_stats <- summary(difference)
+diffS_sd <- sd(difference)
+# One Sample t-test
+diffS_ttest <- t.test(difference, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test with continuity correction
+diffS_wtest <- wilcox.test(difference, paired=FALSE, alternative="two.sided")
+```
+
+```{r statistical analyses RothC Obs vs. MSAVI}
+# only care about 1900-2018
+RObsC <- data[data$Year>=1989 & data$Year<=1999,3]
+RMC <- data[data$Year>=1989 & data$Year<=1999,4]
+
+# check for normality
+par(mfrow=c(1,2))
+hist(RObsC, breaks=10)
+qqnorm(RObsC)
+qqline(RObsC)
+
+par(mfrow=c(1,2))
+hist(RMC, breaks=10)
+qqnorm(RMC)
+qqline(RMC)
+
+# perform statistics
+RObs_stats <- summary(RObsC)
+RObs_sd <- sd(RObsC)
+M_stats <- summary(RMC)
+M_sd <- sd(RMC)
+# Welch Two-Sample t-test
+twosampM_ttest <- t.test(RObsC, y=RMC, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test
+#twosampM_wtest <- wilcox.test(RObsC, y=RMC, paired=TRUE, 
+#                                       alternative="two.sided")
+
+##################
+
+# test paired one sample
+difference <- RObsC-RMC
+
+# check for normality
+par(mfrow=c(1,2))
+hist(difference, breaks=10)
+qqnorm(difference)
+qqline(difference)
+
+# perform statistics
+diffM_stats <- summary(difference)
+diffM_sd <- sd(difference)
+# One Sample t-test
+diffM_ttest <- t.test(difference, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test with continuity correction
+diffM_wtest <- wilcox.test(difference, paired=FALSE, alternative="two.sided")
+```
+
+```{r calculate % difference between model runs}
+N_diff <- data.frame(RNC-RObsC)
+S_diff <- data.frame(RSC-RObsC)
+M_diff <- data.frame(RMC-RObsC)
+
+# calc % diff
+N_diff$pct <- N_diff[,1]/RNC*100
+S_diff$pct <- S_diff[,1]/RSC*100
+M_diff$pct <- M_diff[,1]/RMC*100
+
+# calc mean diffs after first 75 years (differences stabilize after that)
+mean_N_diff_C <- mean(N_diff[76:119,1]) 
+mean_N_diff_pct <- mean(N_diff[76:119,2])
+mean_S_diff_C <- mean(S_diff[76:119,1])
+mean_S_diff_pct <- mean(S_diff[76:119,2])
+mean_M_diff_C <- mean(M_diff[76:119,1])
+mean_M_diff_pct <- mean(M_diff[76:119,2])
+```
+

@@ -1,0 +1,901 @@
+---
+title: "2_Calibrate_APSIM"
+author: "Ellen Maas"
+date: "8/24/2022"
+output: html_document
+description: "Runs all graphs for the LDNDC simulation at KBS, MI."
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+knitr::opts_chunk$set(echo = TRUE, params="ask")
+```
+
+
+```{r libraries, message=FALSE}
+library(readxl)
+library(magrittr)
+library(lubridate)
+library(tidyverse)
+library(graphics)
+library(ggplot2)
+```
+
+########## NOTE: Be sure to set the "phase" variable below to either the 
+"exp"erimental time period or through "2100"  ###################
+
+# import observations and global constants
+
+```{r import_and_clean}
+
+p_Observations_and_constants
+
+```
+
+# local constants
+
+```{r constants}
+
+phase <- '_exp'
+#phase <- '_2100'
+
+LDNDC_filepath <- paste0("../LDNDC/ldndc-1.30.4.win64/projects/",site_name,"/",
+                         site_name,"_output/")
+
+```
+
+#############################
+# import LDNDC modeled points
+#############################
+
+```{r import_LDNDC}
+
+#temp_out <- read_apsimx("APSIM/KBS.db")
+
+LDNDC_harvest <- read.delim(paste0(LDNDC_filepath,site_name,"_report-harvest.txt"), 
+                            header=T, sep='\t')
+LDNDC_soilchem_layer <- read.delim(paste0(LDNDC_filepath,site_name,"_soilchemistry-layer-daily.txt"), 
+                            header=T, sep='\t')
+LDNDC_soilchem_yearly <- read.delim(paste0(LDNDC_filepath,site_name,"_soilchemistry-yearly.txt"), 
+                            header=T, sep='\t')
+LDNDC_soiltemp <- read.delim(paste0(LDNDC_filepath,site_name,"_microclimate-daily.txt"), 
+                            header=T, sep='\t')
+LDNDC_soilwater <- read.delim(paste0(LDNDC_filepath,site_name,"_watercycle-daily.txt"), 
+                            header=T, sep='\t')
+
+APSIM_out <- read_xlsx(APSIM_filepath) %>%
+  mutate(date=as.Date(Clock.Today,format="%m/%d/%Y"),
+         year=year(date),
+         month=month(date),
+         day=day(date),
+         SoilTemp_020cm_C=SoilTemp_20cm_C,
+         SoilTemp_040cm_C=SoilTemp_40cm_C,
+         SoilTemp_060cm_C=SoilTemp_60cm_C,
+         SoilTemp_080cm_C=SoilTemp_80cm_C)
+
+APSIMC_Mgha <- LDNDC_harvest[,c("datetime","dC_bud.kgCha.1")] %>%
+  mutate(date=as.date(datetime))
+
+APSIMY_Mgha <- APSIM_out[,c("year","MaizeYield_kgha","SoyYield_kgha",
+                                "WheatYield_kgha")] %>%
+  group_by(year) %>%
+  summarize(MaizeYield_Mgha=round(max(MaizeYield_kgha/1000),3),
+            SoyYield_Mgha=round(max(SoyYield_kgha/1000),3),
+            WheatYield_Mgha=round(max(WheatYield_kgha/1000),3))
+
+APSIMT_C <- APSIM_out[,c("date","year","SoilTemp_20cm_C")] %>%
+  mutate(SoilTemp_20cm_C=round(SoilTemp_20cm_C,1))
+
+APSIMM_V <- APSIM_out[,c("date","year","VolH2O_20cm")] %>%
+  mutate(VolH2O_20cm=round(VolH2O_20cm*100,0))
+
+APSIMB_gcc <- APSIM_out[,c("date","year","BulkDensity_gcc(1)")] %>%
+  mutate(BulkDensity_gcc=round(APSIM_out$`BulkDensity_gcc(1)`,2))
+
+APSIMGN_ghaday <- APSIM_out[,c("date","year","N2OEmissions_kgha")] %>%
+  mutate(N2OEmissions_ghaday = round(N2OEmissions_kgha*1000,2))
+
+
+```
+
+```{r merge_data}
+
+# merge observed and modeled data
+
+MaizeYld_Mgha <- merge(ObsYield[ObsYield$crop=="Maize",c("year","mean_yield")],
+             APSIMY_Mgha[APSIMY_Mgha$MaizeYield_Mgha != 0,
+                             c("year","MaizeYield_Mgha")],
+             by="year",
+             all=TRUE)
+colnames(MaizeYld_Mgha) <- c("year","KBS_Observed","APSIM")
+
+MaizeYld_Mgha_piv <- pivot_longer(MaizeYld_Mgha, c(-year),
+               names_to = "source",
+               values_to = "yield_val")
+
+##
+SoyYld_Mgha <- merge(ObsYield[ObsYield$crop=="Soybean",c("year","mean_yield")],
+             APSIMY_Mgha[APSIMY_Mgha$SoyYield_Mgha != 0,
+                             c("year","SoyYield_Mgha")],
+             by="year",
+             all=TRUE)
+colnames(SoyYld_Mgha) <- c("year","KBS_Observed","APSIM")
+
+SoyYld_Mgha_piv <- pivot_longer(SoyYld_Mgha, c(-year),
+               names_to = "source",
+               values_to = "yield_val")
+
+##
+WheatYld_Mgha <- merge(ObsYield[ObsYield$crop=="Wheat",c("year","mean_yield")],
+             APSIMY_Mgha[APSIMY_Mgha$WheatYield_Mgha != 0,
+                             c("year","WheatYield_Mgha")],
+             by="year",
+             all=TRUE)
+colnames(WheatYld_Mgha) <- c("year","KBS_Observed","APSIM")
+
+WheatYld_Mgha_piv <- pivot_longer(WheatYld_Mgha, c(-year),
+               names_to = "source",
+               values_to = "yield_val")
+
+##
+Cstock_Mgha <- merge(ObsC_Mgha[,c("year","cstock")],
+             APSIMC_Mgha,
+             by="year",
+             all=TRUE)
+colnames(Cstock_Mgha) <- c("year","KBS_Observed","APSIM")
+
+Cstock_Mgha_piv <-  pivot_longer(Cstock_Mgha, c(-year),
+               names_to = "source",
+               values_to = "C_val")
+
+##
+SoilTemp_C <- merge(ObsTemp[,c("date","soil_temperature")],
+             APSIMT_C[,c("date","SoilTemp_20cm_C")],
+             by="date",
+             all=TRUE)
+colnames(SoilTemp_C) <- c("date","KBS_Observed","APSIM")
+
+SoilTemp_C_piv <- pivot_longer(SoilTemp_C, c(-date),
+               names_to = "source",
+               values_to = "temp_val")
+
+##
+SoilMoist_VSM <- merge(ObsVSM[,c("date","mean_VSM")],
+                       APSIMM_V[,c("date","VolH2O_20cm")],
+                       by="date",
+                       all=TRUE)
+colnames(SoilMoist_VSM) <- c("date","KBS_Observed","APSIM")
+
+SoilMoist_VSM_piv <- pivot_longer(SoilMoist_VSM, c(-date),
+               names_to = "source",
+               values_to = "h2o_val")
+
+##
+SoilBD_gcc <- merge(ObsBD[,c("year","mean_BD")],
+                    APSIMB_gcc[APSIMB_gcc$date=="1996-01-01",c("year","BulkDensity_gcc")],
+                    by="year",
+                    all=TRUE)
+colnames(SoilBD_gcc) <- c("year","KBS_Observed","APSIM")
+
+SoilBD_gcc_piv <- pivot_longer(SoilBD_gcc, c(-year),
+               names_to = "source",
+               values_to = "bd_val")
+
+N2O_ghaday <- merge(ObsGas[,c("date","N2O_N")],
+                    APSIMGN_ghaday[,c("date","N2OEmissions_ghaday")],
+                    by="date",
+                    all=TRUE)
+colnames(N2O_ghaday) <- c("date","KBS_Observed","APSIM")
+
+N2O_ghaday_piv <- pivot_longer(N2O_ghaday, c(-date),
+                               names_to = "source",
+                               values_to = "n2o_val")
+
+```
+
+# for debugging soil temp
+
+```{r debug_soil_temp}
+
+#### original output
+
+Annual_temp_means <- merge(Obs_wth,
+                           SoilTemp_C[!is.na(SoilTemp_C$KBS_Observed),],
+                           by="date",
+                           all=F) %>%
+  group_by(year(date)) %>%
+  summarize(meant_air=round(mean(meant,na.rm=T),1),
+            meant_obs=round(mean(KBS_Observed,na.rm=T),1),
+            meant_aps=round(mean(APSIM,na.rm=T),1))
+colnames(Annual_temp_means) <- c("year","meant_air","meant_obs","meant_aps")
+
+Annual_temp_means_piv <- pivot_longer(Annual_temp_means, c(-year),
+                                      names_to = "source",
+                                      values_to = "val")
+
+Temp_by_layer <- pivot_longer(APSIM_out[,c("date","year","SoilTemp_020cm_C",
+                                           "SoilTemp_040cm_C","SoilTemp_060cm_C",
+                                           "SoilTemp_080cm_C","SoilTemp_100cm_C",
+                                           "SoilTemp_120cm_C","SoilTemp_140cm_C",
+                                           "SoilTemp_160cm_C","SoilTemp_180cm_C",
+                                           "SoilTemp_200cm_C")],
+                              c(-date,-year),
+                              names_to="source",
+                              values_to="val")
+
+# observed mean air temperature with observed soil air temperature for troubleshooting
+
+gSA <- Obs_wth %>%
+ggplot(aes(x=date, y=meant, color=source)) +
+  geom_line(show.legend=TRUE) +
+  geom_point(data=SoilTemp_C_piv[SoilTemp_C_piv$source=='KBS_Observed',], 
+            aes(x=date, y=temp_val)) +
+  ggtitle("Observed Air and Soil Temperature") +
+  xlab("Year") +
+  ylab(expression('Temperature (' ^o*'C)')) +
+  scale_color_manual(labels=c("Air","Soil"),
+                     values=cbPalette9[c(4,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gSA
+
+gSA_2005 <- Obs_wth[Obs_wth$year==2005,] %>%
+ggplot(aes(x=date, y=meant, color=source)) +
+  geom_line(show.legend=TRUE) +
+  geom_point(data=SoilTemp_C_piv[SoilTemp_C_piv$source=='KBS_Observed'&
+                                   year(SoilTemp_C_piv$date)==2005,], 
+            aes(x=date, y=temp_val)) +
+  geom_point(data=SoilTemp_C_piv[SoilTemp_C_piv$source=='APSIM'&
+                                   year(SoilTemp_C_piv$date)==2005,], 
+            aes(x=date, y=temp_val)) +
+  ggtitle("Observed Air and Soil Temperature") +
+  xlab("Year") +
+  ylab(expression('Temperature (' ^o*'C)')) +
+  scale_color_manual(labels=c("Air","APSIM_Soil", "Obs_Soil"),
+                     values=cbPalette9[c(4,8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gSA_2005
+
+gSA_2010 <- Obs_wth[Obs_wth$year==2010,] %>%
+ggplot(aes(x=date, y=meant, color=source)) +
+  geom_line(show.legend=TRUE) +
+  geom_point(data=SoilTemp_C_piv[SoilTemp_C_piv$source=='KBS_Observed'&
+                                   year(SoilTemp_C_piv$date)==2010,], 
+            aes(x=date, y=temp_val)) +
+  geom_point(data=SoilTemp_C_piv[SoilTemp_C_piv$source=='APSIM'&
+                                   year(SoilTemp_C_piv$date)==2010,], 
+            aes(x=date, y=temp_val)) +
+  ggtitle("Observed Air and Soil Temperature") +
+  xlab("Year") +
+  ylab(expression('Temperature (' ^o*'C)')) +
+  scale_color_manual(labels=c("Air","APSIM_Soil", "Obs_Soil"),
+                     values=cbPalette9[c(4,8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gSA_2010
+
+gSA_2014 <- Obs_wth[Obs_wth$year==2014,] %>%
+ggplot(aes(x=date, y=meant, color=source)) +
+  geom_line(show.legend=TRUE) +
+  geom_point(data=SoilTemp_C_piv[SoilTemp_C_piv$source=='KBS_Observed'&
+                                   year(SoilTemp_C_piv$date)==2014,], 
+            aes(x=date, y=temp_val)) +
+  geom_point(data=SoilTemp_C_piv[SoilTemp_C_piv$source=='APSIM'&
+                                   year(SoilTemp_C_piv$date)==2014,], 
+            aes(x=date, y=temp_val)) +
+  ggtitle("Observed Air and Soil Temperature") +
+  xlab("Year") +
+  ylab(expression('Temperature (' ^o*'C)')) +
+  scale_color_manual(labels=c("Air","APSIM_Soil", "Obs_Soil"),
+                     values=cbPalette9[c(4,8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gSA_2014
+
+gTmean <- Annual_temp_means_piv %>%
+ggplot(aes(x=year, y=val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  ggtitle("Annual Average Air and Soil Temperature") +
+  xlab("Year") +
+  ylab(expression('Temperature (' ^o*'C)')) +
+  scale_color_manual(labels=c("Air","APSIM_Soil", "Obs_Soil"),
+                     values=cbPalette9[c(4,8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gTmean
+
+gTlayer <-Temp_by_layer[Temp_by_layer$year==2021,] %>%
+  ggplot(aes(x=date, y=val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  ggtitle("Soil Temperature by Layer") +
+  xlab("Year") +
+  ylab(expression('Soil Temperature (' ^o*'C)')) +
+  # scale_color_manual(labels=c("Air","APSIM_Soil", "Obs_Soil"),
+  #                    values=cbPalette9[c(4,8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gTlayer
+
+ggsave(filename=paste0("Air_Soil_comparison",phase,".jpg"),plot=gSA)
+ggsave(filename=paste0("Air_Soil_comparison_2005",phase,".jpg"),plot=gSA_2005)
+ggsave(filename=paste0("Air_Soil_comparison_2010",phase,".jpg"),plot=gSA_2010)
+ggsave(filename=paste0("Air_Soil_comparison_2014",phase,".jpg"),plot=gSA_2014)
+ggsave(filename=paste0("Air_Soil_comparison_annual_mean",phase,".jpg"),plot=gTmean)
+ggsave(filename=paste0("Soil_Temperature_by_Layer",phase,".jpg"),plot=gTlayer)
+
+
+```
+
+## testing scenarios
+
+```{r debug_scenario1}
+
+#### excessive surface maize residue
+
+APSIM_scenario1_out <- read_xlsx(paste0("APSIM/KBS",phase,"_oneyr_increased_residue.xlsx")) %>%
+  mutate(date=as.Date(Clock.Today,format="%m/%d/%Y"),
+         year=year(date),
+         month=month(date),
+         day=day(date),
+         SoilTemp_020cm_C=SoilTemp_20cm_C,
+         SoilTemp_040cm_C=SoilTemp_40cm_C,
+         SoilTemp_060cm_C=SoilTemp_60cm_C,
+         SoilTemp_080cm_C=SoilTemp_80cm_C)
+
+Scenario1 <- merge(APSIM_scenario1_out[,c("date","SoilTemp_020cm_C")],
+                   APSIM_out[,c("date","SoilTemp_020cm_C")],
+                   by="date",
+                   all=F)
+colnames(Scenario1) <- c("date","incr_residue_dat","original_dat")
+  
+Scenario1_piv <- pivot_longer(Scenario1, c(-date),
+                                      names_to = "source",
+                                      values_to = "val")
+
+gTscen1 <-Scenario1_piv %>%
+  ggplot(aes(x=date, y=val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  ggtitle("Scenario 1 - Increased Surface Residue") +
+  xlab("Year") +
+  ylab(expression('Soil Temperature (' ^o*'C)')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gTscen1
+
+ggsave(filename=paste0("Test_Increased_Residue",phase,".jpg"),plot=gTscen1)
+
+```
+
+```{r debug_scenario2}
+
+#### excessive split surface 0-20cm layer to 0-2, 2-5, 5-10, 10-20cm
+
+APSIM_scenario2_out <- read_xlsx(paste0("APSIM/KBS",phase,"_split_surface_layers.xlsx")) %>%
+  mutate(date=as.Date(Clock.Today,format="%m/%d/%Y"),
+         year=year(date),
+         month=month(date),
+         day=day(date),
+         SoilTemp_002cm_C=SoilTemp_2cm_C,
+         SoilTemp_005cm_C=SoilTemp_5cm_C,
+         SoilTemp_010cm_C=SoilTemp_10cm_C,
+         SoilTemp_020cm_C=SoilTemp_20cm_C,
+         SoilTemp_040cm_C=SoilTemp_40cm_C,
+         SoilTemp_060cm_C=SoilTemp_60cm_C,
+         SoilTemp_080cm_C=SoilTemp_80cm_C)
+
+Scenario2 <- merge(APSIM_scenario2_out[,c("date","SoilTemp_010cm_C")],
+                   APSIM_out[,c("date","SoilTemp_020cm_C")],
+                   by="date",
+                   all=F)
+colnames(Scenario2) <- c("date","5_10cm","0_20cm")
+  
+Scenario2_piv <- pivot_longer(Scenario2, c(-date),
+                                      names_to = "source",
+                                      values_to = "val")
+
+gTscen2 <-Scenario2_piv %>%
+  ggplot(aes(x=date, y=val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  ggtitle("Scenario 2 - Split Surface Layers") +
+  xlab("Year") +
+  ylab(expression('Soil Temperature (' ^o*'C)')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gTscen2
+
+ggsave(filename=paste0("Test_Split_Surface_Layers_5_10cm",phase,".jpg"),plot=gTscen2)
+
+```
+
+```{r debug_scenario2b}
+
+#### excessive split surface 0-20cm layer to 0-2, 2-5, 5-15, 15-20cm
+
+APSIM_scenario2b_out <- read_xlsx(paste0("APSIM/KBS",phase,"_split_surface_layers_5_15.xlsx")) %>%
+  mutate(date=as.Date(Clock.Today,format="%m/%d/%Y"),
+         year=year(date),
+         month=month(date),
+         day=day(date),
+         SoilTemp_002cm_C=SoilTemp_2cm_C,
+         SoilTemp_005cm_C=SoilTemp_5cm_C,
+         SoilTemp_015cm_C=SoilTemp_15cm_C,
+         SoilTemp_020cm_C=SoilTemp_20cm_C,
+         SoilTemp_040cm_C=SoilTemp_40cm_C,
+         SoilTemp_060cm_C=SoilTemp_60cm_C,
+         SoilTemp_080cm_C=SoilTemp_80cm_C)
+
+Scenario2b <- merge(APSIM_scenario2b_out[,c("date","SoilTemp_015cm_C")],
+                   APSIM_out[,c("date","SoilTemp_020cm_C")],
+                   by="date",
+                   all=F)
+colnames(Scenario2b) <- c("date","5_15cm","0_20cm")
+  
+Scenario2b_piv <- pivot_longer(Scenario2b, c(-date),
+                                      names_to = "source",
+                                      values_to = "val")
+
+gTscen2b <-Scenario2b_piv %>%
+  ggplot(aes(x=date, y=val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  ggtitle("Scenario 2b - Split Surface Layers") +
+  xlab("Year") +
+  ylab(expression('Soil Temperature (' ^o*'C)')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gTscen2b
+
+ggsave(filename=paste0("Test_Split_Surface_Layers_5_15cm",phase,".jpg"),plot=gTscen2b)
+
+```
+
+```{r debug_scenario3}
+
+#### adjust TAV from 9.3 to 5.3
+
+APSIM_scenario3_out <- read_xlsx(paste0("APSIM/KBS",phase,"_adjust_TAV_5_3.xlsx")) %>%
+  mutate(date=as.Date(Clock.Today,format="%m/%d/%Y"),
+         year=year(date),
+         month=month(date),
+         day=day(date),
+         SoilTemp_020cm_C=SoilTemp_20cm_C,
+         SoilTemp_040cm_C=SoilTemp_40cm_C,
+         SoilTemp_060cm_C=SoilTemp_60cm_C,
+         SoilTemp_080cm_C=SoilTemp_80cm_C)
+
+Scenario3 <- merge(APSIM_scenario3_out[,c("date","SoilTemp_020cm_C")],
+                   APSIM_out[,c("date","SoilTemp_020cm_C")],
+                   by="date",
+                   all=F)
+colnames(Scenario3) <- c("date","TAV5_3","TAV9_3")
+  
+Scenario3_piv <- pivot_longer(Scenario3, c(-date),
+                                      names_to = "source",
+                                      values_to = "val")
+
+gTscen3 <-Scenario3_piv %>%
+  ggplot(aes(x=date, y=val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  ggtitle("Scenario 3 - Adjust TAV from 9.3 to 5.3") +
+  xlab("Year") +
+  ylab(expression('Soil Temperature (' ^o*'C)')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gTscen3
+
+ggsave(filename=paste0("Test_TAV_to_5_3",phase,".jpg"),plot=gTscen3)
+
+```
+
+```{r debug_scenario3b}
+
+#### adjust TAV from 9.3 to 5.3
+
+APSIM_scenario3b_out <- read_xlsx(paste0("APSIM/KBS",phase,"_adjust_TAV_1_3.xlsx")) %>%
+  mutate(date=as.Date(Clock.Today,format="%m/%d/%Y"),
+         year=year(date),
+         month=month(date),
+         day=day(date),
+         SoilTemp_020cm_C=SoilTemp_20cm_C,
+         SoilTemp_040cm_C=SoilTemp_40cm_C,
+         SoilTemp_060cm_C=SoilTemp_60cm_C,
+         SoilTemp_080cm_C=SoilTemp_80cm_C)
+
+Scenario3b <- merge(APSIM_scenario3b_out[,c("date","SoilTemp_020cm_C")],
+                   APSIM_out[,c("date","SoilTemp_020cm_C")],
+                   by="date",
+                   all=F)
+colnames(Scenario3b) <- c("date","TAV1_3","TAV9_3")
+  
+Scenario3b_piv <- pivot_longer(Scenario3b, c(-date),
+                                      names_to = "source",
+                                      values_to = "val")
+
+gTscen3b <-Scenario3b_piv %>%
+  ggplot(aes(x=date, y=val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  ggtitle("Scenario 3b - Adjust TAV from 9.3 to 5.3") +
+  xlab("Year") +
+  ylab(expression('Soil Temperature (' ^o*'C)')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gTscen3b
+
+ggsave(filename=paste0("Test_TAV_to_1_3",phase,".jpg"),plot=gTscen3b)
+
+```
+```{r debug_scenario3c}
+
+#### adjust TAV from 9.3 to 20.3
+
+APSIM_scenario3c_out <- read_xlsx(paste0("APSIM/KBS",phase,"_adjust_TAV_20_3.xlsx")) %>%
+  mutate(date=as.Date(Clock.Today,format="%m/%d/%Y"),
+         year=year(date),
+         month=month(date),
+         day=day(date),
+         SoilTemp_020cm_C=SoilTemp_20cm_C,
+         SoilTemp_040cm_C=SoilTemp_40cm_C,
+         SoilTemp_060cm_C=SoilTemp_60cm_C,
+         SoilTemp_080cm_C=SoilTemp_80cm_C)
+
+Scenario3c <- merge(APSIM_scenario3c_out[,c("date","SoilTemp_020cm_C")],
+                   APSIM_out[,c("date","SoilTemp_020cm_C")],
+                   by="date",
+                   all=F)
+colnames(Scenario3c) <- c("date","TAV20_3","TAV9_3")
+  
+Scenario3c_piv <- pivot_longer(Scenario3c, c(-date),
+                                      names_to = "source",
+                                      values_to = "val")
+
+gTscen3c <-Scenario3c_piv %>%
+  ggplot(aes(x=date, y=val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  ggtitle("Scenario 3c - Adjust TAV from 9.3 to 20.3") +
+  xlab("Year") +
+  ylab(expression('Soil Temperature (' ^o*'C)')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gTscen3c
+
+ggsave(filename=paste0("Test_TAV_to_20_3",phase,".jpg"),plot=gTscen3c)
+
+```
+
+
+
+
+
+# Temporal graphs
+
+```{r temporal_trends}
+
+gMY <- MaizeYld_Mgha_piv %>%
+ggplot(aes(x=year, y=yield_val, color=source, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  xlab("Year") +
+  ylab(expression('Maize Yield (Mg ha' ^-1*')')) +
+  scale_color_manual(labels=c("APSIM","Observed"),
+                     values=cbPalette9[c(8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gMY
+
+gSY <- SoyYld_Mgha_piv %>%
+ggplot(aes(x=year, y=yield_val, color=source, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  xlab("Year") +
+  ylab(expression('Soybean Yield (Mg ha' ^-1*')')) +
+  scale_color_manual(labels=c("APSIM","Observed"),
+                     values=cbPalette9[c(8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gSY
+
+gWY <- WheatYld_Mgha_piv %>%
+ggplot(aes(x=year, y=yield_val, color=source, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  xlab("Year") +
+  ylab(expression('Wheat Yield (Mg ha' ^-1*')')) +
+  scale_color_manual(labels=c("APSIM","Observed"),
+                     values=cbPalette9[c(8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gWY
+
+Cfit_APSIM <- coef(lm(APSIM ~ year, data = Cstock_Mgha))
+Cfit_Obs <- coef(lm(KBS_Observed ~ year, data = Cstock_Mgha))
+
+gC <- Cstock_Mgha_piv %>%
+ggplot(aes(x=year, y=C_val, color=source, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  xlab("Year") +
+  ylab(expression('SOC stock (Mg C ha' ^-1*')')) +
+  geom_abline(intercept=Cfit_APSIM[1], slope=Cfit_APSIM[2], color="orange") +
+  geom_abline(intercept=Cfit_Obs[1], slope=Cfit_Obs[2], color="black") +
+  scale_color_manual(labels=c("APSIM","Observed"),
+                     values=cbPalette9[c(8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gC 
+
+gT <- SoilTemp_C_piv[SoilTemp_C_piv$source=='APSIM',] %>%
+ggplot(aes(x=date, y=temp_val, color=source, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  geom_point(data=SoilTemp_C_piv[SoilTemp_C_piv$source=='KBS_Observed',],
+             aes(x=date, y=temp_val, color=source, show.legend=TRUE)) +
+  ggtitle("APSIM and Observed Soil Temperature") +
+  xlab("Year") +
+  ylab(expression('Soil temperature (' ^o*'C)')) +
+  scale_color_manual(labels=c("APSIM","Observed"),
+                     values=cbPalette9[c(8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gT
+
+gM <- SoilMoist_VSM_piv[SoilMoist_VSM_piv$source=='APSIM',] %>%
+ggplot(aes(x=date, y=h2o_val, color=source, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  geom_point(data=SoilMoist_VSM_piv[SoilMoist_VSM_piv$source=='KBS_Observed',],
+             aes(x=date, y=h2o_val, color=source, show.legend=TRUE)) +
+  xlab("Year") +
+  ylab("Volumetric soil moisture (%)") +
+  scale_color_manual(labels=c("APSIM","Observed"),
+                     values=cbPalette9[c(8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gM
+
+gB <- SoilBD_gcc_piv %>%
+  ggplot(aes(x=source,y=bd_val, fill=factor(year))) +
+  geom_col(position="dodge") +
+  ylab(expression('Bulk density (g cc' ^-1*')')) +
+  labs(fill="Year") +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gB
+
+gNG <- N2O_ghaday_piv[N2O_ghaday_piv$source=='APSIM',] %>%
+  ggplot(aes(x=date, y=n2o_val, color=source)) +
+  geom_line(show.legend=TRUE) +
+  geom_point(data=N2O_ghaday_piv[N2O_ghaday_piv$source=='KBS_Observed',],
+             aes(x=date, y=n2o_val, color=source)) +
+  geom_segment(data=Fert[Fert$treatment=="T1"&Fert$n_rate_kg_ha>10,],
+               aes(x = date, y = 200,
+                   xend = date, yend = 175),
+                   colour=cbPalette9[7],
+                   show.legend=F,
+                   lineend = "round",
+                   linejoin = "round",
+                   arrow = arrow(length = unit(0.3, "cm"))
+   # colour = "black" 
+                   ) + 
+  xlab("Year") +
+  ylab(expression('N'[2]*'O Emissions (g ha ' ^-1*'day ' ^-1*')')) +
+  scale_color_manual(labels=c("APSIM","Observed","Fertilizer"),
+                     values=cbPalette9[c(8,1,7)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gNG
+
+# ggsave(filename=paste0("Maize_yield_comparison",phase,".jpg"),plot=gMY)
+# ggsave(filename=paste0("Soybean_yield_comparison",phase,".jpg"),plot=gSY)
+# ggsave(filename=paste0("Wheat_yield_comparison",phase,".jpg"),plot=gWY)
+# ggsave(filename=paste0("SOC_comparison",phase,".jpg"),plot=gC)
+ #ggsave(filename=paste0("Soil_Temp_comparison",phase,".jpg"),plot=gT)
+ # ggsave(filename=paste0("Soil_Moist_comparison",phase,".jpg"),plot=gM)
+# ggsave(filename=paste0("N2O_comparison",phase,".jpg"),plot=gNG)
+
+```
+
+```{r obs_only}
+
+  N2O_ghaday_piv[N2O_ghaday_piv$source=='KBS_Observed',] %>%
+  ggplot(aes(x=date, y=n2o_val, color=source, show.legend=TRUE)) +
+  geom_point(show.legend=TRUE) +
+  xlab("Year") +
+  ylab(expression('N'[2]*'O Emissions (g ha ' ^-1*'day ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+```
+
+# 1:1 correlations
+
+```{r 1to1_correlations, fig.width=6, fig.height=6}
+
+MYfit <- coef(lm(APSIM ~ KBS_Observed, data = MaizeYld_Mgha))
+
+gMY_121 <- MaizeYld_Mgha %>%
+  ggplot(aes(x=KBS_Observed, y=APSIM,
+             xmin=min(KBS_Observed, APSIM, na.rm=T), xmax=max(KBS_Observed, APSIM, na.rm=T),
+             ymin=min(KBS_Observed, APSIM, na.rm=T), ymax=max(KBS_Observed, APSIM, na.rm=T))) +
+  geom_point() +
+  geom_abline() +
+  geom_abline(intercept=MYfit[1], slope=MYfit[2], color="blue") +
+  ggtitle("Maize Yield") +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line(),
+        plot.title = element_text(hjust = 0.5))
+
+gMY_121
+
+##
+SYfit <- coef(lm(APSIM ~ KBS_Observed, data = SoyYld_Mgha))
+
+gSY_121 <- SoyYld_Mgha %>%
+  ggplot(aes(x=KBS_Observed, y=APSIM,
+             xmin=min(KBS_Observed, APSIM, na.rm=T), xmax=max(KBS_Observed, APSIM, na.rm=T),
+             ymin=min(KBS_Observed, APSIM, na.rm=T), ymax=max(KBS_Observed, APSIM, na.rm=T))) +
+  geom_point() +
+  geom_abline() +
+  geom_abline(intercept=SYfit[1], slope=SYfit[2], color="blue") +
+  ggtitle("Soybean Yield") +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line(),
+        plot.title = element_text(hjust = 0.5))
+
+gSY_121
+
+##
+WYfit <- coef(lm(APSIM ~ KBS_Observed, data = WheatYld_Mgha))
+
+gWY_121 <- WheatYld_Mgha %>%
+  ggplot(aes(x=KBS_Observed, y=APSIM,
+             xmin=min(KBS_Observed, APSIM, na.rm=T), xmax=max(KBS_Observed, APSIM, na.rm=T),
+             ymin=min(KBS_Observed, APSIM, na.rm=T), ymax=max(KBS_Observed, APSIM, na.rm=T))) +
+  geom_point() +
+  geom_abline() +
+  geom_abline(intercept=WYfit[1], slope=WYfit[2], color="blue") +
+  ggtitle("Wheat Yield") +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line(),
+        plot.title = element_text(hjust = 0.5))
+
+gWY_121
+
+##
+Cfit <- coef(lm(APSIM ~ KBS_Observed, data = Cstock_Mgha))
+
+gC_121 <- Cstock_Mgha %>%
+  ggplot(aes(x=KBS_Observed, y=APSIM,
+             xmin=min(KBS_Observed, APSIM, na.rm=T), xmax=max(KBS_Observed, APSIM, na.rm=T),
+             ymin=min(KBS_Observed, APSIM, na.rm=T), ymax=max(KBS_Observed, APSIM, na.rm=T))) +
+  geom_point() +
+  geom_abline() +
+  geom_abline(intercept=Cfit[1], slope=Cfit[2], color="blue") +
+  ggtitle("C stock") +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line(),
+        plot.title = element_text(hjust = 0.5))
+
+gC_121
+
+##
+Tfit <- coef(lm(APSIM ~ KBS_Observed, data = SoilTemp_C))
+
+gT_121 <- SoilTemp_C %>%
+  ggplot(aes(x=KBS_Observed, y=APSIM,
+             xmin=min(KBS_Observed, APSIM, na.rm=T), xmax=max(KBS_Observed, APSIM, na.rm=T),
+             ymin=min(KBS_Observed, APSIM, na.rm=T), ymax=max(KBS_Observed, APSIM, na.rm=T))) +
+  geom_point() +
+  geom_abline() +
+  geom_abline(intercept=Tfit[1], slope=Tfit[2], color="blue") +
+  ggtitle("Soil temperature") +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line(),
+        plot.title = element_text(hjust = 0.5))
+
+gT_121
+
+##
+Mfit <- coef(lm(APSIM ~ KBS_Observed, data = SoilMoist_VSM))
+
+gM_121 <- SoilMoist_VSM %>%
+  ggplot(aes(x=KBS_Observed, y=APSIM, 
+             xmin=min(KBS_Observed, APSIM, na.rm=T), xmax=max(KBS_Observed, APSIM, na.rm=T), 
+             ymin=min(KBS_Observed, APSIM, na.rm=T), ymax=max(KBS_Observed, APSIM, na.rm=T))) +
+  geom_point() +
+  geom_abline() +
+  geom_abline(intercept=Mfit[1], slope=Mfit[2], color="blue") +
+  ggtitle("Volumetric soil moisture") +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line(),
+        plot.title = element_text(hjust = 0.5))
+
+gM_121
+
+##
+Nfit <- coef(lm(APSIM ~ KBS_Observed, data = N2O_ghaday))
+
+gNG_121 <- N2O_ghaday[N2O_ghaday$KBS_Observed!=0,] %>%
+  ggplot(aes(x=KBS_Observed, y=APSIM,
+             xmin=min(KBS_Observed, APSIM, na.rm=T), xmax=max(KBS_Observed, APSIM, na.rm=T),
+             ymin=min(KBS_Observed, APSIM, na.rm=T), ymax=max(KBS_Observed, APSIM, na.rm=T))) +
+  geom_point() +
+  geom_abline() +
+  geom_abline(intercept=Nfit[1], slope=Nfit[2], color="blue") +
+  ggtitle(expression('N'[2]*'O Emissions (g ha ' ^-1*' day '^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line(),
+        plot.title = element_text(hjust = 0.5))
+
+gNG_121
+
+# ggsave(filename=paste0("Maize_yield_comparison_1to1",phase,".jpg"),plot=gMY_121)
+# ggsave(filename=paste0("Soybean_yield_comparison_1to1",phase,".jpg"),plot=gSY_121)
+# ggsave(filename=paste0("Wheat_yield_comparison_1to1",phase,".jpg"),plot=gWY_121)
+# ggsave(filename=paste0("SOC_comparison_1to1",phase,".jpg"),plot=gC_121)
+ ggsave(filename=paste0("Soil_Temp_comparison_1to1",phase,".jpg"),plot=gT_121)
+# ggsave(filename=paste0("Soil_Moist_comparison_1to1",phase,".jpg"),plot=gM_121)
+# ggsave(filename=paste0("N2O_comparison_1to1",phase,".jpg"),plot=gNG_121)
+
+```

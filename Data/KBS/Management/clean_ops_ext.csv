@@ -1,0 +1,2167 @@
+"year","treatment","observation_type","material","rate","units","equipment","date","crop"
+1989,"T5","Soil Preparation",NA,NA,NA,"Moldboard plow",1989-04-17,NA
+1989,"T5","Soil Preparation",NA,NA,NA,"disk",1989-04-19,NA
+1989,"T6","Soil Preparation",NA,NA,NA,"Moldboard plow",1989-04-20,NA
+1989,"T1","Soil Preparation",NA,NA,NA,"Moldboard plow",1989-04-21,"Maize"
+1989,"T6","Soil Preparation",NA,NA,NA,"disk",1989-04-21,NA
+1989,"T7","Soil Preparation",NA,NA,NA,"Moldboard plow",1989-04-21,NA
+1989,"T5","Planting","poplar tree cuttings",NA,"unknown","unknown",1989-04-24,NA
+1989,"T5","Planting",NA,NA,NA,NA,1989-04-25,NA
+1989,"T7","Soil Preparation",NA,NA,NA,"plow --type unknown",1989-04-25,NA
+1989,"T2","Soil Preparation",NA,NA,NA,"Moldboard plow",1989-04-26,"Maize"
+1989,"T6","Planting","""big ten"" alfalfa",12,"pound","10' Tye ‘Series 5’ grain drill",1989-04-27,NA
+1989,"T6","Soil Preparation",NA,NA,NA,"cultipacker",1989-04-27,NA
+1989,"T6","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1989-04-27,NA
+1989,"T6","Soil Preparation",NA,NA,NA,"cultivator...type unknown",1989-04-28,NA
+1989,"T1","Soil Preparation",NA,NA,NA,"disk",1989-05-01,"Maize"
+1989,"T1","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1989-05-01,"Maize"
+1989,"T2","Planting","Great Lakes Hybrid 582 corn",24300,"plants","Buffalo planter",1989-05-03,"Maize"
+1989,"T1","Planting","Great Lakes Hybrid 582 corn",24300,"plants","Buffalo planter",1989-05-04,"Maize"
+1989,"T7","Soil Preparation",NA,NA,NA,"disk",1989-05-10,NA
+1989,"T7","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1989-05-16,NA
+1989,"T1","Fertilizer application","ammonium nitrate (34-0-0)",324,"pound","Gandy Orbit-Air (15' boom)",1989-06-26,"Maize"
+1989,"T2","Fertilizer application","ammonium nitrate (34-0-0)",324,"pound","broadcast sprayer",1989-06-29,"Maize"
+1989,"T5","Fertilizer application","ammonium nitrate (34-0-0)",324,"pound","broadcast sprayer",1989-06-29,NA
+1989,"T6","Harvest",NA,NA,NA,"haybine",1989-07-07,NA
+1989,"T3","Harvest","wheat",NA,"unknown","combine",1989-07-17,"Wheat"
+1989,"T4","Harvest","wheat",NA,"unknown","combine",1989-07-17,"Wheat"
+1989,"T3","Harvest","straw",NA,"unknown","baler",1989-07-24,"Wheat"
+1989,"T4","Harvest","straw",NA,"unknown","baler",1989-07-24,"Wheat"
+1989,"T3","Soil Preparation",NA,NA,NA,"disk",1989-08-07,"Wheat"
+1989,"T3","Soil Preparation",NA,NA,NA,"ridger...for ridging?",1989-08-07,"Wheat"
+1989,"T4","Soil Preparation",NA,NA,NA,"disk",1989-08-07,"Wheat"
+1989,"T4","Soil Preparation",NA,NA,NA,"ridger...for ridging?",1989-08-07,"Wheat"
+1989,"T3","Planting","hairy vetch",36.6,"pound","broadcast sprayer",1989-08-12,"Wheat"
+1989,"T4","Planting","hairy vetch",36.6,"pound","broadcast sprayer",1989-08-12,"Wheat"
+1989,"T6","Harvest",NA,NA,NA,"baler",1989-08-17,NA
+1989,"T6","Harvest",NA,NA,NA,"rake",1989-08-17,NA
+1989,"T6","Planting","""big ten"" alfalfa",12,"pound","unknown",1989-08-25,NA
+1989,"T1","Harvest",NA,NA,NA,"combine",1989-10-23,"Maize"
+1989,"T2","Harvest",NA,NA,NA,"combine",1989-10-23,"Maize"
+1990,"T5","Planting","creeping red fescue",28.6,"pound","unknown",1990-03-20,NA
+1990,"T3","Fertilizer application","ammonium nitrate (34-0-0)",74,"pound","unknown",1990-04-30,"Maize"
+1990,"T3","Planting","Great Lakes Hybrid 582 corn",24000,"seeds","unknown",1990-04-30,"Maize"
+1990,"T4","Planting","Great Lakes Hybrid 582 corn",24000,"seeds","unknown",1990-05-01,"Maize"
+1990,"T3","Soil Preparation",NA,NA,NA,"Rotary Hoe",1990-05-07,"Maize"
+1990,"T4","Soil Preparation",NA,NA,NA,"Rotary Hoe",1990-05-07,"Maize"
+1990,"T1","Soil Preparation",NA,NA,NA,"cultipacker",1990-05-25,"Soybean"
+1990,"T1","Soil Preparation",NA,NA,NA,"disk",1990-05-25,"Soybean"
+1990,"T1","Soil Preparation",NA,NA,NA,"Moldboard plow",1990-05-25,"Soybean"
+1990,"T1","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1990-05-25,"Soybean"
+1990,"T2","Planting","Pioneer 9272 soybeans",190000,"seeds","unknown",1990-05-28,"Soybean"
+1990,"T1","Planting","Pioneer 9272 soybeans",190000,"seeds","unknown",1990-05-29,"Soybean"
+1990,"T6","Harvest",NA,NA,NA,"haybine",1990-05-30,NA
+1990,"T6","Harvest","hay",NA,"unknown","chopper? for chopping...",1990-06-01,NA
+1990,"T7","Soil Preparation",NA,NA,NA,NA,1990-06-06,NA
+1990,"T6","Harvest",NA,NA,NA,"baler",1990-07-06,NA
+1990,"T6","Harvest",NA,NA,NA,"rake",1990-07-06,NA
+1990,"T3","Planting","hairy vetch",40,"pound","broadcast sprayer",1990-08-06,"Maize"
+1990,"T4","Planting","hairy vetch",40,"pound","broadcast sprayer",1990-08-06,"Maize"
+1990,"T6","Harvest",NA,NA,NA,NA,1990-08-27,NA
+1990,"T2","Harvest","soybeans",NA,"unknown","combine",1990-10-16,"Soybean"
+1990,"T1","Harvest","soybeans",NA,"unknown","combine",1990-10-17,"Soybean"
+1991,"T1","Soil Preparation",NA,NA,NA,"Moldboard plow",1991-04-25,"Maize"
+1991,"T1","Soil Preparation",NA,NA,NA,"disk",1991-05-02,"Maize"
+1991,"T1","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1991-05-02,"Maize"
+1991,"T2","Planting","Great Lakes 482 corn",25500,"seeds","unknown",1991-05-02,"Maize"
+1991,"T7","Soil Preparation",NA,NA,NA,NA,1991-05-09,NA
+1991,"T3","Planting","Pioneer 9202 soybeans",140000,"seeds","unknown",1991-05-21,"Soybean"
+1991,"T4","Planting","Pioneer 9202 soybeans",140000,"seeds","unknown",1991-05-21,"Soybean"
+1991,"T6","Harvest",NA,NA,NA,"haybine",1991-05-30,NA
+1991,"T6","Fertilizer application","0-0-60 potash fertilizer",350,"pound","broadcast sprayer",1991-06-12,NA
+1991,"T1","Fertilizer application","ammonium nitrate (34-0-0)",324,"pound","broadcast sprayer",1991-06-15,"Maize"
+1991,"T1","Planting","Great Lakes 220 corn",25500,"seeds","unknown",1991-06-15,"Maize"
+1991,"T2","Planting","Great Lakes 220 corn",25500,"seeds","unknown",1991-06-15,"Maize"
+1991,"T2","Fertilizer application","ammonium nitrate (34-0-0)",324,"pound","broadcast sprayer",1991-06-17,"Maize"
+1991,"T6","Harvest",NA,NA,NA,"baler",1991-07-11,NA
+1991,"T6","Harvest",NA,NA,NA,"rake",1991-07-11,NA
+1991,"T3","Harvest","soybeans",NA,"unknown","combine",1991-10-01,"Soybean"
+1991,"T4","Harvest","soybeans",NA,"unknown","combine",1991-10-01,"Soybean"
+1991,"T3","Planting","Augusta wheat",2.5,"bushel","unknown",1991-10-09,"Soybean"
+1991,"T4","Planting","Augusta wheat",2.5,"bushel","unknown",1991-10-09,"Soybean"
+1991,"T1","Harvest","corn",NA,"unknown","combine",1991-10-10,"Maize"
+1991,"T2","Harvest","corn",NA,"unknown","combine",1991-10-10,"Maize"
+1992,"T1","Soil Preparation",NA,NA,NA,"disk",1992-05-15,"Soybean"
+1992,"T1","Soil Preparation",NA,NA,NA,"Moldboard plow",1992-05-15,"Soybean"
+1992,"T1","Planting","Pioneer 9272 soybeans",190000,"plants","unknown",1992-05-18,"Soybean"
+1992,"T1","Soil Preparation",NA,NA,NA,"cultipacker",1992-05-18,"Soybean"
+1992,"T2","Planting","Pioneer 9272 soybeans",190000,"plants","unknown",1992-05-19,"Soybean"
+1992,"T2","Fertilizer application","Dual 8E",2.5,"pint","broadcast sprayer",1992-05-20,"Soybean"
+1992,"T2","Fertilizer application","Sencor pre-emergence 4L",0.5,"pint","broadcast sprayer",1992-05-20,"Soybean"
+1992,"T2","Fertilizer application","water",20,"gallon","broadcast sprayer",1992-05-20,"Soybean"
+1992,"T7","Soil Preparation",NA,NA,NA,NA,1992-05-21,NA
+1992,"T6","Harvest",NA,NA,NA,"haybine",1992-05-27,NA
+1992,"T6","Harvest","hay",NA,"unknown","chopper? for chopping...",1992-05-28,NA
+1992,"T6","Fertilizer application","0-0-60 potash fertilizer",100,"pound","unknown",1992-06-03,NA
+1992,"T6","Harvest",NA,NA,NA,"chopper? for chopping...",1992-07-09,NA
+1992,"T3","Harvest","wheat",NA,"unknown","combine",1992-07-21,"Wheat"
+1992,"T4","Harvest","wheat",NA,"unknown","combine",1992-07-21,"Wheat"
+1992,"T3","Harvest","straw",NA,"unknown","baler",1992-07-27,"Wheat"
+1992,"T4","Harvest","straw",NA,"unknown","baler",1992-07-27,"Wheat"
+1992,"T4","Planting","hairy vetch",30,"pound","broadcast sprayer",1992-08-06,"Wheat"
+1992,"T4","Soil Preparation",NA,NA,NA,"ridger...for ridging?",1992-08-06,"Wheat"
+1992,"T6","Harvest",NA,NA,NA,"rake",1992-08-14,NA
+1992,"T6","Harvest",NA,NA,NA,"baler",1992-08-17,NA
+1992,"T3","Planting","hairy vetch",30,"pound","broadcast sprayer",1992-08-26,"Wheat"
+1992,"T3","Soil Preparation",NA,NA,NA,"ridger...for ridging?",1992-08-26,"Wheat"
+1992,"T1","Harvest","soybeans",NA,"unknown","combine",1992-10-26,"Soybean"
+1992,"T2","Harvest","soybeans",NA,"unknown","combine",1992-10-27,"Soybean"
+1993,"T1","Fertilizer application","0-0-60 potash fertilizer",80,"pound","broadcast sprayer",1993-04-27,"Maize"
+1993,"T1","Fertilizer application","0-0-60 potash fertilizer",150,"pound","broadcast sprayer",1993-04-27,"Maize"
+1993,"T1","Soil Preparation",NA,NA,NA,"plow --type unknown",1993-04-27,"Maize"
+1993,"T2","Fertilizer application","0-0-60 potash fertilizer",80,"pound","broadcast sprayer",1993-04-27,"Maize"
+1993,"T2","Fertilizer application","0-0-60 potash fertilizer",150,"pound","broadcast sprayer",1993-04-27,"Maize"
+1993,"T3","Fertilizer application","0-0-60 potash fertilizer",80,"pound","broadcast sprayer",1993-04-27,"Maize"
+1993,"T3","Fertilizer application","0-0-60 potash fertilizer",150,"pound","broadcast sprayer",1993-04-27,"Maize"
+1993,"T1","Soil Preparation",NA,NA,NA,"Moldboard plow",1993-04-28,"Maize"
+1993,"T1","Soil Preparation",NA,NA,NA,"disk",1993-05-06,"Maize"
+1993,"T1","Planting","Great Lakes 450 corn",26000,"seeds","unknown",1993-05-07,"Maize"
+1993,"T1","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1993-05-07,"Maize"
+1993,"T2","Planting","Great Lakes 450 corn",26000,"plants","unknown",1993-05-07,"Maize"
+1993,"T3","Fertilizer application","28% UAN (28-0-0)",18,"gallon","unknown",1993-05-14,"Maize"
+1993,"T3","Planting","Great Lakes 450 corn",26000,"plants","unknown",1993-05-14,"Maize"
+1993,"T4","Planting","Great Lakes 450 corn",26000,"plants","unknown",1993-05-14,"Maize"
+1993,"T3","Soil Preparation",NA,NA,NA,"Rotary Hoe",1993-05-20,"Maize"
+1993,"T4","Soil Preparation",NA,NA,NA,"Rotary Hoe",1993-05-20,"Maize"
+1993,"T6","Harvest",NA,NA,NA,"haybine",1993-05-25,NA
+1993,"T6","Harvest",NA,NA,NA,"chopper? for chopping...",1993-05-26,NA
+1993,"T6","Fertilizer application","0-0-60 potash fertilizer",195,"pound","broadcast sprayer",1993-05-28,NA
+1993,"T6","Fertilizer application","0-0-60 potash fertilizer",257,"pound","broadcast sprayer",1993-05-28,NA
+1993,"T1","Fertilizer application","ammonium nitrate (34-0-0)",220,"pound","unknown",1993-06-30,"Maize"
+1993,"T1","Fertilizer application","ammonium nitrate (34-0-0)",220,"pound","broadcast sprayer",1993-07-01,"Maize"
+1993,"T2","Fertilizer application","ammonium nitrate (34-0-0)",220,"pound","broadcast sprayer",1993-07-01,"Maize"
+1993,"T3","Soil Preparation",NA,NA,NA,"Hiniker between-row cultivator",1993-07-07,"Maize"
+1993,"T4","Soil Preparation",NA,NA,NA,"ridger...for ridging?",1993-07-12,"Maize"
+1993,"T6","Harvest",NA,NA,NA,"rake",1993-07-13,NA
+1993,"T6","Harvest",NA,NA,NA,"baler",1993-07-15,NA
+1993,"T3","Planting","hairy vetch",30,"pound","broadcast sprayer",1993-08-17,"Maize"
+1993,"T3","Planting","hairy vetch",30,"pound","Tye Drill",1993-08-17,"Maize"
+1993,"T3","Planting",NA,NA,NA,"high-boy (dairy)",1993-08-17,"Maize"
+1993,"T4","Planting","hairy vetch",30,"pound","broadcast sprayer",1993-08-17,"Maize"
+1993,"T4","Planting","hairy vetch",30,"pound","Tye Drill",1993-08-17,"Maize"
+1993,"T4","Planting",NA,NA,NA,"high-boy (dairy)",1993-08-17,"Maize"
+1993,"T6","Harvest","hay",NA,"unknown","New Holland 1469 - Haybiner",1993-09-01,NA
+1993,"T6","Harvest",NA,NA,NA,NA,1993-09-01,NA
+1993,"T6","Fertilizer application","2,4-D amine",1,"quart","broadcast sprayer",1993-10-05,NA
+1993,"T6","Fertilizer application","Roundup (glyphosate)",2,"quart","broadcast sprayer",1993-10-05,NA
+1993,"T6","Fertilizer application","water",10,"gallon","broadcast sprayer",1993-10-05,NA
+1993,"T1","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",1993-10-13,"Maize"
+1993,"T6","Fertilizer application","Roundup (glyphosate)",2,"quart","unknown",1993-10-18,NA
+1993,"T6","Fertilizer application","water",10,"gallon","unknown",1993-10-18,NA
+1993,"T2","Harvest",NA,NA,NA,NA,1993-10-28,"Maize"
+1993,"T3","Harvest",NA,NA,NA,"combine",1993-10-29,"Maize"
+1993,"T3","Harvest","corn",NA,"unknown","combine",1993-11-02,"Maize"
+1993,"T3","Harvest",NA,NA,NA,NA,1993-11-02,"Maize"
+1993,"T4","Harvest","corn",NA,"unknown","combine",1993-11-06,"Maize"
+1993,"T1","Harvest","corn",NA,"unknown","John Deere 4425 combine",1993-11-08,"Maize"
+1993,"T1","Harvest","corn",NA,"unknown","combine",1993-11-09,"Maize"
+1993,"T1","Harvest",NA,NA,NA,"John Deere 4425 combine",1993-11-09,"Maize"
+1993,"T2","Harvest","corn",NA,"unknown","combine",1993-11-09,"Maize"
+1993,"T4","Harvest",NA,NA,NA,NA,1993-11-18,"Maize"
+1993,"T1","Harvest",NA,NA,NA,"flail mower",1993-11-22,"Maize"
+1993,"T2","Harvest",NA,NA,NA,"flail mower",1993-11-22,"Maize"
+1994,"T3","Harvest","corn stalks",NA,"unknown","flail mower",1994-04-07,"Soybean"
+1994,"T4","Harvest","corn stalks",NA,"unknown","flail mower",1994-04-07,"Soybean"
+1994,"T3","Soil Preparation",NA,NA,NA,"disk",1994-04-18,"Soybean"
+1994,"T4","Soil Preparation",NA,NA,NA,"disk",1994-04-18,"Soybean"
+1994,"T6","Planting","Pioneer 5246 alfalfa",18,"pound","Tye Drill",1994-04-21,NA
+1994,"T6","Planting","alfalfa",NA,"unknown","unknown",1994-04-22,NA
+1994,"T1","Soil Preparation",NA,NA,NA,"Moldboard plow",1994-05-04,"Soybean"
+1994,"T3","Soil Preparation",NA,NA,NA,"Moldboard plow",1994-05-06,"Soybean"
+1994,"T4","Soil Preparation",NA,NA,NA,"Moldboard plow",1994-05-06,"Soybean"
+1994,"T7","Soil Preparation",NA,NA,NA,NA,1994-05-11,NA
+1994,"T3","Soil Preparation",NA,NA,NA,"cultipacker",1994-05-12,"Soybean"
+1994,"T3","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1994-05-12,"Soybean"
+1994,"T1","Soil Preparation",NA,NA,NA,"disk",1994-05-13,"Soybean"
+1994,"T1","Soil Preparation",NA,NA,NA,"cultipacker",1994-05-16,"Soybean"
+1994,"T1","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1994-05-16,"Soybean"
+1994,"T3","Planting","Pioneer 9202 soybeans",140000,"plants","Buffalo planter",1994-05-16,"Soybean"
+1994,"T4","Planting","Pioneer 9202 soybeans",140000,"seeds","unknown",1994-05-17,"Soybean"
+1994,"T4","Soil Preparation",NA,NA,NA,"cultipacker",1994-05-17,"Soybean"
+1994,"T4","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1994-05-17,"Soybean"
+1994,"T1","Planting","Pioneer 9202 soybeans",200,"plants","Tye Drill",1994-05-18,"Soybean"
+1994,"T2","Planting","Pioneer 9202 soybeans",2e+05,"plants","unknown",1994-05-20,"Soybean"
+1994,"T3","Soil Preparation",NA,NA,NA,"Rotary Hoe",1994-06-01,"Soybean"
+1994,"T4","Soil Preparation",NA,NA,NA,"Rotary Hoe",1994-06-01,"Soybean"
+1994,"T1","Soil Preparation",NA,NA,NA,"Rotary Hoe",1994-06-07,"Soybean"
+1994,"T6","Harvest",NA,NA,NA,"haybine",1994-07-11,NA
+1994,"T6","Harvest",NA,NA,NA,"rake",1994-07-12,NA
+1994,"T6","Harvest",NA,NA,NA,NA,1994-07-18,NA
+1994,"T6","Harvest",NA,NA,NA,"baler",1994-07-19,NA
+1994,"T6","Fertilizer application","0-0-60 potash fertilizer",135,"pound","bulk spreader",1994-07-27,NA
+1994,"T2","Harvest","soybeans",NA,"unknown","combine",1994-10-06,"Soybean"
+1994,"T1","Harvest","soybeans",NA,"unknown","combine",1994-10-07,"Soybean"
+1994,"T1","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",1994-10-12,"Soybean"
+1994,"T2","Planting","Chelsea soft white winter wheat",2.5,"bushel","John Deere 750 10' no-till drill",1994-10-12,"Soybean"
+1994,"T2","Planting","Chelsea soft white winter wheat",2.5,"bushel","unknown",1994-10-12,"Soybean"
+1994,"T1","Planting","Chelsea soft white winter wheat",150,"pound","John Deere 750 10' no-till drill",1994-10-13,"Soybean"
+1994,"T2","Planting","Chelsea soft white winter wheat",150,"pound","John Deere 750 10' no-till drill",1994-10-13,"Soybean"
+1994,"T1","Planting","Chelsea soft white winter wheat",2.5,"bushel","John Deere 750 10' no-till drill",1994-10-14,"Soybean"
+1994,"T3","Harvest","soybeans",NA,"unknown","JD Combine",1994-10-15,"Soybean"
+1994,"T3","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",1994-10-17,"Soybean"
+1994,"T4","Harvest",NA,NA,NA,"JD Combine",1994-10-17,"Soybean"
+1994,"T3","Planting","Chelsea soft white winter wheat",2.5,"bushel","John Deere 750 10' no-till drill",1994-10-18,"Soybean"
+1994,"T3","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",1994-10-18,"Soybean"
+1994,"T4","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",1994-10-24,"Soybean"
+1994,"T4","Planting","Chelsea soft white winter wheat",2.5,"bushel","John Deere 750 10' no-till drill",1994-10-25,"Soybean"
+1994,"T4","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",1994-10-25,"Soybean"
+1995,"T3","Planting","Mammoth red clover (Trifolium pratense)",12,"pound","Gandy Orbit-Air (15' boom)",1995-03-09,"Wheat"
+1995,"T4","Planting","Mammoth red clover (Trifolium pratense)",12,"pound","Gandy Orbit-Air (15' boom)",1995-03-09,"Wheat"
+1995,"T1","Fertilizer application","ammonium nitrate (34-0-0)",147,"pound","unknown",1995-04-17,"Wheat"
+1995,"T2","Fertilizer application","ammonium nitrate (34-0-0)",147,"pound","unknown",1995-04-17,"Wheat"
+1995,"T3","Fertilizer application","ammonium nitrate (34-0-0)",88,"pound","unknown",1995-04-20,"Wheat"
+1995,"T1","Fertilizer application","2,4-D amine",1,"pint","8002 Flat Fan Nozzles",1995-05-06,"Wheat"
+1995,"T1","Fertilizer application","water",20,"gallon","8002 Flat Fan Nozzles",1995-05-06,"Wheat"
+1995,"T2","Fertilizer application","2,4-D amine",1,"pint","8002 Flat Fan Nozzles",1995-05-06,"Wheat"
+1995,"T2","Fertilizer application","water",20,"gallon","8002 Flat Fan Nozzles",1995-05-06,"Wheat"
+1995,"T7","Soil Preparation",NA,NA,NA,NA,1995-05-16,NA
+1995,"T6","Harvest","alfalfa",NA,"unknown","haybine",1995-05-31,NA
+1995,"T6","Harvest","hay",NA,"unknown","chopper? for chopping...",1995-06-01,NA
+1995,"T6","Fertilizer application","0-0-60 potash fertilizer",170,"pound","broadcast sprayer",1995-06-02,NA
+1995,"T6","Fertilizer application","0-0-60 potash fertilizer",240,"pound","broadcast sprayer",1995-06-02,NA
+1995,"T6","Fertilizer application","lime",1,"ton","unknown",1995-06-02,NA
+1995,"T6","Fertilizer application","lime",2,"ton","unknown",1995-06-02,NA
+1995,"T1","Harvest","wheat",NA,"unknown","combine",1995-07-21,"Wheat"
+1995,"T2","Soil Preparation","wheat",NA,"unknown","combine",1995-07-25,"Wheat"
+1995,"T2","Harvest","wheat",NA,"unknown","combine",1995-07-26,"Wheat"
+1995,"T3","Harvest","wheat",NA,"unknown","combine",1995-07-26,"Wheat"
+1995,"T4","Harvest","wheat",NA,"unknown","combine",1995-07-29,"Wheat"
+1995,"T1","Harvest","hay",NA,"unknown","baler",1995-08-07,"Wheat"
+1995,"T2","Harvest","hay",NA,"unknown","baler",1995-08-07,"Wheat"
+1995,"T3","Harvest","straw",NA,"unknown","baler",1995-08-08,"Wheat"
+1995,"T4","Harvest","straw",NA,"unknown","baler",1995-08-09,"Wheat"
+1995,"T6","Harvest",NA,NA,NA,"baler",1995-08-24,NA
+1996,"T1","Fertilizer application","0-0-60 potash fertilizer",200,"pound","spreader",1996-03-04,"Maize"
+1996,"T2","Fertilizer application","0-0-60 potash fertilizer",200,"pound","spreader",1996-03-04,"Maize"
+1996,"T2","Fertilizer application","0-0-60 potash fertilizer",200,"pound","unknown",1996-03-07,"Maize"
+1996,"T3","Fertilizer application","0-0-60 potash fertilizer",100,"pound","bulk spreader",1996-03-07,"Maize"
+1996,"T1","Soil Preparation",NA,NA,NA,"Moldboard plow",1996-04-18,"Maize"
+1996,"T3","Soil Preparation",NA,NA,NA,"JD plow",1996-04-28,"Maize"
+1996,"T3","Soil Preparation",NA,NA,NA,"JD tractor - type unknown",1996-04-28,"Maize"
+1996,"T3","Soil Preparation",NA,NA,NA,"Moldboard plow",1996-04-28,"Maize"
+1996,"T3","Soil Preparation",NA,NA,NA,"White roll-over plow",1996-04-28,"Maize"
+1996,"T4","Soil Preparation",NA,NA,NA,"JD plow",1996-04-28,"Maize"
+1996,"T4","Soil Preparation",NA,NA,NA,"JD tractor - type unknown",1996-04-28,"Maize"
+1996,"T4","Soil Preparation",NA,NA,NA,"Moldboard plow",1996-04-28,"Maize"
+1996,"T4","Soil Preparation",NA,NA,NA,"White roll-over plow",1996-04-28,"Maize"
+1996,"T7","Soil Preparation",NA,NA,NA,NA,1996-05-02,NA
+1996,"T1","Soil Preparation",NA,NA,NA,"disk",1996-05-06,"Maize"
+1996,"T3","Soil Preparation",NA,NA,NA,"disk",1996-05-06,"Maize"
+1996,"T4","Soil Preparation",NA,NA,NA,"disk",1996-05-07,"Maize"
+1996,"T4","Planting","Pioneer 3573 Corn Hybrid",26000,"seeds","unknown",1996-05-13,"Maize"
+1996,"T4","Planting",NA,NA,NA,"row cultivator --type unknown",1996-05-13,"Maize"
+1996,"T4","Soil Preparation","Pioneer 3573 Corn Hybrid",26000,"seeds","unknown",1996-05-13,"Maize"
+1996,"T4","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1996-05-13,"Maize"
+1996,"T1","Fertilizer application","28% UAN (28-0-0)",8,"gallon","planter",1996-05-14,"Maize"
+1996,"T1","Fertilizer application","N",25,"pound","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T1","Fertilizer application","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T1","Fertilizer application",NA,NA,NA,"row cultivator --type unknown",1996-05-14,"Maize"
+1996,"T1","Planting","N",25,"pound","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T1","Planting","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T1","Planting",NA,NA,NA,"row cultivator --type unknown",1996-05-14,"Maize"
+1996,"T1","Soil Preparation","N",25,"pound","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T1","Soil Preparation","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T1","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1996-05-14,"Maize"
+1996,"T3","Fertilizer application","28% UAN (28-0-0)",8,"gallon","unknown",1996-05-14,"Maize"
+1996,"T3","Fertilizer application","N",25,"pound","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T3","Fertilizer application","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T3","Fertilizer application",NA,NA,NA,"row cultivator --type unknown",1996-05-14,"Maize"
+1996,"T3","Planting","N",25,"pound","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T3","Planting","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T3","Planting",NA,NA,NA,"row cultivator --type unknown",1996-05-14,"Maize"
+1996,"T3","Soil Preparation","N",25,"pound","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T3","Soil Preparation","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo no-till planter",1996-05-14,"Maize"
+1996,"T3","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1996-05-14,"Maize"
+1996,"T2","Fertilizer application","28% UAN (28-0-0)",8,"pound","planter",1996-05-17,"Maize"
+1996,"T2","Planting","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo no-till planter",1996-05-17,"Maize"
+1996,"T3","Soil Preparation",NA,NA,NA,"Rotary Hoe",1996-05-22,"Maize"
+1996,"T4","Soil Preparation",NA,NA,NA,"Rotary Hoe",1996-05-22,"Maize"
+1996,"T6","Harvest","alfalfa",NA,"unknown","New Holland 1469 - Haybiner",1996-06-02,NA
+1996,"T6","Harvest",NA,NA,NA,"haybine",1996-06-03,NA
+1996,"T6","Harvest",NA,NA,NA,"chopper? for chopping...",1996-06-04,NA
+1996,"T3","Soil Preparation","Accent",0.667,"ounce","broadcast sprayer",1996-06-13,"Maize"
+1996,"T3","Soil Preparation","NIS surfactant",0.25,"%","broadcast sprayer",1996-06-13,"Maize"
+1996,"T6","Fertilizer application","0-0-60 potash fertilizer",250,"pound","broadcast sprayer",1996-06-13,NA
+1996,"T6","Fertilizer application","boron (B)",2,"pound","broadcast sprayer",1996-06-13,NA
+1996,"T6","Fertilizer application","pelleted lime",1,"ton","broadcast sprayer",1996-06-14,NA
+1996,"T3","Fertilizer application","Buctril Gel",0.5,"pint","unknown",1996-06-26,"Maize"
+1996,"T1","Fertilizer application","ammonium nitrate (34-0-0)",350,"pound","Gandy Orbit-Air (15' boom)",1996-06-27,"Maize"
+1996,"T2","Fertilizer application","ammonium nitrate (34-0-0)",353,"pound","Gandy Orbit-Air (15' boom)",1996-06-28,"Maize"
+1996,"T3","Planting","crimson clover",15,"pound","Gandy Orbit-Air (15' boom)",1996-06-28,"Maize"
+1996,"T4","Planting","crimson clover",15,"pound","Gandy Orbit-Air (15' boom)",1996-06-28,"Maize"
+1996,"T1","Harvest","alfalfa",NA,"unknown","haybine",1996-07-01,"Maize"
+1996,"T2","Harvest","alfalfa",NA,"unknown","haybine",1996-07-01,"Maize"
+1996,"T6","Harvest","alfalfa",NA,"unknown","chopper? for chopping...",1996-07-02,NA
+1996,"T6","Harvest","alfalfa",NA,"unknown","John Deere Haybine",1996-08-12,NA
+1996,"T6","Harvest","alfalfa",NA,"unknown","baler",1996-08-14,NA
+1996,"T6","Harvest",NA,NA,NA,"baler",1996-08-14,NA
+1996,"T6","Harvest",NA,NA,NA,"rake",1996-08-14,NA
+1996,"T2","Soil Preparation","corn",NA,"unknown","unknown",1996-10-25,"Maize"
+1996,"T3","Harvest","corn",NA,"unknown","unknown",1996-10-28,"Maize"
+1996,"T4","Harvest","corn",NA,"unknown","unknown",1996-10-28,"Maize"
+1996,"T1","Harvest","corn",NA,"unknown","unknown",1996-10-31,"Maize"
+1996,"T2","Harvest","corn",NA,"unknown","unknown",1996-11-01,"Maize"
+1997,"T7","Harvest","trees",NA,"unknown","unknown",1997-02-01,NA
+1997,"T1","Harvest","corn stalks",NA,"unknown","flail mower",1997-04-04,"Soybean"
+1997,"T3","Harvest","corn stalks",NA,"unknown","flail mower",1997-04-04,"Soybean"
+1997,"T4","Harvest","corn stalks",NA,"unknown","flail mower",1997-04-04,"Soybean"
+1997,"T1","Fertilizer application","lime",350,"pound","unknown",1997-04-09,"Soybean"
+1997,"T2","Fertilizer application",NA,NA,NA,"unknown",1997-04-09,"Soybean"
+1997,"T1","Fertilizer application","0-0-60 potash fertilizer",167,"pound","unknown",1997-04-10,"Soybean"
+1997,"T1","Fertilizer application","P205",91,"pound","unknown",1997-04-10,"Soybean"
+1997,"T2","Fertilizer application","0-0-60 potash fertilizer",167,"pound","unknown",1997-04-10,"Soybean"
+1997,"T2","Fertilizer application","P205",91,"pound","unknown",1997-04-10,"Soybean"
+1997,"T3","Fertilizer application","0-0-60 potash fertilizer",168,"pound","bulk spreader",1997-04-10,"Soybean"
+1997,"T3","Fertilizer application","P205",40,"pound","bulk spreader",1997-04-10,"Soybean"
+1997,"T6","Fertilizer application","Poast Plus",2,"pint","unknown",1997-05-06,NA
+1997,"T4","Soil Preparation",NA,NA,NA,"Moldboard plow",1997-05-07,"Soybean"
+1997,"T1","Soil Preparation",NA,NA,NA,"three bottom moldboard plow",1997-05-11,"Soybean"
+1997,"T7","Soil Preparation",NA,NA,NA,NA,1997-05-11,NA
+1997,"T3","Soil Preparation",NA,NA,NA,"Moldboard plow",1997-05-12,"Soybean"
+1997,"T4","Soil Preparation",NA,NA,NA,"disk",1997-05-12,"Soybean"
+1997,"T1","Soil Preparation",NA,NA,NA,"disk",1997-05-13,"Soybean"
+1997,"T3","Soil Preparation",NA,NA,NA,"disk",1997-05-13,"Soybean"
+1997,"T2","Planting","Pioneer 9172 soybeans",190000,"seeds","John Deere 750 10' no-till drill",1997-05-21,"Soybean"
+1997,"T1","Planting","Pioneer 9172 soybeans",190000,"seeds","John Deere 750 10' no-till drill",1997-05-22,"Soybean"
+1997,"T3","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1997-05-22,"Soybean"
+1997,"T4","Soil Preparation",NA,NA,NA,"cultipacker",1997-05-22,"Soybean"
+1997,"T4","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1997-05-22,"Soybean"
+1997,"T3","Planting","Pioneer 9172 soybeans",190000,"seeds","Buffalo planter",1997-05-23,"Soybean"
+1997,"T4","Planting","Pioneer 9172 soybeans",190000,"seeds","Buffalo planter",1997-05-23,"Soybean"
+1997,"T6","Harvest",NA,NA,NA,"unknown",1997-06-10,NA
+1997,"T3","Planting","Pioneer 2552 hard red winter wheat",NA,"unknown","unknown",1997-06-11,"Soybean"
+1997,"T4","Soil Preparation",NA,NA,NA,"John Deere 5400 Tractor",1997-06-11,"Soybean"
+1997,"T4","Soil Preparation",NA,NA,NA,"Rotary Hoe",1997-06-11,"Soybean"
+1997,"T6","Fertilizer application","0-0-60 potash fertilizer",300,"pound","broadcast sprayer",1997-06-12,NA
+1997,"T6","Fertilizer application","boron (B)",2,"pound","broadcast sprayer",1997-06-12,NA
+1997,"T6","Fertilizer application","pelleted lime",350,"pound","broadcast sprayer",1997-06-12,NA
+1997,"T6","Harvest","alfalfa",NA,"unknown","unknown",1997-07-11,NA
+1997,"T1","Harvest","soybeans",NA,"unknown","John Deere 4425 combine",1997-10-17,"Soybean"
+1997,"T3","Harvest",NA,NA,NA,"John Deere 4425 combine",1997-10-18,"Soybean"
+1997,"T2","Harvest",NA,NA,NA,"John Deere 4425 combine",1997-10-19,"Soybean"
+1997,"T4","Harvest",NA,NA,NA,"John Deere 4425 combine",1997-10-19,"Soybean"
+1997,"T2","Planting","Pioneer 2552 hard red winter wheat",2.5,"bushel","unknown",1997-10-21,"Soybean"
+1997,"T1","Planting","Pioneer 2552 hard red winter wheat",150,"pound","unknown",1997-10-22,"Soybean"
+1997,"T1","Soil Preparation",NA,NA,NA,"cultipacker",1997-10-22,"Soybean"
+1997,"T1","Soil Preparation",NA,NA,NA,"row cultivator --type unknown",1997-10-22,"Soybean"
+1997,"T2","Planting","Pioneer 2552 hard red winter wheat",2.5,"bushel","John Deere 450 conventional 10' drill",1997-10-22,"Soybean"
+1997,"T3","Soil Preparation",NA,NA,NA,"cultipacker",1997-10-24,"Soybean"
+1997,"T3","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",1997-10-24,"Soybean"
+1997,"T4","Planting","Pioneer 2552 hard red winter wheat",2.5,"bushel","John Deere 750 10' no-till drill",1997-10-30,"Soybean"
+1998,"T1","Fertilizer application",NA,NA,NA,NA,1998-03-01,"Wheat"
+1998,"T3","Planting","Mammoth red clover (Trifolium pratense)",12,"pound","Gandy Air Seeder",1998-03-01,"Wheat"
+1998,"T4","Planting","Mammoth red clover (Trifolium pratense)",12,"pound","Gandy Air Seeder",1998-03-01,"Wheat"
+1998,"T4","Planting","Mammoth red clover (Trifolium pratense)",12,"pound","unknown",1998-03-01,"Wheat"
+1998,"T1","Fertilizer application","ammonium nitrate (34-0-0)",147,"pound","unknown",1998-04-20,"Wheat"
+1998,"T2","Fertilizer application","ammonium nitrate (34-0-0)",147,"pound","unknown",1998-04-20,"Wheat"
+1998,"T3","Fertilizer application","ammonium nitrate (34-0-0)",73.5,"pound","unknown",1998-04-20,"Wheat"
+1998,"T6","Harvest","alfalfa",NA,"unknown","John Deere Haybine",1998-05-31,NA
+1998,"T6","Harvest","hay",NA,"unknown","chopper? for chopping...",1998-06-01,NA
+1998,"T6","Fertilizer application","0-0-60 potash fertilizer",170,"pound","unknown",1998-06-02,NA
+1998,"T6","Fertilizer application","0-0-60 potash fertilizer",240,"pound","unknown",1998-06-02,NA
+1998,"T6","Fertilizer application","lime",2,"ton","unknown",1998-06-02,NA
+1998,"T6","Fertilizer application",NA,NA,NA,NA,1998-06-02,NA
+1998,"T1","Harvest","wheat",NA,"unknown","combine",1998-07-10,"Wheat"
+1998,"T3","Harvest","wheat",NA,"unknown","combine",1998-07-11,"Wheat"
+1998,"T4","Harvest","wheat",NA,"unknown","combine",1998-07-11,"Wheat"
+1998,"T2","Harvest","wheat",NA,"unknown","combine",1998-07-14,"Wheat"
+1998,"T1","Harvest","straw",NA,"unknown","combine",1998-07-20,"Wheat"
+1998,"T2","Harvest","straw",NA,"unknown","combine",1998-07-20,"Wheat"
+1998,"T3","Harvest","straw",NA,"unknown","baler",1998-08-01,"Wheat"
+1998,"T4","Harvest","straw",NA,"unknown","baler",1998-08-01,"Wheat"
+1998,"T6","Harvest","hay",NA,"unknown","unknown",1998-08-21,NA
+1998,"T6","Harvest",NA,NA,NA,"baler",1998-08-24,NA
+1999,"T1","Fertilizer application","lime",0.5,"ton","Terra-Gator",1999-04-20,"Maize"
+1999,"T2","Fertilizer application","lime",0.8,"ton","unknown",1999-04-20,"Maize"
+1999,"T3","Fertilizer application","lime",0.5,"ton","Terra-Gator",1999-04-20,"Maize"
+1999,"T6","Fertilizer application","dolomitic agricultural lime",1.3,"ton","Terra-Gator",1999-04-20,NA
+1999,"T6","Planting","Pioneer 2547L (leafhopper resistant) alfalfa",18,"pound","unknown",1999-04-26,NA
+1999,"T1","Soil Preparation",NA,NA,NA,"chisel plow with narrow 4"" twist spades",1999-05-03,"Maize"
+1999,"T3","Soil Preparation",NA,NA,NA,"chisel plow with narrow 4"" twist spades",1999-05-03,"Maize"
+1999,"T3","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",1999-05-04,"Maize"
+1999,"T4","Soil Preparation",NA,NA,NA,"chisel plow with narrow 4"" twist spades",1999-05-04,"Maize"
+1999,"T3","Soil Preparation",NA,NA,NA,"12 ft glenco field cultivator",1999-05-09,"Maize"
+1999,"T3","Fertilizer application","28% UAN (28-0-0)",8,"gallon","Buffalo planter",1999-05-13,"Maize"
+1999,"T3","Fertilizer application","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo planter",1999-05-13,"Maize"
+1999,"T3","Planting","28% UAN (28-0-0)",8,"gallon","Buffalo planter",1999-05-13,"Maize"
+1999,"T3","Planting","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo planter",1999-05-13,"Maize"
+1999,"T4","Fertilizer application","28% UAN (28-0-0)",29,"gallon","Buffalo planter",1999-05-13,"Maize"
+1999,"T4","Fertilizer application","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo planter",1999-05-13,"Maize"
+1999,"T4","Planting","28% UAN (28-0-0)",29,"gallon","Buffalo planter",1999-05-13,"Maize"
+1999,"T4","Planting","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo planter",1999-05-13,"Maize"
+1999,"T2","Fertilizer application","28% UAN (28-0-0)",8,"gallon","unknown",1999-05-14,"Maize"
+1999,"T2","Planting","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo no-till planter",1999-05-14,"Maize"
+1999,"T1","Fertilizer application","28% UAN (28-0-0)",8,"gallon","Buffalo planter",1999-05-19,"Maize"
+1999,"T1","Planting","Pioneer 3573 Corn Hybrid",26000,"seeds","Buffalo planter",1999-05-19,"Maize"
+1999,"T3","Soil Preparation","weeds",NA,"unknown","Rotary Hoe",1999-05-27,"Maize"
+1999,"T4","Soil Preparation","weeds",NA,"unknown","Rotary Hoe",1999-05-27,"Maize"
+1999,"T2","Fertilizer application","ammonium nitrate (34-0-0)",230,"pound","unknown",1999-06-29,"Maize"
+1999,"T1","Fertilizer application","ammonium nitrate (34-0-0)",NA,"unknown","Gandy Orbit-Air (15' boom)",1999-06-30,"Maize"
+1999,"T3","Planting","crimson clover",12,"pound","unknown",1999-07-02,"Maize"
+1999,"T3","Soil Preparation",NA,NA,NA,"Case IH 183 S-tine 6 row cultivator",1999-07-02,"Maize"
+1999,"T4","Planting","crimson clover",NA,"unknown","unknown",1999-07-02,"Maize"
+1999,"T6","Harvest",NA,NA,NA,"John Deere Haybine",1999-07-12,NA
+1999,"T6","Harvest","alfalfa",NA,"unknown","rake",1999-07-15,NA
+1999,"T6","Harvest","alfalfa",NA,"unknown","baler",1999-07-16,NA
+1999,"T1","Harvest",NA,NA,NA,"combine",1999-10-05,"Maize"
+1999,"T3","Harvest","corn",NA,"unknown","John Deere 4425 combine",1999-10-06,"Maize"
+1999,"T2","Harvest","corn",NA,"unknown","John Deere 4425 combine",1999-10-07,"Maize"
+1999,"T4","Harvest","corn",NA,"unknown","John Deere 4425 combine",1999-10-07,"Maize"
+1999,"T1","Harvest","corn",NA,"unknown","John Deere 4425 combine",1999-10-11,"Maize"
+1999,"T3","Planting","c. rye",1.5,"bushel","unknown",1999-10-14,"Maize"
+1999,"T3","Planting","c. rye",NA,"unknown","disk",1999-10-14,"Maize"
+1999,"T4","Planting","c. rye",1.5,"bushel","unknown",1999-10-14,"Maize"
+1999,"T6","Planting","c. rye",NA,"unknown","disk",1999-10-14,NA
+2000,"T3","Soil Preparation",NA,NA,NA,"Glencoe Soil Saver - 'Nine Shank Chisel Plow'",2000-05-03,"Soybean"
+2000,"T3","Soil Preparation",NA,NA,NA,"JD tractor - type unknown",2000-05-03,"Soybean"
+2000,"T4","Soil Preparation",NA,NA,NA,"Glencoe Soil Saver - 'Nine Shank Chisel Plow'",2000-05-03,"Soybean"
+2000,"T4","Soil Preparation",NA,NA,NA,"JD tractor - type unknown",2000-05-03,"Soybean"
+2000,"T6","Planting","rye",NA,"unknown","John Deere 750 10' no-till drill",2000-05-03,NA
+2000,"T6","Planting",NA,NA,NA,"JD tractor - type unknown",2000-05-03,NA
+2000,"T1","Soil Preparation",NA,NA,NA,"Glencoe Soil Saver - 'Nine Shank Chisel Plow'",2000-05-04,"Soybean"
+2000,"T1","Soil Preparation",NA,NA,NA,"JD tractor - type unknown",2000-05-04,"Soybean"
+2000,"T1","Soil Preparation",NA,NA,NA,"Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc",2000-05-08,"Soybean"
+2000,"T3","Soil Preparation",NA,NA,NA,"Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc",2000-05-08,"Soybean"
+2000,"T4","Soil Preparation",NA,NA,NA,"Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc",2000-05-08,"Soybean"
+2000,"T1","Planting","Pioneer 9172 soybeans",209500,"seeds","John Deere 750 10' no-till drill",2000-05-25,"Soybean"
+2000,"T1","Planting",NA,NA,NA,"JD tractor - type unknown",2000-05-25,"Soybean"
+2000,"T1","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",2000-05-25,"Soybean"
+2000,"T2","Planting","Pioneer 9172 soybeans",192200,"seeds","John Deere 750 10' no-till drill",2000-05-26,"Soybean"
+2000,"T2","Planting",NA,NA,NA,"JD tractor - type unknown",2000-05-26,"Soybean"
+2000,"T3","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",2000-05-26,"Soybean"
+2000,"T4","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",2000-05-26,"Soybean"
+2000,"T7","Soil Preparation",NA,NA,NA,"Glencoe Soil Saver - 'Nine Shank Chisel Plow'",2000-05-30,NA
+2000,"T7","Soil Preparation",NA,NA,NA,"JD tractor - type unknown",2000-05-30,NA
+2000,"T7","Soil Preparation",NA,NA,NA,"Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc",2000-06-06,NA
+2000,"T7","Soil Preparation",NA,NA,NA,"John Deere 7600 Tractor",2000-06-06,NA
+2000,"T3","Planting","Pioneer 9172 soybeans",210000,"seeds","John Deere 7300 six row planter",2000-06-07,"Soybean"
+2000,"T3","Planting",NA,NA,NA,"JD tractor - type unknown",2000-06-07,"Soybean"
+2000,"T4","Planting","Pioneer 9172 soybeans",210000,"seeds","John Deere 7300 six row planter",2000-06-07,"Soybean"
+2000,"T4","Planting",NA,NA,NA,"JD tractor - type unknown",2000-06-07,"Soybean"
+2000,"T6","Harvest",NA,NA,NA,"John Deere 3430 12' haybine",2000-07-14,NA
+2000,"T1","Harvest","soybeans",NA,"unknown","unknown",2000-10-11,"Soybean"
+2000,"T1","Harvest",NA,NA,NA,NA,2000-10-13,"Soybean"
+2000,"T2","Harvest",NA,NA,NA,NA,2000-10-13,"Soybean"
+2000,"T3","Harvest","soybeans",NA,"unknown","unknown",2000-10-14,"Soybean"
+2000,"T4","Harvest","soybeans",NA,"unknown","unknown",2000-10-14,"Soybean"
+2000,"T1","Fertilizer application","lime",1.1,"ton","unknown",2000-10-20,"Soybean"
+2000,"T1","Soil Preparation",NA,NA,NA,NA,2000-10-20,"Soybean"
+2000,"T2","Fertilizer application","lime",1.1,"ton","unknown",2000-10-20,"Soybean"
+2000,"T3","Fertilizer application","lime",1.1,"ton","unknown",2000-10-20,"Soybean"
+2000,"T4","Fertilizer application","lime",1.1,"ton","unknown",2000-10-20,"Soybean"
+2000,"T6","Fertilizer application","lime",1.1,"ton","unknown",2000-10-20,NA
+2000,"T2","Planting","Pioneer 25R26 soft red winter wheat",2200000,"unknown","John Deere 750 10' no-till drill",2000-10-23,"Soybean"
+2000,"T2","Planting",NA,NA,NA,"John Deere 6400 Tractor",2000-10-23,"Soybean"
+2000,"T1","Planting","Pioneer 25R26 soft red winter wheat",1885000,"seeds","John Deere 750 10' no-till drill",2000-10-30,"Soybean"
+2000,"T1","Planting",NA,NA,NA,"John Deere 6400 Tractor",2000-10-30,"Soybean"
+2000,"T4","Planting","Pioneer 25R26 soft red winter wheat",1885000,"seeds","John Deere 750 10' no-till drill",2000-10-31,"Soybean"
+2000,"T4","Planting",NA,NA,NA,"John Deere 6400 Tractor",2000-10-31,"Soybean"
+2000,"T3","Planting","Pioneer 25R26 soft red winter wheat",1885000,"seeds","John Deere 750 10' no-till drill",2000-11-01,"Soybean"
+2000,"T3","Planting",NA,NA,NA,"John Deere 6400 Tractor",2000-11-01,"Soybean"
+2000,"T8","Planting","Pioneer 25R26 soft red winter wheat",1885000,"seeds","John Deere 750 10' no-till drill",2000-11-01,NA
+2000,"T8","Planting",NA,NA,NA,"John Deere 6400 Tractor",2000-11-01,NA
+2001,"T4","Planting","red clover",12,"pound","Gandy Orbit-Air (15' boom)",2001-03-19,"Wheat"
+2001,"T4","Planting",NA,NA,NA,"John Deere 5400 Tractor",2001-03-19,"Wheat"
+2001,"T3","Planting","red clover",12,"pound","Gandy Orbit-Air (15' boom)",2001-03-20,"Wheat"
+2001,"T3","Planting",NA,NA,NA,"John Deere 5400 Tractor",2001-03-20,"Wheat"
+2001,"T6","Planting","Pioneer alfalfa",NA,"unknown","unknown",2001-03-31,NA
+2001,"T1","Fertilizer application","28% UAN (28-0-0)",12,"gallon","Top Air Sprayer",2001-04-05,"Wheat"
+2001,"T1","Fertilizer application",NA,NA,NA,"John Deere 5400 Tractor",2001-04-05,"Wheat"
+2001,"T2","Fertilizer application","28% UAN (28-0-0)",12,"gallon","Top Air Sprayer",2001-04-05,"Wheat"
+2001,"T2","Fertilizer application",NA,NA,NA,"John Deere 5400 Tractor",2001-04-05,"Wheat"
+2001,"T3","Fertilizer application","28% UAN (28-0-0)",14,"gallon","Top Air Sprayer",2001-04-05,"Wheat"
+2001,"T3","Fertilizer application",NA,NA,NA,"John Deere 5400 Tractor",2001-04-05,"Wheat"
+2001,"T8","Fertilizer application","28% UAN (28-0-0)",24,"gallon","JD Combine",2001-04-18,NA
+2001,"T8","Fertilizer application",NA,NA,NA,"John Deere 5400 Tractor",2001-04-18,NA
+2001,"T7","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",2001-04-26,NA
+2001,"T7","Soil Preparation",NA,NA,NA,"Tractor-unknown",2001-04-26,NA
+2001,"T7","Soil Preparation",NA,NA,NA,"John Deere 6400 Tractor",2001-04-27,NA
+2001,"T7","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",2001-04-27,NA
+2001,"T6","Planting","Pioneer alfalfa",NA,"unknown","John Deere 750 10' no-till drill",2001-05-30,NA
+2001,"T6","Planting",NA,NA,NA,"John Deere 6400 Tractor",2001-05-30,NA
+2001,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2001-07-17,"Wheat"
+2001,"T1","Harvest",NA,NA,NA,"Weigh Wagon",2001-07-17,"Wheat"
+2001,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2001-07-17,"Wheat"
+2001,"T2","Harvest",NA,NA,NA,"Weigh Wagon",2001-07-17,"Wheat"
+2001,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2001-07-17,"Wheat"
+2001,"T3","Harvest",NA,NA,NA,"Weigh Wagon",2001-07-17,"Wheat"
+2001,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2001-07-17,"Wheat"
+2001,"T4","Harvest",NA,NA,NA,"Weigh Wagon",2001-07-17,"Wheat"
+2001,"T1","Harvest",NA,NA,NA,"baler",2001-07-30,"Wheat"
+2001,"T1","Harvest",NA,NA,NA,"John Deere 385 round baler",2001-07-30,"Wheat"
+2001,"T1","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2001-07-30,"Wheat"
+2001,"T1","Harvest",NA,NA,NA,"Tractor-unknown",2001-07-30,"Wheat"
+2001,"T2","Harvest",NA,NA,NA,"baler",2001-07-30,"Wheat"
+2001,"T2","Harvest",NA,NA,NA,"John Deere 385 round baler",2001-07-30,"Wheat"
+2001,"T2","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2001-07-30,"Wheat"
+2001,"T2","Harvest",NA,NA,NA,"Tractor-unknown",2001-07-30,"Wheat"
+2001,"T3","Harvest",NA,NA,NA,"baler",2001-07-30,"Wheat"
+2001,"T3","Harvest",NA,NA,NA,"John Deere 385 round baler",2001-07-30,"Wheat"
+2001,"T3","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2001-07-30,"Wheat"
+2001,"T3","Harvest",NA,NA,NA,"Tractor-unknown",2001-07-30,"Wheat"
+2001,"T4","Harvest",NA,NA,NA,"baler",2001-07-30,"Wheat"
+2001,"T4","Harvest",NA,NA,NA,"John Deere 385 round baler",2001-07-30,"Wheat"
+2001,"T4","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2001-07-30,"Wheat"
+2001,"T4","Harvest",NA,NA,NA,"Tractor-unknown",2001-07-30,"Wheat"
+2001,"T6","Harvest","alfalfa",NA,"unknown","John Deere 3430 12' haybine",2001-08-21,NA
+2001,"T6","Harvest",NA,NA,NA,"chopper? for chopping...",2001-08-21,NA
+2001,"T6","Harvest",NA,NA,NA,"rake",2001-08-21,NA
+2001,"T6","Harvest",NA,NA,NA,"Tractor-unknown",2001-08-21,NA
+2001,NA,"Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",2001-09-07,NA
+2001,NA,"Soil Preparation",NA,NA,NA,"Tractor-unknown",2001-09-07,NA
+2001,NA,"Planting",NA,NA,NA,"John Deere 450 conventional 10' drill",2001-10-02,NA
+2001,NA,"Planting",NA,NA,NA,"John Deere 5400 Tractor",2001-10-02,NA
+2001,NA,"Planting",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2001-10-02,NA
+2002,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2002-04-17,"Maize"
+2002,"T1","Soil Preparation",NA,NA,NA,"John Deere 7600 Tractor",2002-04-17,"Maize"
+2002,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2002-04-18,"Maize"
+2002,"T4","Soil Preparation",NA,NA,NA,"John Deere 7600 Tractor",2002-04-18,"Maize"
+2002,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2002-04-19,"Maize"
+2002,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2002-04-19,"Maize"
+2002,"T3","Soil Preparation",NA,NA,NA,"John Deere 7600 Tractor",2002-04-19,"Maize"
+2002,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2002-04-19,"Maize"
+2002,"T1","Fertilizer application","0-0-60 potash fertilizer",125,"pound","Willmar 5-ton PTO-driven spinner spreader",2002-04-20,"Maize"
+2002,"T1","Fertilizer application",NA,NA,NA,"JD tractor - type unknown",2002-04-20,"Maize"
+2002,"T2","Fertilizer application","0-0-60 potash fertilizer",125,"pound","Willmar 5-ton PTO-driven spinner spreader",2002-04-20,"Maize"
+2002,"T2","Fertilizer application",NA,NA,NA,"JD tractor - type unknown",2002-04-20,"Maize"
+2002,"T3","Fertilizer application","0-0-60 potash fertilizer",125,"pound","Willmar 5-ton PTO-driven spinner spreader",2002-04-20,"Maize"
+2002,"T3","Fertilizer application",NA,NA,NA,"JD tractor - type unknown",2002-04-20,"Maize"
+2002,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2002-04-20,"Maize"
+2002,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2002-04-25,NA
+2002,"T7","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2002-04-25,NA
+2002,"T7","Soil Preparation",NA,NA,NA,"John Deere 7600 Tractor",2002-04-25,NA
+2002,"T1","Fertilizer application","19-17-0 liquid fertilizer",12,"gallon","John Deere 7300 six row planter",2002-05-10,"Maize"
+2002,"T1","Fertilizer application","Pioneer 35Y54 corn",28000,"seeds","John Deere 7300 six row planter",2002-05-10,"Maize"
+2002,"T1","Fertilizer application",NA,NA,NA,"John Deere 7400 Tractor",2002-05-10,"Maize"
+2002,"T1","Planting","19-17-0 liquid fertilizer",12,"gallon","John Deere 7300 six row planter",2002-05-10,"Maize"
+2002,"T1","Planting","Pioneer 35Y54 corn",28000,"seeds","John Deere 7300 six row planter",2002-05-10,"Maize"
+2002,"T1","Planting",NA,NA,NA,"John Deere 7400 Tractor",2002-05-10,"Maize"
+2002,"T2","Fertilizer application","19-17-0 liquid fertilizer",12,"gallon","John Deere 7300 six row planter",2002-05-10,"Maize"
+2002,"T2","Fertilizer application","Pioneer 35Y54 corn",28000,"seeds","John Deere 7300 six row planter",2002-05-10,"Maize"
+2002,"T2","Fertilizer application",NA,NA,NA,"John Deere 7400 Tractor",2002-05-10,"Maize"
+2002,"T2","Planting","19-17-0 liquid fertilizer",12,"gallon","John Deere 7300 six row planter",2002-05-10,"Maize"
+2002,"T2","Planting","Pioneer 35Y54 corn",28000,"seeds","John Deere 7300 six row planter",2002-05-10,"Maize"
+2002,"T2","Planting",NA,NA,NA,"John Deere 7400 Tractor",2002-05-10,"Maize"
+2002,"T6","Harvest","alfalfa",NA,"unknown","chopper? for chopping...",2002-05-13,NA
+2002,"T3","Fertilizer application","19-17-0 liquid fertilizer",12,"gallon","unknown",2002-05-15,"Maize"
+2002,"T3","Fertilizer application","Pioneer 35Y54 corn",28000,"seeds","unknown",2002-05-15,"Maize"
+2002,"T3","Planting","19-17-0 liquid fertilizer",12,"gallon","unknown",2002-05-15,"Maize"
+2002,"T3","Planting","Pioneer 35Y54 corn",28000,"seeds","unknown",2002-05-15,"Maize"
+2002,"T3","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",2002-05-15,"Maize"
+2002,"T4","Fertilizer application","19-17-0 liquid fertilizer",12,"gallon","unknown",2002-05-15,"Maize"
+2002,"T4","Fertilizer application","Pioneer 35Y54 corn",28000,"seeds","unknown",2002-05-15,"Maize"
+2002,"T4","Planting","19-17-0 liquid fertilizer",12,"gallon","unknown",2002-05-15,"Maize"
+2002,"T4","Planting","Pioneer 35Y54 corn",28000,"seeds","unknown",2002-05-15,"Maize"
+2002,"T4","Soil Preparation",NA,NA,NA,"soil finisher --type unknown",2002-05-15,"Maize"
+2002,"T8","Planting","Pioneer 35Y54 corn",28000,"seeds","unknown",2002-05-15,NA
+2002,"T3","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",2002-05-26,"Maize"
+2002,"T1","Soil Preparation",NA,NA,NA,"Rotary Hoe",2002-05-28,"Maize"
+2002,"T3","Soil Preparation",NA,NA,NA,"Rotary Hoe",2002-05-29,"Maize"
+2002,"T4","Soil Preparation",NA,NA,NA,"Rotary Hoe",2002-05-29,"Maize"
+2002,"T6","Harvest","alfalfa",NA,"unknown","mower",2002-06-12,NA
+2002,"T1","Fertilizer application","28% UAN (28-0-0)",40,"gallon","unknown",2002-07-01,"Maize"
+2002,"T2","Fertilizer application","28% UAN (28-0-0)",40,"gallon","unknown",2002-07-01,"Maize"
+2002,"T3","Planting","red clover",NA,"unknown","unknown",2002-07-05,"Maize"
+2002,"T4","Planting","red clover",NA,"unknown","unknown",2002-07-05,"Maize"
+2002,"T6","Harvest","alfalfa",NA,"unknown","baler",2002-07-12,NA
+2002,"T6","Harvest","alfalfa",NA,"unknown","rake",2002-07-12,NA
+2002,"T1","Harvest","corn",NA,"unknown","unknown",2002-10-23,"Maize"
+2002,"T2","Harvest","corn",NA,"unknown","unknown",2002-10-28,"Maize"
+2002,"T1","Harvest",NA,NA,NA,"unknown",2002-10-31,"Maize"
+2002,"T3","Harvest","corn",NA,"unknown","unknown",2002-11-01,"Maize"
+2002,"T4","Harvest","corn",NA,"unknown","unknown",2002-11-04,"Maize"
+2003,"T1","Fertilizer application","0-0-60 potash fertilizer",100,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-04-26,"Soybean"
+2003,"T1","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",50,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-04-26,"Soybean"
+2003,"T1","Fertilizer application",NA,NA,NA,"John Deere 7400 Tractor",2003-04-26,"Soybean"
+2003,"T2","Fertilizer application","0-0-60 potash fertilizer",100,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-04-26,"Soybean"
+2003,"T2","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",50,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-04-26,"Soybean"
+2003,"T2","Fertilizer application",NA,NA,NA,"John Deere 7400 Tractor",2003-04-26,"Soybean"
+2003,"T1","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",2003-05-22,"Soybean"
+2003,"T3","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",2003-05-22,"Soybean"
+2003,"T4","Soil Preparation",NA,NA,NA,"Chisel plow --type unknown",2003-05-23,"Soybean"
+2003,"T2","Planting","soybeans",NA,"unknown","unknown",2003-05-26,"Soybean"
+2003,"T7","Soil Preparation",NA,NA,NA,NA,2003-05-26,NA
+2003,"T1","Soil Preparation",NA,NA,NA,"John Deere 7810 Tractor",2003-05-27,"Soybean"
+2003,"T1","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2003-05-27,"Soybean"
+2003,"T2","Planting","NK S20-F8 soybeans",NA,"unknown","John Deere 1730 Maxemerge Plus Planter",2003-05-27,"Soybean"
+2003,"T2","Planting",NA,NA,NA,"John Deere 7520 Tractor",2003-05-27,"Soybean"
+2003,"T3","Soil Preparation",NA,NA,NA,"John Deere 7810 Tractor",2003-05-27,"Soybean"
+2003,"T3","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2003-05-27,"Soybean"
+2003,"T1","Planting","NK S20-F8 soybeans",NA,"unknown","John Deere 1730 Maxemerge Plus Planter",2003-05-28,"Soybean"
+2003,"T1","Planting",NA,NA,NA,"John Deere 7520 Tractor",2003-05-28,"Soybean"
+2003,"T3","Planting","NK S20-F8 soybeans",NA,"unknown","John Deere 1730 Maxemerge Plus Planter",2003-05-28,"Soybean"
+2003,"T3","Planting",NA,NA,NA,"John Deere 7520 Tractor",2003-05-28,"Soybean"
+2003,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2003-05-28,"Soybean"
+2003,"T4","Soil Preparation",NA,NA,NA,"John Deere 7810 Tractor",2003-05-28,"Soybean"
+2003,"T4","Planting","NK S20-F8 soybeans",NA,"unknown","John Deere 1730 Maxemerge Plus Planter",2003-05-29,"Soybean"
+2003,"T4","Planting",NA,NA,NA,"John Deere 7520 Tractor",2003-05-29,"Soybean"
+2003,"T6","Harvest","alfalfa",NA,"unknown","unknown",2003-06-02,NA
+2003,"T3","Soil Preparation",NA,NA,NA,"Rotary Hoe",2003-06-06,"Soybean"
+2003,"T4","Soil Preparation",NA,NA,NA,"Rotary Hoe",2003-06-06,"Soybean"
+2003,"T6","Harvest","alfalfa",NA,"unknown","chopper? for chopping...",2003-06-06,NA
+2003,"T6","Harvest","alfalfa",NA,"unknown","baler",2003-07-14,NA
+2003,"T6","Harvest","alfalfa",NA,"unknown","rake",2003-07-14,NA
+2003,"T6","Harvest","alfalfa",NA,"unknown","Hay Tedder (Sitrex 2-rotor, rotary tedder)",2003-08-27,NA
+2003,"T6","Fertilizer application","0-0-60 potash fertilizer",420,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-09-10,NA
+2003,"T6","Fertilizer application","boron (B)",3.3,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-09-10,NA
+2003,"T6","Fertilizer application","triple superphosphate (0-46-0)",170,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-09-10,NA
+2003,"T6","Fertilizer application",NA,NA,NA,"John Deere 6400 Tractor",2003-09-10,NA
+2003,"T1","Harvest","soybeans",NA,"unknown","John Deere  9410 combine",2003-10-06,"Soybean"
+2003,"T2","Harvest","soybeans",NA,"unknown","John Deere  9410 combine",2003-10-06,"Soybean"
+2003,"T3","Harvest","soybeans",NA,"unknown","John Deere  9410 combine",2003-10-06,"Soybean"
+2003,"T4","Harvest","soybeans",NA,"unknown","John Deere  9410 combine",2003-10-07,"Soybean"
+2003,"T1","Fertilizer application","19-19-19",167,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-10-08,"Soybean"
+2003,"T1","Fertilizer application",NA,NA,NA,"John Deere 6400 Tractor",2003-10-08,"Soybean"
+2003,"T2","Fertilizer application","19-19-19",167,"pound","Willmar 5-ton PTO-driven spinner spreader",2003-10-08,"Soybean"
+2003,"T2","Fertilizer application",NA,NA,NA,"John Deere 6400 Tractor",2003-10-08,"Soybean"
+2003,"T2","Planting","Pioneer 25R37 Soft Red Winter Wheat",NA,"unknown","John Deere 750 10' no-till drill",2003-10-09,"Soybean"
+2003,"T2","Planting",NA,NA,NA,"John Deere 6400 Tractor",2003-10-09,"Soybean"
+2003,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2003-10-09,"Soybean"
+2003,"T4","Soil Preparation",NA,NA,NA,NA,2003-10-09,"Soybean"
+2003,"T1","Planting","Pioneer 25R37 Soft Red Winter Wheat",NA,"unknown","John Deere 450 conventional 10' drill",2003-10-10,"Soybean"
+2003,"T1","Planting",NA,NA,NA,"John Deere 5400 Tractor",2003-10-10,"Soybean"
+2003,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2003-10-10,"Soybean"
+2003,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2003-10-10,"Soybean"
+2003,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2003-10-10,"Soybean"
+2003,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2003-10-10,"Soybean"
+2003,"T4","Planting","untreated Pioneer 25R37 winter wheat",NA,"unknown","John Deere 450 conventional 10' drill",2003-10-11,"Soybean"
+2003,"T4","Planting",NA,NA,NA,"John Deere 5220 Tractor",2003-10-11,"Soybean"
+2003,"T3","Planting","Pioneer 25R37 Soft Red Winter Wheat",NA,"unknown","John Deere 450 conventional 10' drill",2003-10-13,"Soybean"
+2003,"T3","Planting",NA,NA,NA,"John Deere 5220 Tractor",2003-10-13,"Soybean"
+2004,"T4","Planting","Red Clover 'Medium Red Clover'",12,"pound","Gandy Orbit-Air (15' boom)",2004-03-10,"Wheat"
+2004,"T4","Planting",NA,NA,NA,"John Deere 5220 Tractor",2004-03-10,"Wheat"
+2004,"T3","Planting","Red Clover 'Medium Red Clover'",12,"pound","Gandy Air Seeder",2004-03-13,"Wheat"
+2004,"T3","Planting",NA,NA,NA,"John Deere 5220 Tractor",2004-03-13,"Wheat"
+2004,"T1","Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2004-04-16,"Wheat"
+2004,"T1","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2004-04-16,"Wheat"
+2004,"T1","Fertilizer application",NA,NA,NA,"Turbo TeeJet 11005 Flat Fan Nozzle",2004-04-16,"Wheat"
+2004,"T2","Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2004-04-16,"Wheat"
+2004,"T2","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2004-04-16,"Wheat"
+2004,"T3","Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2004-04-16,"Wheat"
+2004,"T3","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2004-04-16,"Wheat"
+2004,"T3","Fertilizer application",NA,NA,NA,"Turbo TeeJet 11005 Flat Fan Nozzle",2004-04-16,"Wheat"
+2004,"T8","Fertilizer application","28% UAN (28-0-0)",17,"gallon","Top Air Sprayer",2004-04-16,NA
+2004,"T8","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2004-04-16,NA
+2004,NA,"Fertilizer application",NA,NA,NA,NA,2004-04-16,NA
+2004,NA,"Planting","Lorsban 15G (chlorpyrifos)",8.7,"pound","John Deere 1730 Maxemerge Plus Planter",2004-05-06,NA
+2004,NA,"Planting","Pioneer 36B08 corn hybrid (non Bt corn)",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2004-05-06,NA
+2004,NA,"Planting",NA,NA,NA,"John Deere 7520 Tractor",2004-05-06,NA
+2004,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2004-05-12,NA
+2004,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2004-05-12,NA
+2004,"T6","Harvest",NA,NA,NA,"Hay Tedder (Sitrex 2-rotor, rotary tedder)",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"John Deere 2155 Tractor",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"John Deere 3430 12' haybine",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"John Deere 5400 Tractor",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"John Deere 6400 Tractor",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"New Holland 258 Rake - double rakes, left hand delivery.",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"New Holland 260 Rake - single rake, right hand delivery.",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"New Holland Baler",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,"Tractor-unknown",2004-07-09,NA
+2004,"T6","Harvest",NA,NA,NA,NA,2004-07-09,NA
+2004,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2004-07-13,"Wheat"
+2004,"T1","Harvest",NA,NA,NA,"truck - for hauling",2004-07-13,"Wheat"
+2004,"T1","Harvest",NA,NA,NA,"Weigh Wagon",2004-07-13,"Wheat"
+2004,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2004-07-13,"Wheat"
+2004,"T2","Harvest",NA,NA,NA,"truck - for hauling",2004-07-13,"Wheat"
+2004,"T2","Harvest",NA,NA,NA,"Weigh Wagon",2004-07-13,"Wheat"
+2004,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2004-07-13,"Wheat"
+2004,"T3","Harvest",NA,NA,NA,"truck - for hauling",2004-07-13,"Wheat"
+2004,"T3","Harvest",NA,NA,NA,"Weigh Wagon",2004-07-13,"Wheat"
+2004,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2004-07-13,"Wheat"
+2004,"T4","Harvest",NA,NA,NA,"truck - for hauling",2004-07-13,"Wheat"
+2004,"T4","Harvest",NA,NA,NA,"Weigh Wagon",2004-07-13,"Wheat"
+2004,"T1","Harvest",NA,NA,NA,"baler",2004-07-14,"Wheat"
+2004,"T1","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2004-07-14,"Wheat"
+2004,"T1","Harvest",NA,NA,NA,"Tractor-unknown",2004-07-14,"Wheat"
+2004,"T2","Harvest",NA,NA,NA,"baler",2004-07-14,"Wheat"
+2004,"T2","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2004-07-14,"Wheat"
+2004,"T2","Harvest",NA,NA,NA,"Tractor-unknown",2004-07-14,"Wheat"
+2004,"T8","Harvest",NA,NA,NA,"Wintersteiger plot combine",2004-07-15,NA
+2004,"T6","Harvest",NA,NA,NA,"chopper? for chopping...",2004-08-21,NA
+2004,"T6","Harvest",NA,NA,NA,"John Deere 5220 Tractor",2004-08-21,NA
+2004,"T6","Harvest",NA,NA,NA,"rake",2004-08-21,NA
+2004,NA,"Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2004-10-15,NA
+2004,NA,"Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2004-10-15,NA
+2004,NA,"Soil Preparation",NA,NA,NA,NA,2004-10-22,NA
+2004,NA,"Soil Preparation",NA,NA,NA,"Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc",2004-10-28,NA
+2005,"T3","Planting","red clover",NA,"unknown","unknown",2005-02-24,"Maize"
+2005,"T1","Fertilizer application","0-0-60 potash fertilizer",50,"pound","Gandy Air Seeder",2005-04-16,"Maize"
+2005,"T1","Fertilizer application",NA,NA,NA,"John Deere 7400 Tractor",2005-04-16,"Maize"
+2005,"T2","Fertilizer application","0-0-60 potash fertilizer",50,"pound","Gandy Air Seeder",2005-04-16,"Maize"
+2005,"T2","Fertilizer application",NA,NA,NA,"John Deere 7400 Tractor",2005-04-16,"Maize"
+2005,"T3","Fertilizer application","0-0-60 potash fertilizer",50,"pound","Gandy Air Seeder",2005-04-19,"Maize"
+2005,"T3","Fertilizer application",NA,NA,NA,"John Deere 7400 Tractor",2005-04-19,"Maize"
+2005,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2005-04-25,"Maize"
+2005,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2005-04-25,"Maize"
+2005,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2005-04-27,"Maize"
+2005,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2005-04-27,"Maize"
+2005,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2005-04-28,"Maize"
+2005,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2005-04-28,"Maize"
+2005,"T4","Planting","Pioneer 35Y54 corn",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2005-04-29,"Maize"
+2005,"T4","Planting",NA,NA,NA,"John Deere 7520 Tractor",2005-04-29,"Maize"
+2005,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2005-05-03,"Maize"
+2005,"T1","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2005-05-04,"Maize"
+2005,"T1","Fertilizer application","Pioneer 35Y54 corn",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2005-05-04,"Maize"
+2005,"T1","Fertilizer application",NA,NA,NA,"John Deere 7520 Tractor",2005-05-04,"Maize"
+2005,"T1","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2005-05-04,"Maize"
+2005,"T1","Planting","Pioneer 35Y54 corn",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2005-05-04,"Maize"
+2005,"T1","Planting",NA,NA,NA,"John Deere 7520 Tractor",2005-05-04,"Maize"
+2005,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2005-05-05,"Maize"
+2005,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2005-05-05,"Maize"
+2005,"T3","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2005-05-07,"Maize"
+2005,"T3","Fertilizer application","Pioneer 35Y54 corn",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2005-05-07,"Maize"
+2005,"T3","Fertilizer application",NA,NA,NA,"John Deere 7520 Tractor",2005-05-07,"Maize"
+2005,"T3","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2005-05-07,"Maize"
+2005,"T3","Planting","Pioneer 35Y54 corn",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2005-05-07,"Maize"
+2005,"T3","Planting",NA,NA,NA,"John Deere 7520 Tractor",2005-05-07,"Maize"
+2005,"T4","Planting","Pioneer 35Y54 corn hybrid (untreated)",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2005-05-09,"Maize"
+2005,"T4","Planting","Pioneer 35Y54 corn hybrid (untreated)",28000,"seeds","John Deere 7300 six row planter",2005-05-09,"Maize"
+2005,"T4","Planting",NA,NA,NA,"John Deere 7400 Tractor",2005-05-09,"Maize"
+2005,"T2","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2005-05-12,"Maize"
+2005,"T2","Fertilizer application","Pioneer 35Y54 corn",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2005-05-12,"Maize"
+2005,"T2","Fertilizer application",NA,NA,NA,"John Deere 7520 Tractor",2005-05-12,"Maize"
+2005,"T2","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2005-05-12,"Maize"
+2005,"T2","Planting","Pioneer 35Y54 corn",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2005-05-12,"Maize"
+2005,"T2","Planting",NA,NA,NA,"John Deere 7520 Tractor",2005-05-12,"Maize"
+2005,"T4","Soil Preparation",NA,NA,NA,"John Deere 400 15' rotor hoe",2005-05-18,"Maize"
+2005,"T4","Soil Preparation",NA,NA,NA,"John Deere 6420 Tractor",2005-05-18,"Maize"
+2005,"T4","Soil Preparation",NA,NA,NA,"John Deere 5400 Tractor",2005-05-25,"Maize"
+2005,"T7","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2005-05-26,NA
+2005,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2005-05-26,NA
+2005,"T6","Harvest","alfalfa",NA,"unknown","unknown",2005-06-01,NA
+2005,"T6","Harvest",NA,NA,NA,"chopper? for chopping...",2005-06-02,NA
+2005,"T6","Harvest",NA,NA,NA,"truck - for hauling",2005-06-02,NA
+2005,"T6","Harvest","alfalfa",NA,"unknown","chopper? for chopping...",2005-06-03,NA
+2005,"T1","Fertilizer application","28% UAN (28-0-0)",37,"gallon","28% CLARK Six Row Fertilizer Applicator",2005-06-20,"Maize"
+2005,"T2","Fertilizer application","28% UAN (28-0-0)",37,"gallon","28% CLARK Six Row Fertilizer Applicator",2005-06-21,"Maize"
+2005,"T4","Planting","red clover",NA,"unknown","unknown",2005-06-29,"Maize"
+2005,"T6","Harvest","alfalfa",NA,"unknown","Hay Tedder (Sitrex 2-rotor, rotary tedder)",2005-08-23,NA
+2005,"T6","Harvest","alfalfa",NA,"unknown","New Holland Baler",2005-08-25,NA
+2005,"T6","Harvest","bales - alfalfa",NA,"unknown","New Holland 1038 Stackliner (Bale Stacker)",2005-08-25,NA
+2005,"T6","Harvest","hay",NA,"unknown","double rake",2005-08-25,NA
+2005,"T6","Harvest","hay",NA,"unknown","single rake",2005-08-25,NA
+2005,"T6","Harvest",NA,NA,NA,"John Deere 2155 Tractor",2005-08-25,NA
+2005,"T6","Harvest",NA,NA,NA,"John Deere 6400 Tractor",2005-08-25,NA
+2005,"T6","Fertilizer application","0-0-62 potash fertilizer",319.47,"pound","Willmar 6 ton pull-type spinner spreader",2005-08-31,NA
+2005,"T6","Fertilizer application","0-0-62 potash fertilizer",479.2,"pound","Willmar 6 ton pull-type spinner spreader",2005-08-31,NA
+2005,"T6","Fertilizer application","boron (B)",2.67,"pound","Willmar 6 ton pull-type spinner spreader",2005-08-31,NA
+2005,"T6","Fertilizer application","boron (B)",4,"pound","Willmar 6 ton pull-type spinner spreader",2005-08-31,NA
+2005,"T6","Fertilizer application","triple superphosphate (0-46-0)",209.07,"pound","Willmar 6 ton pull-type spinner spreader",2005-08-31,NA
+2005,"T6","Fertilizer application","triple superphosphate (0-46-0)",313.6,"pound","Willmar 6 ton pull-type spinner spreader",2005-08-31,NA
+2005,"T6","Fertilizer application",NA,NA,NA,"John Deere 7400 Tractor",2005-08-31,NA
+2005,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2005-10-11,"Maize"
+2005,"T1","Harvest",NA,NA,NA,"Weigh Wagon",2005-10-11,"Maize"
+2005,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2005-10-11,"Maize"
+2005,"T2","Harvest",NA,NA,NA,"Weigh Wagon",2005-10-11,"Maize"
+2005,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2005-10-11,"Maize"
+2005,"T3","Harvest",NA,NA,NA,"Weigh Wagon",2005-10-11,"Maize"
+2005,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2005-10-11,"Maize"
+2005,"T4","Harvest",NA,NA,NA,"Weigh Wagon",2005-10-11,"Maize"
+2006,"T1","Fertilizer application","0-0-62 potash fertilizer",NA,"unknown","Gandy Orbit-Air (15' boom)",2006-04-19,"Soybean"
+2006,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2006-04-19,"Soybean"
+2006,"T1","Fertilizer application",NA,NA,NA,NA,2006-04-19,"Soybean"
+2006,"T2","Fertilizer application","0-0-62 potash fertilizer",NA,"unknown","Gandy Orbit-Air (15' boom)",2006-04-19,"Soybean"
+2006,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2006-04-19,"Soybean"
+2006,"T2","Fertilizer application",NA,NA,NA,NA,2006-04-19,"Soybean"
+2006,"T3","Fertilizer application","0-0-62 potash fertilizer",NA,"unknown","Gandy Orbit-Air (15' boom)",2006-04-19,"Soybean"
+2006,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2006-04-19,"Soybean"
+2006,"T3","Fertilizer application",NA,NA,NA,NA,2006-04-19,"Soybean"
+2006,"T8","Fertilizer application","0-0-62 potash fertilizer",NA,"unknown","Gandy Orbit-Air (15' boom)",2006-04-19,NA
+2006,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2006-04-19,NA
+2006,"T8","Fertilizer application",NA,NA,NA,NA,2006-04-19,NA
+2006,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2006-05-01,"Soybean"
+2006,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2006-05-01,"Soybean"
+2006,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2006-05-22,"Soybean"
+2006,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2006-05-22,"Soybean"
+2006,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2006-05-23,"Soybean"
+2006,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2006-05-23,"Soybean"
+2006,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2006-05-24,NA
+2006,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2006-05-24,NA
+2006,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2006-05-26,"Soybean"
+2006,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2006-05-26,"Soybean"
+2006,"T1","Planting","NK S20-F8 soybeans",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2006-06-05,"Soybean"
+2006,"T1","Planting",NA,NA,NA,"John Deere 7420a Tractor",2006-06-05,"Soybean"
+2006,"T7","Soil Preparation",NA,NA,NA,"John Deere 6420 Tractor",2006-06-05,NA
+2006,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2006-06-05,NA
+2006,"T3","Planting","NK S20-F8 soybeans",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2006-06-06,"Soybean"
+2006,"T3","Planting",NA,NA,NA,"John Deere 7420a Tractor",2006-06-06,"Soybean"
+2006,"T4","Planting","NK S20-F8 soybeans",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2006-06-06,"Soybean"
+2006,"T4","Planting",NA,NA,NA,"John Deere 7420a Tractor",2006-06-06,"Soybean"
+2006,"T6","Harvest",NA,NA,NA,"Case IH 7110 Tractor",2006-06-08,NA
+2006,"T6","Harvest",NA,NA,NA,"John Deere 3430 12' haybine",2006-06-08,NA
+2006,"T6","Harvest",NA,NA,NA,"New Holland FP230 Forage Harvester - Pull Type",2006-06-08,NA
+2006,"T6","Harvest",NA,NA,NA,"truck - for hauling",2006-06-08,NA
+2006,"T2","Planting","NK S20-F8 soybeans",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2006-06-12,"Soybean"
+2006,"T2","Planting",NA,NA,NA,"John Deere 7420a Tractor",2006-06-12,"Soybean"
+2006,"T8","Planting","NK S20-F8 soybeans",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2006-06-14,NA
+2006,"T8","Planting",NA,NA,NA,"John Deere 7420a Tractor",2006-06-14,NA
+2006,"T6","Harvest",NA,NA,NA,"baler",2006-07-14,NA
+2006,"T6","Harvest",NA,NA,NA,"John Deere 6400 Tractor",2006-07-14,NA
+2006,"T6","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2006-07-14,NA
+2006,"T6","Harvest",NA,NA,NA,"rake",2006-07-14,NA
+2006,"T6","Harvest",NA,NA,NA,"Tractor-unknown",2006-07-14,NA
+2006,"T6","Harvest",NA,NA,NA,"New Holland 258 Rake - double rakes, left hand delivery.",2006-08-15,NA
+2006,"T6","Harvest",NA,NA,NA,"New Holland 258 Rake - single rake, left hand delivery.",2006-08-15,NA
+2006,"T6","Harvest",NA,NA,NA,"New Holland 260 Rake - single rake, right hand delivery.",2006-08-15,NA
+2006,NA,"Fertilizer application","22-5-10",300,"pound","Gandy Air Seeder",2006-09-25,NA
+2006,NA,"Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2006-09-25,NA
+2006,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2006-10-10,"Soybean"
+2006,"T1","Harvest",NA,NA,NA,"truck - for hauling",2006-10-10,"Soybean"
+2006,"T1","Harvest",NA,NA,NA,"Weigh Wagon",2006-10-10,"Soybean"
+2006,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2006-10-10,"Soybean"
+2006,"T2","Harvest",NA,NA,NA,"truck - for hauling",2006-10-10,"Soybean"
+2006,"T2","Harvest",NA,NA,NA,"Weigh Wagon",2006-10-10,"Soybean"
+2006,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2006-10-10,"Soybean"
+2006,"T3","Harvest",NA,NA,NA,"truck - for hauling",2006-10-10,"Soybean"
+2006,"T3","Harvest",NA,NA,NA,"Weigh Wagon",2006-10-10,"Soybean"
+2006,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2006-10-10,"Soybean"
+2006,"T4","Harvest",NA,NA,NA,"truck - for hauling",2006-10-10,"Soybean"
+2006,"T4","Harvest",NA,NA,NA,"Weigh Wagon",2006-10-10,"Soybean"
+2006,"T8","Harvest",NA,NA,NA,"John Deere 115 15' flail mower",2006-10-26,NA
+2006,"T8","Harvest",NA,NA,NA,"John Deere 7420a Tractor",2006-10-26,NA
+2006,NA,"Harvest",NA,NA,NA,"Wintersteiger plot combine",2006-10-30,NA
+2006,NA,"Harvest",NA,NA,NA,NA,2006-10-30,NA
+2006,"T8","Harvest",NA,NA,NA,"Wintersteiger plot combine",2006-10-31,NA
+2006,"T8","Harvest",NA,NA,NA,NA,2006-10-31,NA
+2006,"T2","Planting","Pioneer 25R37 Soft Red Winter Wheat",2e+06,"seeds","John Deere 750 10' no-till drill",2006-11-01,"Soybean"
+2006,"T8","Planting","Pioneer 25R37 Soft Red Winter Wheat",2e+06,"seeds","John Deere 750 10' no-till drill",2006-11-01,NA
+2006,"T1","Planting","Pioneer 25R37 Soft Red Winter Wheat",2e+06,"seeds","John Deere 750 10' no-till drill",2006-11-06,"Soybean"
+2006,"T3","Soil Preparation",NA,NA,NA,NA,2006-11-06,"Soybean"
+2006,"T3","Planting","Pioneer 25R37 Soft Red Winter Wheat",2e+06,"seeds","John Deere 450 conventional 10' drill",2006-11-09,"Soybean"
+2006,"T3","Planting",NA,NA,NA,"John Deere 5220 Tractor",2006-11-09,"Soybean"
+2006,"T4","Soil Preparation",NA,NA,NA,NA,2006-11-09,"Soybean"
+2006,"T4","Planting","Pioneer 25R37 Soft Red Winter Wheat (untreated)",2e+06,"seeds","John Deere 450 conventional 10' drill",2006-11-10,"Soybean"
+2006,"T4","Planting",NA,NA,NA,"John Deere 5220 Tractor",2006-11-10,"Soybean"
+2007,"T1","Fertilizer application","19-19-19",150,"pound","Gandy Orbit-Air (30' boom)",2007-03-30,"Wheat"
+2007,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2007-03-30,"Wheat"
+2007,"T2","Fertilizer application","19-19-19",150,"pound","Gandy Orbit-Air (30' boom)",2007-03-30,"Wheat"
+2007,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2007-03-30,"Wheat"
+2007,"T8","Fertilizer application","19-19-19",150,"pound","Gandy Orbit-Air (30' boom)",2007-03-30,NA
+2007,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2007-03-30,NA
+2007,NA,"Fertilizer application","19-19-19",150,"pound","Gandy Orbit-Air (30' boom)",2007-04-02,NA
+2007,NA,"Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2007-04-02,NA
+2007,"T1","Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2007-04-24,"Wheat"
+2007,"T1","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2007-04-24,"Wheat"
+2007,"T2","Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2007-04-24,"Wheat"
+2007,"T2","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2007-04-24,"Wheat"
+2007,"T8","Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2007-04-24,NA
+2007,"T8","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2007-04-24,NA
+2007,"T3","Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2007-04-30,"Wheat"
+2007,"T3","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2007-04-30,"Wheat"
+2007,NA,"Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2007-04-30,NA
+2007,NA,"Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2007-04-30,NA
+2007,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2007-05-07,NA
+2007,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2007-05-07,NA
+2007,"T7","Soil Preparation",NA,NA,NA,"John Deere 6420 Tractor",2007-05-21,NA
+2007,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2007-05-21,NA
+2007,"T6","Harvest",NA,NA,NA,"John Deere 3430 12' haybine",2007-06-05,NA
+2007,"T6","Harvest",NA,NA,NA,NA,2007-06-05,NA
+2007,"T6","Harvest",NA,NA,NA,"Hay Tedder (Sitrex 2-rotor, rotary tedder)",2007-06-06,NA
+2007,"T6","Harvest",NA,NA,NA,"Tractor-unknown",2007-06-06,NA
+2007,"T6","Harvest",NA,NA,NA,"New Holland 258 Rake - double rakes, left hand delivery.",2007-06-07,NA
+2007,"T6","Harvest",NA,NA,NA,"New Holland 260 Rake - single rake, right hand delivery.",2007-06-07,NA
+2007,"T6","Harvest",NA,NA,NA,"John Deere 385 round baler",2007-06-11,NA
+2007,"T6","Harvest",NA,NA,NA,"John Deere 5400 Tractor",2007-06-11,NA
+2007,"T6","Harvest",NA,NA,NA,"John Deere 6400 Tractor",2007-06-11,NA
+2007,"T6","Harvest",NA,NA,NA,"John Deere 6420 Tractor",2007-06-11,NA
+2007,"T6","Harvest",NA,NA,NA,"John Deere 7420a Tractor",2007-06-11,NA
+2007,"T6","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2007-06-11,NA
+2007,"T6","Harvest",NA,NA,NA,"New Holland Baler",2007-06-11,NA
+2007,NA,"Harvest",NA,NA,NA,"Wintersteiger plot combine",2007-07-09,NA
+2007,NA,"Harvest",NA,NA,NA,NA,2007-07-09,NA
+2007,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2007-07-10,"Wheat"
+2007,"T1","Harvest",NA,NA,NA,"truck - for hauling",2007-07-10,"Wheat"
+2007,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2007-07-10,"Wheat"
+2007,"T1","Harvest",NA,NA,NA,NA,2007-07-10,"Wheat"
+2007,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2007-07-10,"Wheat"
+2007,"T2","Harvest",NA,NA,NA,"truck - for hauling",2007-07-10,"Wheat"
+2007,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2007-07-10,"Wheat"
+2007,"T2","Harvest",NA,NA,NA,NA,2007-07-10,"Wheat"
+2007,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2007-07-10,"Wheat"
+2007,"T3","Harvest",NA,NA,NA,"truck - for hauling",2007-07-10,"Wheat"
+2007,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2007-07-10,"Wheat"
+2007,"T3","Harvest",NA,NA,NA,NA,2007-07-10,"Wheat"
+2007,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2007-07-10,"Wheat"
+2007,"T4","Harvest",NA,NA,NA,"truck - for hauling",2007-07-10,"Wheat"
+2007,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2007-07-10,"Wheat"
+2007,"T4","Harvest",NA,NA,NA,NA,2007-07-10,"Wheat"
+2007,"T1","Harvest",NA,NA,NA,"baler",2007-07-13,"Wheat"
+2007,"T1","Harvest",NA,NA,NA,"Tractor-unknown",2007-07-13,"Wheat"
+2007,"T2","Harvest",NA,NA,NA,"baler",2007-07-13,"Wheat"
+2007,"T2","Harvest",NA,NA,NA,"Tractor-unknown",2007-07-13,"Wheat"
+2007,"T6","Harvest",NA,NA,NA,"baler",2007-07-20,NA
+2007,"T7","Soil Preparation",NA,NA,NA,"disk",2007-08-03,NA
+2007,"T7","Soil Preparation",NA,NA,NA,"Moldboard plow",2007-08-03,NA
+2007,"T6","Planting","Pioneer 25R37 Soft Red Winter Wheat",1967742,"seeds","John Deere 750 10' no-till drill",2007-10-25,NA
+2007,"T6","Planting",NA,NA,NA,"John Deere 7420a Tractor",2007-10-25,NA
+2007,NA,"Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2007-10-31,NA
+2007,NA,"Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2007-10-31,NA
+2007,NA,"Planting",NA,NA,NA,NA,2007-11-14,NA
+2008,"T5","Harvest",NA,NA,NA,NA,2008-01-21,NA
+2008,"T1","Fertilizer application","0-0-62 potash fertilizer",74,"pound","Gandy Orbit-Air (30' boom)",2008-05-01,"Maize"
+2008,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-01,"Maize"
+2008,"T2","Fertilizer application","0-0-62 potash fertilizer",74,"pound","Gandy Orbit-Air (30' boom)",2008-05-01,"Maize"
+2008,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-01,"Maize"
+2008,"T3","Fertilizer application","0-0-62 potash fertilizer",74,"pound","Gandy Orbit-Air (30' boom)",2008-05-01,"Maize"
+2008,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-01,"Maize"
+2008,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2008-05-06,"Maize"
+2008,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2008-05-06,"Maize"
+2008,"T1","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-09,"Maize"
+2008,"T1","Fertilizer application","Pioneer 36W66 corn hybrid",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-09,"Maize"
+2008,"T1","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-09,"Maize"
+2008,"T1","Planting","Pioneer 36W66 corn hybrid",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-09,"Maize"
+2008,"T1","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-09,"Maize"
+2008,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2008-05-09,"Maize"
+2008,"T8","Fertilizer application","0-0-60 potash fertilizer",NA,"unknown","Gandy Orbit-Air (30' boom)",2008-05-12,NA
+2008,"T8","Fertilizer application",NA,NA,NA,"JD tractor - type unknown",2008-05-12,NA
+2008,"T2","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-13,"Maize"
+2008,"T2","Fertilizer application","Pioneer 36W66 corn hybrid",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-13,"Maize"
+2008,"T2","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-13,"Maize"
+2008,"T2","Planting","Pioneer 36W66 corn hybrid",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-13,"Maize"
+2008,"T2","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-13,"Maize"
+2008,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2008-05-13,"Maize"
+2008,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2008-05-13,"Maize"
+2008,"T8","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-13,NA
+2008,"T8","Fertilizer application","Pioneer 36W66 corn hybrid",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-13,NA
+2008,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-13,NA
+2008,"T8","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-13,NA
+2008,"T8","Planting","Pioneer 36W66 corn hybrid",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-13,NA
+2008,"T8","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-13,NA
+2008,NA,"Fertilizer application","0-0-62 potash fertilizer",74,"pound","Gandy Orbit-Air (30' boom)",2008-05-14,NA
+2008,NA,"Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2008-05-14,NA
+2008,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2008-05-15,"Maize"
+2008,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2008-05-15,"Maize"
+2008,"T3","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-16,"Maize"
+2008,"T3","Fertilizer application","Pioneer 36W66 corn hybrid",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-16,"Maize"
+2008,"T3","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-16,"Maize"
+2008,"T3","Planting","Pioneer 36W66 corn hybrid",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-16,"Maize"
+2008,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-16,"Maize"
+2008,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2008-05-16,"Maize"
+2008,"T4","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-23,"Maize"
+2008,"T4","Fertilizer application","Pioneer 36W66 corn hybrid (untreated)",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-23,"Maize"
+2008,"T4","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-23,"Maize"
+2008,"T4","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-23,"Maize"
+2008,"T4","Planting","Pioneer 36W66 corn hybrid (untreated)",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-23,"Maize"
+2008,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-23,"Maize"
+2008,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2008-05-23,"Maize"
+2008,"T4","Soil Preparation",NA,NA,NA,NA,2008-05-23,"Maize"
+2008,NA,"Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-23,NA
+2008,NA,"Fertilizer application","Pioneer 36W66 corn hybrid (untreated)",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-23,NA
+2008,NA,"Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-23,NA
+2008,NA,"Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2008-05-23,NA
+2008,NA,"Planting","Pioneer 36W66 corn hybrid (untreated)",28000,"seeds","John Deere 1730 Maxemerge Plus Planter",2008-05-23,NA
+2008,NA,"Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2008-05-23,NA
+2008,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2008-06-02,NA
+2008,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2008-06-02,NA
+2008,"T7","Soil Preparation",NA,NA,NA,"John Deere 6420 Tractor",2008-06-12,NA
+2008,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2008-06-12,NA
+2008,"T1","Fertilizer application","28% UAN (28-0-0)",34,"gallon","28% CLARK Six Row Fertilizer Applicator",2008-06-19,"Maize"
+2008,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2008-06-19,"Maize"
+2008,"T2","Fertilizer application","28% UAN (28-0-0)",34,"gallon","28% CLARK Six Row Fertilizer Applicator",2008-06-19,"Maize"
+2008,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2008-06-19,"Maize"
+2008,"T8","Fertilizer application","28% UAN (28-0-0)",34,"gallon","28% CLARK Six Row Fertilizer Applicator",2008-06-20,NA
+2008,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2008-06-20,NA
+2008,NA,"Fertilizer application","28% UAN (28-0-0)",34,"gallon","28% CLARK Six Row Fertilizer Applicator",2008-06-20,NA
+2008,"T6","Harvest",NA,NA,NA,"John Deere  9410 combine",2008-07-23,NA
+2008,"T6","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2008-07-23,NA
+2008,"T6","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2008-07-23,NA
+2008,"T6","Harvest",NA,NA,NA,NA,2008-07-23,NA
+2008,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2008-10-20,"Maize"
+2008,"T1","Harvest",NA,NA,NA,"truck - for hauling",2008-10-20,"Maize"
+2008,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2008-10-20,"Maize"
+2008,"T1","Harvest",NA,NA,NA,NA,2008-10-20,"Maize"
+2008,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2008-10-20,"Maize"
+2008,"T2","Harvest",NA,NA,NA,"truck - for hauling",2008-10-20,"Maize"
+2008,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2008-10-20,"Maize"
+2008,"T2","Harvest",NA,NA,NA,NA,2008-10-20,"Maize"
+2008,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2008-10-31,NA
+2008,NA,"Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2008-10-31,NA
+2008,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2008-11-03,"Maize"
+2008,"T3","Harvest",NA,NA,NA,"truck - for hauling",2008-11-03,"Maize"
+2008,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2008-11-03,"Maize"
+2008,"T3","Harvest",NA,NA,NA,NA,2008-11-03,"Maize"
+2008,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2008-11-03,"Maize"
+2008,"T4","Harvest",NA,NA,NA,"truck - for hauling",2008-11-03,"Maize"
+2008,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2008-11-03,"Maize"
+2008,"T4","Harvest",NA,NA,NA,NA,2008-11-03,"Maize"
+2008,"T4","Planting","c. rye",1.8,"bushel","John Deere 750 10' no-till drill",2008-11-07,"Maize"
+2008,"T4","Planting",NA,NA,NA,"John Deere 7420a Tractor",2008-11-07,"Maize"
+2008,"T3","Planting","c. rye",1.8,"bushel","John Deere 750 10' no-till drill",2008-11-11,"Maize"
+2008,"T3","Planting",NA,NA,NA,"John Deere 7420a Tractor",2008-11-11,"Maize"
+2009,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2009-05-11,NA
+2009,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2009-05-11,NA
+2009,"T5","Planting","NM-6 hybrid poplar tree: populus nigra x populus maximowiczii",1089,"plants","hand",2009-05-12,NA
+2009,"T1","Fertilizer application","0-0-60 potash fertilizer",120,"pound","Gandy Orbit-Air (30' boom)",2009-05-14,"Soybean"
+2009,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2009-05-14,"Soybean"
+2009,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2009-05-15,"Soybean"
+2009,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2009-05-15,"Soybean"
+2009,"T2","Fertilizer application","0-0-60 potash fertilizer",120,"pound","Gandy Orbit-Air (30' boom)",2009-05-15,"Soybean"
+2009,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2009-05-15,"Soybean"
+2009,"T3","Fertilizer application","0-0-60 potash fertilizer",120,"pound","Gandy Orbit-Air (30' boom)",2009-05-15,"Soybean"
+2009,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2009-05-15,"Soybean"
+2009,"T1","Planting","Pioneer 92Y30 soybeans (Roundup Ready)",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2009-05-20,"Soybean"
+2009,"T1","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2009-05-20,"Soybean"
+2009,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2009-05-20,"Soybean"
+2009,"T1","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2009-05-20,"Soybean"
+2009,"T2","Planting","Pioneer 92Y30 soybeans (Roundup Ready)",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2009-05-21,"Soybean"
+2009,"T2","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2009-05-21,"Soybean"
+2009,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2009-05-21,"Soybean"
+2009,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2009-05-21,"Soybean"
+2009,"T7","Soil Preparation",NA,NA,NA,"John Deere 6420 Tractor",2009-05-21,NA
+2009,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2009-05-21,NA
+2009,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2009-05-22,"Soybean"
+2009,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2009-05-22,"Soybean"
+2009,"T8","Planting","Pioneer 92Y30 soybeans (Roundup Ready)",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2009-05-22,NA
+2009,"T8","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2009-05-22,NA
+2009,"T3","Planting","Pioneer 92Y30 soybeans (Roundup Ready)",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2009-05-31,"Soybean"
+2009,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2009-05-31,"Soybean"
+2009,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2009-05-31,"Soybean"
+2009,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2009-05-31,"Soybean"
+2009,"T4","Planting","Blue River Hybrids Soybean Variety 2A12 Organic Soybeans",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2009-06-03,"Soybean"
+2009,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2009-06-03,"Soybean"
+2009,"T6","Planting","WL 347 LH Alfalfa",18,"pound","John Deere 1590 15' no-till drill",2009-06-23,NA
+2009,"T6","Planting",NA,NA,NA,"John Deere 7420a Tractor",2009-06-23,NA
+2009,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2009-10-16,"Soybean"
+2009,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2009-10-16,"Soybean"
+2009,"T1","Harvest",NA,NA,NA,NA,2009-10-16,"Soybean"
+2009,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2009-10-16,"Soybean"
+2009,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2009-10-16,"Soybean"
+2009,"T2","Harvest",NA,NA,NA,NA,2009-10-16,"Soybean"
+2009,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2009-10-16,"Soybean"
+2009,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2009-10-16,"Soybean"
+2009,"T3","Harvest",NA,NA,NA,NA,2009-10-16,"Soybean"
+2009,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2009-10-16,"Soybean"
+2009,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2009-10-16,"Soybean"
+2009,"T4","Harvest",NA,NA,NA,NA,2009-10-16,"Soybean"
+2009,"T2","Planting","Pioneer 25R47 Soft Red Winter Wheat (treated)",168,"pound","John Deere 750 10' no-till drill",2009-10-20,"Soybean"
+2009,"T2","Planting",NA,NA,NA,"John Deere 7420a Tractor",2009-10-20,"Soybean"
+2009,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2009-10-22,NA
+2009,"T8","Planting","Pioneer 25R47 Soft Red Winter Wheat (treated)",168,"pound","John Deere 750 10' no-till drill",2009-10-22,NA
+2009,"T8","Planting",NA,NA,NA,"John Deere 7420a Tractor",2009-10-22,NA
+2009,"T1","Planting","Pioneer 25R47 Soft Red Winter Wheat (treated)",168,"pound","John Deere 750 10' no-till drill",2009-11-05,"Soybean"
+2009,"T1","Planting",NA,NA,NA,"John Deere 7420a Tractor",2009-11-05,"Soybean"
+2009,"T1","Planting","Pioneer 25R47 Soft Red Winter Wheat (treated)",1932000,"seeds","John Deere 750 10' no-till drill",2009-11-06,"Soybean"
+2009,"T4","Planting","Pioneer 25R47 Soft Red Winter Wheat (untreated)",178,"pound","John Deere 450 conventional 10' drill",2009-11-13,"Soybean"
+2009,"T4","Planting",NA,NA,NA,"John Deere 5425 Tractor",2009-11-13,"Soybean"
+2009,"T3","Planting","Pioneer 25R47 Soft Red Winter Wheat (treated)",168,"pound","John Deere 750 10' no-till drill",2009-11-14,"Soybean"
+2009,"T3","Planting",NA,NA,NA,"John Deere 7420a Tractor",2009-11-14,"Soybean"
+2010,"T3","Planting","red clover",12,"pound","Gandy Air Seeder",2010-03-19,"Wheat"
+2010,"T3","Planting",NA,NA,NA,"John Deere 5220 Tractor",2010-03-19,"Wheat"
+2010,"T4","Planting","red clover",12,"pound","Gandy Air Seeder",2010-03-22,"Wheat"
+2010,"T4","Planting",NA,NA,NA,"John Deere 5220 Tractor",2010-03-22,"Wheat"
+2010,"T5","Planting","NM-6 hybrid poplar tree: populus nigra x populus maximowiczii",NA,"unknown","Shovel (hand powered)",2010-04-19,NA
+2010,"T5","Planting",NA,NA,NA,NA,2010-04-19,NA
+2010,"T2","Fertilizer application","28% UAN (28-0-0)",15,"gallon","Turbo TeeJet 11005 Flat Fan Nozzle",2010-04-20,"Wheat"
+2010,"T2","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2010-04-20,"Wheat"
+2010,"T2","Fertilizer application",NA,NA,NA,"Top Air Sprayer",2010-04-20,"Wheat"
+2010,"T1","Fertilizer application","28% UAN (28-0-0)",15,"gallon","Turbo TeeJet 11005 Flat Fan Nozzle",2010-04-21,"Wheat"
+2010,"T1","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2010-04-21,"Wheat"
+2010,"T1","Fertilizer application",NA,NA,NA,"Top Air Sprayer",2010-04-21,"Wheat"
+2010,"T3","Fertilizer application","28% UAN (28-0-0)",15,"gallon","Turbo TeeJet 11005 Flat Fan Nozzle",2010-04-21,"Wheat"
+2010,"T3","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2010-04-21,"Wheat"
+2010,"T3","Fertilizer application",NA,NA,NA,"Top Air Sprayer",2010-04-21,"Wheat"
+2010,"T1","Fertilizer application","28% UAN (28-0-0)",11,"gallon","Turbo TeeJet 11005 Flat Fan Nozzle",2010-04-29,"Wheat"
+2010,"T2","Fertilizer application","28% UAN (28-0-0)",11,"gallon","Turbo TeeJet 11005 Flat Fan Nozzle",2010-04-29,"Wheat"
+2010,"T3","Fertilizer application","28% UAN (28-0-0)",26,"gallon","Turbo TeeJet 11005 Flat Fan Nozzle",2010-05-03,"Wheat"
+2010,"T4","Fertilizer application","28% UAN (28-0-0)",26,"gallon","Turbo TeeJet 11005 Flat Fan Nozzle",2010-05-03,"Wheat"
+2010,"T4","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2010-05-03,"Wheat"
+2010,"T4","Fertilizer application",NA,NA,NA,"Top Air Sprayer",2010-05-03,"Wheat"
+2010,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2010-05-19,NA
+2010,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2010-05-19,NA
+2010,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2010-05-25,NA
+2010,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2010-05-25,NA
+2010,"T6","Harvest","alfalfa",0,"unknown","John Deere 7350 Self-propelled forage harvester/chopper",2010-06-04,NA
+2010,"T6","Harvest",NA,NA,NA,NA,2010-06-04,NA
+2010,"T8","Fertilizer application","28% UAN (28-0-0)",43.5,"gallon","28% CLARK Six Row Fertilizer Applicator",2010-06-29,NA
+2010,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2010-06-29,NA
+2010,"T1","Harvest","winter wheat",0,"unknown","Weigh Wagon, Brent by Unverferth Manufacturing Co.",2010-07-14,"Wheat"
+2010,"T1","Harvest",NA,NA,NA,"combine",2010-07-14,"Wheat"
+2010,"T1","Harvest",NA,NA,NA,NA,2010-07-14,"Wheat"
+2010,"T2","Harvest","winter wheat",0,"unknown","Weigh Wagon, Brent by Unverferth Manufacturing Co.",2010-07-14,"Wheat"
+2010,"T2","Harvest",NA,NA,NA,"combine",2010-07-14,"Wheat"
+2010,"T2","Harvest",NA,NA,NA,NA,2010-07-14,"Wheat"
+2010,"T3","Harvest","winter wheat",0,"unknown","Weigh Wagon, Brent by Unverferth Manufacturing Co.",2010-07-15,"Wheat"
+2010,"T3","Harvest",NA,NA,NA,"combine",2010-07-15,"Wheat"
+2010,"T3","Harvest",NA,NA,NA,NA,2010-07-15,"Wheat"
+2010,"T4","Harvest","winter wheat",0,"unknown","Weigh Wagon, Brent by Unverferth Manufacturing Co.",2010-07-15,"Wheat"
+2010,"T4","Harvest",NA,NA,NA,"combine",2010-07-15,"Wheat"
+2010,"T4","Harvest",NA,NA,NA,NA,2010-07-15,"Wheat"
+2010,"T1","Harvest","straw",0,"unknown","John Deere 6420 Tractor",2010-07-16,"Wheat"
+2010,"T1","Harvest",NA,NA,NA,"baler",2010-07-16,"Wheat"
+2010,"T2","Harvest","straw",0,"unknown","John Deere 6420 Tractor",2010-07-16,"Wheat"
+2010,"T2","Harvest",NA,NA,NA,"baler",2010-07-16,"Wheat"
+2010,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2010-07-16,"Wheat"
+2010,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2010-07-16,"Wheat"
+2010,"T6","Harvest",NA,NA,NA,"haybine",2010-07-16,NA
+2010,"T3","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2010-07-17,"Wheat"
+2010,"T4","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2010-07-17,"Wheat"
+2010,"T6","Harvest","alfalfa",0,"unknown","baler",2010-07-19,NA
+2010,"T6","Harvest","alfalfa",NA,"unknown","rake",2010-07-19,NA
+2010,"T6","Harvest","hay",0,"unknown","baler",2010-07-19,NA
+2010,"T6","Harvest",NA,NA,NA,"John Deere 6420 Tractor",2010-07-19,NA
+2010,NA,"Planting","Turfgrass seed (variety listed in description)",250,"pound","Brillion Sure Stand 12' Seeder  SS12 with packer",2010-11-03,NA
+2010,NA,"Planting",NA,NA,NA,"John Deere 5425 Tractor",2010-11-03,NA
+2010,NA,"Planting",NA,NA,NA,"rake",2010-11-03,NA
+2010,NA,"Planting",NA,NA,NA,NA,2010-11-03,NA
+2011,"T1","Fertilizer application","0-0-60 potash fertilizer",65,"pound","Gandy Orbit-Air (30' boom)",2011-03-30,"Maize"
+2011,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2011-03-30,"Maize"
+2011,"T2","Fertilizer application","0-0-60 potash fertilizer",70,"pound","Gandy Orbit-Air (30' boom)",2011-03-30,"Maize"
+2011,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2011-03-30,"Maize"
+2011,"T3","Fertilizer application","0-0-60 potash fertilizer",65,"pound","Gandy Orbit-Air (30' boom)",2011-03-30,"Maize"
+2011,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2011-03-30,"Maize"
+2011,"T6","Fertilizer application","0-0-60 potash fertilizer",230,"pound","Gandy Orbit-Air (30' boom)",2011-03-30,NA
+2011,"T6","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2011-03-30,NA
+2011,"T6","Fertilizer application","boron (B)",3,"pound","Gandy Orbit-Air (30' boom)",2011-04-05,NA
+2011,"T6","Fertilizer application","0-46-0 phosphate fertilizer",200,"pound","Gandy Orbit-Air (30' boom)",2011-04-14,NA
+2011,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2011-05-05,"Maize"
+2011,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2011-05-05,"Maize"
+2011,"T1","Soil Preparation",NA,NA,NA,NA,2011-05-05,"Maize"
+2011,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2011-05-06,"Maize"
+2011,"T2","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2011-05-06,"Maize"
+2011,"T2","Fertilizer application","Dekalb DKC52-59 Corn Hybrid",29500,"seeds","John Deere 1730 Maxemerge Plus Planter",2011-05-06,"Maize"
+2011,"T2","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2011-05-06,"Maize"
+2011,"T2","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2011-05-06,"Maize"
+2011,"T2","Planting","Dekalb DKC52-59 Corn Hybrid",29500,"seeds","John Deere 1730 Maxemerge Plus Planter",2011-05-06,"Maize"
+2011,"T2","Planting",NA,NA,NA,"John Deere 7330 Tractor",2011-05-06,"Maize"
+2011,"T1","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2011-05-09,"Maize"
+2011,"T1","Fertilizer application","Dekalb DKC52-59 Corn Hybrid",30800,"seeds","John Deere 1730 Maxemerge Plus Planter",2011-05-09,"Maize"
+2011,"T1","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2011-05-09,"Maize"
+2011,"T1","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2011-05-09,"Maize"
+2011,"T1","Planting","Dekalb DKC52-59 Corn Hybrid",30800,"seeds","John Deere 1730 Maxemerge Plus Planter",2011-05-09,"Maize"
+2011,"T1","Planting",NA,NA,NA,"John Deere 7330 Tractor",2011-05-09,"Maize"
+2011,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2011-05-09,NA
+2011,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2011-05-09,NA
+2011,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2011-05-10,"Maize"
+2011,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2011-05-10,"Maize"
+2011,"T3","Soil Preparation",NA,NA,NA,NA,2011-05-10,"Maize"
+2011,"T7","Soil Preparation",NA,NA,NA,"John Deere 6420 Tractor",2011-05-13,NA
+2011,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2011-05-13,NA
+2011,"T3","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2011-05-24,"Maize"
+2011,"T3","Fertilizer application","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2011-05-24,"Maize"
+2011,"T3","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2011-05-24,"Maize"
+2011,"T3","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2011-05-24,"Maize"
+2011,"T3","Planting","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2011-05-24,"Maize"
+2011,"T3","Planting",NA,NA,NA,"John Deere 7330 Tractor",2011-05-24,"Maize"
+2011,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2011-05-24,"Maize"
+2011,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2011-05-24,"Maize"
+2011,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2011-05-24,"Maize"
+2011,"T3","Planting",NA,NA,NA,"John Deere 6420 Tractor",2011-06-02,"Maize"
+2011,"T3","Planting",NA,NA,NA,"Yetter 3415 MT 15' Rotary Hoe",2011-06-02,"Maize"
+2011,"T3","Soil Preparation",NA,NA,NA,"John Deere 6420 Tractor",2011-06-02,"Maize"
+2011,"T3","Soil Preparation",NA,NA,NA,"Yetter 3415 MT 15' Rotary Hoe",2011-06-02,"Maize"
+2011,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2011-06-02,"Maize"
+2011,"T4","Planting","Blue River Hybrids Corn Hybrid 22A10 Organic Corn",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2011-06-04,"Maize"
+2011,"T4","Planting",NA,NA,NA,"John Deere 7330 Tractor",2011-06-04,"Maize"
+2011,"T4","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2011-06-04,"Maize"
+2011,"T5","Fertilizer application","ammonium nitrate (27-0-0) CAN-27 by YaraBela Co.",518,"pound","Gandy Air Seeder",2011-06-07,NA
+2011,"T5","Fertilizer application",NA,NA,NA,"John Deere 4400 Tractor",2011-06-07,NA
+2011,"T6","Harvest",NA,NA,NA,NA,2011-06-07,NA
+2011,"T1","Fertilizer application","28% UAN (28-0-0)",37,"gallon","28% CLARK Six Row Fertilizer Applicator",2011-06-15,"Maize"
+2011,"T2","Fertilizer application","28% UAN (28-0-0)",37,"gallon","28% CLARK Six Row Fertilizer Applicator",2011-06-15,"Maize"
+2011,"T5","Fertilizer application",NA,NA,NA,NA,2011-06-22,NA
+2011,"T8","Fertilizer application","28% UAN (28-0-0)",35,"gallon","28% CLARK Six Row Fertilizer Applicator",2011-06-27,NA
+2011,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2011-06-27,NA
+2011,"T3","Fertilizer application","28% UAN (28-0-0)",37,"gallon","28% CLARK Six Row Fertilizer Applicator",2011-07-05,"Maize"
+2011,"T4","Fertilizer application","28% UAN (28-0-0)",37,"gallon","28% CLARK Six Row Fertilizer Applicator",2011-07-05,"Maize"
+2011,"T4","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2011-07-05,"Maize"
+2011,"T5","Fertilizer application","ammonium nitrate (27-0-0) CAN-27 by YaraBela Co.",0,"pound","Gandy Air Seeder",2011-07-29,NA
+2011,"T3","Harvest",NA,NA,NA,NA,2011-09-12,"Maize"
+2011,"T4","Harvest",NA,NA,NA,NA,2011-09-12,"Maize"
+2011,NA,"Harvest",NA,NA,NA,NA,2011-09-12,NA
+2011,"T1","Harvest","Blue River Hybrids Corn Hybrid 22A10 Organic Corn",NA,"unknown","John Deere  9410 combine",2011-11-14,"Maize"
+2011,"T1","Harvest","Dekalb DKC52-59 Corn Hybrid",NA,"unknown","John Deere  9410 combine",2011-11-14,"Maize"
+2011,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2011-11-14,"Maize"
+2011,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2011-11-14,"Maize"
+2011,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2011-11-14,"Maize"
+2011,"T1","Harvest",NA,NA,NA,NA,2011-11-14,"Maize"
+2011,"T2","Harvest","Blue River Hybrids Corn Hybrid 22A10 Organic Corn",NA,"unknown","John Deere  9410 combine",2011-11-14,"Maize"
+2011,"T2","Harvest","Dekalb DKC52-59 Corn Hybrid",NA,"unknown","John Deere  9410 combine",2011-11-14,"Maize"
+2011,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2011-11-14,"Maize"
+2011,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2011-11-14,"Maize"
+2011,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2011-11-14,"Maize"
+2011,"T2","Harvest",NA,NA,NA,NA,2011-11-14,"Maize"
+2011,"T3","Harvest","Blue River Hybrids Corn Hybrid 22A10 Organic Corn",NA,"unknown","John Deere  9410 combine",2011-11-14,"Maize"
+2011,"T3","Harvest","Dekalb DKC52-59 Corn Hybrid",NA,"unknown","John Deere  9410 combine",2011-11-14,"Maize"
+2011,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2011-11-14,"Maize"
+2011,"T3","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2011-11-14,"Maize"
+2011,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2011-11-14,"Maize"
+2011,"T4","Harvest","Blue River Hybrids Corn Hybrid 22A10 Organic Corn",NA,"unknown","John Deere  9410 combine",2011-11-14,"Maize"
+2011,"T4","Harvest","Dekalb DKC52-59 Corn Hybrid",NA,"unknown","John Deere  9410 combine",2011-11-14,"Maize"
+2011,"T4","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2011-11-14,"Maize"
+2011,"T4","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2011-11-14,"Maize"
+2011,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2011-11-14,"Maize"
+2011,"T4","Planting","Organic Cereal Rye",127,"pound","John Deere 750 10' no-till drill",2011-11-18,"Maize"
+2011,"T4","Planting",NA,NA,NA,"John Deere 7420a Tractor",2011-11-18,"Maize"
+2011,"T3","Planting","rye",151,"pound","John Deere 750 10' no-till drill",2011-11-19,"Maize"
+2011,"T3","Planting",NA,NA,NA,"John Deere 7420a Tractor",2011-11-19,"Maize"
+2011,"T8","Harvest","Dekalb DKC52-59 Corn Hybrid",NA,"unknown","Kincaid 8XP Plot Combine",2011-11-19,NA
+2011,"T8","Harvest",NA,NA,NA,NA,2011-11-19,NA
+2012,"T1","Fertilizer application","lime",0,"ton","Other",2012-04-11,"Soybean"
+2012,"T1","Fertilizer application",NA,NA,NA,NA,2012-04-11,"Soybean"
+2012,"T2","Fertilizer application","lime",0,"ton","Other",2012-04-11,"Soybean"
+2012,"T2","Fertilizer application",NA,NA,NA,NA,2012-04-11,"Soybean"
+2012,"T3","Fertilizer application","lime",0,"ton","Other",2012-04-11,"Soybean"
+2012,"T3","Fertilizer application",NA,NA,NA,NA,2012-04-11,"Soybean"
+2012,"T4","Fertilizer application","lime",0,"ton","Other",2012-04-11,"Soybean"
+2012,"T4","Fertilizer application",NA,NA,NA,NA,2012-04-11,"Soybean"
+2012,"T6","Fertilizer application","lime",0,"ton","Other",2012-04-11,NA
+2012,"T6","Fertilizer application",NA,NA,NA,NA,2012-04-11,NA
+2012,"T2","Fertilizer application","0-0-60 potash fertilizer",92,"pound","Gandy Orbit-Air (30' boom)",2012-04-13,"Soybean"
+2012,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2012-04-13,"Soybean"
+2012,"T1","Fertilizer application","0-0-60 potash fertilizer",92,"pound","Gandy Orbit-Air (30' boom)",2012-04-17,"Soybean"
+2012,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2012-04-17,"Soybean"
+2012,"T3","Fertilizer application","0-0-60 potash fertilizer",92,"pound","Gandy Orbit-Air (30' boom)",2012-04-17,"Soybean"
+2012,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2012-04-17,"Soybean"
+2012,"T1","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",60,"pound","Gandy Orbit-Air (30' boom)",2012-04-19,"Soybean"
+2012,"T2","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",60,"pound","Gandy Orbit-Air (30' boom)",2012-04-23,"Soybean"
+2012,"T3","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",60,"pound","Gandy Orbit-Air (30' boom)",2012-04-23,"Soybean"
+2012,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2012-04-24,"Soybean"
+2012,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2012-04-24,"Soybean"
+2012,"T1","Soil Preparation",NA,NA,NA,NA,2012-04-24,"Soybean"
+2012,"T8","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",60,"pound","Gandy Orbit-Air (30' boom)",2012-04-24,NA
+2012,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2012-04-24,NA
+2012,"T5","Fertilizer application","ammonium nitrate (27-0-0) CAN-27 by YaraBela Co.",0,"pound","Gandy Air Seeder",2012-05-09,NA
+2012,"T5","Fertilizer application",NA,NA,NA,"John Deere 4400 Tractor",2012-05-09,NA
+2012,"T6","Harvest",NA,NA,NA,"John Deere 4995 Discbine with 14'6"" cutting head",2012-05-15,NA
+2012,"T6","Harvest",NA,NA,NA,NA,2012-05-15,NA
+2012,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2012-05-16,"Soybean"
+2012,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2012-05-16,"Soybean"
+2012,"T6","Harvest",NA,NA,NA,"Case IH 7110 Tractor",2012-05-16,NA
+2012,"T6","Harvest",NA,NA,NA,"John Deere 5425 Tractor",2012-05-16,NA
+2012,"T6","Harvest",NA,NA,NA,"New Holland 258 Rake - double rakes, left hand delivery.",2012-05-16,NA
+2012,"T6","Harvest",NA,NA,NA,"New Holland FP230 Forage Harvester - Pull Type",2012-05-16,NA
+2012,"T6","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2012-05-16,NA
+2012,"T6","Harvest",NA,NA,NA,"Wagon - Richardton 700 Forage Dump Wagon",2012-05-16,NA
+2012,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2012-05-17,"Soybean"
+2012,"T1","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2012-05-17,"Soybean"
+2012,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2012-05-18,"Soybean"
+2012,"T3","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2012-05-18,"Soybean"
+2012,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2012-05-18,"Soybean"
+2012,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2012-05-18,"Soybean"
+2012,"T4","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2012-05-18,"Soybean"
+2012,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2012-05-18,"Soybean"
+2012,"T1","Planting","Pioneer 92Y30 soybeans (Roundup Ready)",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2012-05-19,"Soybean"
+2012,"T1","Planting",NA,NA,NA,"John Deere 7330 Tractor",2012-05-19,"Soybean"
+2012,"T1","Planting",NA,NA,NA,NA,2012-05-19,"Soybean"
+2012,"T1","Soil Preparation",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2012-05-19,"Soybean"
+2012,"T1","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2012-05-19,"Soybean"
+2012,"T2","Planting","Pioneer 92Y30 soybeans (Roundup Ready)",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2012-05-19,"Soybean"
+2012,"T2","Planting",NA,NA,NA,"John Deere 7330 Tractor",2012-05-19,"Soybean"
+2012,"T2","Planting",NA,NA,NA,NA,2012-05-19,"Soybean"
+2012,"T6","Fertilizer application","0-0-62 potash fertilizer",517,"pound","Gandy Orbit-Air (30' boom)",2012-05-19,NA
+2012,"T6","Fertilizer application","boron (B)",23,"pound","Gandy Orbit-Air (30' boom)",2012-05-19,NA
+2012,"T6","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2012-05-19,NA
+2012,"T3","Soil Preparation",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2012-05-22,"Soybean"
+2012,"T3","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2012-05-22,"Soybean"
+2012,"T6","Fertilizer application","0-46-0 phosphate fertilizer",200,"pound","John Deere 7420a Tractor",2012-05-22,NA
+2012,"T6","Fertilizer application",NA,NA,NA,"Gandy Air Seeder",2012-05-22,NA
+2012,"T3","Planting","Pioneer 92Y30 soybeans (Roundup Ready)",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2012-05-23,"Soybean"
+2012,"T3","Planting",NA,NA,NA,"John Deere 7330 Tractor",2012-05-23,"Soybean"
+2012,"T4","Soil Preparation",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2012-05-23,"Soybean"
+2012,"T4","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2012-05-23,"Soybean"
+2012,"T8","Planting","Pioneer 92Y30 soybeans (Roundup Ready)",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2012-05-24,NA
+2012,"T8","Planting",NA,NA,NA,"John Deere 7330 Tractor",2012-05-24,NA
+2012,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2012-05-29,NA
+2012,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2012-05-29,NA
+2012,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2012-05-30,NA
+2012,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2012-05-30,NA
+2012,"T4","Planting","Blue River Hybrids Soybean Variety 19AR1 Organic Soybeans",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2012-06-07,"Soybean"
+2012,"T4","Planting",NA,NA,NA,"John Deere 7330 Tractor",2012-06-07,"Soybean"
+2012,"T6","Harvest",NA,NA,NA,"John Deere 2155 Tractor",2012-06-13,NA
+2012,"T6","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2012-06-13,NA
+2012,"T6","Harvest",NA,NA,NA,"New Holland Baler",2012-08-01,NA
+2012,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2012-10-11,"Soybean"
+2012,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2012-10-11,"Soybean"
+2012,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2012-10-11,"Soybean"
+2012,"T1","Harvest",NA,NA,NA,NA,2012-10-11,"Soybean"
+2012,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2012-10-11,"Soybean"
+2012,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2012-10-11,"Soybean"
+2012,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2012-10-11,"Soybean"
+2012,"T2","Harvest",NA,NA,NA,NA,2012-10-11,"Soybean"
+2012,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2012-10-11,"Soybean"
+2012,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2012-10-11,"Soybean"
+2012,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2012-10-11,"Soybean"
+2012,"T3","Harvest",NA,NA,NA,NA,2012-10-11,"Soybean"
+2012,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2012-10-25,"Soybean"
+2012,"T4","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2012-10-25,"Soybean"
+2012,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2012-10-25,"Soybean"
+2012,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2012-10-25,NA
+2012,"T2","Planting","Pioneer 25R39 Soft Red Winter Wheat (treated)",1800000,"seeds","John Deere 750 10' no-till drill",2012-10-29,"Soybean"
+2012,"T2","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2012-10-29,"Soybean"
+2012,"T1","Planting","Pioneer 25R39 Soft Red Winter Wheat (treated)",NA,"unknown","John Deere 7520 Tractor",2012-11-07,"Soybean"
+2012,"T1","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2012-11-07,"Soybean"
+2012,"T3","Planting","Pioneer 25R39 Soft Red Winter Wheat (treated)",NA,"unknown","John Deere 7520 Tractor",2012-11-07,"Soybean"
+2012,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2012-11-07,"Soybean"
+2012,"T4","Planting","Pioneer 25R39 Soft Red Winter Wheat (untreated)",NA,"seeds","John Deere 750 10' no-till drill",2012-11-08,"Soybean"
+2012,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2012-11-08,"Soybean"
+2012,"T8","Planting","Pioneer 25R39 Soft Red Winter Wheat (treated)",1625000,"seeds","John Deere 1590 15' no-till drill",2012-11-20,NA
+2012,"T8","Planting",NA,NA,NA,"John Deere 7420a Tractor",2012-11-20,NA
+2013,"T1","Fertilizer application",NA,NA,NA,NA,2013-03-06,"Wheat"
+2013,"T2","Fertilizer application",NA,NA,NA,NA,2013-03-06,"Wheat"
+2013,"T3","Fertilizer application",NA,NA,NA,NA,2013-03-06,"Wheat"
+2013,"T4","Planting","red clover",14,"pound","Gandy Orbit-Air (15' boom)",2013-03-27,"Wheat"
+2013,"T4","Planting",NA,NA,NA,"John Deere 5220 Tractor",2013-03-27,"Wheat"
+2013,"T3","Planting","red clover",14,"pound","Gandy Orbit-Air (15' boom)",2013-03-28,"Wheat"
+2013,"T3","Planting",NA,NA,NA,"John Deere 5220 Tractor",2013-03-28,"Wheat"
+2013,"T1","Fertilizer application","28% UAN (28-0-0)",27,"gallon","Top Air Sprayer",2013-05-02,"Wheat"
+2013,"T1","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2013-05-02,"Wheat"
+2013,"T1","Fertilizer application",NA,NA,NA,"Turbo TeeJet 11005 Flat Fan Nozzle",2013-05-02,"Wheat"
+2013,"T2","Fertilizer application","28% UAN (28-0-0)",27,"gallon","Top Air Sprayer",2013-05-02,"Wheat"
+2013,"T2","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2013-05-02,"Wheat"
+2013,"T2","Fertilizer application",NA,NA,NA,"Turbo TeeJet 11005 Flat Fan Nozzle",2013-05-02,"Wheat"
+2013,"T3","Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2013-05-03,"Wheat"
+2013,"T3","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2013-05-03,"Wheat"
+2013,"T3","Fertilizer application",NA,NA,NA,"Turbo TeeJet 11005 Flat Fan Nozzle",2013-05-03,"Wheat"
+2013,NA,"Fertilizer application","28% UAN (28-0-0)",16,"gallon","Top Air Sprayer",2013-05-03,NA
+2013,NA,"Fertilizer application","28% UAN (28-0-0)",27,"gallon","Top Air Sprayer",2013-05-03,NA
+2013,NA,"Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2013-05-03,NA
+2013,NA,"Fertilizer application",NA,NA,NA,"Turbo TeeJet 11005 Flat Fan Nozzle",2013-05-03,NA
+2013,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2013-05-16,NA
+2013,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2013-05-16,NA
+2013,"T8","Fertilizer application","28% UAN (28-0-0)",27,"gallon","Top Air Sprayer",2013-05-16,NA
+2013,"T8","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2013-05-16,NA
+2013,"T8","Fertilizer application",NA,NA,NA,"TurboTeeJet 11003 Flat Fan Nozzle",2013-05-16,NA
+2013,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2013-05-17,NA
+2013,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2013-05-17,NA
+2013,"T6","Fertilizer application",NA,NA,NA,NA,2013-05-30,NA
+2013,"T6","Harvest",NA,NA,NA,"John Deere 4995 Discbine with 14'6"" cutting head",2013-06-04,NA
+2013,"T6","Harvest",NA,NA,NA,"John Deere 7350 Self-propelled forage harvester/chopper",2013-06-05,NA
+2013,"T6","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2013-06-05,NA
+2013,"T6","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2013-06-05,NA
+2013,"T5","Fertilizer application","Ammonium sulfate (AMS)",NA,"unknown","spreader",2013-07-09,NA
+2013,"T5","Fertilizer application",NA,NA,NA,NA,2013-07-09,NA
+2013,"T6","Fertilizer application","0-0-60 potash fertilizer",270,"pound","Gandy Orbit-Air (30' boom)",2013-07-13,NA
+2013,"T6","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2013-07-13,NA
+2013,NA,"Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2013-07-18,NA
+2013,"T3","Harvest",NA,NA,NA,"10' Tye ‘Series 5’ grain drill",2013-07-19,"Wheat"
+2013,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2013-07-19,"Wheat"
+2013,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2013-07-19,"Wheat"
+2013,"T3","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2013-07-19,"Wheat"
+2013,"T3","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2013-07-19,"Wheat"
+2013,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2013-07-19,"Wheat"
+2013,"T3","Harvest",NA,NA,NA,NA,2013-07-19,"Wheat"
+2013,"T4","Harvest",NA,NA,NA,"10' Tye ‘Series 5’ grain drill",2013-07-19,"Wheat"
+2013,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2013-07-19,"Wheat"
+2013,"T4","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2013-07-19,"Wheat"
+2013,"T4","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2013-07-19,"Wheat"
+2013,"T4","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2013-07-19,"Wheat"
+2013,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2013-07-19,"Wheat"
+2013,"T4","Harvest",NA,NA,NA,NA,2013-07-19,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2013-07-24,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2013-07-24,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2013-07-24,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2013-07-24,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2013-07-24,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,NA,2013-07-24,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2013-07-24,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2013-07-24,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2013-07-24,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2013-07-24,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2013-07-24,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,NA,2013-07-24,"Wheat"
+2013,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2013-07-24,NA
+2013,"T1","Harvest",NA,NA,NA,"John Deere 385 round baler",2013-07-25,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,"John Deere 7420a Tractor",2013-07-25,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2013-07-25,"Wheat"
+2013,"T1","Harvest",NA,NA,NA,"truck - for hauling",2013-07-25,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"John Deere 385 round baler",2013-07-25,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"John Deere 7420a Tractor",2013-07-25,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2013-07-25,"Wheat"
+2013,"T2","Harvest",NA,NA,NA,"truck - for hauling",2013-07-25,"Wheat"
+2013,"T3","Planting","red clover",10.5,"pound","John Deere 750 10' no-till drill",2013-08-16,"Wheat"
+2013,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2013-08-16,"Wheat"
+2013,"T6","Harvest",NA,NA,NA,"John Deere 2155 Tractor",2013-08-19,NA
+2013,"T6","Harvest",NA,NA,NA,"John Deere 6420 Tractor",2013-08-19,NA
+2013,"T6","Harvest",NA,NA,NA,"New Holland 258 Rake - single rake, left hand delivery.",2013-08-19,NA
+2013,"T6","Harvest",NA,NA,NA,"New Holland 260 Rake - single rake, right hand delivery.",2013-08-19,NA
+2013,"T6","Harvest",NA,NA,NA,"John Deere 5425 Tractor",2013-08-20,NA
+2013,"T6","Harvest",NA,NA,NA,"John Deere 6400 Tractor",2013-08-21,NA
+2013,"T6","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2013-08-21,NA
+2013,"T6","Harvest",NA,NA,NA,"New Holland Baler",2013-08-21,NA
+2014,"T1","Fertilizer application","0-0-60 potash fertilizer",70,"pound","Gandy Orbit-Air (30' boom)",2014-04-18,"Maize"
+2014,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-04-18,"Maize"
+2014,"T2","Fertilizer application","0-0-60 potash fertilizer",70,"pound","Gandy Orbit-Air (30' boom)",2014-04-18,"Maize"
+2014,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-04-18,"Maize"
+2014,"T3","Fertilizer application","0-0-60 potash fertilizer",70,"pound","Gandy Orbit-Air (30' boom)",2014-04-21,"Maize"
+2014,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-04-21,"Maize"
+2014,"T6","Fertilizer application","0-0-60 potash fertilizer",500,"pound","Gandy Orbit-Air (30' boom)",2014-04-21,NA
+2014,"T6","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-04-21,NA
+2014,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2014-04-21,NA
+2014,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2014-04-21,NA
+2014,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2014-04-23,"Maize"
+2014,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2014-04-23,"Maize"
+2014,"T8","Fertilizer application","0-0-60 potash fertilizer",70,"pound","Gandy Orbit-Air (30' boom)",2014-04-24,NA
+2014,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-04-24,NA
+2014,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2014-05-05,"Maize"
+2014,"T2","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2014-05-10,"Maize"
+2014,"T2","Fertilizer application","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-10,"Maize"
+2014,"T2","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2014-05-10,"Maize"
+2014,"T2","Fertilizer application",NA,NA,NA,NA,2014-05-10,"Maize"
+2014,"T2","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2014-05-10,"Maize"
+2014,"T2","Planting","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-10,"Maize"
+2014,"T2","Planting",NA,NA,NA,"John Deere 7330 Tractor",2014-05-10,"Maize"
+2014,"T2","Planting",NA,NA,NA,NA,2014-05-10,"Maize"
+2014,"T1","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2014-05-12,"Maize"
+2014,"T1","Fertilizer application","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-12,"Maize"
+2014,"T1","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2014-05-12,"Maize"
+2014,"T1","Fertilizer application",NA,NA,NA,NA,2014-05-12,"Maize"
+2014,"T1","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2014-05-12,"Maize"
+2014,"T1","Planting","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-12,"Maize"
+2014,"T1","Planting",NA,NA,NA,"John Deere 7330 Tractor",2014-05-12,"Maize"
+2014,"T1","Planting",NA,NA,NA,NA,2014-05-12,"Maize"
+2014,"T7","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2014-05-12,NA
+2014,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2014-05-12,NA
+2014,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2014-05-12,NA
+2014,"T5","Fertilizer application","Ammonium sulfate (AMS)",NA,"unknown","broadcast spreader (by hand)",2014-05-13,NA
+2014,"T5","Fertilizer application",NA,NA,NA,NA,2014-05-13,NA
+2014,"T8","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 7330 Tractor",2014-05-19,NA
+2014,"T8","Fertilizer application","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-19,NA
+2014,"T8","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 7330 Tractor",2014-05-19,NA
+2014,"T8","Planting","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-19,NA
+2014,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2014-05-20,"Maize"
+2014,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2014-05-20,"Maize"
+2014,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2014-05-22,"Maize"
+2014,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2014-05-22,"Maize"
+2014,"T3","Soil Preparation",NA,NA,NA,"Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc",2014-05-23,"Maize"
+2014,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2014-05-23,"Maize"
+2014,"T3","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2014-05-23,"Maize"
+2014,"T3","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2014-05-24,"Maize"
+2014,"T3","Fertilizer application","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-24,"Maize"
+2014,"T3","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2014-05-24,"Maize"
+2014,"T3","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2014-05-24,"Maize"
+2014,"T3","Planting","Dekalb DKC52-59 Corn Hybrid",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-24,"Maize"
+2014,"T3","Planting",NA,NA,NA,"John Deere 7330 Tractor",2014-05-24,"Maize"
+2014,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2014-05-29,"Maize"
+2014,"T6","Harvest",NA,NA,NA,"John Deere 4995 Discbine with 14'6"" cutting head",2014-05-30,NA
+2014,"T4","Planting","Blue River Hybrids Corn Hybrid 25M75 Organic Corn",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-31,"Maize"
+2014,"T4","Planting",NA,NA,NA,"John Deere 7330 Tractor",2014-05-31,"Maize"
+2014,"T4","Soil Preparation",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-05-31,"Maize"
+2014,"T4","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2014-05-31,"Maize"
+2014,NA,"Planting","Blue River Hybrids Corn Hybrid 25M75 Organic Corn",30000,"seeds","John Deere 1730 Maxemerge Plus Planter",2014-05-31,NA
+2014,NA,"Planting",NA,NA,NA,"John Deere 7330 Tractor",2014-05-31,NA
+2014,NA,"Soil Preparation",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-05-31,NA
+2014,NA,"Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2014-05-31,NA
+2014,"T1","Fertilizer application","28% UAN (28-0-0)",40,"gallon","28% CLARK Six Row Fertilizer Applicator",2014-06-17,"Maize"
+2014,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2014-06-17,"Maize"
+2014,"T2","Fertilizer application","28% UAN (28-0-0)",40,"gallon","28% CLARK Six Row Fertilizer Applicator",2014-06-18,"Maize"
+2014,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2014-06-18,"Maize"
+2014,"T8","Fertilizer application","28% UAN (28-0-0)",40,"gallon","28% CLARK Six Row Fertilizer Applicator",2014-06-18,NA
+2014,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420a Tractor",2014-06-18,NA
+2014,NA,"Fertilizer application","28% UAN (28-0-0)",40,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2014-06-28,NA
+2014,NA,"Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-06-28,NA
+2014,"T6","Harvest",NA,NA,NA,"Case IH 7110 Tractor",2014-07-03,NA
+2014,"T6","Harvest",NA,NA,NA,"John Deere 2155 Tractor",2014-07-03,NA
+2014,"T6","Harvest",NA,NA,NA,"John Deere 7810 Tractor",2014-07-03,NA
+2014,"T6","Harvest",NA,NA,NA,"New Holland 258 Rake - double rakes, left hand delivery.",2014-07-03,NA
+2014,"T6","Harvest",NA,NA,NA,"New Holland FP230 Forage Harvester - Pull Type",2014-07-03,NA
+2014,"T6","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2014-07-03,NA
+2014,"T6","Harvest",NA,NA,NA,"Wagon - Richardton 700 Forage Dump Wagon",2014-07-03,NA
+2014,"T6","Harvest",NA,NA,NA,"Hay Tedder (Sitrex 2-rotor, rotary tedder)",2014-08-08,NA
+2014,"T6","Harvest",NA,NA,NA,"John Deere 5425 Tractor",2014-08-08,NA
+2014,"T6","Harvest",NA,NA,NA,"John Deere 6400 Tractor",2014-08-09,NA
+2014,"T6","Harvest",NA,NA,NA,"New Holland 258 Rake - single rake, left hand delivery.",2014-08-09,NA
+2014,"T6","Harvest",NA,NA,NA,"John Deere 5425 with cab, MFWD, and loader",2014-08-10,NA
+2014,"T6","Harvest",NA,NA,NA,"New Holland 1038 Stackliner (Bale Stacker)",2014-08-10,NA
+2014,"T6","Harvest",NA,NA,NA,"New Holland 1469 - Haybiner",2014-08-10,NA
+2014,"T6","Fertilizer application","0-46-0 phosphate fertilizer",220,"pound","Gandy Orbit-Air (30' boom)",2014-08-15,NA
+2014,"T6","Fertilizer application","0-0-60 potash fertilizer",512,"pound","Gandy Orbit-Air (30' boom)",2014-08-27,NA
+2014,"T6","Fertilizer application","boron (B)",15,"pound","Gandy Orbit-Air (30' boom)",2014-08-27,NA
+2014,"T6","Fertilizer application",NA,NA,NA,NA,2014-08-27,NA
+2014,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2014-10-29,NA
+2014,"T8","Harvest",NA,NA,NA,NA,2014-10-29,NA
+2014,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2014-10-30,"Maize"
+2014,"T1","Harvest",NA,NA,NA,"John Deere 7400 Tractor",2014-10-30,"Maize"
+2014,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2014-10-30,"Maize"
+2014,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2014-10-30,"Maize"
+2014,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2014-10-30,"Maize"
+2014,"T1","Harvest",NA,NA,NA,"Wagon",2014-10-30,"Maize"
+2014,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2014-10-30,"Maize"
+2014,"T1","Harvest",NA,NA,NA,NA,2014-10-30,"Maize"
+2014,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2014-10-30,"Maize"
+2014,"T2","Harvest",NA,NA,NA,"John Deere 7400 Tractor",2014-10-30,"Maize"
+2014,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2014-10-30,"Maize"
+2014,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2014-10-30,"Maize"
+2014,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2014-10-30,"Maize"
+2014,"T2","Harvest",NA,NA,NA,"Wagon",2014-10-30,"Maize"
+2014,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2014-10-30,"Maize"
+2014,"T2","Harvest",NA,NA,NA,NA,2014-10-30,"Maize"
+2014,NA,"Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2014-11-03,NA
+2014,NA,"Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2014-11-03,NA
+2014,NA,"Harvest",NA,NA,NA,NA,2014-11-03,NA
+2014,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2014-11-05,"Maize"
+2014,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2014-11-05,"Maize"
+2014,"T3","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2014-11-05,"Maize"
+2014,"T3","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2014-11-05,"Maize"
+2014,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2014-11-05,"Maize"
+2014,"T3","Harvest",NA,NA,NA,NA,2014-11-05,"Maize"
+2014,"T3","Planting","rye",164,"pound","John Deere 1590 15' no-till drill",2014-11-07,"Maize"
+2014,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-11-07,"Maize"
+2014,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2014-11-07,"Maize"
+2014,"T4","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2014-11-07,"Maize"
+2014,"T4","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2014-11-07,"Maize"
+2014,"T4","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2014-11-07,"Maize"
+2014,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2014-11-07,"Maize"
+2014,"T4","Harvest",NA,NA,NA,NA,2014-11-07,"Maize"
+2014,"T4","Planting","Organic Cereal Rye",134,"pound","John Deere 1590 15' no-till drill",2014-11-07,"Maize"
+2014,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2014-11-07,"Maize"
+2015,"T1","Fertilizer application","0-0-60 potash fertilizer",150,"pound","Gandy Orbit-Air (30' boom)",2015-04-06,"Soybean"
+2015,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-04-06,"Soybean"
+2015,"T2","Fertilizer application","0-0-60 potash fertilizer",150,"pound","Gandy Orbit-Air (30' boom)",2015-04-06,"Soybean"
+2015,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-04-06,"Soybean"
+2015,"T3","Fertilizer application","0-0-60 potash fertilizer",150,"pound","Gandy Orbit-Air (30' boom)",2015-04-06,"Soybean"
+2015,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-04-06,"Soybean"
+2015,"T8","Fertilizer application","0-0-60 potash fertilizer",250,"pound","Gandy Orbit-Air (30' boom)",2015-04-07,NA
+2015,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-04-07,NA
+2015,"T1","Fertilizer application","0-46-0 phosphate fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2015-04-14,"Soybean"
+2015,"T2","Fertilizer application","0-46-0 phosphate fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2015-04-14,"Soybean"
+2015,"T3","Fertilizer application","0-46-0 phosphate fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2015-04-14,"Soybean"
+2015,"T8","Fertilizer application","0-46-0 phosphate fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2015-04-14,NA
+2015,"T6","Fertilizer application","0-46-0 phosphate fertilizer",200,"pound","Gandy Orbit-Air (30' boom)",2015-04-15,NA
+2015,"T6","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-04-15,NA
+2015,"T6","Fertilizer application","0-0-60 potash fertilizer",300,"pound","Gandy Orbit-Air (30' boom)",2015-04-23,NA
+2015,"T6","Fertilizer application","boron (B)",20,"pound","Gandy Orbit-Air (30' boom)",2015-04-23,NA
+2015,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2015-05-02,"Soybean"
+2015,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2015-05-02,"Soybean"
+2015,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2015-05-08,NA
+2015,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2015-05-08,NA
+2015,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2015-05-18,"Soybean"
+2015,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2015-05-18,NA
+2015,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2015-05-18,NA
+2015,NA,"Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2015-05-18,NA
+2015,NA,"Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2015-05-18,NA
+2015,"T1","Planting","Pioneer P22T69R (Round Up Ready) Soybean Seed",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2015-05-19,"Soybean"
+2015,"T1","Planting",NA,NA,NA,"John Deere 7330 Tractor",2015-05-19,"Soybean"
+2015,"T1","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2015-05-19,"Soybean"
+2015,"T1","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2015-05-19,"Soybean"
+2015,"T1","Soil Preparation",NA,NA,NA,NA,2015-05-19,"Soybean"
+2015,NA,"Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2015-05-19,NA
+2015,NA,"Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2015-05-19,NA
+2015,NA,"Soil Preparation",NA,NA,NA,NA,2015-05-19,NA
+2015,"T2","Planting","Pioneer P22T69R (Round Up Ready) Soybean Seed",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2015-05-20,"Soybean"
+2015,"T2","Planting",NA,NA,NA,"John Deere 7330 Tractor",2015-05-20,"Soybean"
+2015,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2015-05-20,"Soybean"
+2015,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2015-05-20,"Soybean"
+2015,"T6","Harvest",NA,NA,NA,"John Deere 4995 Discbine with 14'6"" cutting head",2015-05-21,NA
+2015,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2015-05-22,"Soybean"
+2015,"T3","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2015-05-22,"Soybean"
+2015,"T3","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2015-05-22,"Soybean"
+2015,"T6","Harvest",NA,NA,NA,"JD tractor - type unknown",2015-05-22,NA
+2015,"T6","Harvest",NA,NA,NA,"John Deere 7810 Tractor",2015-05-22,NA
+2015,"T6","Harvest",NA,NA,NA,"New Holland FP230 Forage Harvester - Pull Type",2015-05-22,NA
+2015,"T6","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2015-05-22,NA
+2015,"T6","Harvest",NA,NA,NA,"Wagon - Richardton 700 Forage Dump Wagon",2015-05-22,NA
+2015,"T6","Harvest",NA,NA,NA,NA,2015-05-22,NA
+2015,"T3","Planting","Pioneer P22T69R (Round Up Ready) Soybean Seed",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2015-05-23,"Soybean"
+2015,"T3","Planting",NA,NA,NA,"John Deere 7330 Tractor",2015-05-23,"Soybean"
+2015,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2015-05-23,"Soybean"
+2015,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2015-05-23,"Soybean"
+2015,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2015-06-03,"Soybean"
+2015,"T4","Soil Preparation",NA,NA,NA,NA,2015-06-03,"Soybean"
+2015,"T4","Planting","Viking Organic Soybean Seed Variety 0.2265",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2015-06-04,"Soybean"
+2015,"T4","Planting",NA,NA,NA,"John Deere 7330 Tractor",2015-06-04,"Soybean"
+2015,"T4","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2015-06-04,"Soybean"
+2015,"T4","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2015-06-04,"Soybean"
+2015,"T8","Planting","Pioneer P22T69R (Round Up Ready) Soybean Seed",180000,"seeds","John Deere 1730 Maxemerge Plus Planter",2015-06-10,NA
+2015,"T8","Planting",NA,NA,NA,"John Deere 7330 Tractor",2015-06-10,NA
+2015,"T5","Fertilizer application",NA,NA,NA,NA,2015-07-02,NA
+2015,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2015-09-30,"Soybean"
+2015,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2015-09-30,"Soybean"
+2015,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2015-09-30,"Soybean"
+2015,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2015-09-30,"Soybean"
+2015,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2015-09-30,"Soybean"
+2015,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2015-09-30,"Soybean"
+2015,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2015-09-30,"Soybean"
+2015,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2015-09-30,"Soybean"
+2015,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2015-09-30,"Soybean"
+2015,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2015-09-30,"Soybean"
+2015,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2015-09-30,"Soybean"
+2015,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2015-09-30,"Soybean"
+2015,"T3","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2015-09-30,"Soybean"
+2015,"T3","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2015-09-30,"Soybean"
+2015,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2015-09-30,"Soybean"
+2015,"T2","Planting","Pioneer 25R40 soft red winter wheat (Treated)",150,"pound","John Deere 1590 15' no-till drill",2015-10-02,"Soybean"
+2015,"T2","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-10-02,"Soybean"
+2015,"T1","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2015-10-03,"Soybean"
+2015,"T3","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2015-10-05,"Soybean"
+2015,"T3","Soil Preparation",NA,NA,NA,NA,2015-10-05,"Soybean"
+2015,"T1","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2015-10-06,"Soybean"
+2015,"T1","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-10-06,"Soybean"
+2015,"T3","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2015-10-07,"Soybean"
+2015,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-10-07,"Soybean"
+2015,"T6","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2015-10-09,NA
+2015,"T6","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-10-09,NA
+2015,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2015-10-19,NA
+2015,"T8","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2015-10-19,NA
+2015,NA,"Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2015-10-19,NA
+2015,NA,"Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2015-10-19,NA
+2015,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2015-10-20,"Soybean"
+2015,"T4","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2015-10-20,"Soybean"
+2015,"T4","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2015-10-20,"Soybean"
+2015,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2015-10-20,"Soybean"
+2015,"T4","Harvest",NA,NA,NA,NA,2015-10-20,"Soybean"
+2015,"T8","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2015-10-20,NA
+2015,"T8","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-10-20,NA
+2015,"T4","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2015-10-21,"Soybean"
+2015,"T4","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2015-10-23,"Soybean"
+2015,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2015-10-23,"Soybean"
+2015,NA,"Planting",NA,NA,NA,"drill",2015-12-04,NA
+2015,NA,"Planting",NA,NA,NA,"JD tractor - type unknown",2015-12-04,NA
+2016,"T1","Fertilizer application","28% UAN (28-0-0)",10,"gallon","Top Air Sprayer",2016-03-21,"Wheat"
+2016,"T1","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2016-03-21,"Wheat"
+2016,"T1","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2016-03-21,"Wheat"
+2016,"T2","Fertilizer application","28% UAN (28-0-0)",10,"gallon","Top Air Sprayer",2016-03-21,"Wheat"
+2016,"T2","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2016-03-21,"Wheat"
+2016,"T2","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2016-03-21,"Wheat"
+2016,"T3","Fertilizer application","28% UAN (28-0-0)",10,"gallon","Top Air Sprayer",2016-03-21,"Wheat"
+2016,"T3","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2016-03-21,"Wheat"
+2016,"T3","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2016-03-21,"Wheat"
+2016,"T8","Fertilizer application","28% UAN (28-0-0)",10,"gallon","Top Air Sprayer",2016-03-22,NA
+2016,"T8","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2016-03-22,NA
+2016,"T8","Fertilizer application",NA,NA,NA,"John Deere 5220 Tractor",2016-03-22,NA
+2016,"T4","Planting","red clover",12,"pound","John Deere 5220 Tractor",2016-03-23,"Wheat"
+2016,"T4","Planting",NA,NA,NA,"Gandy Orbit-Air (15' boom)",2016-03-23,"Wheat"
+2016,"T2","Fertilizer application","0-0-60 potash fertilizer",100,"pound","John Deere 7420b Tractor (14.9 R 46 back tire size)",2016-03-30,"Wheat"
+2016,"T2","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",175,"pound","John Deere 7420b Tractor (14.9 R 46 back tire size)",2016-03-30,"Wheat"
+2016,"T2","Fertilizer application",NA,NA,NA,"Gandy Orbit-Air (30' boom)",2016-03-30,"Wheat"
+2016,"T1","Fertilizer application","0-0-60 potash fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2016-04-05,"Wheat"
+2016,"T1","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",175,"pound","Gandy Orbit-Air (30' boom)",2016-04-05,"Wheat"
+2016,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2016-04-05,"Wheat"
+2016,"T6","Fertilizer application","0-0-60 potash fertilizer",150,"pound","Gandy Orbit-Air (30' boom)",2016-04-15,NA
+2016,"T6","Fertilizer application","0-46-0 phosphate fertilizer",200,"pound","Gandy Orbit-Air (30' boom)",2016-04-15,NA
+2016,"T6","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2016-04-15,NA
+2016,"T8","Fertilizer application","0-0-60 potash fertilizer",150,"pound","Gandy Orbit-Air (30' boom)",2016-04-15,NA
+2016,"T8","Fertilizer application","0-46-0 phosphate fertilizer",200,"pound","Gandy Orbit-Air (30' boom)",2016-04-15,NA
+2016,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2016-04-15,NA
+2016,"T3","Fertilizer application","0-0-60 potash fertilizer",150,"pound","Gandy Orbit-Air (30' boom)",2016-04-16,"Wheat"
+2016,"T3","Fertilizer application","0-46-0 phosphate fertilizer",200,"pound","Gandy Orbit-Air (30' boom)",2016-04-16,"Wheat"
+2016,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2016-04-16,"Wheat"
+2016,"T2","Fertilizer application","11-0-0-26",9,"gallon","Top Air Sprayer",2016-04-22,"Wheat"
+2016,"T1","Fertilizer application","11-0-0-26",9,"gallon","Top Air Sprayer",2016-04-24,"Wheat"
+2016,"T3","Fertilizer application","11-0-0-26",9,"gallon","Top Air Sprayer",2016-04-27,"Wheat"
+2016,"T3","Fertilizer application","28% UAN (28-0-0)",5,"gallon","Top Air Sprayer",2016-04-27,"Wheat"
+2016,"T8","Fertilizer application","11-0-0-26",9,"gallon","Top Air Sprayer",2016-04-27,NA
+2016,"T8","Fertilizer application","28% UAN (28-0-0)",5,"gallon","Top Air Sprayer",2016-04-27,NA
+2016,"T8","Fertilizer application","28% UAN (28-0-0)",12,"gallon","Top Air Sprayer",2016-04-27,NA
+2016,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2016-05-09,NA
+2016,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2016-05-09,NA
+2016,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2016-05-16,NA
+2016,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2016-05-16,NA
+2016,"T5","Fertilizer application",NA,NA,NA,NA,2016-06-06,NA
+2016,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2016-07-12,"Wheat"
+2016,"T1","Harvest",NA,NA,NA,"truck - for hauling",2016-07-12,"Wheat"
+2016,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2016-07-12,"Wheat"
+2016,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2016-07-12,"Wheat"
+2016,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2016-07-12,"Wheat"
+2016,"T1","Harvest",NA,NA,NA,NA,2016-07-12,"Wheat"
+2016,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2016-07-12,"Wheat"
+2016,"T2","Harvest",NA,NA,NA,"truck - for hauling",2016-07-12,"Wheat"
+2016,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2016-07-12,"Wheat"
+2016,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2016-07-12,"Wheat"
+2016,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2016-07-12,"Wheat"
+2016,"T2","Harvest",NA,NA,NA,NA,2016-07-12,"Wheat"
+2016,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2016-07-19,NA
+2016,"T3","Planting","Red Clover 'Medium Red Clover'",10.5,"pound","John Deere 1590 15' no-till drill",2016-08-03,"Wheat"
+2016,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2016-08-03,"Wheat"
+2016,"T6","Planting","Alfalfa Seed Roundup Ready (Pioneer 55VR06 Roundup Ready Alfalfa Seed)",20,"pound","John Deere 1590 15' no-till drill",2016-08-26,NA
+2016,"T6","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2016-08-26,NA
+2017,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2017-04-18,"Maize"
+2017,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2017-04-18,"Maize"
+2017,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2017-04-18,NA
+2017,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2017-04-18,NA
+2017,"T6","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2017-04-19,NA
+2017,"T6","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2017-04-19,NA
+2017,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2017-04-26,NA
+2017,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2017-04-26,NA
+2017,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2017-04-27,"Maize"
+2017,"T5","Fertilizer application",NA,NA,NA,NA,2017-05-03,NA
+2017,"T1","Fertilizer application","0-0-60 potash fertilizer",80,"pound","Gandy Orbit-Air (30' boom)",2017-05-08,"Maize"
+2017,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2017-05-08,"Maize"
+2017,"T2","Fertilizer application","0-0-60 potash fertilizer",80,"pound","Gandy Orbit-Air (30' boom)",2017-05-08,"Maize"
+2017,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2017-05-08,"Maize"
+2017,"T3","Fertilizer application","0-0-60 potash fertilizer",80,"pound","Gandy Orbit-Air (30' boom)",2017-05-08,"Maize"
+2017,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2017-05-08,"Maize"
+2017,"T2","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2017-05-10,"Maize"
+2017,"T2","Fertilizer application","Dekalb DKC52-84 RIB Corn Hybrid",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-05-10,"Maize"
+2017,"T2","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2017-05-10,"Maize"
+2017,"T2","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2017-05-10,"Maize"
+2017,"T2","Planting","Dekalb DKC52-84 RIB Corn Hybrid",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-05-10,"Maize"
+2017,"T2","Planting",NA,NA,NA,"John Deere 7330 Tractor",2017-05-10,"Maize"
+2017,"T8","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2017-05-10,NA
+2017,"T8","Fertilizer application","Dekalb DKC52-84 RIB Corn Hybrid",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-05-10,NA
+2017,"T8","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2017-05-10,NA
+2017,"T8","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2017-05-10,NA
+2017,"T8","Planting","Dekalb DKC52-84 RIB Corn Hybrid",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-05-10,NA
+2017,"T8","Planting",NA,NA,NA,"John Deere 7330 Tractor",2017-05-10,NA
+2017,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2017-05-13,"Maize"
+2017,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2017-05-13,"Maize"
+2017,"T1","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2017-05-16,"Maize"
+2017,"T1","Fertilizer application","Dekalb DKC52-84 RIB Corn Hybrid",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-05-16,"Maize"
+2017,"T1","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2017-05-16,"Maize"
+2017,"T1","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2017-05-16,"Maize"
+2017,"T1","Planting","Dekalb DKC52-84 RIB Corn Hybrid",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-05-16,"Maize"
+2017,"T1","Planting",NA,NA,NA,"John Deere 7330 Tractor",2017-05-16,"Maize"
+2017,"T3","Soil Preparation",NA,NA,NA,"Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc",2017-05-17,"Maize"
+2017,"T3","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2017-05-17,"Maize"
+2017,"T3","Soil Preparation",NA,NA,NA,NA,2017-05-17,"Maize"
+2017,"T4","Soil Preparation",NA,NA,NA,NA,2017-05-17,"Maize"
+2017,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2017-05-18,"Maize"
+2017,"T3","Fertilizer application","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2017-05-19,"Maize"
+2017,"T3","Fertilizer application","Dekalb DKC52-84 RIB Corn Hybrid",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-05-19,"Maize"
+2017,"T3","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2017-05-19,"Maize"
+2017,"T3","Planting","19-17-0 liquid fertilizer",14,"gallon","John Deere 1730 Maxemerge Plus Planter",2017-05-19,"Maize"
+2017,"T3","Planting","Dekalb DKC52-84 RIB Corn Hybrid",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-05-19,"Maize"
+2017,"T3","Planting",NA,NA,NA,"John Deere 7330 Tractor",2017-05-19,"Maize"
+2017,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2017-05-23,"Maize"
+2017,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2017-05-23,"Maize"
+2017,"T4","Soil Preparation",NA,NA,NA,"Disc: Krause 2204A Tandem Rock Flex 14 ft  Wheel Disc",2017-06-01,"Maize"
+2017,"T4","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2017-06-01,"Maize"
+2017,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2017-06-02,"Maize"
+2017,"T4","Planting","Viking Organic Seed Corn Variety O.88-91UP",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2017-06-03,"Maize"
+2017,"T4","Planting",NA,NA,NA,"John Deere 7330 Tractor",2017-06-03,"Maize"
+2017,"T6","Harvest",NA,NA,NA,"John Deere 4995 Discbine with 14'6"" cutting head",2017-06-12,NA
+2017,"T6","Harvest",NA,NA,NA,"New Holland BR7060 Cropcutter Baler (round baler)",2017-06-12,NA
+2017,"T1","Fertilizer application","28% UAN (28-0-0)",41,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2017-06-21,"Maize"
+2017,"T2","Fertilizer application","28% UAN (28-0-0)",41,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2017-06-21,"Maize"
+2017,"T8","Fertilizer application","28% UAN (28-0-0)",41,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2017-06-27,NA
+2017,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2017-06-27,NA
+2017,"T6","Harvest",NA,NA,NA,"JD tractor - type unknown",2017-09-08,NA
+2017,"T6","Harvest",NA,NA,NA,"New Holland Baler",2017-09-08,NA
+2017,"T6","Harvest",NA,NA,NA,"rake",2017-09-08,NA
+2017,"T6","Harvest",NA,NA,NA,"Wagon",2017-09-08,NA
+2017,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2017-10-18,"Maize"
+2017,"T1","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2017-10-18,"Maize"
+2017,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2017-10-18,"Maize"
+2017,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2017-10-18,"Maize"
+2017,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2017-10-18,"Maize"
+2017,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2017-10-18,"Maize"
+2017,"T1","Harvest",NA,NA,NA,NA,2017-10-18,"Maize"
+2017,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2017-10-18,"Maize"
+2017,"T2","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2017-10-18,"Maize"
+2017,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2017-10-18,"Maize"
+2017,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2017-10-18,"Maize"
+2017,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2017-10-18,"Maize"
+2017,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2017-10-18,"Maize"
+2017,"T2","Harvest",NA,NA,NA,NA,2017-10-18,"Maize"
+2017,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2017-10-18,"Maize"
+2017,"T3","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2017-10-18,"Maize"
+2017,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2017-10-18,"Maize"
+2017,"T3","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2017-10-18,"Maize"
+2017,"T3","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2017-10-18,"Maize"
+2017,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2017-10-18,"Maize"
+2017,"T3","Harvest",NA,NA,NA,NA,2017-10-18,"Maize"
+2017,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2017-10-18,"Maize"
+2017,"T4","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2017-10-18,"Maize"
+2017,"T4","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2017-10-18,"Maize"
+2017,"T4","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2017-10-18,"Maize"
+2017,"T4","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2017-10-18,"Maize"
+2017,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2017-10-18,"Maize"
+2017,"T4","Harvest",NA,NA,NA,NA,2017-10-18,"Maize"
+2017,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2017-10-27,NA
+2017,"T8","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2017-10-27,NA
+2017,"T4","Planting","rye",158,"pound","John Deere 1590 15' no-till drill",2017-11-01,"Maize"
+2017,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2017-11-01,"Maize"
+2017,"T3","Planting","rye",149,"pound","John Deere 1590 15' no-till drill",2017-11-08,"Maize"
+2017,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2017-11-08,"Maize"
+2017,"T1","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2017-12-02,"Maize"
+2018,"T5","Harvest",NA,NA,NA,NA,2018-02-28,NA
+2018,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2018-04-26,NA
+2018,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2018-04-26,NA
+2018,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2018-05-01,NA
+2018,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2018-05-01,NA
+2018,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2018-05-08,"Soybean"
+2018,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2018-05-08,"Soybean"
+2018,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2018-05-09,"Soybean"
+2018,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2018-05-09,"Soybean"
+2018,"T3","Soil Preparation",NA,NA,NA,NA,2018-05-09,"Soybean"
+2018,"T5","Soil Preparation",NA,NA,NA,NA,2018-05-23,NA
+2018,"T1","Fertilizer application","0-0-60 potash fertilizer",120,"pound","spreader",2018-05-24,"Soybean"
+2018,"T1","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2018-05-24,"Soybean"
+2018,"T2","Fertilizer application","0-0-60 potash fertilizer",120,"pound","spreader",2018-05-24,"Soybean"
+2018,"T2","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2018-05-24,"Soybean"
+2018,"T3","Fertilizer application","0-0-60 potash fertilizer",120,"pound","spreader",2018-05-24,"Soybean"
+2018,"T3","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2018-05-24,"Soybean"
+2018,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2018-05-25,"Soybean"
+2018,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2018-05-25,"Soybean"
+2018,"T2","Planting","Pioneer P22T69R (Round Up Ready) Soybean Seed",144000,"seeds","John Deere 7330 Tractor",2018-05-25,"Soybean"
+2018,"T2","Planting",NA,NA,NA,"John Deere 1730 Maxemerge Plus Planter",2018-05-25,"Soybean"
+2018,"T8","Planting","Pioneer P22T69R (Round Up Ready) Soybean Seed",140000,"seeds","John Deere 1730 Maxemerge Plus Planter",2018-05-26,NA
+2018,"T8","Planting",NA,NA,NA,"John Deere 7330 Tractor",2018-05-26,NA
+2018,"T1","Planting","Pioneer P22T69R (Round Up Ready) Soybean Seed",140000,"seeds","John Deere 1730 Maxemerge Plus Planter",2018-05-27,"Soybean"
+2018,"T1","Planting",NA,NA,NA,"John Deere 7330 Tractor",2018-05-27,"Soybean"
+2018,"T3","Planting","Pioneer P22T69R (Round Up Ready) Soybean Seed",140000,"seeds","John Deere 1730 Maxemerge Plus Planter",2018-05-29,"Soybean"
+2018,"T3","Planting",NA,NA,NA,"John Deere 7330 Tractor",2018-05-29,"Soybean"
+2018,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2018-05-29,"Soybean"
+2018,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2018-06-06,"Soybean"
+2018,"T4","Planting","Viking Organic Soybean Seed Variety O.2188AT12N",158000,"seeds","John Deere 1730 Maxemerge Plus Planter",2018-06-14,"Soybean"
+2018,"T4","Planting",NA,NA,NA,"John Deere 7330 Tractor",2018-06-14,"Soybean"
+2018,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2018-10-09,"Soybean"
+2018,"T1","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2018-10-09,"Soybean"
+2018,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2018-10-09,"Soybean"
+2018,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2018-10-09,"Soybean"
+2018,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2018-10-09,"Soybean"
+2018,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2018-10-09,"Soybean"
+2018,"T1","Harvest",NA,NA,NA,NA,2018-10-09,"Soybean"
+2018,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2018-10-09,"Soybean"
+2018,"T2","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2018-10-09,"Soybean"
+2018,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2018-10-09,"Soybean"
+2018,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2018-10-09,"Soybean"
+2018,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2018-10-09,"Soybean"
+2018,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2018-10-09,"Soybean"
+2018,"T2","Harvest",NA,NA,NA,NA,2018-10-09,"Soybean"
+2018,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2018-10-09,"Soybean"
+2018,"T3","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2018-10-09,"Soybean"
+2018,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2018-10-09,"Soybean"
+2018,"T3","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2018-10-09,"Soybean"
+2018,"T3","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2018-10-09,"Soybean"
+2018,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2018-10-09,"Soybean"
+2018,"T3","Harvest",NA,NA,NA,NA,2018-10-09,"Soybean"
+2018,"T2","Planting","Pioneer 25R40 soft red winter wheat (Treated)",163.6,"pound","John Deere 1590 15' no-till drill",2018-10-10,"Soybean"
+2018,"T2","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2018-10-10,"Soybean"
+2018,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2018-10-16,NA
+2018,"T8","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2018-10-16,NA
+2018,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2018-10-17,"Soybean"
+2018,"T2","Planting","Pioneer 25R40 soft red winter wheat (Treated)",157,"pound","John Deere 1590 15' no-till drill",2018-10-17,"Soybean"
+2018,"T8","Planting","Pioneer 25R40 soft red winter wheat (Treated)",163.6,"pound","John Deere 1590 15' no-till drill",2018-10-17,NA
+2018,"T8","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2018-10-17,NA
+2018,"T1","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2018-10-18,"Soybean"
+2018,"T1","Soil Preparation",NA,NA,NA,NA,2018-10-18,"Soybean"
+2018,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2018-10-18,"Soybean"
+2018,"T4","Harvest",NA,NA,NA,"John Deere 5425 Tractor",2018-10-18,"Soybean"
+2018,"T4","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2018-10-18,"Soybean"
+2018,"T4","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2018-10-18,"Soybean"
+2018,"T4","Harvest",NA,NA,NA,"Wagon",2018-10-18,"Soybean"
+2018,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2018-10-18,"Soybean"
+2018,"T1","Planting","Pioneer 25R40 soft red winter wheat (Treated)",163.6,"pound","John Deere 1590 15' no-till drill",2018-10-19,"Soybean"
+2018,"T1","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2018-10-19,"Soybean"
+2018,"T3","Planting","Pioneer 25R40 soft red winter wheat (Treated)",163.6,"pound","John Deere 1590 15' no-till drill",2018-10-19,"Soybean"
+2018,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2018-10-19,"Soybean"
+2018,"T3","Soil Preparation",NA,NA,NA,"John Deere 7330 Tractor",2018-10-19,"Soybean"
+2018,"T4","Planting","Pioneer 25R40 Soft Red Winter Wheat (untreated)",163.6,"pound","John Deere 1590 15' no-till drill",2018-10-27,"Soybean"
+2018,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2018-10-27,"Soybean"
+2018,"T4","Soil Preparation",NA,NA,NA,"John Deere 1590 15' no-till drill",2018-10-27,"Soybean"
+2019,"T4","Planting","Red Clover 'Medium Red Clover'",11,"pound","Gandy Orbit-Air (15' boom)",2019-03-18,"Wheat"
+2019,"T4","Planting",NA,NA,NA,"John Deere 5220 Tractor",2019-03-18,"Wheat"
+2019,NA,"Planting","Red Clover 'Medium Red Clover'",11,"pound","Gandy Orbit-Air (15' boom)",2019-03-18,NA
+2019,NA,"Planting",NA,NA,NA,"John Deere 5220 Tractor",2019-03-18,NA
+2019,"T8","Fertilizer application","28% UAN (28-0-0)",10,"gallon","Chafer Stream Bars",2019-03-23,NA
+2019,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2019-03-23,NA
+2019,"T8","Fertilizer application",NA,NA,NA,"Top Air Sprayer",2019-03-23,NA
+2019,"T2","Fertilizer application","28% UAN (28-0-0)",10,"gallon","Chafer Stream Bars",2019-03-25,"Wheat"
+2019,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2019-03-25,"Wheat"
+2019,"T2","Fertilizer application",NA,NA,NA,"Top Air Sprayer",2019-03-25,"Wheat"
+2019,"T1","Fertilizer application","28% UAN (28-0-0)",10,"gallon","Chafer Stream Bars",2019-03-26,"Wheat"
+2019,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2019-03-26,"Wheat"
+2019,"T1","Fertilizer application",NA,NA,NA,"Top Air Sprayer",2019-03-26,"Wheat"
+2019,"T3","Fertilizer application","28% UAN (28-0-0)",10,"gallon","Chafer Stream Bars",2019-03-26,"Wheat"
+2019,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2019-03-26,"Wheat"
+2019,"T3","Fertilizer application",NA,NA,NA,"Top Air Sprayer",2019-03-26,"Wheat"
+2019,NA,"Fertilizer application","28% UAN (28-0-0)",10,"gallon","Chafer Stream Bars",2019-03-26,NA
+2019,NA,"Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2019-03-26,NA
+2019,NA,"Fertilizer application",NA,NA,NA,"Top Air Sprayer",2019-03-26,NA
+2019,"T1","Fertilizer application","0-0-60 potash fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2019-03-28,"Wheat"
+2019,"T1","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",175,"pound","Gandy Orbit-Air (30' boom)",2019-03-28,"Wheat"
+2019,"T2","Fertilizer application","0-0-60 potash fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2019-03-28,"Wheat"
+2019,"T2","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",175,"pound","Gandy Orbit-Air (30' boom)",2019-03-28,"Wheat"
+2019,"T8","Fertilizer application","0-0-60 potash fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2019-03-28,NA
+2019,"T8","Fertilizer application","11-52-0 monoammonium phosphate fertilizer",175,"pound","Gandy Orbit-Air (30' boom)",2019-03-28,NA
+2019,NA,"Fertilizer application","0-0-60 potash fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2019-03-28,NA
+2019,NA,"Fertilizer application","11-52-0 monoammonium phosphate fertilizer",175,"pound","Gandy Orbit-Air (30' boom)",2019-03-28,NA
+2019,"T3","Fertilizer application","0-0-60 potash fertilizer",100,"pound","Gandy Orbit-Air (30' boom)",2019-04-08,"Wheat"
+2019,"T3","Fertilizer application","0-46-0 phosphate fertilizer",225,"pound","Gandy Orbit-Air (30' boom)",2019-04-08,"Wheat"
+2019,"T3","Fertilizer application","Sulfur (0-0-0-85)",30,"pound","Gandy Orbit-Air (30' boom)",2019-04-08,"Wheat"
+2019,NA,"Fertilizer application","0-46-0 phosphate fertilizer",225,"pound","Gandy Orbit-Air (30' boom)",2019-04-08,NA
+2019,NA,"Fertilizer application","Sulfur (0-0-0-85)",30,"pound","Gandy Orbit-Air (30' boom)",2019-04-08,NA
+2019,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2019-04-10,NA
+2019,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2019-04-10,NA
+2019,"T7","Soil Preparation",NA,NA,NA,NA,2019-04-10,NA
+2019,"T3","Planting","custom mix",30.6,"pound","Truax No Till Seed Drill",2019-04-25,"Wheat"
+2019,"T3","Planting",NA,NA,NA,"JD tractor - type unknown",2019-04-25,"Wheat"
+2019,"T4","Planting","custom mix",30.6,"pound","Truax No Till Seed Drill",2019-04-25,"Wheat"
+2019,"T4","Planting",NA,NA,NA,"JD tractor - type unknown",2019-04-25,"Wheat"
+2019,"T1","Fertilizer application","12-0-0-26",9,"gallon","Top Air Sprayer",2019-05-05,"Wheat"
+2019,"T1","Fertilizer application","32 % Liquid UAN (32-0-0-0)",9,"gallon","Top Air Sprayer",2019-05-05,"Wheat"
+2019,"T1","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2019-05-05,"Wheat"
+2019,"T2","Fertilizer application","12-0-0-26",9,"gallon","Top Air Sprayer",2019-05-05,"Wheat"
+2019,"T2","Fertilizer application","32 % Liquid UAN (32-0-0-0)",9,"gallon","Top Air Sprayer",2019-05-05,"Wheat"
+2019,"T2","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2019-05-05,"Wheat"
+2019,NA,"Fertilizer application","12-0-0-26",9,"gallon","Top Air Sprayer",2019-05-05,NA
+2019,NA,"Fertilizer application","32 % Liquid UAN (32-0-0-0)",9,"gallon","Top Air Sprayer",2019-05-05,NA
+2019,NA,"Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2019-05-05,NA
+2019,"T3","Fertilizer application","28% UAN (28-0-0)",9,"gallon","Top Air Sprayer",2019-05-06,"Wheat"
+2019,"T3","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2019-05-06,"Wheat"
+2019,NA,"Fertilizer application","28% UAN (28-0-0)",9,"gallon","Top Air Sprayer",2019-05-06,NA
+2019,"T8","Fertilizer application","28% UAN (28-0-0)",14.4,"gallon","Top Air Sprayer",2019-05-08,NA
+2019,"T8","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2019-05-08,NA
+2019,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2019-05-21,NA
+2019,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2019-05-21,NA
+2019,"T5","Fertilizer application","0-0-60 potash fertilizer",300,"pound","Gandy Orbit-Air (30' boom)",2019-06-12,NA
+2019,"T5","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2019-06-12,NA
+2019,"T5","Planting",NA,NA,NA,NA,2019-06-25,NA
+2019,"T6","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2019-06-28,NA
+2019,"T6","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2019-06-28,NA
+2019,"T1","Harvest",NA,NA,NA,"John Deere  9410 combine",2019-07-24,"Wheat"
+2019,"T1","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2019-07-24,"Wheat"
+2019,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2019-07-24,"Wheat"
+2019,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2019-07-24,"Wheat"
+2019,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2019-07-24,"Wheat"
+2019,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2019-07-24,"Wheat"
+2019,"T1","Harvest",NA,NA,NA,NA,2019-07-24,"Wheat"
+2019,"T2","Harvest",NA,NA,NA,"John Deere  9410 combine",2019-07-24,"Wheat"
+2019,"T2","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2019-07-24,"Wheat"
+2019,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2019-07-24,"Wheat"
+2019,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2019-07-24,"Wheat"
+2019,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2019-07-24,"Wheat"
+2019,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2019-07-24,"Wheat"
+2019,"T2","Harvest",NA,NA,NA,NA,2019-07-24,"Wheat"
+2019,NA,"Harvest",NA,NA,NA,"John Deere  9410 combine",2019-07-24,NA
+2019,NA,"Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2019-07-24,NA
+2019,NA,"Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2019-07-24,NA
+2019,NA,"Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2019-07-24,NA
+2019,NA,"Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2019-07-24,NA
+2019,NA,"Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2019-07-24,NA
+2019,NA,"Harvest",NA,NA,NA,NA,2019-07-24,NA
+2019,"T3","Harvest",NA,NA,NA,"John Deere  9410 combine",2019-07-25,"Wheat"
+2019,"T3","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2019-07-25,"Wheat"
+2019,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2019-07-25,"Wheat"
+2019,"T3","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2019-07-25,"Wheat"
+2019,"T3","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2019-07-25,"Wheat"
+2019,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2019-07-25,"Wheat"
+2019,"T3","Harvest",NA,NA,NA,NA,2019-07-25,"Wheat"
+2019,"T4","Harvest",NA,NA,NA,"John Deere  9410 combine",2019-07-25,"Wheat"
+2019,"T4","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2019-07-25,"Wheat"
+2019,"T4","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2019-07-25,"Wheat"
+2019,"T4","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2019-07-25,"Wheat"
+2019,"T4","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2019-07-25,"Wheat"
+2019,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2019-07-25,"Wheat"
+2019,"T4","Harvest",NA,NA,NA,NA,2019-07-25,"Wheat"
+2019,"T8","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2019-07-25,NA
+2019,"T3","Planting","Red Clover 'Medium Red Clover'",11,"pound","John Deere 1590 15' no-till drill",2019-08-22,"Wheat"
+2019,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2019-08-22,"Wheat"
+2019,"T6","Planting","rye",NA,"unknown","John Deere 1590 15' no-till drill",2019-11-05,NA
+2019,"T6","Planting",NA,NA,NA,"John Deere 7420a Tractor",2019-11-05,NA
+2020,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2020-01-15,"Maize"
+2020,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2020-01-15,"Maize"
+2020,NA,"Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2020-01-15,NA
+2020,NA,"Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2020-01-15,NA
+2020,"T1","Fertilizer application","0-0-60",100,"pound","Gandy Orbit-Air (30' boom)",2020-04-16,"Maize"
+2020,"T3","Fertilizer application","0-0-60",100,"pound","Gandy Orbit-Air (30' boom)",2020-04-16,"Maize"
+2020,"T3","Fertilizer application",NA,NA,NA,NA,2020-04-16,"Maize"
+2020,NA,"Fertilizer application","0-0-60",100,"pound","Gandy Orbit-Air (30' boom)",2020-04-16,NA
+2020,NA,"Fertilizer application",NA,NA,NA,NA,2020-04-16,NA
+2020,"T2","Fertilizer application","0-0-60",100,"pound","Gandy Orbit-Air (30' boom)",2020-04-20,"Maize"
+2020,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-04-20,"Maize"
+2020,"T8","Fertilizer application","0-0-60",100,"pound","John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-05-04,NA
+2020,"T8","Fertilizer application",NA,NA,NA,"Gandy Orbit-Air (30' boom)",2020-05-04,NA
+2020,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2020-05-05,"Maize"
+2020,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2020-05-05,NA
+2020,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2020-05-05,NA
+2020,NA,"Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2020-05-05,NA
+2020,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2020-05-07,"Maize"
+2020,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2020-05-07,"Maize"
+2020,"T7","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2020-05-07,NA
+2020,"T2","Fertilizer application","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-12,"Maize"
+2020,"T2","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2020-05-12,"Maize"
+2020,"T2","Planting","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-12,"Maize"
+2020,"T2","Planting",NA,NA,NA,"John Deere 7330 Tractor",2020-05-12,"Maize"
+2020,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2020-05-12,"Maize"
+2020,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2020-05-12,"Maize"
+2020,"T1","Fertilizer application","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-13,"Maize"
+2020,"T1","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2020-05-13,"Maize"
+2020,"T1","Planting","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-13,"Maize"
+2020,"T1","Planting",NA,NA,NA,"John Deere 7330 Tractor",2020-05-13,"Maize"
+2020,"T8","Fertilizer application","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-13,NA
+2020,"T8","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2020-05-13,NA
+2020,"T8","Planting","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-13,NA
+2020,"T8","Planting",NA,NA,NA,"John Deere 7330 Tractor",2020-05-13,NA
+2020,NA,"Fertilizer application","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-13,NA
+2020,NA,"Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2020-05-13,NA
+2020,NA,"Planting","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-13,NA
+2020,NA,"Planting",NA,NA,NA,"John Deere 7330 Tractor",2020-05-13,NA
+2020,"T6","Fertilizer application","28% UAN (28-0-0)",16.7,"gallon","Top Air Sprayer",2020-05-22,NA
+2020,"T6","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2020-05-22,NA
+2020,"T6","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-05-22,NA
+2020,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2020-05-23,"Maize"
+2020,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2020-05-23,"Maize"
+2020,"T3","Fertilizer application","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-26,"Maize"
+2020,"T3","Fertilizer application",NA,NA,NA,"John Deere 7330 Tractor",2020-05-26,"Maize"
+2020,"T3","Planting","16.5-16.5-0-2.9 with .2 lbs/A zinc and .3 lbs/A boron starter fertilizer",16.3,"gallon","John Deere 1730 Maxemerge Plus Planter",2020-05-26,"Maize"
+2020,"T3","Planting",NA,NA,NA,"John Deere 7330 Tractor",2020-05-26,"Maize"
+2020,"T4","Planting","Viking Organic Seed Corn Brand (O.84-95UP) Variety (A1025726)",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2020-06-01,"Maize"
+2020,"T4","Planting",NA,NA,NA,"John Deere 7330 Tractor",2020-06-01,"Maize"
+2020,NA,"Planting","Viking Organic Seed Corn Brand (O.84-95UP) Variety (A1025726)",32000,"seeds","John Deere 1730 Maxemerge Plus Planter",2020-06-01,NA
+2020,"T8","Fertilizer application","28% UAN (28-0-0)",41,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2020-06-11,NA
+2020,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-06-11,NA
+2020,"T1","Fertilizer application","28% UAN (28-0-0)",41,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2020-06-18,"Maize"
+2020,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-06-18,"Maize"
+2020,"T1","Fertilizer application",NA,NA,NA,NA,2020-06-18,"Maize"
+2020,"T2","Fertilizer application","28% UAN (28-0-0)",41,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2020-06-18,"Maize"
+2020,"T2","Fertilizer application",NA,NA,NA,NA,2020-06-18,"Maize"
+2020,NA,"Fertilizer application","28% UAN (28-0-0)",41,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2020-06-18,NA
+2020,NA,"Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-06-18,NA
+2020,"T1","Fertilizer application","28% UAN (28-0-0)",23.5,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2020-06-24,"Maize"
+2020,"T2","Fertilizer application","28% UAN (28-0-0)",23.5,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2020-06-24,"Maize"
+2020,NA,"Fertilizer application","28% UAN (28-0-0)",23.5,"gallon","28% (FSC Built) Six Row Fertilizer Applicator",2020-06-24,NA
+2020,"T6","Harvest",NA,NA,NA,"John Deere 4995 Discbine with 14'6"" cutting head",2020-08-18,NA
+2020,"T6","Harvest",NA,NA,NA,"John Deere 7330 Tractor",2020-08-19,NA
+2020,"T6","Harvest",NA,NA,NA,"Wintersteiger/Kemper head biomass harvester (7.5 ft):",2020-08-19,NA
+2020,"T6","Harvest",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-08-21,NA
+2020,"T6","Harvest",NA,NA,NA,"John Deere 7520 Tractor",2020-08-21,NA
+2020,"T6","Harvest",NA,NA,NA,"Krone Baler (Big Pack 1270 XC  Multi-Bale)",2020-08-21,NA
+2020,"T6","Harvest",NA,NA,NA,"Trailer 34 ft (Gooseneck) Low-Profile with Hydraulic Dove Tail",2020-08-21,NA
+2020,"T6","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2020-08-21,NA
+2020,"T6","Planting",NA,NA,NA,NA,2020-09-22,NA
+2020,"T1","Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2020-10-21,"Maize"
+2020,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2020-10-21,"Maize"
+2020,NA,"Harvest",NA,NA,NA,"Kincaid 8XP Plot Combine",2020-10-21,NA
+2020,NA,"Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2020-10-21,NA
+2020,"T1","Harvest",NA,NA,NA,"John Deere S660 Combine",2020-10-29,"Maize"
+2020,"T1","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2020-10-29,"Maize"
+2020,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2020-10-29,"Maize"
+2020,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2020-10-29,"Maize"
+2020,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2020-10-29,"Maize"
+2020,"T2","Harvest",NA,NA,NA,"John Deere S660 Combine",2020-10-29,"Maize"
+2020,"T2","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2020-10-29,"Maize"
+2020,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2020-10-29,"Maize"
+2020,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2020-10-29,"Maize"
+2020,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2020-10-29,"Maize"
+2020,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2020-10-29,"Maize"
+2020,"T3","Harvest",NA,NA,NA,"John Deere S660 Combine",2020-10-29,"Maize"
+2020,"T3","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2020-10-29,"Maize"
+2020,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2020-10-29,"Maize"
+2020,"T3","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2020-10-29,"Maize"
+2020,"T3","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2020-10-29,"Maize"
+2020,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2020-10-29,"Maize"
+2020,"T4","Harvest",NA,NA,NA,"John Deere S660 Combine",2020-10-29,"Maize"
+2020,"T4","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2020-10-29,"Maize"
+2020,"T4","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2020-10-29,"Maize"
+2020,"T4","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2020-10-29,"Maize"
+2020,"T4","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2020-10-29,"Maize"
+2020,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2020-10-29,"Maize"
+2020,NA,"Harvest",NA,NA,NA,"John Deere S660 Combine",2020-10-29,NA
+2020,NA,"Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2020-10-29,NA
+2020,NA,"Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2020-10-29,NA
+2020,NA,"Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2020-10-29,NA
+2020,NA,"Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2020-10-29,NA
+2020,"T3","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2020-11-16,"Maize"
+2020,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-11-16,"Maize"
+2020,"T4","Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2020-11-16,"Maize"
+2020,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-11-16,"Maize"
+2020,NA,"Planting",NA,NA,NA,"John Deere 1590 15' no-till drill",2020-11-16,NA
+2020,NA,"Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2020-11-16,NA
+2021,"T7","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2021-03-23,NA
+2021,"T7","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2021-03-23,NA
+2021,"T2","Fertilizer application","0-0-60",100,"pound","Gandy Orbit-Air (30' boom)",2021-04-27,"Soybean"
+2021,"T2","Fertilizer application","0-0-60",150,"pound","Gandy Orbit-Air (30' boom)",2021-04-27,"Soybean"
+2021,"T2","Fertilizer application","0-0-60",163,"pound","Gandy Orbit-Air (30' boom)",2021-04-27,"Soybean"
+2021,"T2","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-04-27,"Soybean"
+2021,"T1","Fertilizer application","0-0-60",110,"pound","Gandy Orbit-Air (30' boom)",2021-04-30,"Soybean"
+2021,"T1","Fertilizer application","0-0-60",150,"pound","Gandy Orbit-Air (30' boom)",2021-04-30,"Soybean"
+2021,"T1","Fertilizer application","0-0-60",200,"pound","Gandy Orbit-Air (30' boom)",2021-04-30,"Soybean"
+2021,"T1","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-04-30,"Soybean"
+2021,"T3","Fertilizer application","0-0-60",80,"pound","Gandy Orbit-Air (30' boom)",2021-04-30,"Soybean"
+2021,"T3","Fertilizer application","0-0-60",150,"pound","Gandy Orbit-Air (30' boom)",2021-04-30,"Soybean"
+2021,"T3","Fertilizer application","0-0-60",165,"pound","Gandy Orbit-Air (30' boom)",2021-04-30,"Soybean"
+2021,"T3","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-04-30,"Soybean"
+2021,"T7","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2021-04-30,NA
+2021,"T7","Soil Preparation",NA,NA,NA,"John Deere 960 10' field cultivator",2021-04-30,NA
+2021,"T8","Fertilizer application","0-0-60",250,"pound","Gandy Orbit-Air (30' boom)",2021-05-06,NA
+2021,"T8","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-05-06,NA
+2021,"T3","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2021-05-08,"Soybean"
+2021,"T3","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2021-05-08,"Soybean"
+2021,"T1","Fertilizer application","0-46-0 phosphate fertilizer",80,"pound","Gandy Orbit-Air (30' boom)",2021-05-10,"Soybean"
+2021,"T1","Fertilizer application","0-46-0 phosphate fertilizer",120,"pound","John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-05-10,"Soybean"
+2021,"T1","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2021-05-10,"Soybean"
+2021,"T1","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2021-05-10,"Soybean"
+2021,"T2","Fertilizer application","0-46-0 phosphate fertilizer",80,"pound","Gandy Orbit-Air (30' boom)",2021-05-10,"Soybean"
+2021,"T2","Fertilizer application","0-46-0 phosphate fertilizer",120,"pound","Gandy Orbit-Air (30' boom)",2021-05-10,"Soybean"
+2021,"T3","Fertilizer application","0-46-0 phosphate fertilizer",80,"pound","Gandy Orbit-Air (30' boom)",2021-05-10,"Soybean"
+2021,"T3","Fertilizer application","0-46-0 phosphate fertilizer",120,"pound","Gandy Orbit-Air (30' boom)",2021-05-10,"Soybean"
+2021,NA,"Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2021-05-10,NA
+2021,NA,"Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2021-05-10,NA
+2021,"T2","Planting","Pioneer P22T86E Soybean Seed (Roundup Ready)",150000,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-05-11,"Soybean"
+2021,"T2","Planting",NA,NA,NA,"John Deere 7330 Tractor",2021-05-11,"Soybean"
+2021,"T4","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2021-05-13,"Soybean"
+2021,"T4","Soil Preparation",NA,NA,NA,"John Deere 7520 Tractor",2021-05-13,"Soybean"
+2021,NA,"Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2021-05-13,NA
+2021,"T1","Planting","Pioneer P22T86E Soybean Seed (Roundup Ready)",150000,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-05-14,"Soybean"
+2021,"T1","Planting",NA,NA,NA,"John Deere 7330 Tractor",2021-05-14,"Soybean"
+2021,NA,"Planting","Pioneer P22T86E Soybean Seed (Roundup Ready)",150000,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-05-14,NA
+2021,NA,"Planting",NA,NA,NA,"John Deere 7330 Tractor",2021-05-14,NA
+2021,"T3","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2021-05-19,"Soybean"
+2021,"T3","Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2021-05-21,"Soybean"
+2021,"T3","Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2021-05-21,"Soybean"
+2021,"T4","Soil Preparation",NA,NA,NA,"John Deere 726 15'9"" soil finisher",2021-05-21,"Soybean"
+2021,"T4","Soil Preparation",NA,NA,NA,NA,2021-05-21,"Soybean"
+2021,NA,"Soil Preparation",NA,NA,NA,"John Deere 7420a Tractor",2021-05-21,NA
+2021,NA,"Soil Preparation",NA,NA,NA,"John Deere 970 12 ft Cultimulcher",2021-05-21,NA
+2021,NA,"Soil Preparation",NA,NA,NA,NA,2021-05-21,NA
+2021,"T3","Planting","Pioneer P22T86E Soybean Seed (Roundup Ready)",160000,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-05-22,"Soybean"
+2021,"T3","Planting",NA,NA,NA,"John Deere 7330 Tractor",2021-05-22,"Soybean"
+2021,NA,"Planting","Pioneer P22T86E Soybean Seed (Roundup Ready)",160000,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-05-22,NA
+2021,"T4","Planting","Viking Organic Soybean Seed Variety O.2188AT12N",175862,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-05-27,"Soybean"
+2021,"T4","Planting",NA,NA,NA,"John Deere 7330 Tractor",2021-05-27,"Soybean"
+2021,"T6","Fertilizer application","28% UAN (28-0-0)",16.7,"gallon","Top Air Sprayer",2021-05-27,NA
+2021,"T6","Fertilizer application",NA,NA,NA,"Chafer Stream Bars",2021-05-27,NA
+2021,"T6","Fertilizer application",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-05-27,NA
+2021,NA,"Planting","Viking Organic Soybean Seed Variety O.2188AT12N",175862,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-05-27,NA
+2021,"T3","Planting","Pioneer P22T86E Soybean Seed (Roundup Ready)",140000,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-06-17,"Soybean"
+2021,NA,"Planting","Pioneer P22T86E Soybean Seed (Roundup Ready)",140000,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-06-17,NA
+2021,"T8","Planting","Pioneer P22T86E Soybean Seed (Roundup Ready)",160000,"seeds","John Deere 1730 Maxemerge Plus Planter",2021-07-21,NA
+2021,"T8","Planting",NA,NA,NA,"John Deere 7330 Tractor",2021-07-21,NA
+2021,"T6","Harvest",NA,NA,NA,"John Deere 4995 Discbine with 14'6"" cutting head",2021-08-19,NA
+2021,"T6","Harvest",NA,NA,NA,"John Deere 7420a Tractor",2021-08-23,NA
+2021,"T6","Harvest",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-08-23,NA
+2021,"T6","Harvest",NA,NA,NA,"John Deere 7520 Tractor",2021-08-23,NA
+2021,"T6","Harvest",NA,NA,NA,"Krone Baler (Big Pack 1270 XC  Multi-Bale)",2021-08-23,NA
+2021,"T6","Harvest",NA,NA,NA,"rake",2021-08-23,NA
+2021,"T6","Harvest",NA,NA,NA,"Trailer 34 ft (Gooseneck) Low-Profile with Hydraulic Dove Tail",2021-08-23,NA
+2021,"T6","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2021-08-23,NA
+2021,"T6","Harvest",NA,NA,NA,"John Deere 7330 Tractor",2021-08-26,NA
+2021,"T6","Harvest",NA,NA,NA,"Wintersteiger/Kemper head biomass harvester (7.5 ft):",2021-08-26,NA
+2021,"T1","Harvest",NA,NA,NA,"John Deere S660 Combine",2021-09-30,"Soybean"
+2021,"T1","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2021-09-30,"Soybean"
+2021,"T1","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2021-09-30,"Soybean"
+2021,"T1","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2021-09-30,"Soybean"
+2021,"T1","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2021-09-30,"Soybean"
+2021,"T1","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2021-09-30,"Soybean"
+2021,"T2","Harvest",NA,NA,NA,"John Deere S660 Combine",2021-09-30,"Soybean"
+2021,"T2","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2021-09-30,"Soybean"
+2021,"T2","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2021-09-30,"Soybean"
+2021,"T2","Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2021-09-30,"Soybean"
+2021,"T2","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2021-09-30,"Soybean"
+2021,"T2","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2021-09-30,"Soybean"
+2021,NA,"Harvest",NA,NA,NA,"John Deere S660 Combine",2021-09-30,NA
+2021,NA,"Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2021-09-30,NA
+2021,NA,"Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2021-09-30,NA
+2021,NA,"Harvest",NA,NA,NA,"Truck #1271 (Blue/White)",2021-09-30,NA
+2021,NA,"Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2021-09-30,NA
+2021,NA,"Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2021-09-30,NA
+2021,"T1","Soil Preparation",NA,NA,NA,"John Deere 714 Chisel plow",2021-10-01,"Soybean"
+2021,"T2","Planting","Pioneer 25R40 soft red winter wheat (Treated)",165,"pound","John Deere 1590 15' no-till drill",2021-10-18,"Soybean"
+2021,"T2","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-10-18,"Soybean"
+2021,"T3","Harvest",NA,NA,NA,"John Deere S660 Combine",2021-10-19,"Soybean"
+2021,"T3","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2021-10-19,"Soybean"
+2021,"T3","Harvest",NA,NA,NA,"Truck #1270 (White/Green)",2021-10-19,"Soybean"
+2021,"T3","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2021-10-19,"Soybean"
+2021,"T3","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2021-10-19,"Soybean"
+2021,"T4","Harvest",NA,NA,NA,"John Deere S660 Combine",2021-10-20,"Soybean"
+2021,"T4","Harvest",NA,NA,NA,"truck - for hauling",2021-10-20,"Soybean"
+2021,"T4","Harvest",NA,NA,NA,"Truck # 1653 (White Dodge RAM 5500 with Flat Bed)",2021-10-20,"Soybean"
+2021,"T4","Harvest",NA,NA,NA,"Truck #892 (Blue/Red)",2021-10-20,"Soybean"
+2021,"T4","Harvest",NA,NA,NA,"Wagon",2021-10-20,"Soybean"
+2021,"T4","Harvest",NA,NA,NA,"Weigh Wagon, Brent by Unverferth Manufacturing Co.",2021-10-20,"Soybean"
+2021,NA,"Harvest",NA,NA,NA,"truck - for hauling",2021-10-20,NA
+2021,NA,"Harvest",NA,NA,NA,"Wagon",2021-10-20,NA
+2021,"T3","Planting","Pioneer 25R40 soft red winter wheat (Treated)",165,"pound","John Deere 1590 15' no-till drill",2021-11-07,"Soybean"
+2021,"T3","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-11-07,"Soybean"
+2021,NA,"Planting","Pioneer 25R40 soft red winter wheat (Treated)",165,"pound","John Deere 1590 15' no-till drill",2021-11-07,NA
+2021,NA,"Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-11-07,NA
+2021,"T4","Planting","Pioneer 25R40 Soft Red Winter Wheat (untreated)",187,"pound","John Deere 1590 15' no-till drill",2021-11-08,"Soybean"
+2021,"T4","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-11-08,"Soybean"
+2021,NA,"Planting","Pioneer 25R40 Soft Red Winter Wheat (untreated)",187,"pound","John Deere 1590 15' no-till drill",2021-11-08,NA
+2021,"T1","Planting","Pioneer 25R40 soft red winter wheat (Treated)",175,"pound","John Deere 1590 15' no-till drill",2021-11-09,"Soybean"
+2021,"T1","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-11-09,"Soybean"
+2021,"T8","Planting",NA,NA,NA,"10' Tye ‘Series 5’ grain drill",2021-11-09,NA
+2021,"T8","Planting",NA,NA,NA,"John Deere 7420b Tractor (14.9 R 46 back tire size)",2021-11-09,NA
+2021,NA,"Planting","Pioneer 25R40 soft red winter wheat (Treated)",175,"pound","John Deere 1590 15' no-till drill",2021-11-09,NA

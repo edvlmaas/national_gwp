@@ -1,0 +1,129 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData*
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+# All archived file and miscellaneous directories
+Archive/
+Cluster/
+/APSIM/KBS/Result graphs/
+/APSIM/KBS/Soil temp testing/
+/LDNDC/crabmeat/
+/LDNDC/ldndc-1.30.4.source/
+/LDNDC/ldndc-1.30.4.test/
+/Millennial/R/analysis/
+/Millennial/R/simulation/KBS/Result Graphs/
+/RothC/KBS/Result Graphs/
+/RothC/KBS/troubleshooting/
+/RothC/KBS/auto/
+#/RothC/KBS/output/
+#/RothC/KBS/graph/
+/LDNDC/ldndc-1.30.4.win64/bin/
+/LDNDC/ldndc-1.30.4.win64/projects/arable/
+/LDNDC/ldndc-1.30.4.win64/projects/forest/
+/LDNDC/ldndc-1.30.4.win64/projects/grassland/
+/LDNDC/ldndc-1.30.4.win64/projects/tutorial_1/
+/LDNDC/ldndc-1.30.4.win64/projects/tutorial_2/
+/LDNDC/ldndc-1.30.4.win64/projects/tutorial_3/
+/LDNDC/ldndc-1.30.4.win64/projects/tutorial_4/
+/LDNDC/ldndc-1.30.4.win64/projects/tutorials/
+
+
+# Specific files
+.nfs*
+test*
+*_test.*
+*_old.*
+*- Copy.R
+*- Copy.csv
+*- Copy.out
+*- Copy.jpg
+*- Copy.bin
+*- Copy.lis
+*- Copy.in
+*- Copy.100
+*- Copy.wth
+#*.jpg
+*.png
+*.nc
+*.bak
+*.pdf
+*.zip
+*.docx
+*.exe
+*.pptx
+#Annual_results*.csv
+#Calibration*.csv
+#Daily_results*.csv
+#Summary_output.csv
+#mean_annual_results.csv
+#mean_daily_results.csv
+#scenario_means.csv
+#log.txt
+
+
+#/APSIM/*.db*
+#/APSIM/KBS/*.out
+#/APSIM/KBS/*.db*
+/APSIM/KBS/*.sum
+/APSIM/KBS/*.xlsx
+#/APSIM/KBS/BC[0-9][0-9]_[0-9].csv
+#/APSIM/KBS/BC[0-9]_[0-9].csv
+/Daycent/*.1
+/Daycent/*.out
+/Daycent/KBS/*.1
+/Daycent/KBS/*.out
+#/Daycent/KBS/*.csv
+#/Daycent/KBS/*.bin
+#/Daycent/KBS/*.lis
+/Daycent/SOURCE_CODE-vEVI/
+/RothC/KBS/*.dll
+/RothC/KBS/*.DLL
+/RothC/KBS/C14bomb.dat
+/RothC/KBS/C14NOBOM.DAT
+/RothC/KBS/fort.13
+/RothC/KBS/fort.99
+/RothC/KBS/SETUP.LST
+/RothC/KBS/ST6UNST.LOG
+/RothC/KBS/RothC_Interface.CAB
+#/Millennial/R/simulation/KBS/base_out*.csv
+#/Millennial/R/simulation/KBS/scenario_out*.csv
+
+# LFS files
+/KBS_results/mean_daily_results.csv

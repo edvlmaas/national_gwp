@@ -1,0 +1,70 @@
+07/29/2022 00:00:00|"Nontechnical description"|"ES"|"R077CY022TX"|"R077CY022TX - Deep Hardland 16-21"" PZ
+
+Ecological Site Concept
+This site occurs on very deep, gently sloping clay loam soils on uplands. Although the soils are deep and well drained, the nature of the clay soils can cause the site to be particularly sensitive to dry conditions. The reference vegetation consists of shortgrasses with some midgrasses and few forbs. Abusive grazing practices may lead to the suppression of palatable species and a shift in the plant community. Without periodic fire or alternative brush management, woody species may encroach on the site.
+
+Soil Features
+This site consists of very deep, well drained, moderately permeable soils that formed in loam and clay loam loess deposits. These are very well developed soils on old stable landforms and are moderately alkaline throughout. The soils have dark colored loam or clay loam surfaces and clay loam subsurface layers. Permeability is moderate, and available water holding capacity is moderate to high. The fertility of these soils is high and the root zone is easily penetrated by plant roots so the production capacity is high. These sites are subject to wind erosion if suitable cover is not present. Major Soil Taxonomic Units correlated to this site include: Acuff loam, Estacado clay loam, Friona loam, Mansker clay loam, Olton clay loam, Pantex silty clay loam, Pullman clay loam, Tulia loam, and Zita loam. 
+
+Reference Community
+The interpretive or ""reference"" plant community for this site is a shortgrass dominated community with blue grama being the dominant grass with lesser amounts of buffalograss (average of 60 - 70 percent blue grama and 15 - 25 percent buffalograss). There are a few other species of shortgrasses present making up from 5 to 10 percent of total production. Western wheatgrass and vine mesquite are often present in depressions and on slopes above playa lakes. There are approximately 5 percent forbs and almost no woody shrubs or trees present.
+
+Reference Plants List
+blue grama, buffalograss, sideoats grama, vine mesquite, western wheatgrass, Wright's threeawn, black grama, silver beardgrass, tumble windmill grass, Arizona cottontop, sand muhly, James' galleta, tobosagrass, sand dropseed, squirreltail, gummy lovegrass, Forb, annual, Cuman ragweed, sagebrush, lyreleaf greeneyes, rose heath, prairie clover, Engelmann's daisy, scarlet beeblossom, dotted blazing star, evening primrose, Fendler's penstemon, slimflower scurfpea, upright prairie coneflower, scarlet globemallow, white heath aster, stemmy four-nerve daisy, stiff greenthread, tree cholla, broom snakeweed, plains pricklypear, yucca
+
+MLRA - 077C
+Legacy Ecosite ID - R077CY022TX"|"22262374"|"22623300"
+06/20/2014 00:00:00|"Nontechnical description"|"PHG"|"R077CY022TX"|"7C - FRIABLE CLAYEY UPLAND - Moderately deep to very deep friable clayey uplands with slopes 0 to 5 percent; friable when moist; somewhat sticky when wet; high natural fertility; medium to high water holding capacity and fair to good plant-soil-moisture relationship; high productivity potential."|"22262374"|"22623301"
+08/12/2022 00:00:00|"Nontechnical description"|"GENSOIL"|"generated"|"The Olton component makes up 85 percent of the map unit. Slopes are 0 to 1 percent. This component is on plains on plateaus. The parent material consists of clayey eolian deposits. Depth to a root restrictive layer is greater than 60 inches. The natural drainage class is well drained.  Water movement in the most restrictive layer is moderately high.  Available water to a depth of 60 inches (or restricted depth) is moderate.  Shrink-swell potential is moderate. This soil is not flooded. It is not ponded. There is no zone of water saturation within a depth of 72 inches. Organic matter content in the surface horizon is about 3 percent. This component is in the R077CY022TX Deep Hardland 16-21"" PZ ecological site. Nonirrigated land capability classification is 2c. Irrigated land capability classification is 1 This soil does not meet hydric criteria. The calcium carbonate equivalent within 40 inches, typically, does not exceed 12 percent. There are no saline horizons within 30 inches of the soil surface. The soil has a maximum sodium adsorption ratio of 1 within 30 inches of the soil surface."|"22262374"|"22623302"
+08/12/2022 00:00:00|"Nontechnical description"|"GENSOIL"|"generated"|"Generated brief soil descriptions are created for major soil components.  The Acuff soil is a minor component."|"22262375"|"22623303"
+07/29/2022 00:00:00|"Nontechnical description"|"ES"|"R077CY022TX"|"R077CY022TX - Deep Hardland 16-21"" PZ
+
+Ecological Site Concept
+This site occurs on very deep, gently sloping clay loam soils on uplands. Although the soils are deep and well drained, the nature of the clay soils can cause the site to be particularly sensitive to dry conditions. The reference vegetation consists of shortgrasses with some midgrasses and few forbs. Abusive grazing practices may lead to the suppression of palatable species and a shift in the plant community. Without periodic fire or alternative brush management, woody species may encroach on the site.
+
+Soil Features
+This site consists of very deep, well drained, moderately permeable soils that formed in loam and clay loam loess deposits. These are very well developed soils on old stable landforms and are moderately alkaline throughout. The soils have dark colored loam or clay loam surfaces and clay loam subsurface layers. Permeability is moderate, and available water holding capacity is moderate to high. The fertility of these soils is high and the root zone is easily penetrated by plant roots so the production capacity is high. These sites are subject to wind erosion if suitable cover is not present. Major Soil Taxonomic Units correlated to this site include: Acuff loam, Estacado clay loam, Friona loam, Mansker clay loam, Olton clay loam, Pantex silty clay loam, Pullman clay loam, Tulia loam, and Zita loam. 
+
+Reference Community
+The interpretive or ""reference"" plant community for this site is a shortgrass dominated community with blue grama being the dominant grass with lesser amounts of buffalograss (average of 60 - 70 percent blue grama and 15 - 25 percent buffalograss). There are a few other species of shortgrasses present making up from 5 to 10 percent of total production. Western wheatgrass and vine mesquite are often present in depressions and on slopes above playa lakes. There are approximately 5 percent forbs and almost no woody shrubs or trees present.
+
+Reference Plants List
+blue grama, buffalograss, sideoats grama, vine mesquite, western wheatgrass, Wright's threeawn, black grama, silver beardgrass, tumble windmill grass, Arizona cottontop, sand muhly, James' galleta, tobosagrass, sand dropseed, squirreltail, gummy lovegrass, Forb, annual, Cuman ragweed, sagebrush, lyreleaf greeneyes, rose heath, prairie clover, Engelmann's daisy, scarlet beeblossom, dotted blazing star, evening primrose, Fendler's penstemon, slimflower scurfpea, upright prairie coneflower, scarlet globemallow, white heath aster, stemmy four-nerve daisy, stiff greenthread, tree cholla, broom snakeweed, plains pricklypear, yucca
+
+MLRA - 077C
+Legacy Ecosite ID - R077CY022TX"|"22262375"|"22623304"
+08/12/2022 00:00:00|"Nontechnical description"|"GENSOIL"|"generated"|"Generated brief soil descriptions are created for major soil components.  The Pullman soil is a minor component."|"22262376"|"22623305"
+07/29/2022 00:00:00|"Nontechnical description"|"ES"|"R077CY022TX"|"R077CY022TX - Deep Hardland 16-21"" PZ
+
+Ecological Site Concept
+This site occurs on very deep, gently sloping clay loam soils on uplands. Although the soils are deep and well drained, the nature of the clay soils can cause the site to be particularly sensitive to dry conditions. The reference vegetation consists of shortgrasses with some midgrasses and few forbs. Abusive grazing practices may lead to the suppression of palatable species and a shift in the plant community. Without periodic fire or alternative brush management, woody species may encroach on the site.
+
+Soil Features
+This site consists of very deep, well drained, moderately permeable soils that formed in loam and clay loam loess deposits. These are very well developed soils on old stable landforms and are moderately alkaline throughout. The soils have dark colored loam or clay loam surfaces and clay loam subsurface layers. Permeability is moderate, and available water holding capacity is moderate to high. The fertility of these soils is high and the root zone is easily penetrated by plant roots so the production capacity is high. These sites are subject to wind erosion if suitable cover is not present. Major Soil Taxonomic Units correlated to this site include: Acuff loam, Estacado clay loam, Friona loam, Mansker clay loam, Olton clay loam, Pantex silty clay loam, Pullman clay loam, Tulia loam, and Zita loam. 
+
+Reference Community
+The interpretive or ""reference"" plant community for this site is a shortgrass dominated community with blue grama being the dominant grass with lesser amounts of buffalograss (average of 60 - 70 percent blue grama and 15 - 25 percent buffalograss). There are a few other species of shortgrasses present making up from 5 to 10 percent of total production. Western wheatgrass and vine mesquite are often present in depressions and on slopes above playa lakes. There are approximately 5 percent forbs and almost no woody shrubs or trees present.
+
+Reference Plants List
+blue grama, buffalograss, sideoats grama, vine mesquite, western wheatgrass, Wright's threeawn, black grama, silver beardgrass, tumble windmill grass, Arizona cottontop, sand muhly, James' galleta, tobosagrass, sand dropseed, squirreltail, gummy lovegrass, Forb, annual, Cuman ragweed, sagebrush, lyreleaf greeneyes, rose heath, prairie clover, Engelmann's daisy, scarlet beeblossom, dotted blazing star, evening primrose, Fendler's penstemon, slimflower scurfpea, upright prairie coneflower, scarlet globemallow, white heath aster, stemmy four-nerve daisy, stiff greenthread, tree cholla, broom snakeweed, plains pricklypear, yucca
+
+MLRA - 077C
+Legacy Ecosite ID - R077CY022TX"|"22262376"|"22623306"
+07/29/2022 00:00:00|"Nontechnical description"|"ES"|"R077CY022TX"|"R077CY022TX - Deep Hardland 16-21"" PZ
+
+Ecological Site Concept
+This site occurs on very deep, gently sloping clay loam soils on uplands. Although the soils are deep and well drained, the nature of the clay soils can cause the site to be particularly sensitive to dry conditions. The reference vegetation consists of shortgrasses with some midgrasses and few forbs. Abusive grazing practices may lead to the suppression of palatable species and a shift in the plant community. Without periodic fire or alternative brush management, woody species may encroach on the site.
+
+Soil Features
+This site consists of very deep, well drained, moderately permeable soils that formed in loam and clay loam loess deposits. These are very well developed soils on old stable landforms and are moderately alkaline throughout. The soils have dark colored loam or clay loam surfaces and clay loam subsurface layers. Permeability is moderate, and available water holding capacity is moderate to high. The fertility of these soils is high and the root zone is easily penetrated by plant roots so the production capacity is high. These sites are subject to wind erosion if suitable cover is not present. Major Soil Taxonomic Units correlated to this site include: Acuff loam, Estacado clay loam, Friona loam, Mansker clay loam, Olton clay loam, Pantex silty clay loam, Pullman clay loam, Tulia loam, and Zita loam. 
+
+Reference Community
+The interpretive or ""reference"" plant community for this site is a shortgrass dominated community with blue grama being the dominant grass with lesser amounts of buffalograss (average of 60 - 70 percent blue grama and 15 - 25 percent buffalograss). There are a few other species of shortgrasses present making up from 5 to 10 percent of total production. Western wheatgrass and vine mesquite are often present in depressions and on slopes above playa lakes. There are approximately 5 percent forbs and almost no woody shrubs or trees present.
+
+Reference Plants List
+blue grama, buffalograss, sideoats grama, vine mesquite, western wheatgrass, Wright's threeawn, black grama, silver beardgrass, tumble windmill grass, Arizona cottontop, sand muhly, James' galleta, tobosagrass, sand dropseed, squirreltail, gummy lovegrass, Forb, annual, Cuman ragweed, sagebrush, lyreleaf greeneyes, rose heath, prairie clover, Engelmann's daisy, scarlet beeblossom, dotted blazing star, evening primrose, Fendler's penstemon, slimflower scurfpea, upright prairie coneflower, scarlet globemallow, white heath aster, stemmy four-nerve daisy, stiff greenthread, tree cholla, broom snakeweed, plains pricklypear, yucca
+
+MLRA - 077C
+Legacy Ecosite ID - R077CY022TX"|"22262377"|"22623307"
+06/04/2014 00:00:00|"Nontechnical description"|"PHG"|"R077CY022TX"|"7C - FRIABLE CLAYEY UPLAND - Moderately deep to very deep friable clayey uplands with slopes 0 to 5 percent; friable when moist; somewhat sticky when wet; high natural fertility; medium to high water holding capacity and fair to good plant-soil-moisture relationship; high production potential."|"22262377"|"22623308"
+08/12/2022 00:00:00|"Nontechnical description"|"GENSOIL"|"generated"|"Generated brief soil descriptions are created for major soil components.  The Estacado soil is a minor component."|"22262377"|"22623309"

@@ -1,0 +1,3 @@
+10/25/2004 00:00:00|"Certification statements"|"date"|"ssurgo"|"10/25/2004"|"13328"|"77470"
+11/25/2002 00:00:00|"Certification statements"|"date"|"ssurgo"|"11/25/2002"|"13328"|"77471"
+02/20/2003 00:00:00|"Certification statements"|"date"|"ssurgo"|"02/20/2003"|"13328"|"77472"

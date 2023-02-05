@@ -1,0 +1,38 @@
+26/04/2003	fertiliser apply amount = 7 (kg/ha), depth = 50 (mm), type = NO3_N
+26/04/2003	fertiliser apply amount = 14 (kg/ha), depth = 50 (mm), type = Rock_P
+22/05/2003	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.5, tillage_depth = 30
+27/05/2003	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.1, tillage_depth = 5
+28/05/2003	soybean sow plants = 44, sowing_depth = 50, cultivar = mg_2, row_spacing = 762, crop_class = plant
+08/10/2003	fertiliser apply amount = 36 (kg/ha), depth = 50 (mm), type = NO3_N
+08/10/2003	fertiliser apply amount = 16 (kg/ha), depth = 50 (mm), type = Rock_P
+10/10/2003	wheat sow plants = 494, sowing_depth = 50, cultivar = yecora, row_spacing = 178, crop_class = plant
+10/10/2003	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.1, tillage_depth = 5
+16/04/2004	fertiliser apply amount = 54 (kg/ha), depth = 50 (mm), type = NO3_N
+25/04/2005	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.5, tillage_depth = 30
+03/05/2005	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.1, tillage_depth = 5
+04/05/2005	fertiliser apply amount = 33 (kg/ha), depth = 50 (mm), type = NO3_N
+04/05/2005	fertiliser apply amount = 13 (kg/ha), depth = 50 (mm), type = Rock_P
+04/05/2005	maize sow plants = 7, sowing_depth = 50, cultivar = b_100, row_spacing = 762, crop_class = plant
+20/06/2005	fertiliser apply amount = 124 (kg/ha), depth = 50 (mm), type = NO3_N
+01/05/2006	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.5, tillage_depth = 30
+05/06/2006	soybean sow plants = 44, sowing_depth = 50, cultivar = mg_2, row_spacing = 762, crop_class = plant
+06/11/2006	wheat sow plants = 494, sowing_depth = 50, cultivar = yecora, row_spacing = 178, crop_class = plant
+30/03/2007	fertiliser apply amount = 32 (kg/ha), depth = 50 (mm), type = NO3_N
+30/03/2007	fertiliser apply amount = 14 (kg/ha), depth = 50 (mm), type = Rock_P
+24/04/2007	fertiliser apply amount = 54 (kg/ha), depth = 50 (mm), type = NO3_N
+22/09/2007	fertiliser apply amount = 1 (kg/ha), depth = 50 (mm), type = NO3_N
+06/05/2008	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.5, tillage_depth = 30
+09/05/2008	fertiliser apply amount = 33 (kg/ha), depth = 50 (mm), type = NO3_N
+09/05/2008	fertiliser apply amount = 13 (kg/ha), depth = 50 (mm), type = Rock_P
+09/05/2008	maize sow plants = 7, sowing_depth = 50, cultivar = b_100, row_spacing = 762, crop_class = plant
+09/05/2008	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.1, tillage_depth = 5
+19/06/2008	fertiliser apply amount = 114 (kg/ha), depth = 50 (mm), type = NO3_N
+15/05/2009	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.5, tillage_depth = 30
+20/05/2009	soybean sow plants = 44, sowing_depth = 50, cultivar = mg_2, row_spacing = 762, crop_class = plant
+20/05/2009	surfaceorganicmatter tillage type = user_defined, f_incorp = 0.1, tillage_depth = 5
+24/06/2009	fertiliser apply amount = 1 (kg/ha), depth = 50 (mm), type = NO3_N
+06/11/2009	wheat sow plants = 477, sowing_depth = 50, cultivar = yecora, row_spacing = 178, crop_class = plant
+20/04/2010	fertiliser apply amount = 1 (kg/ha), depth = 50 (mm), type = NO3_N
+21/04/2010	fertiliser apply amount = 50 (kg/ha), depth = 50 (mm), type = NO3_N
+29/04/2010	fertiliser apply amount = 37 (kg/ha), depth = 50 (mm), type = NO3_N
+17/08/2010	fertiliser apply amount = 1 (kg/ha), depth = 50 (mm), type = NO3_N

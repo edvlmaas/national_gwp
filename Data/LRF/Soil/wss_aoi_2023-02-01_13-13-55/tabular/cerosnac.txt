@@ -1,0 +1,4 @@
+"Wind erosion"|Yes|"22262374"|"1873408"
+"Wind erosion"|Yes|"22262375"|"1873427"
+"Wind erosion"|Yes|"22262376"|"1873431"
+"Wind erosion"|Yes|"22262377"|"1873428"

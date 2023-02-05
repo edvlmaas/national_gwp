@@ -1,0 +1,72 @@
+# Agronomic Yields -- Wheat Straw
+#
+# Original Data Source: https://lter.kbs.msu.edu/datatables/407
+# The newest version of the data https://lter.kbs.msu.edu/datatables/407.csv
+# Full EML Metadata: https://lter.kbs.msu.edu/datasets/23.eml
+#
+# These Data are copyrighted and use in a publication requires written permission
+# as detailed in our Terms of use:  https://lter.kbs.msu.edu/data/terms-of-use/
+# Use of the data constitutes acceptance of the terms.
+#
+#     VARIATE TABLE
+# date		the harvest date
+# treatment		Treatment code
+# description		Treatment description
+# replicate		replicate
+# crop		the crop
+# yield_kg_ha	kilogramsPerHectare	straw yield in kg/ha
+# year		the year the crop was harvested
+#
+#
+#        DATA TABLE CORRECTIONS AND COMMENTS
+#
+#
+date,treatment,description,replicate,crop,yield_kg_ha,year
+#,,,,,kilogramsPerHectare,
+2019-07-26,T2,No-till Management,R6,Triticum aestivum L. (*),2287,2019
+2019-07-25,T2,No-till Management,R5,Triticum aestivum L. (*),2062,2019
+2019-07-25,T2,No-till Management,R4,Triticum aestivum L. (*),2197,2019
+2019-07-25,T2,No-till Management,R3,Triticum aestivum L. (*),1950,2019
+2019-07-25,T2,No-till Management,R2,Triticum aestivum L. (*),2152,2019
+2019-07-25,T2,No-till Management,R1,Triticum aestivum L. (*),2152,2019
+2019-07-26,T1,Conventional Management,R6,Triticum aestivum L. (*),2118,2019
+2019-07-25,T1,Conventional Management,R5,Triticum aestivum L. (*),1905,2019
+2019-07-25,T1,Conventional Management,R4,Triticum aestivum L. (*),2197,2019
+2019-07-25,T1,Conventional Management,R3,Triticum aestivum L. (*),2219,2019
+2019-07-25,T1,Conventional Management,R2,Triticum aestivum L. (*),2186,2019
+2016-07-17,T2,No-till Management,R6,Triticum aestivum L. (*),1636,2016
+2016-07-15,T2,No-till Management,R5,Triticum aestivum L. (*),2679,2016
+2016-07-16,T2,No-till Management,R4,Triticum aestivum L. (*),2387,2016
+2016-07-16,T2,No-till Management,R3,Triticum aestivum L. (*),2802,2016
+2016-07-16,T2,No-till Management,R2,Triticum aestivum L. (*),2690,2016
+2016-07-17,T2,No-till Management,R1,Triticum aestivum L. (*),2253,2016
+2016-07-17,T1,Conventional Management,R6,Triticum aestivum L. (*),2186,2016
+2016-07-16,T1,Conventional Management,R5,Triticum aestivum L. (*),2488,2016
+2016-07-16,T1,Conventional Management,R4,Triticum aestivum L. (*),2141,2016
+2016-07-16,T1,Conventional Management,R3,Triticum aestivum L. (*),2118,2016
+2016-07-17,T1,Conventional Management,R2,Triticum aestivum L. (*),3744,2016
+2016-07-16,T1,Conventional Management,R1,Triticum aestivum L. (*),2544,2016
+2010-07-14,T2,No-till Management,R6,Triticum aestivum L. (*),2152,2010
+2010-07-14,T2,No-till Management,R5,Triticum aestivum L. (*),2354,2010
+2010-07-14,T2,No-till Management,R4,Triticum aestivum L. (*),2062,2010
+2010-07-14,T2,No-till Management,R3,Triticum aestivum L. (*),2152,2010
+2010-07-14,T2,No-till Management,R2,Triticum aestivum L. (*),2287,2010
+2010-07-14,T2,No-till Management,R1,Triticum aestivum L. (*),2556,2010
+2010-07-14,T1,Conventional Management,R6,Triticum aestivum L. (*),1793,2010
+2010-07-14,T1,Conventional Management,R5,Triticum aestivum L. (*),1300,2010
+2010-07-14,T1,Conventional Management,R4,Triticum aestivum L. (*),1367,2010
+2010-07-14,T1,Conventional Management,R3,Triticum aestivum L. (*),1995,2010
+2010-07-14,T1,Conventional Management,R2,Triticum aestivum L. (*),1636,2010
+2010-07-14,T1,Conventional Management,R1,Triticum aestivum L. (*),964,2010
+2013-07-19,T2,No-till Management,R6,Triticum aestivum L. (*),2981,2013
+2013-07-19,T2,No-till Management,R5,Triticum aestivum L. (*),2219,2013
+2013-07-19,T2,No-till Management,R4,Triticum aestivum L. (*),2735,2013
+2013-07-19,T2,No-till Management,R3,Triticum aestivum L. (*),2757,2013
+2013-07-19,T2,No-till Management,R2,Triticum aestivum L. (*),2376,2013
+2013-07-19,T2,No-till Management,R1,Triticum aestivum L. (*),2107,2013
+2013-07-19,T1,Conventional Management,R6,Triticum aestivum L. (*),2623,2013
+2013-07-19,T1,Conventional Management,R5,Triticum aestivum L. (*),3475,2013
+2013-07-19,T1,Conventional Management,R4,Triticum aestivum L. (*),3407,2013
+2013-07-19,T1,Conventional Management,R3,Triticum aestivum L. (*),3744,2013
+2013-07-19,T1,Conventional Management,R2,Triticum aestivum L. (*),3441,2013
+2013-07-19,T1,Conventional Management,R1,Triticum aestivum L. (*),3340,2013

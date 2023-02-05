@@ -1,0 +1,315 @@
+---
+title: "MI_Analysis_Evap"
+author: "Ellen Maas"
+date: "10/20/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+knitr::opts_chunk$set(echo = TRUE, params="ask")
+```
+
+
+```{r libraries, message=FALSE}
+library(readxl)
+library(plotly)
+library(magrittr)
+library(dplyr)
+library(data.table)
+library(tidyr)
+```
+
+```{r import}
+# measured C
+MIObs <- read.csv("Site and Crop Info/Sites/KBS - MI/KBS/ObservedC.csv")
+# add control plot C
+MIObs <- rbind(c(1850, 60.12), MIObs)
+# county yields
+MICensus <- read_excel("Site and Crop Info/Sites/KBS - MI/Historical Land Use and Yields/MI-Kalamazoo County historical yields and C input.xlsx", 
+                       sheet="Kalamazoo County-Calcs", range="A2:AJ171", col_names=TRUE)
+
+# import RothC modeled points (MON  YR  DPM  RPM  BIO  HUM  TOTAL  CO2  D14C)
+RothCObs_df<- read.fwf("RothC/MI-RS/graph/MI_1.263",widths=c(3,5,10,9,9,9,9,10,9),
+                      col.names = c("MON","Year","DPM","RPM","BIO","HUM","ModC","CO2","D14C"),
+                      colClasses=c("numeric","numeric","numeric","numeric","numeric","numeric","numeric",
+                                   "numeric","numeric"),skip=1)
+RothCTM_df <- read.fwf("RothC/MI-RS/graph/MI_4.263",widths=c(3,5,10,9,9,9,9,10,9),
+                      col.names = c("MON","Year","DPM","RPM","BIO","HUM","ModC","CO2","D14C"),
+                      colClasses=c("numeric","numeric","numeric","numeric","numeric","numeric","numeric",
+                                   "numeric","numeric"),skip=1)
+RothCDA_df <- read.fwf("RothC/MI-RS/graph/MI_5.263",widths=c(3,5,10,9,9,9,9,10,9),
+                      col.names = c("MON","Year","DPM","RPM","BIO","HUM","ModC","CO2","D14C"),
+                      colClasses=c("numeric","numeric","numeric","numeric","numeric","numeric","numeric",
+                                   "numeric","numeric"),skip=1)
+RothCTe_df <- read.fwf("RothC/MI-RS/graph/MI_6.263",widths=c(3,5,10,9,9,9,9,10,9),
+                      col.names = c("MON","Year","DPM","RPM","BIO","HUM","ModC","CO2","D14C"),
+                      colClasses=c("numeric","numeric","numeric","numeric","numeric","numeric","numeric",
+                                   "numeric","numeric"),skip=1)
+
+
+# merge obs and mod C
+data <- merge(MIObs,
+             RothCObs_df[,c(2,7)], 
+             by="Year", 
+             all=TRUE)
+data <- merge(data,
+             RothCTM_df[,c(2,7)], 
+             by="Year", 
+             all=TRUE)
+data <- merge(data,
+             RothCDA_df[,c(2,7)], 
+             by="Year", 
+             all=TRUE)
+data <- merge(data,
+             RothCTe_df[,c(2,7)], 
+             by="Year", 
+             all=TRUE)
+colnames(data) <- c("Year","ObsC","RObsC","RTMC","RDAC","RTeC")
+
+# limit to 1999
+data <- data[data$Year<=1999,]
+
+# import weather data for OPE vs. precip analysis
+MIWeather <- read.csv("Site and Crop Info/Sites/KBS - MI/Weather/Monthly Kalamazoo 1900-2020 with OPE.csv")
+```
+
+```{r calculate # days OPE exceeds rainfall}
+# num days downscaled TM OPE ("obs") exceeds precip
+ObsOPE_over_PRCP <- tally(MIWeather[MIWeather$TM_OPE_down>MIWeather$PRCP &
+                                      MIWeather$Year<=1999,])
+TMOPE_over_PRCP <- tally(MIWeather[MIWeather$TM_OPE>MIWeather$PRCP &
+                                      MIWeather$Year<=1999,])
+DAOPE_over_PRCP <- tally(MIWeather[MIWeather$DA_OPE>MIWeather$PRCP &
+                                      MIWeather$Year<=1999,])
+TeOPE_over_PRCP <- tally(MIWeather[MIWeather$Te_OPE>MIWeather$PRCP &
+                                      MIWeather$Year<=1999,])
+```
+
+```{r plot_multi_lines}
+par(mgp=c(2.5, 1, 0)) # to move axis labels closer to plot
+plot(data$Year, data$RTMC, type="l", ylim=c(0,80), xlim=c(1850,1999), col="red", 
+     main="Soil OC at Kellogg Biological Station, MI",
+     xlab="Year", 
+     ylab=bquote("Mg C ha"^"-1"), 
+     cex.lab=1.5, cex.axis=1.5, cex.main=1.5, cex.sub=1.5)
+abline(v=1900, col="black", lty=2)
+lines(data$Year,data$RDAC, type = "l", col="blue")
+lines(data$Year,data$RTeC, type = "l", col="orange")
+lines(data$Year, data$RObsC, type = "l", col="black")
+points(data$Year,data$ObsC, type = "p", col="black", pch=20)
+legend("topright", legend=c("Observed OC","RothC Observed","RothC DA OPE","RothC Tegos OPE",
+                            "RothC TM OPE"),
+       lty=c(NA,1,1,1,1),pch=c(20,NA,NA,NA,NA), col=c("black","black","blue","orange","red"))
+
+```
+
+```{r correlate Obs and RothC-Obs}
+
+TOC_df <- merge(MIObs[MIObs$Year>1850,],
+             RothCObs_df[,c(2,7)], 
+             by="Year", 
+             all=FALSE)
+TOC_cor <- cor.test(x=TOC_df[,2],y=TOC_df[,3])
+TOC_rsq <- TOC_cor$estimate[[1]]^2
+lm_TOC <- lm(TOC_df[,3] ~ TOC_df[,2])
+par(pty="s")
+col_names <- names(TOC_df)
+plot(TOC_df[,2],TOC_df[,3],xlim=c(15,35), ylim=c(15,35),
+     main=paste0("TOC Correlation"),
+     xlab="Observed",ylab="RothC", pch=19,
+     cex.lab=1.3, cex.axis=1.3, cex.main=1.3, cex.sub=1.3)
+abline(lm_TOC,col="blue")
+abline(coef = c(0,1),lty=2)
+text(15,34,paste("R^2 = ", as.character(round(TOC_rsq,2))),cex=1.2,pos=4)
+##### calculate RMSE
+FS_rmse_error <- TOC_df[,2]-TOC_df[,3]
+FS_rmse <- sqrt(mean(FS_rmse_error^2))
+text(15,32,paste("RMSE = ", as.character(round(FS_rmse,2))),cex=1.2,pos=4)
+```
+
+```{r model_1999_summary}
+
+# transpose data to table format with each column a row instead
+TOC1999 <- as.data.frame(data[data$Year==1999,]) %>%
+  pivot_longer(everything(), names_to=c("ModelName"),values_to="TOCStock") %>%
+  mutate(TOCStock = round(TOCStock,1))
+# remove Year as a row
+TOC1999 <- TOC1999[-c(1,2),]
+  ## then add summary info with quantity and % changes for stock and SOC%
+TOC1999 <- TOC1999 %>%
+  mutate(TOCStock_delta = round(TOC1999$TOCStock-as.double(TOC1999[TOC1999$ModelName=="RObsC",2]),1),
+         TOCStock_pct = round((1-(as.double(TOC1999[TOC1999$ModelName=="RObsC",2])/TOC1999$TOCStock))*100
+                              ,2),
+         SOCpct = round(TOC1999$TOCStock/(25*1.2),2)
+  )
+TOC1999 <- TOC1999 %>%
+  mutate(SOCpct_delta = round(TOC1999$SOCpct-as.double(TOC1999[TOC1999$ModelName=="RObsC",5]),2),
+         SOCpct_pct = round((1-(as.double(TOC1999[TOC1999$ModelName=="RObsC",5])/TOC1999$SOCpct))*100
+                            ,2)
+         )
+
+
+```
+
+```{r statistical analyses RothC Obs vs. TM}
+# only care about 1900-2018
+RObsC <- data[data$Year>=1900,3]
+RTMC <- data[data$Year>=1900,4]
+
+# check for normality
+par(mfrow=c(1,2))
+hist(RObsC, breaks=10)
+qqnorm(RObsC)
+qqline(RObsC)
+
+par(mfrow=c(1,2))
+hist(RTMC, breaks=10)
+qqnorm(RTMC)
+qqline(RTMC)
+
+# perform statistics
+RObs_stats <- summary(RObsC)
+RObs_sd <- sd(RObsC)
+TM_stats <- summary(RTMC)
+TM_sd <- sd(RTMC)
+# Welch Two-Sample t-test
+#twosamppw_ttest_monthly <- t.test(sample1pw_base, y=sample2pw_mod_mean, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test
+wtest_TM <- wilcox.test(RObsC, y=RTMC, paired=TRUE, 
+                                       alternative="two.sided")
+
+##################
+
+# test paired one sample
+difference <- RObsC-RTMC
+
+# check for normality
+par(mfrow=c(1,2))
+hist(difference, breaks=10)
+qqnorm(difference)
+qqline(difference)
+
+# perform statistics
+diffTM_stats <- summary(difference)
+diffTM_sd <- sd(difference)
+# One Sample t-test
+#diffpw_ttest_monthly <- t.test(differencepw, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test with continuity correction
+wtest_diffTM <- wilcox.test(difference, paired=FALSE, alternative="two.sided")
+```
+
+```{r statistical analyses RothC Obs vs. DA}
+# only care about 1900-2018
+RObsC <- data[data$Year>=1900,3]
+RDAC <- data[data$Year>=1900,5]
+
+# check for normality
+par(mfrow=c(1,2))
+hist(RObsC, breaks=10)
+qqnorm(RObsC)
+qqline(RObsC)
+
+par(mfrow=c(1,2))
+hist(RDAC, breaks=10)
+qqnorm(RDAC)
+qqline(RDAC)
+
+# perform statistics
+RObs_stats <- summary(RObsC)
+RObs_sd <- sd(RObsC)
+DA_stats <- summary(RDAC)
+DA_sd <- sd(RDAC)
+# Welch Two-Sample t-test
+#twosamppw_ttest_monthly <- t.test(sample1pw_base, y=sample2pw_mod_mean, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test
+wtest_DA <- wilcox.test(RObsC, y=RDAC, paired=TRUE, 
+                                       alternative="two.sided")
+
+##################
+
+# test paired one sample
+difference <- RObsC-RDAC
+
+# check for normality
+par(mfrow=c(1,2))
+hist(difference, breaks=10)
+qqnorm(difference)
+qqline(difference)
+
+# perform statistics
+diffDA_stats <- summary(difference)
+diffDA_sd <- sd(difference)
+# One Sample t-test
+#diffpw_ttest_monthly <- t.test(differencepw, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test with continuity correction
+wtest_diffDA <- wilcox.test(difference, paired=FALSE, alternative="two.sided")
+```
+
+```{r statistical analyses RothC Obs vs. Te}
+# only care about 1900-2018
+RObsC <- data[data$Year>=1900,3]
+RTeC <- data[data$Year>=1900,6]
+
+# check for normality
+par(mfrow=c(1,2))
+hist(RObsC, breaks=10)
+qqnorm(RObsC)
+qqline(RObsC)
+
+par(mfrow=c(1,2))
+hist(RTeC, breaks=10)
+qqnorm(RTeC)
+qqline(RTeC)
+
+# perform statistics
+RObs_stats <- summary(RObsC)
+RObs_sd <- sd(RObsC)
+Te_stats <- summary(RTeC)
+Te_sd <- sd(RTeC)
+# Welch Two-Sample t-test
+#twosamppw_ttest_monthly <- t.test(sample1pw_base, y=sample2pw_mod_mean, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test
+wtest_Te <- wilcox.test(RObsC, y=RTeC, paired=TRUE, 
+                                       alternative="two.sided")
+
+##################
+
+# test paired one sample
+difference <- RObsC-RTeC
+
+# check for normality
+par(mfrow=c(1,2))
+hist(difference, breaks=10)
+qqnorm(difference)
+qqline(difference)
+
+# perform statistics
+diffTe_stats <- summary(difference)
+diffTe_sd <- sd(difference)
+# One Sample t-test
+#diffpw_ttest_monthly <- t.test(differencepw, alternative="t")
+# data are not normal distribution - use Wilcox Signed-Rank Test with continuity correction
+wtest_diffTe <- wilcox.test(difference, paired=FALSE, alternative="two.sided")
+```
+
+
+```{r calculate % difference between model runs}
+TM_diff <- data.frame(RTMC-RObsC)
+DA_diff <- data.frame(RDAC-RObsC)
+Te_diff <- data.frame(RTeC-RObsC)
+
+# calc % diff
+TM_diff$pct <- TM_diff[,1]/RObsC*100
+DA_diff$pct <- DA_diff[,1]/RObsC*100
+Te_diff$pct <- Te_diff[,1]/RObsC*100
+
+# calc mean diffs after first 75 years (differences stabilize after that)
+mean_TM_diff_C <- mean(TM_diff[76:103,1]) 
+mean_TM_diff_pct <- mean(TM_diff[76:103,2])
+mean_DA_diff_C <- mean(DA_diff[76:103,1])
+mean_DA_diff_pct <- mean(DA_diff[76:103,2])
+mean_Te_diff_C <- mean(Te_diff[76:103,1])
+mean_Te_diff_pct <- mean(Te_diff[76:103,2])
+```
+

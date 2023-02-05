@@ -1,0 +1,4 @@
+|"Clayey"||"Eolian deposits"||"16406789"|"23257055"
+|"Loamy"||"Eolian deposits"||"16406790"|"23257056"
+|"Clayey"||"Eolian deposits"||"16406791"|"23257057"
+|"Loamy"|"calcareous"|"Eolian deposits"||"16406792"|"23257058"

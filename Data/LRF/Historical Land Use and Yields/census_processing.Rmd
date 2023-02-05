@@ -1,0 +1,68 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-02-02"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries}
+
+library(readr)
+
+```
+
+```{r import and clean}
+
+Cotton_census_raw <- read_csv("LubbockCountyCottonSurveyStats.csv")
+
+Cotton_piv_df <- Cotton_census_raw[!grepl("NET",Cotton_census_raw$`Data Item`)
+                                   ,c("Year","Data Item","Value")] %>%
+  pivot_wider(names_from="Data Item",values_from="Value")
+
+colnames(Cotton_piv_df) <- c("year","all_ac_harv","all_ac_plnt",
+                             "all_bales","all_yield_lbac",
+                             "irr_ac_harv","irr_ac_plnt",
+                             "irr_bales","irr_yield_lbac",
+                             "noirr_ac_harv","noirr_ac_plnt",
+                             "noirr_bales","noirr_yield_lbac"
+                             )
+
+
+Sorghum_census_raw <- read_csv("LubbockCountySorghumSurveyStats.csv")
+
+Sorghum_piv_df <- Sorghum_census_raw[!grepl("NET",Sorghum_census_raw$`Data Item`)
+                                   ,c("Year","Data Item","Value")] %>%
+  pivot_wider(names_from="Data Item",values_from="Value")
+
+colnames(Sorghum_piv_df) <- c("year","all_ac_plnt","all_ac_harv",
+                             "all_bushels","all_yield_buac",
+                             "irr_ac_harv","irr_bushels",
+                             "irr_yield_buac",
+                             "noirr_ac_harv","noirr_bushels",
+                             "noirr_yield_buac",
+                             "irr_ac_plnt","noirr_ac_plnt"
+                             )
+
+```
+
+```{r process}
+
+Cotton_df <- Cotton_piv_df[order(Cotton_piv_df$year),] %>%
+  mutate(noirr_yield_lbac_harv=(noirr_bales*480)/noirr_ac_harv,
+         noirr_yield_lbac_plnt=(noirr_bales*480)/noirr_ac_plnt)
+
+Sorghum_df <- Sorghum_piv_df[order(Sorghum_piv_df$year),] %>%
+  mutate(noirr_yield_buac_harv=(noirr_bushels/noirr_ac_harv),
+         noirr_yield_buac_plnt=(noirr_bushels/noirr_ac_plnt))
+
+```
+
+```{r write}
+
+write_csv(Cotton_df, file="census_cotton_yields.csv")
+write_csv(Sorghum_df, file="census_sorghum_yields.csv")
+
+```

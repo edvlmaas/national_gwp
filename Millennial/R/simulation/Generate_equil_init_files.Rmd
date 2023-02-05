@@ -1,0 +1,137 @@
+---
+title: "Generate equil_init_files"
+author: "Ellen Maas"
+date: "9/18/2022"
+output: html_document
+description: "This script generates the initialization file for the Millennial model, which takes the globalaverage.txt data file and calculates the fraction of C input each day, to be used for each site/grid cell as a template to divide the annual C input into daily amounts. "
+---
+
+```{r setup, include=FALSE}
+rm(list=ls())
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r libraries, message=FALSE}
+library(tidyverse)
+library(data.table)
+library(apsimx)
+```
+
+# constants
+
+```{r}
+
+APSIM_db_path <- paste0("../../../APSIM/KBS/")
+APSIM_db_filename <- paste0("KBS_2100.db")
+
+```
+
+# Equilibrium
+
+```{r}
+
+# calculate the estimated daily fraction of C input (as fraction of each day of 
+# the annual total) using the default global average initial input data file for 
+# the Millennial model 
+inputdata <- read.table("globalaverage.txt") 
+
+c_annual <- sum(inputdata[3])
+c_frac <- inputdata[3]/c_annual
+
+write.table(c_frac, file="equil_init.txt",row.names=F)
+
+```
+
+# Crop years
+Calculate one init file for each crop to get the distinct distribution of C input.
+
+```{r}
+
+APSIM_out <- read_apsimx(file=APSIM_db_filename,src.dir=APSIM_db_path)
+Cin_daily <- APSIM_out[,c("Date","FOMCarb_20cm_kgha","FOMCell_20cm_kgha",
+                            "FOMLign_20cm_kgha","FOMCarb_25cm_kgha","FOMCell_25cm_kgha",
+                            "FOMLign_25cm_kgha","FOMCarb_CO2_20cm_kgha","FOMCell_CO2_20cm_kgha",
+                            "FOMLign_CO2_20cm_kgha","FOMCarb_CO2_25cm_kgha","FOMCell_CO2_25cm_kgha",
+                            "FOMLign_CO2_25cm_kgha")] %>%
+  mutate(FOMCarb_totC_20cm_kgha = FOMCarb_20cm_kgha + FOMCarb_CO2_20cm_kgha,
+         FOMCell_totC_20cm_kgha = FOMCell_20cm_kgha + FOMCell_CO2_20cm_kgha,
+         FOMLign_totC_20cm_kgha = FOMLign_20cm_kgha + FOMLign_CO2_20cm_kgha,
+         FOMCarb_totC_25cm_kgha = FOMCarb_25cm_kgha + FOMCarb_CO2_25cm_kgha,
+         FOMCell_totC_25cm_kgha = FOMCell_25cm_kgha + FOMCell_CO2_25cm_kgha,
+         FOMLign_totC_25cm_kgha = FOMLign_25cm_kgha + FOMLign_CO2_25cm_kgha,
+         # FOMCarb_input_20cm_kgha = ifelse(FOMCarb_20cm_kgha>lag(FOMCarb_20cm_kgha,default=1000000),
+         #                                  FOMCarb_20cm_kgha-lag(FOMCarb_20cm_kgha,default=1000000),
+         #                                  0),
+         # FOMCell_input_20cm_kgha = ifelse(FOMCell_20cm_kgha>lag(FOMCell_20cm_kgha,default=1000000),
+         #                                  FOMCell_20cm_kgha-lag(FOMCell_20cm_kgha,default=1000000),
+         #                                  0),
+         # FOMLign_input_20cm_kgha = ifelse(FOMLign_20cm_kgha>lag(FOMLign_20cm_kgha,default=1000000),
+         #                                  FOMLign_20cm_kgha-lag(FOMLign_20cm_kgha,default=1000000),
+         #                                  0),
+         # Cinput_20cm_kgha = FOMCarb_input_20cm_kgha + FOMCell_input_20cm_kgha +
+         #   FOMLign_input_20cm_kgha,
+         FOMCarb_input_20cm_kgha = ifelse(FOMCarb_totC_20cm_kgha>lag(FOMCarb_totC_20cm_kgha,default=1000000),
+                                          FOMCarb_totC_20cm_kgha-lag(FOMCarb_totC_20cm_kgha,default=1000000),
+                                          0),
+         FOMCell_input_20cm_kgha = ifelse(FOMCell_totC_20cm_kgha>lag(FOMCell_totC_20cm_kgha,default=1000000),
+                                          FOMCell_totC_20cm_kgha-lag(FOMCell_totC_20cm_kgha,default=1000000),
+                                          0),
+         FOMLign_input_20cm_kgha = ifelse(FOMLign_totC_20cm_kgha>lag(FOMLign_totC_20cm_kgha,default=1000000),
+                                          FOMLign_totC_20cm_kgha-lag(FOMLign_totC_20cm_kgha,default=1000000),
+                                          0),
+         Cinput_20cm_kgha = FOMCarb_input_20cm_kgha + FOMCell_input_20cm_kgha +
+           FOMLign_input_20cm_kgha,
+         # FOMCarb_input_25cm_kgha = ifelse(FOMCarb_25cm_kgha>lag(FOMCarb_25cm_kgha,default=1000000),
+         #                                  FOMCarb_25cm_kgha-lag(FOMCarb_25cm_kgha,default=1000000),
+         #                                  0),
+         # FOMCell_input_25cm_kgha = ifelse(FOMCell_25cm_kgha>lag(FOMCell_25cm_kgha,default=1000000),
+         #                                  FOMCell_25cm_kgha-lag(FOMCell_25cm_kgha,default=1000000),
+         #                                  0),
+         # FOMLign_input_25cm_kgha = ifelse(FOMLign_25cm_kgha>lag(FOMLign_25cm_kgha,default=1000000),
+         #                                  FOMLign_25cm_kgha-lag(FOMLign_25cm_kgha,default=1000000),
+         #                                  0),
+         # Cinput_25cm_kgha = (FOMCarb_input_25cm_kgha + FOMCell_input_25cm_kgha +
+         #   FOMLign_input_25cm_kgha) * 2.2, # artificial inflation here
+         FOMCarb_input_25cm_kgha = ifelse(FOMCarb_totC_25cm_kgha>lag(FOMCarb_totC_25cm_kgha,default=1000000),
+                                          FOMCarb_totC_25cm_kgha-lag(FOMCarb_totC_25cm_kgha,default=1000000),
+                                          0),
+         FOMCell_input_25cm_kgha = ifelse(FOMCell_totC_25cm_kgha>lag(FOMCell_totC_25cm_kgha,default=1000000),
+                                          FOMCell_totC_25cm_kgha-lag(FOMCell_totC_25cm_kgha,default=1000000),
+                                          0),
+         FOMLign_input_25cm_kgha = ifelse(FOMLign_totC_25cm_kgha>lag(FOMLign_totC_25cm_kgha,default=1000000),
+                                          FOMLign_totC_25cm_kgha-lag(FOMLign_totC_25cm_kgha,default=1000000),
+                                          0),
+         Cinput_25cm_kgha = (FOMCarb_input_25cm_kgha + FOMCell_input_25cm_kgha +
+           FOMLign_input_25cm_kgha) * 2, # artificial inflation here
+         Cinput_25cm_gm2 = Cinput_25cm_kgha/10,
+         Cinput_25cm_Mgha = Cinput_25cm_kgha/1000
+  )
+
+
+# corn
+corn_annualC <- sum(Cin_daily[year(Cin_daily$Date)==1989,"Cinput_25cm_gm2"])
+corn_frac <- Cin_daily[year(Cin_daily$Date)==1989,"Cinput_25cm_gm2"]/corn_annualC
+
+# soy
+soy_annualC <- sum(Cin_daily[year(Cin_daily$Date)==1990,"Cinput_25cm_gm2"])
+soy_frac <- Cin_daily[year(Cin_daily$Date)==1989,"Cinput_25cm_gm2"]/corn_annualC
+
+# wheat
+wheat_annualC <- sum(Cin_daily[year(Cin_daily$Date)==1995,"Cinput_25cm_gm2"])
+wheat_frac <- Cin_daily[year(Cin_daily$Date)==1989,"Cinput_25cm_gm2"]/corn_annualC
+
+```
+
+# write files
+
+```{r}
+
+write.table(c_frac, file="equil_init.txt",row.names=F)
+
+write.table(corn_frac, file="corn_init.txt",row.names=F)
+
+write.table(soy_frac, file="soy_init.txt",row.names=F)
+
+write.table(wheat_frac, file="wheat_init.txt",row.names=F)
+
+```

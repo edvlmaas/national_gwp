@@ -1,0 +1,3157 @@
+ *******************************************************************************
+
+
+    ROTHC-26.3 (DLL) : A MODEL FOR THE TURNOVER OF ORGANIC CARBON IN THE SOIL
+
+
+                                  October 1997
+
+
+           K.W. Coleman, D.S. Jenkinson, L.C. Parry and J.H. Rayner
+
+              IACR - Rothamsted, Harpenden, Herts. AL5 2JQ. U.K.
+
+                     Contact K.W. Coleman or D.S. Jenkinson
+
+
+                           Copyright IACR - Rothamsted
+
+
+
+
+ *******************************************************************************
+
+
+
+ Quality factor for incoming plant debris (DPM/RPM ratio) :- 1.44
+
+
+ Decomposition ratio :-
+
+ BIO   ...   0.46
+ HUM   ...   0.54
+
+
+ Decomposition rate constants :-
+ DPM   =      10.00
+ RPM   =       0.30
+ BIO   =       0.66
+ HUM   =       0.02
+
+
+ Site = roth                
+
+
+ Initial soil state :-
+ DPM   =     0.0000
+ RPM   =     0.0000
+ BIO   =     0.0000
+ HUM   =     0.0000
+ IOM   =     3.8000
+
+
+ Initial radiocarbon ages :-
+ DPM   =     0.0000
+ RPM   =     0.0000
+ BIO   =     0.0000
+ HUM   =     0.0000
+ IOM   = 50000.0000
+
+
+   Start year  =    0
+   Start month = JANUARY   
+
+
+ Month       Mean temperature  Rainfall  Evaporation
+ -----       ----------------  --------  -----------
+ JANUARY             3.4          74.0         8.0
+ FEBRUARY            3.6          59.0        10.0
+ MARCH               5.1          62.0        27.0
+ APRIL               7.3          51.0        49.0
+ MAY                11.0          52.0        83.0
+ JUNE               13.9          57.0        99.0
+ JULY               16.0          34.0       103.0
+ AUGUST             16.0          55.0        91.0
+ SEPTEMBER          13.5          58.0        69.0
+ OCTOBER            10.2          56.0        34.0
+ NOVEMBER            6.1          75.0        18.0
+ DECEMBER            4.6          71.0         8.0
+
+
+ Percentage clay =  23.40
+
+
+ Sample depth 23.0 cm
+
+
+ ( From roth.dat)
+
+
+
+
+
+
+                               Carbon addition
+                               ===============
+
+                             Plant
+                Soil         Residue
+ Month          Cover        Input
+ -----          -----        -------
+ JANUARY        BARE           0.00
+ FEBRUARY       BARE           0.00
+ MARCH          BARE           0.00
+ APRIL          COVERED        0.10
+ MAY            COVERED        0.22
+ JUNE           COVERED        0.33
+ JULY           COVERED        0.98
+ AUGUST         BARE           0.00
+ SEPTEMBER      BARE           0.00
+ OCTOBER        BARE           0.00
+ NOVEMBER       BARE           0.00
+ DECEMBER       BARE           0.00
+
+ Total                         1.63
+
+
+ ( From Lmhfeq.dat    )
+
+
+
+                 Soil
+                 Moisture
+ Month           Deficit
+ -----           --------
+ JANUARY             0.00
+ FEBRUARY            0.00
+ MARCH               0.00
+ APRIL               0.00
+ MAY               -10.25
+ JUNE              -27.50
+ JULY              -44.94
+ AUGUST            -44.94
+ SEPTEMBER         -38.69
+ OCTOBER            -8.19
+ NOVEMBER            0.00
+ DECEMBER            0.00
+
+
+ Rate modifying factors
+ ----------------------
+                                        Crop
+ Month        Mean temp.   Moisture   Retainment       Product
+ -----        ----------   --------   ----------       -------
+ JANUARY        0.3561      1.0000      1.0000          0.3561
+ FEBRUARY       0.3723      1.0000      1.0000          0.3723
+ MARCH          0.5068      1.0000      1.0000          0.5068
+ APRIL          0.7451      1.0000      0.6000          0.4471
+ MAY            1.2454      1.0000      0.6000          0.7473
+ JUNE           1.7094      0.7585      0.6000          0.7779
+ JULY           2.0755      0.2000      0.6000          0.2491
+ AUGUST         2.0755      0.2000      1.0000          0.4151
+ SEPTEMBER      1.6423      0.4001      1.0000          0.6570
+ OCTOBER        1.1277      1.0000      1.0000          1.1277
+ NOVEMBER       0.6092      1.0000      1.0000          0.6092
+ DECEMBER       0.4594      1.0000      1.0000          0.4594
+
+
+ Starting conditions
+ ===================
+
+
+ Radiocarbon activity scaling factor =  1.0000
+
+                           Radio       Delta
+              Carbon        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0000        0.00        0.00
+ HUM          0.0000        0.00        0.00
+ IOM          3.8000    50000.00     -998.02
+
+ Total        3.8000    50000.00     -998.02
+
+
+
+
+ After year  10000
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.0000
+
+                           Radio       Delta
+              Carbon        Age        Value
+              ------       -----       -----
+ DPM          0.0530        0.45       -0.06
+ RPM          3.9489        5.93       -0.74
+ BIO          0.5971       18.87       -2.34
+ HUM         22.3709      105.07      -12.99
+ IOM          3.8000    50000.00     -998.02
+
+ Total       30.7699     1144.95     -132.81
+
+
+ *******************************************************************************
+
+
+
+ Quality factor for incoming plant debris (DPM/RPM ratio) :- 1.44
+
+
+ Decomposition ratio :-
+
+ BIO   ...   0.46
+ HUM   ...   0.54
+
+
+ Decomposition rate constants :-
+ DPM   =      10.00
+ RPM   =       0.30
+ BIO   =       0.66
+ HUM   =       0.02
+
+
+                               Carbon addition
+                               ===============
+
+                             Plant
+                Soil         Residue
+ Month          Cover        Input
+ -----          -----        -------
+ JANUARY        BARE           0.00
+ FEBRUARY       BARE           0.00
+ MARCH          BARE           0.00
+ APRIL          BARE           0.00
+ MAY            BARE           0.00
+ JUNE           BARE           0.00
+ JULY           BARE           0.00
+ AUGUST         BARE           0.00
+ SEPTEMBER      BARE           0.00
+ OCTOBER        BARE           0.00
+ NOVEMBER       BARE           0.00
+ DECEMBER       BARE           0.00
+
+ Total                         0.00
+
+
+ ( From Lmfallow.dat  )
+
+
+
+                 Soil
+                 Moisture
+ Month           Deficit
+ -----           --------
+ JANUARY             0.00
+ FEBRUARY            0.00
+ MARCH               0.00
+ APRIL               0.00
+ MAY               -10.25
+ JUNE              -24.99
+ JULY              -24.99
+ AUGUST            -24.99
+ SEPTEMBER         -18.74
+ OCTOBER             0.00
+ NOVEMBER            0.00
+ DECEMBER            0.00
+
+
+ Rate modifying factors
+ ----------------------
+                                        Crop
+ Month        Mean temp.   Moisture   Retainment       Product
+ -----        ----------   --------   ----------       -------
+ JANUARY        0.3561      1.0000      1.0000          0.3561
+ FEBRUARY       0.3723      1.0000      1.0000          0.3723
+ MARCH          0.5068      1.0000      1.0000          0.5068
+ APRIL          0.7451      1.0000      1.0000          0.7451
+ MAY            1.2454      1.0000      1.0000          1.2454
+ JUNE           1.7094      0.8388      1.0000          1.4339
+ JULY           2.0755      0.8388      1.0000          1.7410
+ AUGUST         2.0755      0.8388      1.0000          1.7410
+ SEPTEMBER      1.6423      1.0000      1.0000          1.6423
+ OCTOBER        1.1277      1.0000      1.0000          1.1277
+ NOVEMBER       0.6092      1.0000      1.0000          0.6092
+ DECEMBER       0.4594      1.0000      1.0000          0.4594
+
+
+ After year  10001    (1860)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9990
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        1.45       -0.18
+ RPM          2.9268        6.93       -0.86
+ BIO          0.4497       24.16       -2.99
+ HUM         22.1486      105.34      -13.02
+ IOM          3.8000    50000.00     -998.02
+
+ Total       29.3251     1204.99     -139.26
+
+
+
+ The accumulated CO2 lost to the atmosphere is      1.4448 tonnes / ha
+
+
+
+
+ After year  10002    (1861)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9990
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        2.45       -0.31
+ RPM          2.1693        7.93       -0.99
+ BIO          0.3436       30.40       -3.76
+ HUM         21.8827      105.83      -13.08
+ IOM          3.8000    50000.00     -998.02
+
+ Total       28.1956     1256.37     -144.75
+
+
+
+ The accumulated CO2 lost to the atmosphere is      2.5743 tonnes / ha
+
+
+
+
+ After year  10003    (1862)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9990
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          1.6079        8.93       -1.11
+ BIO          0.2690       37.36       -4.63
+ HUM         21.5913      106.44      -13.16
+ IOM          3.8000    50000.00     -998.02
+
+ Total       27.2681     1301.87     -149.58
+
+
+
+ The accumulated CO2 lost to the atmosphere is      3.5018 tonnes / ha
+
+
+
+
+ After year  10004    (1863)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9990
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          1.1917        9.93       -1.24
+ BIO          0.2157       44.91       -5.56
+ HUM         21.2828      107.16      -13.25
+ IOM          3.8000    50000.00     -998.02
+
+ Total       26.4903     1342.56     -153.88
+
+
+
+ The accumulated CO2 lost to the atmosphere is      4.2796 tonnes / ha
+
+
+
+
+ After year  10005    (1864)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9990
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.8833       10.93       -1.36
+ BIO          0.1773       52.87       -6.54
+ HUM         20.9635      107.94      -13.34
+ IOM          3.8000    50000.00     -998.02
+
+ Total       25.8241     1379.42     -157.75
+
+
+
+ The accumulated CO2 lost to the atmosphere is      4.9458 tonnes / ha
+
+
+
+
+ After year  10006    (1865)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9980
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.6547       11.93       -1.48
+ BIO          0.1492       60.98       -7.55
+ HUM         20.6378      108.79      -13.45
+ IOM          3.8000    50000.00     -998.02
+
+ Total       25.2416     1413.27     -161.29
+
+
+
+ The accumulated CO2 lost to the atmosphere is      5.5283 tonnes / ha
+
+
+
+
+ After year  10007    (1866)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9980
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.4852       12.93       -1.61
+ BIO          0.1284       68.96       -8.53
+ HUM         20.3088      109.67      -13.56
+ IOM          3.8000    50000.00     -998.02
+
+ Total       24.7225     1444.83     -164.58
+
+
+
+ The accumulated CO2 lost to the atmosphere is      6.0474 tonnes / ha
+
+
+
+
+ After year  10008    (1867)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9980
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.3596       13.93       -1.73
+ BIO          0.1130       76.56       -9.47
+ HUM         19.9790      110.58      -13.67
+ IOM          3.8000    50000.00     -998.02
+
+ Total       24.2517     1474.66     -167.67
+
+
+
+ The accumulated CO2 lost to the atmosphere is      6.5182 tonnes / ha
+
+
+
+
+ After year  10009    (1868)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9980
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.2666       14.93       -1.86
+ BIO          0.1014       83.57      -10.34
+ HUM         19.6501      111.51      -13.78
+ IOM          3.8000    50000.00     -998.02
+
+ Total       23.8180     1503.21     -170.62
+
+
+
+ The accumulated CO2 lost to the atmosphere is      6.9519 tonnes / ha
+
+
+
+
+ After year  10010    (1869)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9980
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.1976       15.93       -1.98
+ BIO          0.0925       89.87      -11.11
+ HUM         19.3233      112.46      -13.90
+ IOM          3.8000    50000.00     -998.02
+
+ Total       23.4133     1530.85     -173.47
+
+
+
+ The accumulated CO2 lost to the atmosphere is      7.3566 tonnes / ha
+
+
+
+
+ After year  10011    (1870)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9970
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.1464       16.93       -2.10
+ BIO          0.0857       95.40      -11.80
+ HUM         18.9994      113.42      -14.02
+ IOM          3.8000    50000.00     -998.02
+
+ Total       23.0315     1557.85     -176.25
+
+
+
+ The accumulated CO2 lost to the atmosphere is      7.7384 tonnes / ha
+
+
+
+
+ After year  10012    (1871)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9970
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.1085       17.93       -2.23
+ BIO          0.0803      100.18      -12.39
+ HUM         18.6792      114.39      -14.14
+ IOM          3.8000    50000.00     -998.02
+
+ Total       22.6680     1584.46     -178.97
+
+
+
+ The accumulated CO2 lost to the atmosphere is      8.1019 tonnes / ha
+
+
+
+
+ After year  10013    (1872)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9970
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0804       18.93       -2.35
+ BIO          0.0761      104.27      -12.89
+ HUM         18.3630      115.37      -14.26
+ IOM          3.8000    50000.00     -998.02
+
+ Total       22.3195     1610.83     -181.66
+
+
+
+ The accumulated CO2 lost to the atmosphere is      8.4504 tonnes / ha
+
+
+
+
+ After year  10014    (1873)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9970
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0596       19.93       -2.48
+ BIO          0.0727      107.75      -13.32
+ HUM         18.0511      116.35      -14.38
+ IOM          3.8000    50000.00     -998.02
+
+ Total       21.9834     1637.10     -184.33
+
+
+
+ The accumulated CO2 lost to the atmosphere is      8.7865 tonnes / ha
+
+
+
+
+ After year  10015    (1874)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9970
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0442       20.93       -2.60
+ BIO          0.0699      110.71      -13.68
+ HUM         17.7438      117.34      -14.50
+ IOM          3.8000    50000.00     -998.02
+
+ Total       21.6579     1663.38     -186.99
+
+
+
+ The accumulated CO2 lost to the atmosphere is      9.1120 tonnes / ha
+
+
+
+
+ After year  10016    (1875)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0328       21.93       -2.73
+ BIO          0.0675      113.25      -13.99
+ HUM         17.4412      118.33      -14.62
+ IOM          3.8000    50000.00     -998.02
+
+ Total       21.3415     1689.76     -189.66
+
+
+
+ The accumulated CO2 lost to the atmosphere is      9.4284 tonnes / ha
+
+
+
+
+ After year  10017    (1876)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0243       22.93       -2.85
+ BIO          0.0655      115.44      -14.26
+ HUM         17.1434      119.32      -14.74
+ IOM          3.8000    50000.00     -998.02
+
+ Total       21.0332     1716.29     -192.33
+
+
+
+ The accumulated CO2 lost to the atmosphere is      9.7367 tonnes / ha
+
+
+
+
+ After year  10018    (1877)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0180       23.93       -2.97
+ BIO          0.0638      117.36      -14.50
+ HUM         16.8503      120.32      -14.86
+ IOM          3.8000    50000.00     -998.02
+
+ Total       20.7321     1743.02     -195.01
+
+
+
+ The accumulated CO2 lost to the atmosphere is     10.0378 tonnes / ha
+
+
+
+
+ After year  10019    (1878)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0133       24.93       -3.10
+ BIO          0.0622      119.07      -14.71
+ HUM         16.5621      121.31      -14.98
+ IOM          3.8000    50000.00     -998.02
+
+ Total       20.4376     1770.00     -197.71
+
+
+
+ The accumulated CO2 lost to the atmosphere is     10.3323 tonnes / ha
+
+
+
+
+ After year  10020    (1879)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0099       25.93       -3.22
+ BIO          0.0608      120.61      -14.90
+ HUM         16.2786      122.31      -15.11
+ IOM          3.8000    50000.00     -998.02
+
+ Total       20.1492     1797.25     -200.43
+
+
+
+ The accumulated CO2 lost to the atmosphere is     10.6207 tonnes / ha
+
+
+
+
+ After year  10021    (1880)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0073       26.93       -3.35
+ BIO          0.0595      122.02      -15.07
+ HUM         15.9998      123.31      -15.23
+ IOM          3.8000    50000.00     -998.02
+
+ Total       19.8666     1824.81     -203.16
+
+
+
+ The accumulated CO2 lost to the atmosphere is     10.9033 tonnes / ha
+
+
+
+
+ After year  10022    (1881)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0054       27.93       -3.47
+ BIO          0.0583      123.33      -15.23
+ HUM         15.7257      124.31      -15.35
+ IOM          3.8000    50000.00     -998.02
+
+ Total       19.5894     1852.68     -205.92
+
+
+
+ The accumulated CO2 lost to the atmosphere is     11.1805 tonnes / ha
+
+
+
+
+ After year  10023    (1882)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0040       28.93       -3.59
+ BIO          0.0571      124.57      -15.38
+ HUM         15.4562      125.31      -15.47
+ IOM          3.8000    50000.00     -998.02
+
+ Total       19.3174     1880.89     -208.71
+
+
+
+ The accumulated CO2 lost to the atmosphere is     11.4525 tonnes / ha
+
+
+
+
+ After year  10024    (1883)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0030       29.93       -3.72
+ BIO          0.0561      125.75      -15.53
+ HUM         15.1913      126.30      -15.60
+ IOM          3.8000    50000.00     -998.02
+
+ Total       19.0504     1909.44     -211.51
+
+
+
+ The accumulated CO2 lost to the atmosphere is     11.7195 tonnes / ha
+
+
+
+
+ After year  10025    (1884)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9960
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0022       30.93       -3.84
+ BIO          0.0550      126.88      -15.67
+ HUM         14.9310      127.30      -15.72
+ IOM          3.8000    50000.00     -998.02
+
+ Total       18.7882     1938.36     -214.35
+
+
+
+ The accumulated CO2 lost to the atmosphere is     11.9817 tonnes / ha
+
+
+
+
+ After year  10026    (1885)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9950
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0016       31.93       -3.97
+ BIO          0.0540      127.99      -15.80
+ HUM         14.6750      128.30      -15.84
+ IOM          3.8000    50000.00     -998.02
+
+ Total       18.5307     1967.64     -217.20
+
+
+
+ The accumulated CO2 lost to the atmosphere is     12.2392 tonnes / ha
+
+
+
+
+ After year  10027    (1886)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9950
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0012       32.93       -4.09
+ BIO          0.0530      129.06      -15.93
+ HUM         14.4234      129.30      -15.96
+ IOM          3.8000    50000.00     -998.02
+
+ Total       18.2777     1997.31     -220.09
+
+
+
+ The accumulated CO2 lost to the atmosphere is     12.4922 tonnes / ha
+
+
+
+
+ After year  10028    (1887)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9950
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0009       33.93       -4.21
+ BIO          0.0521      130.12      -16.06
+ HUM         14.1761      130.30      -16.09
+ IOM          3.8000    50000.00     -998.02
+
+ Total       18.0291     2027.35     -223.00
+
+
+
+ The accumulated CO2 lost to the atmosphere is     12.7408 tonnes / ha
+
+
+
+
+ After year  10029    (1888)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9950
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0007       34.93       -4.34
+ BIO          0.0512      131.17      -16.19
+ HUM         13.9331      131.30      -16.21
+ IOM          3.8000    50000.00     -998.02
+
+ Total       17.7849     2057.79     -225.94
+
+
+
+ The accumulated CO2 lost to the atmosphere is     12.9850 tonnes / ha
+
+
+
+
+ After year  10030    (1889)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9950
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0005       35.93       -4.46
+ BIO          0.0503      132.20      -16.32
+ HUM         13.6942      132.30      -16.33
+ IOM          3.8000    50000.00     -998.02
+
+ Total       17.5450     2088.62     -228.90
+
+
+
+ The accumulated CO2 lost to the atmosphere is     13.2249 tonnes / ha
+
+
+
+
+ After year  10031    (1890)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9940
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0004       36.93       -4.59
+ BIO          0.0494      133.22      -16.44
+ HUM         13.4594      133.30      -16.45
+ IOM          3.8000    50000.00     -998.02
+
+ Total       17.3091     2119.86     -231.89
+
+
+
+ The accumulated CO2 lost to the atmosphere is     13.4608 tonnes / ha
+
+
+
+
+ After year  10032    (1891)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9940
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0003       37.93       -4.71
+ BIO          0.0486      134.24      -16.57
+ HUM         13.2286      134.30      -16.58
+ IOM          3.8000    50000.00     -998.02
+
+ Total       17.0774     2151.50     -234.91
+
+
+
+ The accumulated CO2 lost to the atmosphere is     13.6925 tonnes / ha
+
+
+
+
+ After year  10033    (1892)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9940
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0002       38.93       -4.83
+ BIO          0.0477      135.26      -16.69
+ HUM         13.0017      135.30      -16.70
+ IOM          3.8000    50000.00     -998.02
+
+ Total       16.8497     2183.55     -237.96
+
+
+
+ The accumulated CO2 lost to the atmosphere is     13.9202 tonnes / ha
+
+
+
+
+ After year  10034    (1893)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9940
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0001       39.93       -4.96
+ BIO          0.0469      136.27      -16.82
+ HUM         12.7788      136.30      -16.82
+ IOM          3.8000    50000.00     -998.02
+
+ Total       16.6258     2216.02     -241.03
+
+
+
+ The accumulated CO2 lost to the atmosphere is     14.1441 tonnes / ha
+
+
+
+
+ After year  10035    (1894)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9940
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0001       40.93       -5.08
+ BIO          0.0461      137.28      -16.94
+ HUM         12.5597      137.30      -16.94
+ IOM          3.8000    50000.00     -998.02
+
+ Total       16.4059     2248.91     -244.13
+
+
+
+ The accumulated CO2 lost to the atmosphere is     14.3640 tonnes / ha
+
+
+
+
+ After year  10036    (1895)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9930
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0001       41.93       -5.20
+ BIO          0.0453      138.28      -17.06
+ HUM         12.3443      138.30      -17.07
+ IOM          3.8000    50000.00     -998.02
+
+ Total       16.1897     2282.23     -247.26
+
+
+
+ The accumulated CO2 lost to the atmosphere is     14.5802 tonnes / ha
+
+
+
+
+ After year  10037    (1896)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9930
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0001       42.93       -5.33
+ BIO          0.0445      139.29      -17.19
+ HUM         12.1326      139.30      -17.19
+ IOM          3.8000    50000.00     -998.02
+
+ Total       15.9772     2315.97     -250.42
+
+
+
+ The accumulated CO2 lost to the atmosphere is     14.7927 tonnes / ha
+
+
+
+
+ After year  10038    (1897)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9930
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       43.93       -5.45
+ BIO          0.0438      140.29      -17.31
+ HUM         11.9246      140.30      -17.31
+ IOM          3.8000    50000.00     -998.02
+
+ Total       15.7684     2350.15     -253.60
+
+
+
+ The accumulated CO2 lost to the atmosphere is     15.0015 tonnes / ha
+
+
+
+
+ After year  10039    (1898)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9930
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       44.93       -5.58
+ BIO          0.0430      141.29      -17.43
+ HUM         11.7201      141.30      -17.43
+ IOM          3.8000    50000.00     -998.02
+
+ Total       15.5631     2384.77     -256.81
+
+
+
+ The accumulated CO2 lost to the atmosphere is     15.2068 tonnes / ha
+
+
+
+
+ After year  10040    (1899)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9930
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       45.93       -5.70
+ BIO          0.0423      142.30      -17.55
+ HUM         11.5191      142.30      -17.55
+ IOM          3.8000    50000.00     -998.02
+
+ Total       15.3614     2419.83     -260.04
+
+
+
+ The accumulated CO2 lost to the atmosphere is     15.4085 tonnes / ha
+
+
+
+
+ After year  10041    (1900)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       46.93       -5.82
+ BIO          0.0415      143.30      -17.68
+ HUM         11.3216      143.30      -17.68
+ IOM          3.8000    50000.00     -998.02
+
+ Total       15.1631     2455.33     -263.30
+
+
+
+ The accumulated CO2 lost to the atmosphere is     15.6068 tonnes / ha
+
+
+
+
+ After year  10042    (1901)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       47.93       -5.95
+ BIO          0.0408      144.30      -17.80
+ HUM         11.1274      144.30      -17.80
+ IOM          3.8000    50000.00     -998.02
+
+ Total       14.9683     2491.28     -266.59
+
+
+
+ The accumulated CO2 lost to the atmosphere is     15.8016 tonnes / ha
+
+
+
+
+ After year  10043    (1902)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       48.93       -6.07
+ BIO          0.0401      145.30      -17.92
+ HUM         10.9366      145.30      -17.92
+ IOM          3.8000    50000.00     -998.02
+
+ Total       14.7768     2527.69     -269.91
+
+
+
+ The accumulated CO2 lost to the atmosphere is     15.9931 tonnes / ha
+
+
+
+
+ After year  10044    (1903)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       49.93       -6.19
+ BIO          0.0394      146.30      -18.04
+ HUM         10.7491      146.30      -18.04
+ IOM          3.8000    50000.00     -998.02
+
+ Total       14.5885     2564.55     -273.25
+
+
+
+ The accumulated CO2 lost to the atmosphere is     16.1814 tonnes / ha
+
+
+
+
+ After year  10045    (1904)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       50.93       -6.32
+ BIO          0.0388      147.30      -18.17
+ HUM         10.5647      147.30      -18.17
+ IOM          3.8000    50000.00     -998.02
+
+ Total       14.4035     2601.88     -276.62
+
+
+
+ The accumulated CO2 lost to the atmosphere is     16.3664 tonnes / ha
+
+
+
+
+ After year  10046    (1905)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       51.93       -6.44
+ BIO          0.0381      148.30      -18.29
+ HUM         10.3836      148.30      -18.29
+ IOM          3.8000    50000.00     -998.02
+
+ Total       14.2217     2639.66     -280.01
+
+
+
+ The accumulated CO2 lost to the atmosphere is     16.5482 tonnes / ha
+
+
+
+
+ After year  10047    (1906)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       52.93       -6.57
+ BIO          0.0374      149.30      -18.41
+ HUM         10.2055      149.30      -18.41
+ IOM          3.8000    50000.00     -998.02
+
+ Total       14.0430     2677.92     -283.43
+
+
+
+ The accumulated CO2 lost to the atmosphere is     16.7269 tonnes / ha
+
+
+
+
+ After year  10048    (1907)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       53.93       -6.69
+ BIO          0.0368      150.30      -18.53
+ HUM         10.0305      150.30      -18.53
+ IOM          3.8000    50000.00     -998.02
+
+ Total       13.8673     2716.65     -286.88
+
+
+
+ The accumulated CO2 lost to the atmosphere is     16.9026 tonnes / ha
+
+
+
+
+ After year  10049    (1908)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       54.93       -6.81
+ BIO          0.0362      151.30      -18.65
+ HUM          9.8585      151.30      -18.65
+ IOM          3.8000    50000.00     -998.02
+
+ Total       13.6947     2755.86     -290.35
+
+
+
+ The accumulated CO2 lost to the atmosphere is     17.0752 tonnes / ha
+
+
+
+
+ After year  10050    (1909)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       55.93       -6.94
+ BIO          0.0356      152.30      -18.78
+ HUM          9.6895      152.30      -18.78
+ IOM          3.8000    50000.00     -998.02
+
+ Total       13.5250     2795.55     -293.85
+
+
+
+ The accumulated CO2 lost to the atmosphere is     17.2449 tonnes / ha
+
+
+
+
+ After year  10051    (1910)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       56.93       -7.06
+ BIO          0.0349      153.30      -18.90
+ HUM          9.5233      153.30      -18.90
+ IOM          3.8000    50000.00     -998.02
+
+ Total       13.3582     2835.72     -297.37
+
+
+
+ The accumulated CO2 lost to the atmosphere is     17.4117 tonnes / ha
+
+
+
+
+ After year  10052    (1911)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       57.93       -7.18
+ BIO          0.0343      154.30      -19.02
+ HUM          9.3600      154.30      -19.02
+ IOM          3.8000    50000.00     -998.02
+
+ Total       13.1943     2876.37     -300.91
+
+
+
+ The accumulated CO2 lost to the atmosphere is     17.5756 tonnes / ha
+
+
+
+
+ After year  10053    (1912)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       58.93       -7.31
+ BIO          0.0338      155.30      -19.14
+ HUM          9.1995      155.30      -19.14
+ IOM          3.8000    50000.00     -998.02
+
+ Total       13.0332     2917.52     -304.48
+
+
+
+ The accumulated CO2 lost to the atmosphere is     17.7367 tonnes / ha
+
+
+
+
+ After year  10054    (1913)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       59.93       -7.43
+ BIO          0.0332      156.30      -19.26
+ HUM          9.0417      156.30      -19.26
+ IOM          3.8000    50000.00     -998.02
+
+ Total       12.8749     2959.16     -308.08
+
+
+
+ The accumulated CO2 lost to the atmosphere is     17.8950 tonnes / ha
+
+
+
+
+ After year  10055    (1914)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       60.93       -7.55
+ BIO          0.0326      157.30      -19.39
+ HUM          8.8867      157.30      -19.39
+ IOM          3.8000    50000.00     -998.02
+
+ Total       12.7193     3001.30     -311.70
+
+
+
+ The accumulated CO2 lost to the atmosphere is     18.0506 tonnes / ha
+
+
+
+
+ After year  10056    (1915)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9700
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       61.93       -7.68
+ BIO          0.0320      158.30      -19.51
+ HUM          8.7343      158.30      -19.51
+ IOM          3.8000    50000.00     -998.02
+
+ Total       12.5663     3043.95     -315.34
+
+
+
+ The accumulated CO2 lost to the atmosphere is     18.2036 tonnes / ha
+
+
+
+
+ After year  10057    (1916)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9700
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       62.93       -7.80
+ BIO          0.0315      159.30      -19.63
+ HUM          8.5845      159.30      -19.63
+ IOM          3.8000    50000.00     -998.02
+
+ Total       12.4160     3087.09     -319.01
+
+
+
+ The accumulated CO2 lost to the atmosphere is     18.3539 tonnes / ha
+
+
+
+
+ After year  10058    (1917)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9700
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       63.93       -7.92
+ BIO          0.0310      160.30      -19.75
+ HUM          8.4373      160.30      -19.75
+ IOM          3.8000    50000.00     -998.02
+
+ Total       12.2683     3130.75     -322.70
+
+
+
+ The accumulated CO2 lost to the atmosphere is     18.5016 tonnes / ha
+
+
+
+
+ After year  10059    (1918)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9700
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       64.93       -8.05
+ BIO          0.0304      161.30      -19.87
+ HUM          8.2926      161.30      -19.87
+ IOM          3.8000    50000.00     -998.02
+
+ Total       12.1231     3174.91     -326.41
+
+
+
+ The accumulated CO2 lost to the atmosphere is     18.6469 tonnes / ha
+
+
+
+
+ After year  10060    (1919)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9700
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       65.93       -8.17
+ BIO          0.0299      162.30      -20.00
+ HUM          8.1504      162.30      -20.00
+ IOM          3.8000    50000.00     -998.02
+
+ Total       11.9803     3219.60     -330.15
+
+
+
+ The accumulated CO2 lost to the atmosphere is     18.7896 tonnes / ha
+
+
+
+
+ After year  10061    (1920)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       66.93       -8.30
+ BIO          0.0294      163.30      -20.12
+ HUM          8.0107      163.30      -20.12
+ IOM          3.8000    50000.00     -998.02
+
+ Total       11.8400     3264.80     -333.90
+
+
+
+ The accumulated CO2 lost to the atmosphere is     18.9299 tonnes / ha
+
+
+
+
+ After year  10062    (1921)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       67.93       -8.42
+ BIO          0.0289      164.30      -20.24
+ HUM          7.8733      164.30      -20.24
+ IOM          3.8000    50000.00     -998.02
+
+ Total       11.7022     3310.52     -337.68
+
+
+
+ The accumulated CO2 lost to the atmosphere is     19.0677 tonnes / ha
+
+
+
+
+ After year  10063    (1922)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       68.93       -8.54
+ BIO          0.0284      165.30      -20.36
+ HUM          7.7383      165.30      -20.36
+ IOM          3.8000    50000.00     -998.02
+
+ Total       11.5667     3356.76     -341.48
+
+
+
+ The accumulated CO2 lost to the atmosphere is     19.2032 tonnes / ha
+
+
+
+
+ After year  10064    (1923)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       69.93       -8.67
+ BIO          0.0279      166.30      -20.48
+ HUM          7.6056      166.30      -20.48
+ IOM          3.8000    50000.00     -998.02
+
+ Total       11.4335     3403.54     -345.31
+
+
+
+ The accumulated CO2 lost to the atmosphere is     19.3364 tonnes / ha
+
+
+
+
+ After year  10065    (1924)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       70.93       -8.79
+ BIO          0.0274      167.30      -20.61
+ HUM          7.4752      167.30      -20.61
+ IOM          3.8000    50000.00     -998.02
+
+ Total       11.3026     3450.84     -349.15
+
+
+
+ The accumulated CO2 lost to the atmosphere is     19.4673 tonnes / ha
+
+
+
+
+ After year  10066    (1925)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       71.93       -8.91
+ BIO          0.0270      168.30      -20.73
+ HUM          7.3470      168.30      -20.73
+ IOM          3.8000    50000.00     -998.02
+
+ Total       11.1739     3498.68     -353.01
+
+
+
+ The accumulated CO2 lost to the atmosphere is     19.5960 tonnes / ha
+
+
+
+
+ After year  10067    (1926)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       72.93       -9.04
+ BIO          0.0265      169.30      -20.85
+ HUM          7.2210      169.30      -20.85
+ IOM          3.8000    50000.00     -998.02
+
+ Total       11.0475     3547.05     -356.90
+
+
+
+ The accumulated CO2 lost to the atmosphere is     19.7224 tonnes / ha
+
+
+
+
+ After year  10068    (1927)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       73.93       -9.16
+ BIO          0.0260      170.30      -20.97
+ HUM          7.0972      170.30      -20.97
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.9232     3595.97     -360.80
+
+
+
+ The accumulated CO2 lost to the atmosphere is     19.8467 tonnes / ha
+
+
+
+
+ After year  10069    (1928)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       74.93       -9.28
+ BIO          0.0256      171.30      -21.09
+ HUM          6.9755      171.30      -21.09
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.8011     3645.43     -364.72
+
+
+
+ The accumulated CO2 lost to the atmosphere is     19.9689 tonnes / ha
+
+
+
+
+ After year  10070    (1929)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       75.93       -9.41
+ BIO          0.0252      172.30      -21.22
+ HUM          6.8558      172.30      -21.22
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.6810     3695.43     -368.66
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.0889 tonnes / ha
+
+
+
+
+ After year  10071    (1930)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM        ********        0.00        0.00
+ RPM          0.0000       76.93       -9.53
+ BIO          0.0247      173.30      -21.34
+ HUM          6.7383      173.30      -21.34
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.5630     3745.98     -372.62
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.2069 tonnes / ha
+
+
+
+
+ After year  10072    (1931)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM        ********        0.00        0.00
+ RPM          0.0000       77.93       -9.65
+ BIO          0.0243      174.30      -21.46
+ HUM          6.6227      174.30      -21.46
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.4470     3797.08     -376.60
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.3229 tonnes / ha
+
+
+
+
+ After year  10073    (1932)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM        ********        0.00        0.00
+ RPM          0.0000       78.93       -9.78
+ BIO          0.0239      175.30      -21.58
+ HUM          6.5092      175.30      -21.58
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.3330     3848.74     -380.60
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.4369 tonnes / ha
+
+
+
+
+ After year  10074    (1933)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM        ********        0.00        0.00
+ RPM          0.0000       79.93       -9.90
+ BIO          0.0235      176.30      -21.70
+ HUM          6.3975      176.30      -21.70
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.2210     3900.95     -384.61
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.5489 tonnes / ha
+
+
+
+
+ After year  10075    (1934)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       80.93      -10.02
+ BIO          0.0231      177.30      -21.82
+ HUM          6.2878      177.30      -21.82
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.1109     3953.72     -388.64
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.6590 tonnes / ha
+
+
+
+
+ After year  10076    (1935)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       81.93      -10.14
+ BIO          0.0227      178.30      -21.95
+ HUM          6.1800      178.30      -21.95
+ IOM          3.8000    50000.00     -998.02
+
+ Total       10.0027     4007.05     -392.68
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.7672 tonnes / ha
+
+
+
+
+ After year  10077    (1936)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       82.93      -10.27
+ BIO          0.0223      179.30      -22.07
+ HUM          6.0740      179.30      -22.07
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.8963     4060.94     -396.74
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.8736 tonnes / ha
+
+
+
+
+ After year  10078    (1937)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       83.93      -10.39
+ BIO          0.0219      180.30      -22.19
+ HUM          5.9699      180.30      -22.19
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.7918     4115.40     -400.81
+
+
+
+ The accumulated CO2 lost to the atmosphere is     20.9781 tonnes / ha
+
+
+
+
+ After year  10079    (1938)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       84.93      -10.51
+ BIO          0.0215      181.30      -22.31
+ HUM          5.8675      181.30      -22.31
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.6890     4170.42     -404.90
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.0809 tonnes / ha
+
+
+
+
+ After year  10080    (1939)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       85.93      -10.64
+ BIO          0.0212      182.30      -22.43
+ HUM          5.7669      182.30      -22.43
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.5880     4226.02     -409.01
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.1819 tonnes / ha
+
+
+
+
+ After year  10081    (1940)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000       86.93      -10.76
+ BIO          0.0208      183.30      -22.55
+ HUM          5.6680      183.30      -22.55
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.4888     4282.19     -413.12
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.2811 tonnes / ha
+
+
+
+
+ After year  10082    (1941)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0204      184.30      -22.68
+ HUM          5.5708      184.30      -22.68
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.3912     4338.93     -417.25
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.3787 tonnes / ha
+
+
+
+
+ After year  10083    (1942)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0201      185.30      -22.80
+ HUM          5.4753      185.30      -22.80
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.2954     4396.25     -421.40
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.4745 tonnes / ha
+
+
+
+
+ After year  10084    (1943)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0197      186.30      -22.92
+ HUM          5.3814      186.30      -22.92
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.2011     4454.14     -425.55
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.5688 tonnes / ha
+
+
+
+
+ After year  10085    (1944)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0194      187.30      -23.04
+ HUM          5.2891      187.30      -23.04
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.1085     4512.62     -429.72
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.6614 tonnes / ha
+
+
+
+
+ After year  10086    (1945)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9500
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0191      188.30      -23.16
+ HUM          5.1984      188.30      -23.16
+ IOM          3.8000    50000.00     -998.02
+
+ Total        9.0175     4571.67     -433.89
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.7524 tonnes / ha
+
+
+
+
+ After year  10087    (1946)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9500
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0187      189.30      -23.28
+ HUM          5.1093      189.30      -23.28
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.9280     4631.31     -438.08
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.8419 tonnes / ha
+
+
+
+
+ After year  10088    (1947)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9500
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0184      190.30      -23.41
+ HUM          5.0216      190.30      -23.41
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.8401     4691.53     -442.27
+
+
+
+ The accumulated CO2 lost to the atmosphere is     21.9298 tonnes / ha
+
+
+
+
+ After year  10089    (1948)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9500
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0181      191.30      -23.53
+ HUM          4.9355      191.30      -23.53
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.7536     4752.33     -446.48
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.0163 tonnes / ha
+
+
+
+
+ After year  10090    (1949)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9500
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0178      192.30      -23.65
+ HUM          4.8509      192.30      -23.65
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.6687     4813.73     -450.69
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.1012 tonnes / ha
+
+
+
+
+ After year  10091    (1950)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0175      193.30      -23.77
+ HUM          4.7677      193.30      -23.77
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.5852     4875.71     -454.91
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.1847 tonnes / ha
+
+
+
+
+ After year  10092    (1951)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0172      194.30      -23.89
+ HUM          4.6860      194.30      -23.89
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.5031     4938.28     -459.14
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.2668 tonnes / ha
+
+
+
+
+ After year  10093    (1952)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0169      195.30      -24.01
+ HUM          4.6056      195.30      -24.01
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.4225     5001.44     -463.38
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.3474 tonnes / ha
+
+
+
+
+ After year  10094    (1953)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9650
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0166      196.30      -24.13
+ HUM          4.5266      196.30      -24.13
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.3432     5065.19     -467.62
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.4267 tonnes / ha
+
+
+
+
+ After year  10095    (1954)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9700
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0163      197.30      -24.26
+ HUM          4.4490      197.30      -24.26
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.2653     5129.53     -471.86
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.5046 tonnes / ha
+
+
+
+
+ After year  10096    (1955)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  0.9900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0160      198.30      -24.38
+ HUM          4.3727      198.30      -24.38
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.1888     5194.46     -476.11
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.5811 tonnes / ha
+
+
+
+
+ After year  10097    (1956)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.0150
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0158      199.30      -24.50
+ HUM          4.2977      199.30      -24.50
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.1135     5259.99     -480.37
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.6564 tonnes / ha
+
+
+
+
+ After year  10098    (1957)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.0750
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0155      200.30      -24.62
+ HUM          4.2240      200.30      -24.62
+ IOM          3.8000    50000.00     -998.02
+
+ Total        8.0395     5326.11     -484.63
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.7304 tonnes / ha
+
+
+
+
+ After year  10099    (1958)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.1500
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0152      201.30      -24.74
+ HUM          4.1516      201.30      -24.74
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.9668     5392.83     -488.89
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.8031 tonnes / ha
+
+
+
+
+ After year  10100    (1959)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.2400
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0150      202.30      -24.86
+ HUM          4.0804      202.30      -24.86
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.8954     5460.14     -493.15
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.8745 tonnes / ha
+
+
+
+
+ After year  10101    (1960)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.2000
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0147      203.30      -24.98
+ HUM          4.0104      203.30      -24.98
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.8251     5528.05     -497.42
+
+
+
+ The accumulated CO2 lost to the atmosphere is     22.9448 tonnes / ha
+
+
+
+
+ After year  10102    (1961)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.2500
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0145      204.30      -25.11
+ HUM          3.9417      204.30      -25.11
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.7561     5596.56     -501.68
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.0138 tonnes / ha
+
+
+
+
+ After year  10103    (1962)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.3500
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0142      205.30      -25.23
+ HUM          3.8741      205.30      -25.23
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.6883     5665.65     -505.95
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.0816 tonnes / ha
+
+
+
+
+ After year  10104    (1963)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.9400
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0140      206.30      -25.35
+ HUM          3.8076      206.30      -25.35
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.6216     5735.35     -510.22
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.1483 tonnes / ha
+
+
+
+
+ After year  10105    (1964)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.9600
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0137      207.30      -25.47
+ HUM          3.7423      207.30      -25.47
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.5561     5805.64     -514.48
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.2138 tonnes / ha
+
+
+
+
+ After year  10106    (1965)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.8100
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0135      208.30      -25.59
+ HUM          3.6782      208.30      -25.59
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.4917     5876.53     -518.75
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.2782 tonnes / ha
+
+
+
+
+ After year  10107    (1966)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.7400
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0133      209.30      -25.71
+ HUM          3.6151      209.30      -25.71
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.4284     5948.01     -523.01
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.3415 tonnes / ha
+
+
+
+
+ After year  10108    (1967)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.6700
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0130      210.30      -25.83
+ HUM          3.5531      210.30      -25.83
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.3661     6020.09     -527.27
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.4038 tonnes / ha
+
+
+
+
+ After year  10109    (1968)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.6100
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0128      211.30      -25.95
+ HUM          3.4922      211.30      -25.95
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.3050     6092.76     -531.53
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.4649 tonnes / ha
+
+
+
+
+ After year  10110    (1969)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.5600
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0126      212.30      -26.08
+ HUM          3.4323      212.30      -26.08
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.2449     6166.03     -535.78
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.5250 tonnes / ha
+
+
+
+
+ After year  10111    (1970)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.5100
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0124      213.30      -26.20
+ HUM          3.3734      213.30      -26.20
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.1858     6239.89     -540.03
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.5841 tonnes / ha
+
+
+
+
+ After year  10112    (1971)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.4900
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0122      214.30      -26.32
+ HUM          3.3156      214.30      -26.32
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.1277     6314.34     -544.27
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.6422 tonnes / ha
+
+
+
+
+ After year  10113    (1972)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.4600
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0120      215.30      -26.44
+ HUM          3.2587      215.30      -26.44
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.0707     6389.39     -548.51
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.6992 tonnes / ha
+
+
+
+
+ After year  10114    (1973)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.4350
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0118      216.30      -26.56
+ HUM          3.2028      216.30      -26.56
+ IOM          3.8000    50000.00     -998.02
+
+ Total        7.0146     6465.03     -552.74
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.7553 tonnes / ha
+
+
+
+
+ After year  10115    (1974)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.4150
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0115      217.30      -26.68
+ HUM          3.1479      217.30      -26.68
+ IOM          3.8000    50000.00     -998.02
+
+ Total        6.9595     6541.26     -556.96
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.8104 tonnes / ha
+
+
+
+
+ After year  10116    (1975)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.4050
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0114      218.30      -26.80
+ HUM          3.0939      218.30      -26.80
+ IOM          3.8000    50000.00     -998.02
+
+ Total        6.9053     6618.08     -561.18
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.8646 tonnes / ha
+
+
+
+
+ After year  10117    (1976)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.3800
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0112      219.30      -26.92
+ HUM          3.0409      219.30      -26.92
+ IOM          3.8000    50000.00     -998.02
+
+ Total        6.8520     6695.49     -565.38
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.9179 tonnes / ha
+
+
+
+
+ After year  10118    (1977)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.3580
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0110      220.30      -27.05
+ HUM          2.9887      220.30      -27.05
+ IOM          3.8000    50000.00     -998.02
+
+ Total        6.7997     6773.48     -569.58
+
+
+
+ The accumulated CO2 lost to the atmosphere is     23.9702 tonnes / ha
+
+
+
+
+ After year  10119    (1978)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.3390
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0108      221.30      -27.17
+ HUM          2.9375      221.30      -27.17
+ IOM          3.8000    50000.00     -998.02
+
+ Total        6.7483     6852.06     -573.77
+
+
+
+ The accumulated CO2 lost to the atmosphere is     24.0216 tonnes / ha
+
+
+
+
+ After year  10120    (1979)
+ -----------------
+
+
+ Radiocarbon activity scaling factor =  1.3220
+
+                           Radio       Delta
+              Amount        Age        Value
+              ------       -----       -----
+ DPM          0.0000        0.00        0.00
+ RPM          0.0000        0.00        0.00
+ BIO          0.0106      222.30      -27.29
+ HUM          2.8871      222.30      -27.29
+ IOM          3.8000    50000.00     -998.02
+
+ Total        6.6977     6931.23     -577.95
+
+
+
+ The accumulated CO2 lost to the atmosphere is     24.0722 tonnes / ha
+
+

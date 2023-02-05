@@ -1,0 +1,1119 @@
+<folder version="37" creator="Apsim 7.10-r4220" name="Cotton Simulations">
+  <simulation name="Dryland Cotton and Sorghum-ct">
+    <metfile name="met">
+      <filename name="filename" input="yes">%apsim%\Examples\MetFiles\WeeWaa1889_2012.met</filename>
+    </metfile>
+    <clock>
+      <start_date type="date" description="Enter the start date of the simulation">01/01/2003</start_date>
+      <end_date type="date" description="Enter the end date of the simulation">31/12/2100</end_date>
+    </clock>
+    <summaryfile />
+    <area name="paddock">
+      <Soil>
+        <RecordNumber>0</RecordNumber>
+        <SoilType>Kalamazoo:187069</SoilType>
+        <Site>Liberty Research Farm</Site>
+        <NearestTown>Lubbock</NearestTown>
+        <State>TX</State>
+        <Country>USA</Country>
+        <ApsoilNumber>0</ApsoilNumber>
+        <Latitude>33.684</Latitude>
+        <Longitude>-101.768</Longitude>
+        <YearOfSampling>0</YearOfSampling>
+        <DataSource>SSURGO (https://sdmdataaccess.nrcs.usda.gov/) through R package soilDB, R package apsimx function ssurgo2sp. Timestamp 2022-10-02 21:52:50</DataSource>
+        <Comments>cokey = 22386986 - acres percent = 95 - component percent = 95 - taxonomic classification name = Fine-loamy, mixed, active, mesic Typic Hapludalfs - drainage class = Well drained - elevation = 275 - slope = 3 - geomdesc = Head Slope, Interfluve, Nose Slope, Side Slope</Comments>
+        <Water>
+          <Thickness>
+            <double>150</double>
+            <double>150</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <BD>
+            <double>1.31</double>
+            <double>1.26</double>
+            <double>1.36</double>
+            <double>1.39</double>
+            <double>1.44</double>
+            <double>1.45</double>
+            <double>1.46</double>
+          </BD>
+          <AirDry>
+            <double>0.11</double>
+            <double>0.176</double>
+            <double>0.22</double>
+            <double>0.22</double>
+            <double>0.22</double>
+            <double>0.22</double>
+            <double>0.22</double>
+          </AirDry>
+          <LL15>
+            <double>0.22</double>
+            <double>0.22</double>
+            <double>0.22</double>
+            <double>0.22</double>
+            <double>0.22</double>
+            <double>0.22</double>
+            <double>0.22</double>
+          </LL15>
+          <DUL>
+            <double>0.43</double>
+            <double>0.44</double>
+            <double>0.41</double>
+            <double>0.4</double>
+            <double>0.38</double>
+            <double>0.37</double>
+            <double>0.37</double>
+          </DUL>
+          <SAT>
+            <double>0.48</double>
+            <double>0.49</double>
+            <double>0.46</double>
+            <double>0.45</double>
+            <double>0.43</double>
+            <double>0.42</double>
+            <double>0.42</double>
+          </SAT>
+          <BDMetadata>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+          </BDMetadata>
+          <AirDryMetadata>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+          </AirDryMetadata>
+          <LL15Metadata>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+          </LL15Metadata>
+          <DULMetadata>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+            <string>Field measured and checked for sensibility</string>
+          </DULMetadata>
+          <SATMetadata>
+            <string>Calculated from measured, estimated or calculated BD</string>
+            <string>Calculated from measured, estimated or calculated BD</string>
+            <string>Calculated from measured, estimated or calculated BD</string>
+            <string>Calculated from measured, estimated or calculated BD</string>
+            <string>Calculated from measured, estimated or calculated BD</string>
+            <string>Calculated from measured, estimated or calculated BD</string>
+            <string>Calculated from measured, estimated or calculated BD</string>
+          </SATMetadata>
+          <SoilCrop name="cotton">
+            <Thickness>
+              <double>150</double>
+              <double>150</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+            </Thickness>
+            <LL>
+              <double>0.22</double>
+              <double>0.22</double>
+              <double>0.22</double>
+              <double>0.25</double>
+              <double>0.27</double>
+              <double>0.3</double>
+              <double>0.33</double>
+            </LL>
+            <KL>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.1</double>
+              <double>0.09</double>
+              <double>0.07</double>
+              <double>0.05</double>
+            </KL>
+            <XF>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+            </XF>
+            <LLMetadata>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+            </LLMetadata>
+          </SoilCrop>
+          <SoilCrop name="sorghum">
+            <Thickness>
+              <double>150</double>
+              <double>150</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+            </Thickness>
+            <LL>
+              <double>0.22</double>
+              <double>0.22</double>
+              <double>0.24</double>
+              <double>0.26</double>
+              <double>0.28</double>
+              <double>0.31</double>
+              <double>0.34</double>
+            </LL>
+            <KL>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.07</double>
+              <double>0.05</double>
+              <double>0.05</double>
+              <double>0.04</double>
+              <double>0.03</double>
+            </KL>
+            <XF>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+              <double>1</double>
+            </XF>
+            <LLMetadata>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+              <string>Field measured and checked for sensibility</string>
+            </LLMetadata>
+          </SoilCrop>
+          <SoilCrop name="ryegrass">
+            <Thickness>
+              <double>150</double>
+              <double>150</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+              <double>300</double>
+            </Thickness>
+          </SoilCrop>
+        </Water>
+        <SoilWater>
+          <SummerCona>3.5</SummerCona>
+          <SummerU>6</SummerU>
+          <SummerDate>1-Nov</SummerDate>
+          <WinterCona>2.5</WinterCona>
+          <WinterU>4</WinterU>
+          <WinterDate>1-Apr</WinterDate>
+          <DiffusConst>40</DiffusConst>
+          <DiffusSlope>16</DiffusSlope>
+          <Salb>0.12</Salb>
+          <CN2Bare>73</CN2Bare>
+          <CNRed>20</CNRed>
+          <CNCov>0.8</CNCov>
+          <Slope>NaN</Slope>
+          <DischargeWidth>NaN</DischargeWidth>
+          <CatchmentArea>NaN</CatchmentArea>
+          <MaxPond>NaN</MaxPond>
+          <Thickness>
+            <double>150</double>
+            <double>150</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <SWCON>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.3</double>
+            <double>0.3</double>
+          </SWCON>
+        </SoilWater>
+        <SoilOrganicMatter>
+          <RootCN>40</RootCN>
+          <RootWt>1000</RootWt>
+          <SoilCN>12</SoilCN>
+          <EnrACoeff>7.4</EnrACoeff>
+          <EnrBCoeff>0.2</EnrBCoeff>
+          <Thickness>
+            <double>150</double>
+            <double>150</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <OC>
+            <double>0.676923076923077</double>
+            <double>0.584615384615385</double>
+            <double>0.476923076923077</double>
+            <double>0.24615384615384597</double>
+            <double>0.0923076923076923</double>
+            <double>0.0769230769230769</double>
+            <double>0.0384615384615385</double>
+          </OC>
+          <OCMetadata>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+          </OCMetadata>
+          <FBiom>
+            <double>0.04</double>
+            <double>0.02</double>
+            <double>0.02</double>
+            <double>0.02</double>
+            <double>0.01</double>
+            <double>0.01</double>
+            <double>0.01</double>
+          </FBiom>
+          <FInert>
+            <double>0.4</double>
+            <double>0.6</double>
+            <double>0.8</double>
+            <double>1</double>
+            <double>1</double>
+            <double>1</double>
+            <double>1</double>
+          </FInert>
+          <OCUnits>WalkleyBlack</OCUnits>
+        </SoilOrganicMatter>
+        <Analysis>
+          <Thickness>
+            <double>150</double>
+            <double>150</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <PH>
+            <double>8.9</double>
+            <double>9.2</double>
+            <double>9.3</double>
+            <double>9</double>
+            <double>8.8</double>
+            <double>7.5</double>
+            <double>8.4</double>
+          </PH>
+          <PHMetadata>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+            <string>Estimated based on local knowledge</string>
+          </PHMetadata>
+          <PHUnits>Water</PHUnits>
+          <BoronUnits>HotWater</BoronUnits>
+        </Analysis>
+        <InitialWater>
+          <FractionFull>1</FractionFull>
+          <DepthWetSoil>NaN</DepthWetSoil>
+          <PercentMethod>FilledFromTop</PercentMethod>
+          <RelativeTo>cotton</RelativeTo>
+        </InitialWater>
+        <Sample name="InitialNitrogen">
+          <Thickness>
+            <double>150</double>
+            <double>150</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+            <double>300</double>
+          </Thickness>
+          <NO3>
+            <double>30</double>
+            <double>34</double>
+            <double>28</double>
+            <double>20</double>
+            <double>20</double>
+            <double>10</double>
+            <double>6</double>
+          </NO3>
+          <NH4>
+            <double>1.7999399999999999</double>
+            <double>0.29295</double>
+            <double>1.24848</double>
+            <double>1.2760199999999997</double>
+            <double>1.37376</double>
+            <double>1.44855</double>
+            <double>1.47168</double>
+          </NH4>
+          <NO3Units>kgha</NO3Units>
+          <NH4Units>kgha</NH4Units>
+          <SWUnits>Volumetric</SWUnits>
+          <OCUnits>Total</OCUnits>
+          <PHUnits>Water</PHUnits>
+        </Sample>
+      </Soil>
+      <surfaceom name="SurfaceOrganicMatter">
+        <PoolName type="text" description="Organic Matter pool name">cotton</PoolName>
+        <type type="list" listvalues="bambatsi,barley,base_type,broccoli,camaldulensis,canola,centro,chickpea,chikenmanure_base,cm,cmA,cmB,constants,cotton,cowpea,danthonia,fababean,fieldpea,fym,gbean,globulus,goatmanure,grandis,grass,horsegram,inert,lablab,lentil,lucerne,lupin,maize,manB,manure,medic,millet,mucuna,nativepasture,navybean,oats,orobanche,peanut,pigeonpea,potato,rice,sorghum,soybean,stylo,sugar,sunflower,sweetcorn,sweetsorghum,tillage,tithonia,vetch,weed,wheat" description="Organic Matter type">cotton</type>
+        <mass type="text" description="Initial surface residue (kg/ha)">1000</mass>
+        <cnr type="text" description="C:N ratio of initial residue">80</cnr>
+        <standing_fraction type="text" description="Fraction of residue standing">0</standing_fraction>
+      </surfaceom>
+      <fertiliser />
+      <Cotton2 name="Cotton">
+        <initsection>
+          <init name="published_events" array="T" />
+          <init name="subscribed_events" array="T" />
+          <init name="driver_connections" array="T" />
+          <init name="crop_type" kind="string">
+            <val>cotton</val>
+          </init>
+          <init name="leaf_res_n_conc" kind="double">
+            <val>0.02</val>
+          </init>
+          <init name="hucut" kind="double" unit="oC">
+            <val>40</val>
+          </init>
+          <init name="baset" kind="double" unit="oC">
+            <val>12</val>
+          </init>
+          <init name="open_def" kind="double" unit="%">
+            <val>60</val>
+          </init>
+          <init name="a_root_leaf" kind="double">
+            <val>1.01</val>
+          </init>
+          <init name="a_stem_leaf" kind="double">
+            <val>1.25</val>
+          </init>
+          <init name="e_par" kind="double" unit="g/MJ">
+            <val>2.5</val>
+          </init>
+          <init name="specific_lw" kind="double" unit="g/m^2">
+            <val>58</val>
+          </init>
+          <init name="t_opt" kind="double" unit="oC">
+            <val>25</val>
+          </init>
+          <init name="t_base" kind="double" unit="oC">
+            <val>8</val>
+          </init>
+          <init name="wt_area_max" kind="double">
+            <val>150</val>
+          </init>
+          <init name="embryo" kind="double" unit="g">
+            <val>0.75</val>
+          </init>
+          <init name="f_leaf" kind="double">
+            <val>0.6</val>
+          </init>
+          <init name="f_stem" kind="double">
+            <val>0.15</val>
+          </init>
+          <init name="f_root" kind="double">
+            <val>0.25</val>
+          </init>
+          <init name="elevation_default" kind="double" unit="m">
+            <val>200</val>
+          </init>
+          <init name="wlog_assimilate_red" kind="double">
+            <val>0.2</val>
+          </init>
+          <init name="wlog_carcap_red" kind="double">
+            <val>0.2</val>
+          </init>
+          <init name="watlog_c" kind="double">
+            <val>0.87</val>
+          </init>
+          <init name="watlog_n" kind="double">
+            <val>0.87</val>
+          </init>
+          <init name="wlog_carcap_red_stress" kind="double">
+            <val>0.01</val>
+          </init>
+          <init name="smi_affect_wlog" kind="double">
+            <val>0.75</val>
+          </init>
+          <init name="days_relief_wlog" kind="integer4" unit="days">
+            <val>7</val>
+          </init>
+          <init name="frost_kill_immediate" kind="double" unit="oC">
+            <val>2</val>
+          </init>
+          <init name="rtdep_max" kind="double" unit="cm">
+            <val>130</val>
+          </init>
+          <init name="harvest_n_frac" kind="double">
+            <val>0.85</val>
+          </init>
+          <init name="cutout_smi_crit" kind="double">
+            <val>0.75</val>
+          </init>
+          <init name="cutout_smi_days" kind="integer4" unit="days">
+            <val>5</val>
+          </init>
+          <init name="cutout_smi_site_red" kind="double">
+            <val>0.1</val>
+          </init>
+          <init name="epcoef1" kind="double">
+            <val>3.051</val>
+          </init>
+          <init name="epcoef2" kind="double">
+            <val>2.436</val>
+          </init>
+          <init name="epcoef_smi_crit" kind="double">
+            <val>0.5</val>
+          </init>
+          <init name="fbwstr_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="fbwstr_high" kind="double">
+            <val>0.5</val>
+          </init>
+          <init name="fbwstr_a" kind="double">
+            <val>1</val>
+          </init>
+          <init name="fbnstr_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="fbnstr_high" kind="double">
+            <val>0.5</val>
+          </init>
+          <init name="fbnstr_a" kind="double">
+            <val>1</val>
+          </init>
+          <init name="relp_smi_crit" kind="double">
+            <val>0.5</val>
+          </init>
+          <init name="relp_intercept" kind="double">
+            <val>0.25</val>
+          </init>
+          <init name="relp_slope" kind="double">
+            <val>0.864</val>
+          </init>
+          <init name="relp_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="relp_high" kind="double">
+            <val>1</val>
+          </init>
+          <init name="relp_a" kind="double">
+            <val>0.5</val>
+          </init>
+          <init name="vsnstr_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="vsnstr_high" kind="double">
+            <val>0.9</val>
+          </init>
+          <init name="vsnstr_a" kind="double">
+            <val>1</val>
+          </init>
+          <init name="flfsmi_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="flfsmi_high" kind="double">
+            <val>0.5</val>
+          </init>
+          <init name="flfsmi_a" kind="double">
+            <val>1</val>
+          </init>
+          <init name="vlnstr_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="vlnstr_high" kind="double">
+            <val>0.9</val>
+          </init>
+          <init name="vlnstr_a" kind="double">
+            <val>1</val>
+          </init>
+          <init name="fw_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="fw_high" kind="double">
+            <val>0.25</val>
+          </init>
+          <init name="fw_a" kind="double">
+            <val>1</val>
+          </init>
+          <init name="adjust_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="adjust_high" kind="double">
+            <val>5</val>
+          </init>
+          <init name="adjust_a" kind="double">
+            <val>1</val>
+          </init>
+          <init name="fwstrs_low" kind="double">
+            <val>0</val>
+          </init>
+          <init name="fwstrs_high" kind="double">
+            <val>0.5</val>
+          </init>
+          <init name="fwstrs_a" kind="double">
+            <val>4</val>
+          </init>
+          <init name="smi_delay_crit" kind="double">
+            <val>0.25</val>
+          </init>
+          <init name="cold_shock_delay_crit" kind="double" unit="oC">
+            <val>11</val>
+          </init>
+          <init name="cold_shock_delay" kind="double" unit="dd">
+            <val>5.2</val>
+          </init>
+          <init name="fert_crit" kind="double" unit="kg/ha">
+            <val>1</val>
+          </init>
+          <init name="fert_detect" kind="double" unit="kg/ha">
+            <val>10</val>
+          </init>
+          <init name="days_since_fert_max" kind="integer4" unit="days">
+            <val>100</val>
+          </init>
+          <init name="cultivar_default" kind="string">
+            <val>S71BR</val>
+          </init>
+          <init name="cultivars" array="T">
+            <element>
+              <field name="cultivar" kind="string">
+                <val>_Default_S71BR</val>
+              </field>
+              <field name="percent_l" kind="double">
+                <val>40</val>
+              </field>
+              <field name="scboll" kind="double">
+                <val>5</val>
+              </field>
+              <field name="respcon" kind="double">
+                <val>0.01593</val>
+              </field>
+              <field name="sqcon" kind="double">
+                <val>0.0217</val>
+              </field>
+              <field name="fcutout" kind="double">
+                <val>0.5411</val>
+              </field>
+              <field name="flai" kind="double">
+                <val>0.87</val>
+              </field>
+              <field name="DDISQ" kind="double">
+                <val>402</val>
+              </field>
+              <field name="TIPOUT" kind="double">
+                <val>52</val>
+              </field>
+              <field name="FRUDD" kind="double" array="T">
+                <val>50</val>
+                <val>161</val>
+                <val>307</val>
+                <val>338</val>
+                <val>484</val>
+                <val>630</val>
+                <val>848</val>
+                <val>1071</val>
+              </field>
+              <field name="BLTME" kind="double" array="T">
+                <val>0</val>
+                <val>0</val>
+                <val>0</val>
+                <val>0.07</val>
+                <val>0.21</val>
+                <val>0.33</val>
+                <val>0.55</val>
+                <val>1</val>
+              </field>
+              <field name="WT" kind="double" array="T">
+                <val>0.0104</val>
+                <val>0.0272</val>
+                <val>0.1441</val>
+                <val>0.0988</val>
+                <val>0.5042</val>
+                <val>0.9617</val>
+                <val>1</val>
+                <val>0.5785</val>
+              </field>
+              <field name="dlds_max" kind="double">
+                <val>0.12</val>
+              </field>
+              <field name="rate_emergence" kind="double">
+                <val>1</val>
+              </field>
+              <field name="popcon" kind="double">
+                <val>0.03633</val>
+              </field>
+              <field name="fburr" kind="double">
+                <val>1.23</val>
+              </field>
+              <field name="ACOTYL" kind="double">
+                <val>525</val>
+              </field>
+              <field name="RLAI" kind="double">
+                <val>0.01</val>
+              </field>
+              <field name="BckGndRetn" kind="double">
+                <val>0.9</val>
+              </field>
+            </element>
+            <element>
+              <field name="cultivar" kind="string">
+                <val>S71</val>
+              </field>
+              <field name="percent_l" kind="double">
+                <val>42</val>
+              </field>
+              <field name="scboll" kind="double">
+                <val>5.2</val>
+              </field>
+              <field name="respcon" kind="double">
+                <val>0.01593</val>
+              </field>
+              <field name="sqcon" kind="double">
+                <val>0.0217</val>
+              </field>
+              <field name="fcutout" kind="double">
+                <val>0.5411</val>
+              </field>
+              <field name="flai" kind="double">
+                <val>0.87</val>
+              </field>
+              <field name="DDISQ" kind="double">
+                <val>402</val>
+              </field>
+              <field name="TIPOUT" kind="double">
+                <val>52</val>
+              </field>
+              <field name="FRUDD" kind="double" array="T">
+                <val>50</val>
+                <val>161</val>
+                <val>307</val>
+                <val>338</val>
+                <val>484</val>
+                <val>630</val>
+                <val>848</val>
+                <val>1071</val>
+              </field>
+              <field name="BLTME" kind="double" array="T">
+                <val>0</val>
+                <val>0</val>
+                <val>0</val>
+                <val>0.07</val>
+                <val>0.21</val>
+                <val>0.33</val>
+                <val>0.55</val>
+                <val>1</val>
+              </field>
+              <field name="WT" kind="double" array="T">
+                <val>0.0104</val>
+                <val>0.0272</val>
+                <val>0.1441</val>
+                <val>0.0988</val>
+                <val>0.5042</val>
+                <val>0.9617</val>
+                <val>1</val>
+                <val>0.5785</val>
+              </field>
+              <field name="dlds_max" kind="double">
+                <val>0.12</val>
+              </field>
+              <field name="rate_emergence" kind="double">
+                <val>1</val>
+              </field>
+              <field name="popcon" kind="double">
+                <val>0.03633</val>
+              </field>
+              <field name="fburr" kind="double">
+                <val>1.23</val>
+              </field>
+              <field name="ACOTYL" kind="double">
+                <val>525</val>
+              </field>
+              <field name="RLAI" kind="double">
+                <val>0.01</val>
+              </field>
+              <field name="BckGndRetn" kind="double">
+                <val>0.8</val>
+              </field>
+            </element>
+            <element>
+              <field name="cultivar" kind="string">
+                <val>S71BR</val>
+              </field>
+              <field name="percent_l" kind="double">
+                <val>40</val>
+              </field>
+              <field name="scboll" kind="double">
+                <val>5</val>
+              </field>
+              <field name="respcon" kind="double">
+                <val>0.01593</val>
+              </field>
+              <field name="sqcon" kind="double">
+                <val>0.0217</val>
+              </field>
+              <field name="fcutout" kind="double">
+                <val>0.5411</val>
+              </field>
+              <field name="flai" kind="double">
+                <val>0.87</val>
+              </field>
+              <field name="DDISQ" kind="double">
+                <val>402</val>
+              </field>
+              <field name="TIPOUT" kind="double">
+                <val>52</val>
+              </field>
+              <field name="FRUDD" kind="double" array="T">
+                <val>50</val>
+                <val>161</val>
+                <val>307</val>
+                <val>338</val>
+                <val>484</val>
+                <val>630</val>
+                <val>848</val>
+                <val>1071</val>
+              </field>
+              <field name="BLTME" kind="double" array="T">
+                <val>0</val>
+                <val>0</val>
+                <val>0</val>
+                <val>0.07</val>
+                <val>0.21</val>
+                <val>0.33</val>
+                <val>0.55</val>
+                <val>1</val>
+              </field>
+              <field name="WT" kind="double" array="T">
+                <val>0.0104</val>
+                <val>0.0272</val>
+                <val>0.1441</val>
+                <val>0.0988</val>
+                <val>0.5042</val>
+                <val>0.9617</val>
+                <val>1</val>
+                <val>0.5785</val>
+              </field>
+              <field name="dlds_max" kind="double">
+                <val>0.12</val>
+              </field>
+              <field name="rate_emergence" kind="double">
+                <val>1</val>
+              </field>
+              <field name="popcon" kind="double">
+                <val>0.03633</val>
+              </field>
+              <field name="fburr" kind="double">
+                <val>1.23</val>
+              </field>
+              <field name="ACOTYL" kind="double">
+                <val>525</val>
+              </field>
+              <field name="RLAI" kind="double">
+                <val>0.01</val>
+              </field>
+              <field name="BckGndRetn" kind="double">
+                <val>0.9</val>
+              </field>
+            </element>
+            <element>
+              <field name="cultivar" kind="string">
+                <val>Siok</val>
+              </field>
+              <field name="percent_l" kind="double">
+                <val>42</val>
+              </field>
+              <field name="scboll" kind="double">
+                <val>4.5</val>
+              </field>
+              <field name="respcon" kind="double">
+                <val>0.01593</val>
+              </field>
+              <field name="sqcon" kind="double">
+                <val>0.0228</val>
+              </field>
+              <field name="fcutout" kind="double">
+                <val>0.5411</val>
+              </field>
+              <field name="flai" kind="double">
+                <val>0.52</val>
+              </field>
+              <field name="DDISQ" kind="double">
+                <val>420</val>
+              </field>
+              <field name="TIPOUT" kind="double">
+                <val>52</val>
+              </field>
+              <field name="FRUDD" kind="double" array="T">
+                <val>50</val>
+                <val>180</val>
+                <val>350</val>
+                <val>380</val>
+                <val>520</val>
+                <val>660</val>
+                <val>870</val>
+                <val>1100</val>
+              </field>
+              <field name="BLTME" kind="double" array="T">
+                <val>0</val>
+                <val>0</val>
+                <val>0</val>
+                <val>0.07</val>
+                <val>0.21</val>
+                <val>0.33</val>
+                <val>0.55</val>
+                <val>1</val>
+              </field>
+              <field name="WT" kind="double" array="T">
+                <val>0.0104</val>
+                <val>0.0272</val>
+                <val>0.1441</val>
+                <val>0.0988</val>
+                <val>0.5042</val>
+                <val>0.9617</val>
+                <val>1</val>
+                <val>0.5785</val>
+              </field>
+              <field name="dlds_max" kind="double">
+                <val>0.12</val>
+              </field>
+              <field name="rate_emergence" kind="double">
+                <val>1</val>
+              </field>
+              <field name="popcon" kind="double">
+                <val>0.03633</val>
+              </field>
+              <field name="fburr" kind="double">
+                <val>1.23</val>
+              </field>
+              <field name="ACOTYL" kind="double">
+                <val>525</val>
+              </field>
+              <field name="RLAI" kind="double">
+                <val>0.01</val>
+              </field>
+              <field name="BckGndRetn" kind="double">
+                <val>0.9</val>
+              </field>
+            </element>
+            <element>
+              <field name="cultivar" kind="string">
+                <val>Sica</val>
+              </field>
+              <field name="percent_l" kind="double">
+                <val>40</val>
+              </field>
+              <field name="scboll" kind="double">
+                <val>5.5</val>
+              </field>
+              <field name="respcon" kind="double">
+                <val>0.02306</val>
+              </field>
+              <field name="sqcon" kind="double">
+                <val>0.0206</val>
+              </field>
+              <field name="fcutout" kind="double">
+                <val>0.4789</val>
+              </field>
+              <field name="flai" kind="double">
+                <val>0.87</val>
+              </field>
+              <field name="DDISQ" kind="double">
+                <val>420</val>
+              </field>
+              <field name="TIPOUT" kind="double">
+                <val>52</val>
+              </field>
+              <field name="FRUDD" kind="double" array="T">
+                <val>50</val>
+                <val>180</val>
+                <val>350</val>
+                <val>380</val>
+                <val>520</val>
+                <val>660</val>
+                <val>870</val>
+                <val>1100</val>
+              </field>
+              <field name="BLTME" kind="double" array="T">
+                <val>0</val>
+                <val>0</val>
+                <val>0</val>
+                <val>0.07</val>
+                <val>0.21</val>
+                <val>0.33</val>
+                <val>0.55</val>
+                <val>1</val>
+              </field>
+              <field name="WT" kind="double" array="T">
+                <val>0.0104</val>
+                <val>0.0272</val>
+                <val>0.1441</val>
+                <val>0.0988</val>
+                <val>0.5042</val>
+                <val>0.9617</val>
+                <val>1</val>
+                <val>0.5785</val>
+              </field>
+              <field name="dlds_max" kind="double">
+                <val>0.12</val>
+              </field>
+              <field name="rate_emergence" kind="double">
+                <val>1</val>
+              </field>
+              <field name="popcon" kind="double">
+                <val>0.03633</val>
+              </field>
+              <field name="fburr" kind="double">
+                <val>1.23</val>
+              </field>
+              <field name="ACOTYL" kind="double">
+                <val>525</val>
+              </field>
+              <field name="RLAI" kind="double">
+                <val>0.01</val>
+              </field>
+              <field name="BckGndRetn" kind="double">
+                <val>0.9</val>
+              </field>
+            </element>
+          </init>
+          <init name="rootLACrit" kind="double" unit="m2/plant">
+            <val>0.012</val>
+          </init>
+          <init name="RFV_max" kind="integer4" unit="mm/day">
+            <val>30</val>
+          </init>
+          <init name="specific_root_length" kind="integer4" unit="mm/g">
+            <val>60000</val>
+          </init>
+          <init name="x_stem_wt" kind="double" array="T" unit="g/plant" />
+          <init name="y_height" kind="double" array="T" unit="mm" />
+          <init name="useDDsumTo1stSq" kind="boolean">
+            <val>true</val>
+          </init>
+        </initsection>
+      </Cotton2>
+      <outputfile>
+        <filename output="yes">Dryland Cotton and Sorghum-ct.out</filename>
+        <title>Dryland Cotton and Sorghum-ct</title>
+        <variables name="Variables">
+          <variable>dd/mm/yyyy as Date</variable>
+          <variable>dw_total</variable>
+          <variable>nuptake_total</variable>
+          <variable>yield</variable>
+          <variable>bolls_sc</variable>
+          <variable>lai_max</variable>
+          <variable>esw</variable>
+          <variable>InCropRain</variable>
+        </variables>
+        <events name="Reporting Frequency">
+          <event>harvesting</event>
+        </events>
+        <Graph name="Yield and DryMatter">
+          <Legend>
+            <CheckedTitles> yield</CheckedTitles>
+            <CheckedTitles> dw_total</CheckedTitles>
+            <CheckedTitles> nuptake_total</CheckedTitles>
+          </Legend>
+          <Plot>
+            <SeriesType>Bar</SeriesType>
+            <PointType>Circle</PointType>
+            <colour>
+            </colour>
+            <X>Date</X>
+            <Y>yield</Y>
+            <Y>dw_total</Y>
+            <YRight>nuptake_total</YRight>
+            <GDApsimFileReader name="ApsimFileReader" />
+          </Plot>
+        </Graph>
+        <Graph name="Probability Exceedence">
+          <Legend>
+            <CheckedTitles> Continuous Dryland Cotton</CheckedTitles>
+          </Legend>
+          <Plot>
+            <SeriesType>Solid line</SeriesType>
+            <PointType>None</PointType>
+            <Y>Probability of being above</Y>
+            <colour>
+            </colour>
+            <X>yield</X>
+            <GDProbability>
+              <Exceedence>Yes</Exceedence>
+              <GDApsimFileReader name="ApsimFileReader" />
+            </GDProbability>
+          </Plot>
+        </Graph>
+      </outputfile>
+      <tracker>
+        <variable>sum of rain on end_day from sowing to now as InCropRain</variable>
+      </tracker>
+      <sorghum />
+      <operations name="Operations Schedule" />
+      <folder name="Manager folder">
+        <manager name="Harvesting rule">
+          <ui>
+            <category type="category" description="Harvesting criteria" />
+            <crop type="crop" description="Enter name of crop to harvest when ripe : ">Cotton</crop>
+          </ui>
+          <script>
+            <text>
+           if ('[crop]' = 'cotton') then
+
+               !!  cotton defoliation
+                if ([crop].stageName = 'mature'  and  [crop].defol_das = 0) then
+                    [crop] defoliate
+                endif
+          
+                !! cotton harvest
+                if ([crop].stageName = 'harvest_ripe' or [crop].PlantStatus = 'dead') then
+                   !!report_harvest do_output
+                   [crop] harvest
+                   [crop] end_crop
+                endif
+
+           endif</text>
+            <event>end_of_day</event>
+          </script>
+        </manager>
+      </folder>
+    </area>
+  </simulation>
+</folder>

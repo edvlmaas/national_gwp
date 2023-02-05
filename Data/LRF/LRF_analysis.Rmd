@@ -1,0 +1,433 @@
+---
+title: "LRF_analysis"
+author: "Ellen Maas"
+date: "1/19/2023"
+output: html_document
+description: "Explores data used for calibration at Liberty Research Farm, TX."
+---
+prerequisite: run 0_Controller.R with arbitrary scenario
+
+```{r setup, include=FALSE}
+#rm(list=ls())
+#knitr::opts_chunk$set(echo = TRUE, params="ask")
+```
+
+
+```{r libraries, message=FALSE}
+library(apsimx)
+library(readxl)
+library(magrittr)
+library(lubridate)
+library(tidyverse)
+library(graphics)
+library(ggplot2)
+```
+
+# import observations and global constants
+
+```{r}
+
+#source("../../0_Observations_and_constants.R")
+
+```
+
+# local constants
+
+```{r constants}
+
+calib_path <- paste0("Data/",site_name,"/Calibration/")
+mgmt_path <- paste0("Data/",site_name,"/Management/")
+
+treatment_list <- c("T1","T2","T3")
+treatment_num_list <- c(1,2,3)
+
+# 9-color palette with grey and black. Colors in order are:
+#[1]black, [2]dark blue, [3]green, [4]light blue, [5]grey,
+#[6]pink, [7]red, [8]orange, [9]yellow
+cbPalette9 <- c("#000000","#0072B2","#009E73","#56B4E9","#999999",
+                "#CC79A7","#D55E00","#E69F00","#F0E442")
+
+```
+
+# reduce data
+
+```{r reduce_data}
+
+MaizeYld_Mgha <- ObsYield[ObsYield$Treatment %in% treatment_list & ObsYield$crop=="Maize",
+                          c("year","Treatment","mean_yield")]
+
+SoyYld_Mgha <- ObsYield[ObsYield$Treatment %in% treatment_list & ObsYield$crop=="Soybean",
+                          c("year","Treatment","mean_yield")]
+
+WheatYld_Mgha <- ObsYield[ObsYield$Treatment %in% treatment_list & ObsYield$crop=="Wheat",
+                          c("year","Treatment","mean_yield")]
+
+SoilBD_gcc <- ObsBD[ObsBD$Treatment %in% c(treatment_list, control_treatment),
+                    c("year","Treatment","mean_BD")]
+
+Cstock_Mgha <- ObsC_Mgha_all[ObsC_Mgha_all$treatment %in% 
+                               c(treatment_num_list,control_treatment_num),
+                         c("year","treatment","mean_cpct","cstock")]
+
+SoilTemp_C <- ObsTemp_all[ObsTemp_all$treatment %in% treatment_list,
+                      c("date","year","treatment","soil_temperature")]
+
+SoilMoist_VSM <- ObsVSM_mean[ObsVSM_mean$treatment %in% treatment_list,
+                        c("date","year","treatment","mean_VSM")]
+
+CO2_ghaday <- ObsGas_all[ObsGas_all$Treatment %in% c(treatment_list, control_treatment),
+                     c("date","year","Treatment","CO2_C")]
+
+N2O_ghaday <- ObsGas_all[ObsGas_all$Treatment %in% treatment_list,
+                     c("date","year","Treatment","N2O_N")]
+
+MB_gm2 <- ObsMB_all[ObsMB_all$trt %in% c(treatment_list, control_treatment),
+                    c("year","trt","mb_gm2")]
+
+```
+
+# Temporal graphs
+
+## crops
+
+```{r temporal_trends}
+
+gMY <- MaizeYld_Mgha %>%
+ggplot(aes(x=year, y=mean_yield, color=Treatment, show.legend=TRUE)) +
+  geom_line() +
+  xlab("Year") +
+  ylab(expression('Maize Yield (Mg ha ' ^-1*')')) +
+  ggtitle(paste(site_name,"Maize Yield")) +
+  # scale_color_manual(labels=c("APSIM","Observed"),
+  #                    values=cbPalette9[c(8,1)]) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gMY
+
+gSY <- SoyYld_Mgha %>%
+ggplot(aes(x=year, y=mean_yield, color=Treatment, show.legend=TRUE)) +
+  geom_line() +
+  xlab("Year") +
+  ylab(expression('Soybean Yield (Mg ha' ^-1*')')) +
+  ggtitle(paste(site_name,"Soybean Yield")) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gSY
+
+gWY <- WheatYld_Mgha %>%
+ggplot(aes(x=year, y=mean_yield, color=Treatment, show.legend=TRUE)) +
+  geom_line() +
+  xlab("Year") +
+  ylab(expression('Wheat Yield (Mg ha' ^-1*')')) +
+  ggtitle(paste(site_name,"Wheat Yield")) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gWY
+
+### write out the graphs
+ggsave(filename="Maize_yield.jpg",plot=gMY)
+ggsave(filename="Soybean_yield.jpg",plot=gSY)
+ggsave(filename="Wheat_yield.jpg",plot=gWY)
+
+```
+
+## soil C
+
+```{r}
+
+gB <- SoilBD_gcc %>%
+  ggplot(aes(x=Treatment,y=mean_BD)) +
+  geom_col(position="dodge") +
+  ylab(expression('Bulk density (g cc ' ^-1*')')) +
+  labs(fill="Year") +
+  ggtitle(paste(site_name,"Bulk Density")) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gB
+
+Cfit_Obs <- coef(lm(cstock ~ year, data = Cstock_Mgha[Cstock_Mgha$year >= start_year & 
+                                                        Cstock_Mgha$treatment==control_treatment_num,]))
+
+gC <- Cstock_Mgha %>%
+ggplot(aes(x=year, y=cstock, color=treatment, show.legend=TRUE)) +
+  geom_line() +
+  geom_abline(intercept=Cfit_Obs[1], slope=Cfit_Obs[2], color="black") +
+  xlab("Year") +
+  ylab(expression('SOC stock (Mg C ha ' ^-1*')')) +
+  ggtitle(paste(site_name,"C Stock")) +
+  # geom_abline(intercept=Cfit_Obs[1], slope=Cfit_Obs[2], color="black") +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gC 
+
+### write out graphs
+ggsave(filename="SOC.jpg",plot=gC)
+ggsave(filename="Bulk_Density.jpg",plot=gB)
+
+```
+
+## soil other
+
+```{r}
+
+gT <- SoilTemp_C %>%
+ggplot(aes(x=date, y=soil_temperature, color=treatment, show.legend=TRUE)) +
+  geom_line() +
+  ggtitle(paste0(site_name," Observed Soil Temperature")) +
+  xlab("Year") +
+  ylab(expression('Soil temperature (' ^o*'C)')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gT
+
+gM <- SoilMoist_VSM %>%
+ggplot(aes(x=date, y=mean_VSM, color=treatment, show.legend=TRUE)) +
+  geom_line() +
+  ggtitle(paste0(site_name," Observed Soil Moisture")) +
+  xlab("Year") +
+  ylab("Volumetric soil moisture (%)") +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gM
+
+gCG <- CO2_ghaday[CO2_ghaday$Treatment != control_treatment,] %>%
+  ggplot(aes(x=date, y=CO2_C, color=Treatment)) +
+  geom_line(show.legend=TRUE) +
+  xlab("Year") +
+  ylab(expression('CO'[2]*' Emissions (g m' ^-2*'day ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gCG
+
+gNG <- N2O_ghaday %>%
+  ggplot(aes(x=date, y=N2O_N, color=Treatment)) +
+  geom_line(show.legend=TRUE) +
+  # geom_segment(data=Fert[Fert$treatment==treatment & Fert$n_rate_kg_ha>10,],
+  #              aes(x = date, y = 200,
+  #                  xend = date, yend = 175),
+  #                  colour=cbPalette9[7],
+  #                  show.legend=F,
+  #                  lineend = "round",
+  #                  linejoin = "round",
+  #                  arrow = arrow(length = unit(0.3, "cm"))
+  #  # colour = "black" 
+  #                  ) + 
+  xlab("Year") +
+  ylab(expression('N'[2]*'O Emissions (g ha ' ^-1*'day ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gNG
+
+MBfit_Obs <- coef(lm(mb_gm2 ~ year, data = MB_gm2[MB_gm2$year >= start_year & 
+                                                    MB_gm2$trt==control_treatment,]))
+
+gMB <- MB_gm2 %>%
+ggplot(aes(x=year, y=mb_gm2, color=trt, show.legend=TRUE)) +
+  geom_line() +
+  geom_abline(intercept=MBfit_Obs[1], slope=MBfit_Obs[2], color="black") +
+  xlab("Year") +
+  ylab(expression('Microbial biomass (g m' ^-2*')')) +
+  ggtitle(paste(site_name,"Microbial Biomass")) +
+  # geom_abline(intercept=Cfit_Obs[1], slope=Cfit_Obs[2], color="black") +
+  theme(panel.background = element_blank(),
+        axis.line = element_line(),
+        legend.position = "right",
+        legend.key = element_blank())
+
+gMB 
+
+### write out graphs
+ggsave(filename="Soil_Temperature.jpg",plot=gT)
+ggsave(filename="Soil_Moisture.jpg",plot=gM)
+ggsave(filename="N2O_emissions.jpg",plot=gNG)
+ggsave(filename="MBio_gm2.jpg",plot=gMB)
+
+```
+
+# Means
+
+```{r}
+
+# Maize
+MaizeYld_meanbyTrt <- MaizeYld_Mgha %>%
+  group_by(Treatment) %>%
+  summarize(mean_yield=round(mean(mean_yield),2))
+
+gMmn <- MaizeYld_meanbyTrt %>%
+  ggplot(aes(x=Treatment,y=mean_yield)) +
+  geom_col(position="dodge") +
+  ylab(expression('Maize Yield (Mg ha ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gMmn
+
+# Soybean
+SoybeanYld_meanbyTrt <- SoyYld_Mgha %>%
+  group_by(Treatment) %>%
+  summarize(mean_yield=round(mean(mean_yield),2))
+
+gSmn <- SoybeanYld_meanbyTrt %>%
+  ggplot(aes(x=Treatment,y=mean_yield)) +
+  geom_col(position="dodge") +
+  ylab(expression('Soybean Yield (Mg ha ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gSmn
+
+# Wheat
+WheatYld_meanbyTrt <- WheatYld_Mgha %>%
+  group_by(Treatment) %>%
+  summarize(mean_yield=round(mean(mean_yield),2))
+
+gWmn <- WheatYld_meanbyTrt %>%
+  ggplot(aes(x=Treatment,y=mean_yield)) +
+  geom_col(position="dodge") +
+  ylab(expression('Wheat Yield (Mg ha ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gWmn
+
+# SOC
+SOC_meanbyTrt <- Cstock_Mgha %>%
+  group_by(treatment) %>%
+  summarize(mean_cstock=round(mean(mean_cstock),2))
+
+gCmn <- SOC_meanbyTrt %>%
+  ggplot(aes(x=treatment,y=mean_cstock)) +
+  geom_col(position="dodge") +
+  ylab(expression('SOC stock (Mg C ha ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gCmn
+
+# Soil Temp
+SoilTemp_meanbyTrt <- SoilTemp_C %>%
+  group_by(treatment) %>%
+  summarize(mean_soiltemp=round(mean(soil_temperature),2))
+
+gTmn <- SoilTemp_meanbyTrt %>%
+  ggplot(aes(x=treatment,y=mean_soiltemp)) +
+  geom_col(position="dodge") +
+  ylab(expression('Soil temperature (' ^o*'C)')) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gTmn
+  
+# Soil Moisture
+SoilMoist_meanbyTrt <- SoilMoist_VSM %>%
+  group_by(treatment) %>%
+  summarize(mean_soilmoist=round(mean(mean_VSM,na.rm=TRUE),2))
+
+gMmn <- SoilMoist_meanbyTrt %>%
+  ggplot(aes(x=treatment,y=mean_soilmoist)) +
+  geom_col(position="dodge") +
+  ylab(expression("Volumetric soil moisture (%)")) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gMmn
+
+# N2O Emissions
+
+N2O_meanbyTrt <- N2O_ghaday %>%
+  group_by(Treatment) %>%
+  summarize(mean_N2ON=round(mean(mean_N2ON,na.rm=TRUE),2))
+
+gNmn <- N2O_meanbyTrt %>%
+  ggplot(aes(x=Treatment,y=mean_N2ON)) +
+  geom_col(position="dodge") +
+  ylab(expression('N'[2]*'O Emissions (g ha ' ^-1*'day ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gNmn
+
+  
+```
+
+# Cumulative
+
+```{r}
+
+N2O_sumbyTrt <- N2O_ghaday %>%
+  group_by(Treatment) %>%
+  summarize(sum_N2ON=round(sum(mean_N2ON,na.rm=TRUE),2))
+
+gNsum <- N2O_sumbyTrt %>%
+  ggplot(aes(x=Treatment,y=sum_N2ON)) +
+  geom_col(position="dodge") +
+  ylab(expression('N'[2]*'O Emissions (g ha ' ^-1*'day ' ^-1*')')) +
+  theme(panel.background = element_blank(),
+        axis.ticks.x = element_blank(),
+        axis.line = element_line())
+
+gNsum
+
+
+```
+
+# Management stats
+## Fertilizer
+
+```{r}
+
+fert_df <- read.csv(file=paste0(calib_path,"RFertilizer.csv"))
+ops_ext_adj_raw <- read_csv(paste0(mgmt_path,adjusted_ops_filename),
+                    col_names = TRUE, show_col_types=F)
+
+fert_summary1 <- fert_df[fert_df$treatment %in% c("T1","T2","T3"),] %>%
+  group_by(year,treatment) %>%
+  summarize(tot_N=sum(n_rate_kg_ha),
+            tot_P=sum(p_rate_kg_ha)) %>%
+  arrange(year,treatment) # reorder all the records again
+
+# add crop for the year (based on what is harvested that year)
+fert_summary <- left_join(fert_summary1,
+                          ops_ext_adj_raw[ops_ext_adj_raw$observation_type=="Harvest" &
+                            ops_ext_adj_raw$crop %in% c("Maize","Soybean","Wheat"),
+                            c("year","treatment","crop")],
+                          by=c("year","treatment"))
+
+
+  
+  
+
+```

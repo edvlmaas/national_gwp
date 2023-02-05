@@ -1,0 +1,6 @@
+"Non-MLRA Soil Survey Area"|"TX303"|"Lubbock County, Texas"||08/01/1975 00:00:00|"certified, major components"|08/23/2022 18:28:18|"TX303
+The SSS certified the data population for all map units, and concurred with correlation of all projects mentioned, as they were documented in Soil Survey Area Legend(s) and in the Project Correlation table.
+
+This dataset also contains the following changes:
+
+Recalculated all national, regional, and local interpretations for all components."|"13328"|"77963"|"77865"

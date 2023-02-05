@@ -1,0 +1,4 @@
+"clayey eolian deposits"|Yes|"22262374"|"16406789"
+"loamy eolian deposits"|Yes|"22262375"|"16406790"
+"clayey eolian deposits"|Yes|"22262376"|"16406791"
+"calcareous loamy eolian deposits"|Yes|"22262377"|"16406792"

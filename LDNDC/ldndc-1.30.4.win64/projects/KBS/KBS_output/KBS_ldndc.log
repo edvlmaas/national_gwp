@@ -1,0 +1,6 @@
+[21276]  LandscapeDNDC 1.30.4 (revision 9749)  2020-04-21 20:28
+[21276]  Thu Sep 01 14:34:00 Eastern Daylight Time 2022
+[21276]  running on host "UNKNOWN_HOSTNAME"
+[  ] {0-03-01 00:00:00} ==== project "KBS.ldndc" ====
+[  ] {0-03-01 00:00:00} running crabmeat library version 0.12.0 (8036)
+[  ] {1989-01-01 00:00:00} clk=1989-01-01/1->2021-12-31  clock=62761824000  dt=86400

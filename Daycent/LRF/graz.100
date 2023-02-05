@@ -1,0 +1,12 @@
+GL    Graze_low_intensity__no_effect_on_production
+0.1               'FLGREM'    
+0.05              'FDGREM'    
+0.3               'GFCRET'    
+0.8               'GRET(1)'   
+0.95              'GRET(2)'   
+0.95              'GRET(3)'   
+0.0               'GRZEFF'    
+0.5               'FECF(1)'   
+0.9               'FECF(2)'   
+0.5               'FECF(3)'   
+0.25              'FECLIG'

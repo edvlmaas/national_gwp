@@ -1,0 +1,8 @@
+"Landscape"|"plateaus"||1||Yes|"22262374"|"34757250"
+"Landform"|"plains"|||1|Yes|"22262374"|"34757251"
+"Landscape"|"plateaus"||1||Yes|"22262375"|"34757252"
+"Landform"|"plains"|||1|Yes|"22262375"|"34757253"
+"Landscape"|"plateaus"||1||Yes|"22262376"|"34757254"
+"Landform"|"plains"|||1|Yes|"22262376"|"34757255"
+"Landscape"|"plateaus"||1||Yes|"22262377"|"34757256"
+"Landform"|"plains"|||1|Yes|"22262377"|"34757257"

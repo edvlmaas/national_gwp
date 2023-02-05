@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<ldndcspeciesparameters>
+    <speciesparameters id="0">
+        <species mnemonic="__crops__" group="crop">
+            <par name="amaxa" value="6.42" />
+            <par name="amaxb" value="40.96" />
+            <par name="gsmax" value="400.0" />
+            <par name="gsmin" value="10.4" />
+            <par name="deciduous" value="true" />
+            <par name="freegrowth" value="true" />
+            <par name="mortcrowd" value="1.0e+08" />
+            <par name="mortnorm" value="0.0" />
+            <par name="pfl" value="1.1" />
+            <par name="psntmax" value="40.0" />
+            <par name="psntmin" value="0.0" />
+            <par name="psntopt" value="20.0" />
+            <par name="rbuddem" value="5.0" />
+            <species mnemonic="__summercrops__">
+                <par name="winterlimit" value="0.0" />
+                <species mnemonic="beet" name="beets">
+                    <par name="graincn" value="58.0" />
+                    <par name="grain" value="0.6" />
+                    <par name="gzrtz" value="0.01" />
+                    <par name="max_tdd" value="3000.0" />
+                    <par name="mortnorm" value="0.0" />
+                    <par name="ncfrtopt" value="0.005625" />
+                    <par name="ncsapopt" value="0.0" />
+                    <par name="optyield" value="14000.0" />
+                    <par name="root" value="0.05" />
+                    <par name="strawcn" value="50.0" />
+                    <par name="straw" value="0.35" />
+                    <par name="wuecmax" value="5.2" />
+                    <par name="wuecmin" value="5.2" />
+                    <par name="zrtmc" value="1.0" />
+                    <species mnemonic="fancybeet" name="fancy beet">
+                        <par name="grain" value="0.7" />
+                        <par name="root" value="0.1" />
+                        <par name="straw" value="0.2" />
+                    </species>
+                </species>
+            </species>
+            <species mnemonic="__wintercrops__" group="crop">
+                <par name="winterlimit" value="100.0" />
+                <species mnemonic="wiwh" name="winter wheat">
+                    <par name="faleaf" value="0.3" />
+                    <par name="graincn" value="55.0" />
+                    <par name="grain" value="0.39" />
+                    <par name="gzrtz" value="0.01" />
+                    <par name="href" value="0.2" />
+                    <par name="max_tdd" value="2400.0" />
+                    <par name="ncfrtopt" value="0.01874" />
+                    <par name="ncsapopt" value="0.0" />
+                    <par name="optyield" value="8000.0" />
+                    <par name="resp" value="2.0" />
+                    <par name="root" value="0.18" />
+                    <par name="slamin" value="10.0" />
+                    <par name="slamax" value="10.0" />
+                    <par name="straw" value="0.43" />
+                    <par name="wuecmax" value="5.1" />
+                    <par name="wuecmin" value="5.1" />
+                    <par name="zrtmc" value="1.0" />
+                </species>
+            </species>
+        </species>
+    </speciesparameters>
+</ldndcspeciesparameters>

@@ -1,0 +1,187 @@
+[475872]  LandscapeDNDC 1.35.2 (revision 11164)  2023-02-01 01:12
+[475872]  Sun Feb 05 14:39:13 EST 2023
+[475872]  running on host "node5" (10.0.0.5)
+[  ] {0-03-01 00:00:00} ==== project "./KBS.ldndc" ====
+[  ] {0-03-01 00:00:00} running crabmeat library version 0.12.1 (8170)
+[  ] {1989-01-01 00:00:00} clk=1989-01-01/1->2021-12-31  clock=62761824000  dt=86400
+[II] {LandscapeDNDC ModelCompositor<0> 1989-01-01 00:00:00} seeing 1 models
+[II] {MoBiLE Legacy MasterControlProgram<0> 1989-01-01 00:00:00} Using MoBiLE section "/mobile"
+[II] {MoBiLE Legacy MasterControlProgram<0> 1989-01-01 00:00:00} seeing 11 MoBiLE module(s)
+[II] {1989-01-01 00:00:00} STRATUM 1:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 1 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 1 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 1 not initialized, estimated value: 0.0572368 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 1 not initialized, estimated value (without stones): 1 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 1 not initialized, estimated value: 1.56 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 1 not initialized, estimated value is 3.6 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 1 not initialized, estimated value is -0.52557
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 1 not initialized, estimated value is 132.8
+[II] {1989-01-01 00:00:00} Field capacity in stratum 1 is 0.26 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 1 is 0.06753 [m3 m-3]
+[II] {1989-01-01 00:00:00} Field capacity exceeded porosity minus macropores in stratum 1. Porosity changed to: 0.31 [m3 m-3]
+[II] {1989-01-01 00:00:00} Field capacity exceeded maximum water filled pore space in stratum 1. Maximum water filled pore space changed to: 0.83871 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 1. Minimum water filled pore space changed to: 0.217839 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 2:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 2 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 2 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 2 not initialized, estimated value: 0.0612196 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 2 not initialized, estimated value (without stones): 1 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 2 not initialized, estimated value: 1.56 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 2 not initialized, estimated value is 3.6 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 2 not initialized, estimated value is -0.52557
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 2 not initialized, estimated value is 132.8
+[II] {1989-01-01 00:00:00} Field capacity in stratum 2 is 0.26 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 2 is 0.06753 [m3 m-3]
+[II] {1989-01-01 00:00:00} Field capacity exceeded porosity minus macropores in stratum 2. Porosity changed to: 0.31 [m3 m-3]
+[II] {1989-01-01 00:00:00} Field capacity exceeded maximum water filled pore space in stratum 2. Maximum water filled pore space changed to: 0.83871 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 2. Minimum water filled pore space changed to: 0.217839 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 3:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 3 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 3 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 3 not initialized, estimated value: 0.0630019 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 3 not initialized, estimated value (without stones): 1 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 3 not initialized, estimated value: 1.56 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 3 not initialized, estimated value is 3.6 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 3 not initialized, estimated value is -0.52557
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 3 not initialized, estimated value is 132.8
+[II] {1989-01-01 00:00:00} Field capacity in stratum 3 is 0.26 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 3 is 0.06753 [m3 m-3]
+[II] {1989-01-01 00:00:00} Field capacity exceeded porosity minus macropores in stratum 3. Porosity changed to: 0.31 [m3 m-3]
+[II] {1989-01-01 00:00:00} Field capacity exceeded maximum water filled pore space in stratum 3. Maximum water filled pore space changed to: 0.83871 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 3. Minimum water filled pore space changed to: 0.217839 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 4:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 4 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 4 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 4 not initialized, estimated value: 0.065766 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 4 not initialized, estimated value (without stones): 1 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 4 not initialized, estimated value: 1.56 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 4 not initialized, estimated value is 3.6 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 4 not initialized, estimated value is -0.52557
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 4 not initialized, estimated value is 132.8
+[II] {1989-01-01 00:00:00} Field capacity in stratum 4 is 0.26 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 4 is 0.06753 [m3 m-3]
+[II] {1989-01-01 00:00:00} Field capacity exceeded porosity minus macropores in stratum 4. Porosity changed to: 0.31 [m3 m-3]
+[II] {1989-01-01 00:00:00} Field capacity exceeded maximum water filled pore space in stratum 4. Maximum water filled pore space changed to: 0.83871 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 4. Minimum water filled pore space changed to: 0.217839 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 5:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 5 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 5 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 5 not initialized, estimated value: 0.0351087 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 5 not initialized, estimated value (without stones): 68.3421 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 5 not initialized, estimated value: 1.56 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 5 not initialized, estimated value is 3.6 [m-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 5 was smaller than estimated maximum water saturation and was increased from 0.683421 to 0.699895
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 5 not initialized, estimated value is 1
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 5 not initialized, estimated value is 1.01729
+[II] {1989-01-01 00:00:00} Field capacity in stratum 5 is 0.26 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 5 is 0.06753 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 5. Minimum water filled pore space changed to: 0.0964858 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 6:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 6 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 6 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 6 not initialized, estimated value: 0.0402117 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 6 not initialized, estimated value (without stones): 68.3421 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 6 not initialized, estimated value: 1.56 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 6 not initialized, estimated value is 3.6 [m-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 6 was smaller than estimated maximum water saturation and was increased from 0.683421 to 0.699895
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 6 not initialized, estimated value is 1
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 6 not initialized, estimated value is 1.01729
+[II] {1989-01-01 00:00:00} Field capacity in stratum 6 is 0.26 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 6 is 0.06753 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 6. Minimum water filled pore space changed to: 0.0964858 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 7:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 7 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 7 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 7 not initialized, estimated value: 0.0246091 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 7 not initialized, estimated value (without stones): 86.0904 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 7 not initialized, estimated value: 1.48 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 7 not initialized, estimated value is 5.9 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 7 not initialized, estimated value is 0.88396
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 7 not initialized, estimated value is 0.529908
+[II] {1989-01-01 00:00:00} Field capacity in stratum 7 is 0.246 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 7 is 0.01382 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 7. Minimum water filled pore space changed to: 0.0160529 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 8:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 8 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 8 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 8 not initialized, estimated value: 0.0225907 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 8 not initialized, estimated value (without stones): 86.8756 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 8 not initialized, estimated value: 1.89 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 8 not initialized, estimated value is 7.5 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 8 not initialized, estimated value is 0.863309
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 8 not initialized, estimated value is 0.392515
+[II] {1989-01-01 00:00:00} Field capacity in stratum 8 is 0.142 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 8 is 0.06916 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 8. Minimum water filled pore space changed to: 0.0796081 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 9:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 9 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 9 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 9 not initialized, estimated value: 0 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 9 not initialized, estimated value (without stones): 90.4296 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 9 not initialized, estimated value: 2.28 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 9 not initialized, estimated value is 12.4 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 9 not initialized, estimated value is 0.821639
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 9 not initialized, estimated value is 0.0442333
+[II] {1989-01-01 00:00:00} Field capacity in stratum 9 is 0.069 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 9 is 0.02266 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 9. Minimum water filled pore space changed to: 0.0250582 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 10:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 10 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 10 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 10 not initialized, estimated value: 0 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 10 not initialized, estimated value (without stones): 90.4296 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 10 not initialized, estimated value: 2.28 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 10 not initialized, estimated value is 12.4 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 10 not initialized, estimated value is 0.821639
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 10 not initialized, estimated value is 0.0442333
+[II] {1989-01-01 00:00:00} Field capacity in stratum 10 is 0.069 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 10 is 0.02266 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 10. Minimum water filled pore space changed to: 0.0250582 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 11:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 11 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 11 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 11 not initialized, estimated value: 0 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 11 not initialized, estimated value (without stones): 90.4296 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 11 not initialized, estimated value: 2.28 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 11 not initialized, estimated value is 12.4 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 11 not initialized, estimated value is 0.821639
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 11 not initialized, estimated value is 0.0442333
+[II] {1989-01-01 00:00:00} Field capacity in stratum 11 is 0.069 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 11 is 0.02266 [m3 m-3]
+[II] {1989-01-01 00:00:00} Minimum water filled pore space exceeded wilting point in stratum 11. Minimum water filled pore space changed to: 0.0250582 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 12:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 12 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 12 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 12 not initialized, estimated value: 0 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 12 not initialized, estimated value (without stones): 90.4094 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 12 not initialized, estimated value: 2.68 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 12 not initialized, estimated value is 14.5 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 12 not initialized, estimated value is 0.817398
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 12 not initialized, estimated value is 0.0221216
+[II] {1989-01-01 00:00:00} Field capacity in stratum 12 is 0.033 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 12 is 0.02266 [m3 m-3]
+[II] {1989-01-01 00:00:00} STRATUM 13:
+[II] {1989-01-01 00:00:00} Stone fraction of stratum 13 not initialized, estimated value: 0 [m3 m-3]
+[II] {1989-01-01 00:00:00} Iron content of stratum 13 not initialized, estimated value: 0.01 [g g-1]
+[II] {1989-01-01 00:00:00} Total nitrogen content of stratum 13 not initialized, estimated value: 0 [g g-1]
+[II] {1989-01-01 00:00:00} Porosity of stratum 13 not initialized, estimated value (without stones): 90.4094 [%]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter n of stratum 13 not initialized, estimated value: 2.68 [-]
+[II] {1989-01-01 00:00:00} Van-Genuchten parameter alpha of stratum 13 not initialized, estimated value is 14.5 [m-1]
+[II] {1989-01-01 00:00:00} Maximum water filled pore space of stratum 13 not initialized, estimated value is 0.817398
+[II] {1989-01-01 00:00:00} Minimum water filled pore space of stratum 13 not initialized, estimated value is 0.0221216
+[II] {1989-01-01 00:00:00} Field capacity in stratum 13 is 0.033 [m3 m-3]
+[II] {1989-01-01 00:00:00} Wilting point in stratum 13 is 0.02266 [m3 m-3]
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 31, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 32, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 33, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 34, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 35, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 36, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 37, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 38, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 39, -nan
+[WW] {1989-01-01 00:00:00} quality criteria for CN ratio adjustment not reached in layer 40, -nan
+[EE] {Soilchemistry MeTrX<0> 1989-01-01 00:00:00} could not initialize soil pools in metrx: max_it reached in layer: 30
+[EE] {Soilchemistry MeTrX<0> 1989-01-01 00:00:00} cnProb: -nan  cn site: -nan
+there were 2 error and 10 warning messages (179 total)
+node 0: premature termination or incomplete run.

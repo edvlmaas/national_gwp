@@ -1,0 +1,8 @@
+[475872]  LandscapeDNDC 1.35.2 (revision 11164)  2023-02-01 01:12
+[475872]  Sun Feb 05 14:39:13 EST 2023
+[475872]  running on host "node5" (10.0.0.5)
+ 1989 Jan 01 00:00 [E                                      
+[EE] region initialization failed
+node    0: there were 2 error and 10 warning messages (179 total)
+[EE] Reference count for slab not zero [8] when releasing it [cache=LD_Coupler]
+node    0: premature termination or incomplete run.

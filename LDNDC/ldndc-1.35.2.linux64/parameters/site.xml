@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<ldndcsiteparameters>
+    <global />
+    <!--  example parameter entry
+    <siteparameters id="a numeric id">
+        <par name="parameter name" value="its value" min="lower boundary" max="upper boundary" unit="its unit, e.g. [kg]" desc="verbose description" source="literature" comments="comment 1; comment 2; comment 3; ...;" />
+    </siteparameters>
+    -->
+    <siteparameters id="0">
+        <par name="retdoc" value="0.8" />
+        <par name="retno3" value="0.8" />
+    </siteparameters>
+</ldndcsiteparameters>

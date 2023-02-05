@@ -1,0 +1,3228 @@
+<?xml version="1.0"?>
+<event>
+  <event type="till" time="1989-08-07">
+    <till depth="30"/>
+  </event>
+  <event type="plant" time="1989-08-12">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="1990-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="1990-04-30">
+    <fertilize amount="28" type="no3"/>
+  </event>
+  <event type="plant" time="1990-04-30">
+    <plant type="FOCO"/>
+  </event>
+  <event type="till" time="1990-05-07">
+    <till depth="30"/>
+  </event>
+  <event type="plant" time="1990-08-06">
+    <plant type="NA"/>
+  </event>
+  <event type="plant" time="1991-05-21">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="1991-06-07">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="harvest" time="1991-10-01">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="1991-10-09">
+    <plant type="WIWH"/>
+  </event>
+  <event type="harvest" time="1992-07-21">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="harvest" time="1992-07-27">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="plant" time="1992-08-26">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="1993-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="1993-04-27">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="1993-05-14">
+    <fertilize amount="60" type="no3"/>
+  </event>
+  <event type="plant" time="1993-05-14">
+    <plant type="FOCO"/>
+  </event>
+  <event type="till" time="1993-05-20">
+    <till depth="30"/>
+  </event>
+  <event type="till" time="1993-07-07">
+    <till depth="5"/>
+  </event>
+  <event type="harvest" time="1993-11-02">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="1993-11-03">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="1994-04-07">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="till" time="1994-04-18">
+    <till depth="30"/>
+  </event>
+  <event type="till" time="1994-05-06">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="1994-05-12">
+    <till depth="5"/>
+  </event>
+  <event type="till" time="1994-05-12">
+    <till depth="5"/>
+  </event>
+  <event type="plant" time="1994-05-16">
+    <plant type="SOYB"/>
+  </event>
+  <event type="till" time="1994-06-01">
+    <till depth="30"/>
+  </event>
+  <event type="fertilize" time="1994-06-09">
+    <fertilize amount="2" type="no3"/>
+  </event>
+  <event type="harvest" time="1994-10-15">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="till" time="1994-10-17">
+    <till depth="110"/>
+  </event>
+  <event type="plant" time="1994-10-18">
+    <plant type="WIWH"/>
+  </event>
+  <event type="till" time="1994-10-18">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="1995-04-20">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="harvest" time="1995-07-26">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="harvest" time="1995-08-08">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="plant" time="1995-08-09">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="1996-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="1996-03-07">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="1996-04-28">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="1996-05-06">
+    <till depth="30"/>
+  </event>
+  <event type="fertilize" time="1996-05-14">
+    <fertilize amount="27" type="no3"/>
+  </event>
+  <event type="fertilize" time="1996-05-14">
+    <fertilize amount="28" type="no3"/>
+  </event>
+  <event type="plant" time="1996-05-14">
+    <plant type="FOCO"/>
+  </event>
+  <event type="till" time="1996-05-14">
+    <till depth="5"/>
+  </event>
+  <event type="till" time="1996-05-22">
+    <till depth="30"/>
+  </event>
+  <event type="harvest" time="1996-10-28">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="1996-10-29">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="1997-04-04">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="1997-04-10">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="1997-04-10">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="1997-05-12">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="1997-05-13">
+    <till depth="30"/>
+  </event>
+  <event type="till" time="1997-05-22">
+    <till depth="5"/>
+  </event>
+  <event type="plant" time="1997-05-23">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="1997-06-18">
+    <fertilize amount="2" type="no3"/>
+  </event>
+  <event type="harvest" time="1997-10-18">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="till" time="1997-10-24">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="1997-10-24">
+    <NA/>
+  </event>
+  <event type="plant" time="1997-10-25">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="1998-04-20">
+    <fertilize amount="28" type="no3"/>
+  </event>
+  <event type="harvest" time="1998-07-11">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="harvest" time="1998-08-01">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="plant" time="1998-08-02">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="1999-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="1999-04-20">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="1999-05-04">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="1999-05-09">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="1999-05-13">
+    <fertilize amount="27" type="no3"/>
+  </event>
+  <event type="plant" time="1999-05-13">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="1999-05-14">
+    <fertilize amount="27" type="no3"/>
+  </event>
+  <event type="till" time="1999-05-27">
+    <till depth="30"/>
+  </event>
+  <event type="till" time="1999-07-02">
+    <till depth="5"/>
+  </event>
+  <event type="harvest" time="1999-10-06">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="1999-10-14">
+    <plant type="NA"/>
+  </event>
+  <event type="till" time="1999-10-14">
+    <till depth="30"/>
+  </event>
+  <event type="harvest" time="2000-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="till" time="2000-05-03">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2000-05-08">
+    <till depth="30"/>
+  </event>
+  <event type="till" time="2000-05-26">
+    <till depth="5"/>
+  </event>
+  <event type="plant" time="2000-06-07">
+    <plant type="SOYB"/>
+  </event>
+  <event type="harvest" time="2000-10-14">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="fertilize" time="2000-10-20">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="plant" time="2000-11-01">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2001-04-05">
+    <fertilize amount="47" type="no3"/>
+  </event>
+  <event type="harvest" time="2001-07-17">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="harvest" time="2001-07-30">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="plant" time="2001-08-01">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2002-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="till" time="2002-04-19">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2002-04-20">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2002-04-20">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2002-05-15">
+    <fertilize amount="28" type="no3"/>
+  </event>
+  <event type="fertilize" time="2002-05-15">
+    <fertilize amount="28" type="no3"/>
+  </event>
+  <event type="plant" time="2002-05-15">
+    <plant type="FOCO"/>
+  </event>
+  <event type="till" time="2002-05-15">
+    <till depth="5"/>
+  </event>
+  <event type="till" time="2002-05-26">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2002-05-29">
+    <till depth="30"/>
+  </event>
+  <event type="harvest" time="2002-11-01">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2002-11-02">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2003-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="till" time="2003-05-22">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2003-05-27">
+    <till depth="5"/>
+  </event>
+  <event type="plant" time="2003-05-28">
+    <plant type="SOYB"/>
+  </event>
+  <event type="till" time="2003-06-06">
+    <till depth="30"/>
+  </event>
+  <event type="harvest" time="2003-10-06">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="till" time="2003-10-10">
+    <till depth="5"/>
+  </event>
+  <event type="plant" time="2003-10-13">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2004-04-16">
+    <fertilize amount="54" type="no3"/>
+  </event>
+  <event type="harvest" time="2004-07-13">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="plant" time="2004-07-14">
+    <plant type="NA"/>
+  </event>
+  <event type="NA" time="NA">
+    <NA/>
+  </event>
+  <event type="harvest" time="2005-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="plant" time="2005-02-24">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2005-04-18">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2005-04-19">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2005-04-27">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2005-05-05">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2005-05-07">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="fertilize" time="2005-05-07">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="plant" time="2005-05-07">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2005-05-09">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="fertilize" time="2005-05-09">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="harvest" time="2005-10-11">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="fertilize" time="2006-04-19">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="till" time="2006-05-22">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2006-05-26">
+    <till depth="5"/>
+  </event>
+  <event type="plant" time="2006-06-06">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2006-07-07">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="harvest" time="2006-10-10">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2006-11-09">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2007-04-30">
+    <fertilize amount="54" type="no3"/>
+  </event>
+  <event type="harvest" time="2007-07-10">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2008-05-01">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2008-05-13">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2008-05-16">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="fertilize" time="2008-05-16">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="plant" time="2008-05-16">
+    <plant type="FOCO"/>
+  </event>
+  <event type="till" time="2008-05-16">
+    <till depth="5"/>
+  </event>
+  <event type="harvest" time="2008-11-03">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2008-11-11">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2009-05-15">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2009-05-21">
+    <till depth="110"/>
+  </event>
+  <event type="plant" time="2009-05-31">
+    <plant type="SOYB"/>
+  </event>
+  <event type="till" time="2009-05-31">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2009-06-23">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2009-10-16">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2009-11-14">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2010-04-21">
+    <fertilize amount="50" type="no3"/>
+  </event>
+  <event type="fertilize" time="2010-05-03">
+    <fertilize amount="87" type="no3"/>
+  </event>
+  <event type="harvest" time="2010-07-15">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="plant" time="2010-07-16">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2011-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2011-03-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2011-05-10">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2011-05-24">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="fertilize" time="2011-05-24">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="plant" time="2011-05-24">
+    <plant type="FOCO"/>
+  </event>
+  <event type="till" time="2011-05-24">
+    <till depth="5"/>
+  </event>
+  <event type="till" time="2011-06-02">
+    <till depth="30"/>
+  </event>
+  <event type="fertilize" time="2011-06-17">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2011-07-05">
+    <fertilize amount="124" type="no3"/>
+  </event>
+  <event type="fertilize" time="2011-07-07">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2011-11-14">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2011-11-19">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2012-04-11">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2012-04-17">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2012-04-23">
+    <fertilize amount="8" type="no3"/>
+  </event>
+  <event type="fertilize" time="2012-04-23">
+    <fertilize amount="8" type="no3"/>
+  </event>
+  <event type="fertilize" time="2012-04-24">
+    <fertilize amount="8" type="no3"/>
+  </event>
+  <event type="fertilize" time="2012-04-24">
+    <fertilize amount="8" type="no3"/>
+  </event>
+  <event type="till" time="2012-05-16">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2012-05-18">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2012-05-22">
+    <NA/>
+  </event>
+  <event type="plant" time="2012-05-23">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2012-06-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2012-10-11">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2012-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2013-05-03">
+    <fertilize amount="54" type="no3"/>
+  </event>
+  <event type="harvest" time="2013-07-19">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2013-08-10">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2013-08-16">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2014-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2014-04-21">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2014-05-20">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2014-05-23">
+    <till depth="30"/>
+  </event>
+  <event type="till" time="2014-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2014-05-24">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="fertilize" time="2014-05-24">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="plant" time="2014-05-24">
+    <plant type="FOCO"/>
+  </event>
+  <event type="harvest" time="2014-11-05">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2014-11-07">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2015-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2015-04-06">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2015-04-14">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2015-04-14">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2015-05-20">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2015-05-22">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2015-05-22">
+    <NA/>
+  </event>
+  <event type="plant" time="2015-05-23">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2015-07-01">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2015-09-30">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2015-10-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2016-03-21">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2016-04-15">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2016-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2016-04-16">
+    <fertilize amount="20" type="no3"/>
+  </event>
+  <event type="fertilize" time="2016-04-16">
+    <fertilize amount="20" type="no3"/>
+  </event>
+  <event type="fertilize" time="2016-04-27">
+    <fertilize amount="9" type="no3"/>
+  </event>
+  <event type="fertilize" time="2016-04-27">
+    <fertilize amount="17" type="no3"/>
+  </event>
+  <event type="fertilize" time="2016-04-27">
+    <fertilize amount="9" type="no3"/>
+  </event>
+  <event type="fertilize" time="2016-08-02">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2016-08-02">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="plant" time="2016-08-03">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2017-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2017-05-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2017-05-13">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2017-05-17">
+    <till depth="30"/>
+  </event>
+  <event type="till" time="2017-05-18">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2017-05-19">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="fertilize" time="2017-05-19">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="plant" time="2017-05-19">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2017-05-24">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="fertilize" time="2017-05-24">
+    <fertilize amount="33" type="no3"/>
+  </event>
+  <event type="fertilize" time="2017-06-08">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2017-10-18">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2017-11-08">
+    <plant type="NA"/>
+  </event>
+  <event type="till" time="2018-05-09">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2018-05-24">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="plant" time="2018-05-29">
+    <plant type="SOYB"/>
+  </event>
+  <event type="till" time="2018-05-29">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2018-06-28">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2018-10-09">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2018-10-19">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2019-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2019-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2019-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2019-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2019-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2019-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2019-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2019-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2019-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2019-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2020-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2020-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2020-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2020-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2020-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2020-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2020-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2020-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2020-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2020-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2021-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2021-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2021-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2021-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2021-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2021-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2021-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2021-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2021-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2021-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2022-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2022-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2022-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2022-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2022-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2022-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2022-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2022-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2022-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2022-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2023-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2023-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2023-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2023-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2023-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2023-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2023-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2023-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2023-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2023-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2024-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2024-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2024-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2024-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2024-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2024-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2024-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2024-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2024-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2024-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2025-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2025-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2025-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2025-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2025-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2025-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2025-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2025-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2025-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2025-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2026-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2026-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2026-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2026-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2026-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2026-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2026-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2026-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2026-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2026-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2027-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2027-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2027-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2027-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2027-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2027-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2027-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2027-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2027-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2027-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2028-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2028-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2028-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2028-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2028-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2028-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2028-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2028-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2028-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2028-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2029-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2029-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2029-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2029-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2029-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2029-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2029-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2029-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2029-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2029-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2030-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2030-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2030-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2030-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2030-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2030-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2030-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2030-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2030-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2030-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2031-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2031-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2031-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2031-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2031-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2031-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2031-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2031-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2031-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2031-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2032-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2032-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2032-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2032-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2032-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2032-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2032-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2032-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2032-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2032-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2033-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2033-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2033-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2033-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2033-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2033-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2033-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2033-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2033-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2033-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2034-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2034-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2034-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2034-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2034-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2034-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2034-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2034-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2034-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2034-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2035-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2035-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2035-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2035-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2035-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2035-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2035-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2035-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2035-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2035-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2036-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2036-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2036-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2036-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2036-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2036-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2036-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2036-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2036-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2036-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2037-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2037-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2037-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2037-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2037-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2037-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2037-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2037-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2037-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2037-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2038-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2038-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2038-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2038-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2038-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2038-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2038-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2038-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2038-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2038-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2039-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2039-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2039-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2039-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2039-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2039-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2039-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2039-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2039-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2039-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2040-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2040-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2040-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2040-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2040-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2040-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2040-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2040-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2040-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2040-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2041-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2041-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2041-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2041-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2041-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2041-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2041-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2041-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2041-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2041-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2042-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2042-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2042-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2042-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2042-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2042-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2042-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2042-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2042-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2042-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2043-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2043-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2043-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2043-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2043-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2043-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2043-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2043-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2043-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2043-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2044-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2044-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2044-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2044-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2044-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2044-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2044-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2044-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2044-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2044-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2045-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2045-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2045-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2045-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2045-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2045-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2045-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2045-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2045-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2045-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2046-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2046-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2046-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2046-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2046-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2046-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2046-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2046-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2046-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2046-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2047-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2047-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2047-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2047-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2047-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2047-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2047-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2047-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2047-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2047-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2048-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2048-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2048-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2048-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2048-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2048-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2048-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2048-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2048-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2048-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2049-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2049-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2049-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2049-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2049-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2049-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2049-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2049-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2049-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2049-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2050-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2050-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2050-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2050-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2050-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2050-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2050-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2050-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2050-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2050-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2051-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2051-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2051-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2051-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2051-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2051-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2051-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2051-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2051-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2051-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2052-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2052-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2052-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2052-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2052-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2052-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2052-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2052-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2052-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2052-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2053-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2053-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2053-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2053-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2053-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2053-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2053-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2053-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2053-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2053-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2054-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2054-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2054-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2054-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2054-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2054-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2054-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2054-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2054-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2054-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2055-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2055-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2055-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2055-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2055-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2055-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2055-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2055-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2055-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2055-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2056-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2056-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2056-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2056-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2056-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2056-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2056-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2056-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2056-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2056-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2057-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2057-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2057-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2057-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2057-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2057-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2057-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2057-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2057-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2057-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2058-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2058-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2058-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2058-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2058-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2058-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2058-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2058-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2058-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2058-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2059-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2059-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2059-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2059-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2059-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2059-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2059-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2059-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2059-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2059-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2060-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2060-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2060-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2060-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2060-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2060-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2060-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2060-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2060-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2060-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2061-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2061-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2061-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2061-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2061-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2061-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2061-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2061-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2061-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2061-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2062-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2062-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2062-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2062-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2062-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2062-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2062-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2062-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2062-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2062-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2063-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2063-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2063-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2063-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2063-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2063-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2063-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2063-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2063-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2063-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2064-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2064-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2064-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2064-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2064-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2064-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2064-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2064-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2064-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2064-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2065-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2065-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2065-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2065-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2065-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2065-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2065-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2065-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2065-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2065-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2066-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2066-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2066-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2066-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2066-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2066-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2066-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2066-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2066-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2066-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2067-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2067-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2067-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2067-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2067-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2067-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2067-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2067-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2067-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2067-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2068-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2068-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2068-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2068-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2068-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2068-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2068-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2068-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2068-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2068-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2069-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2069-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2069-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2069-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2069-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2069-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2069-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2069-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2069-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2069-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2070-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2070-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2070-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2070-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2070-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2070-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2070-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2070-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2070-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2070-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2071-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2071-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2071-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2071-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2071-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2071-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2071-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2071-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2071-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2071-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2072-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2072-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2072-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2072-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2072-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2072-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2072-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2072-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2072-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2072-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2073-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2073-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2073-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2073-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2073-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2073-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2073-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2073-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2073-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2073-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2074-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2074-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2074-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2074-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2074-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2074-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2074-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2074-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2074-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2074-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2075-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2075-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2075-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2075-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2075-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2075-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2075-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2075-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2075-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2075-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2076-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2076-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2076-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2076-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2076-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2076-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2076-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2076-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2076-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2076-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2077-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2077-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2077-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2077-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2077-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2077-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2077-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2077-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2077-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2077-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2078-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2078-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2078-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2078-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2078-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2078-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2078-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2078-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2078-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2078-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2079-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2079-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2079-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2079-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2079-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2079-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2079-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2079-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2079-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2079-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2080-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2080-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2080-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2080-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2080-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2080-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2080-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2080-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2080-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2080-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2081-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2081-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2081-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2081-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2081-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2081-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2081-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2081-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2081-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2081-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2082-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2082-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2082-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2082-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2082-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2082-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2082-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2082-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2082-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2082-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2083-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2083-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2083-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2083-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2083-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2083-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2083-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2083-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2083-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2083-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2084-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2084-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2084-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2084-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2084-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2084-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2084-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2084-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2084-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2084-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2085-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2085-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2085-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2085-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2085-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2085-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2085-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2085-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2085-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2085-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2086-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2086-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2086-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2086-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2086-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2086-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2086-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2086-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2086-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2086-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2087-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2087-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2087-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2087-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2087-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2087-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2087-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2087-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2087-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2087-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2088-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2088-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2088-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2088-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2088-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2088-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2088-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2088-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2088-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2088-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2089-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2089-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2089-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2089-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2089-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2089-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2089-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2089-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2089-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2089-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2090-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2090-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2090-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2090-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2090-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2090-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2090-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2090-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2090-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2090-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2091-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2091-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2091-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2091-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2091-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2091-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2091-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2091-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2091-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2091-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2092-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2092-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2092-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2092-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2092-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2092-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2092-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2092-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2092-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2092-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2093-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2093-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2093-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2093-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2093-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2093-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2093-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2093-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2093-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2093-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2094-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2094-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2094-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2094-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2094-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2094-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2094-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2094-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2094-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2094-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2095-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2095-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2095-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2095-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2095-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2095-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2095-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2095-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2095-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2095-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2096-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2096-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2096-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2096-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2096-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2096-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2096-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2096-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2096-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2096-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2097-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2097-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2097-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2097-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2097-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2097-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2097-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2097-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2097-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2097-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2098-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2098-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2098-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2098-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2098-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2098-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2098-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2098-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2098-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2098-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2099-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2099-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2099-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2099-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2099-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2099-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2099-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2099-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2099-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2099-11-07">
+    <plant type="WIWH"/>
+  </event>
+  <event type="fertilize" time="2100-03-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2100-04-08">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="fertilize" time="2100-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2100-04-08">
+    <fertilize amount="23" type="no3"/>
+  </event>
+  <event type="fertilize" time="2100-04-22">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="fertilize" time="2100-04-25">
+    <fertilize amount="NaN" type="no3"/>
+  </event>
+  <event type="fertilize" time="2100-05-06">
+    <fertilize amount="30" type="no3"/>
+  </event>
+  <event type="harvest" time="2100-07-25">
+    <harvest remains="0.25" name="WIWH"/>
+  </event>
+  <event type="fertilize" time="2100-08-12">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="plant" time="2100-08-22">
+    <plant type="NA"/>
+  </event>
+  <event type="harvest" time="2101-01-31">
+    <harvest remains="0.25" name="NA"/>
+  </event>
+  <event type="fertilize" time="2101-04-16">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2101-05-07">
+    <till depth="110"/>
+  </event>
+  <event type="till" time="2101-05-23">
+    <till depth="5"/>
+  </event>
+  <event type="fertilize" time="2101-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="fertilize" time="2101-05-26">
+    <fertilize amount="34" type="no3"/>
+  </event>
+  <event type="plant" time="2101-05-26">
+    <plant type="FOCO"/>
+  </event>
+  <event type="fertilize" time="2101-06-25">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2101-10-29">
+    <harvest remains="0.25" name="FOCO"/>
+  </event>
+  <event type="plant" time="2101-11-16">
+    <plant type="NA"/>
+  </event>
+  <event type="fertilize" time="2102-04-30">
+    <fertilize amount="0" type="no3"/>
+  </event>
+  <event type="till" time="2102-05-08">
+    <till depth="110"/>
+  </event>
+  <event type="fertilize" time="2102-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="fertilize" time="2102-05-10">
+    <fertilize amount="10" type="no3"/>
+  </event>
+  <event type="till" time="2102-05-19">
+    <till depth="5"/>
+  </event>
+  <event type="NA" time="2102-05-21">
+    <NA/>
+  </event>
+  <event type="plant" time="2102-06-17">
+    <plant type="SOYB"/>
+  </event>
+  <event type="fertilize" time="2102-06-24">
+    <fertilize amount="1" type="no3"/>
+  </event>
+  <event type="harvest" time="2102-10-19">
+    <harvest remains="0.25" name="SOYB"/>
+  </event>
+  <event type="plant" time="2102-11-07">
+    <plant type="WIWH"/>
+  </event>
+</event>

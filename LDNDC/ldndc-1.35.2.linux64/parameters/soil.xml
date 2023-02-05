@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<ldndcsoilparameters>
+  <soilparameters  id="0" >
+    <soils>
+      <soil mnemonic="sicl" name="silty clay">
+        <par name="clay" value="0.49" />
+        <par name="density" value="1.47" />
+        <par name="sks" value="0.0065" />
+        <par name="wcmax" value="404.0" />
+        <par name="wcmin" value="126.0" />
+      </soil>
+    </soils>
+    <humuses>
+      <humus mnemonic="mull" name="mull">
+        <par name="density" value="0.25" />
+      </humus>
+    </humuses>
+  </soilparameters>
+</ldndcsoilparameters>

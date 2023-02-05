@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ldndcsetup>
+    <setup  id="0" name="Gebesee" >
+        <location elevation="161.5" latitude="51.06" longitude="10.54" slope="0" />
+        <models>
+            <model id="_MoBiLE" />
+        </models>
+        <mobile>
+            <modulelist>
+                <module id="microclimate:canopyecm" timemode="daily" />
+                <module id="watercycle:watercycledndc" timemode="daily" />
+                <module id="airchemistry:airchemistrydndc" timemode="daily"/>
+                <module id="physiology:arabledndc" timemode="daily" />
+                <module id="soilchemistry:soilchemistrydndc" timemode="daily" />
+
+                <!-- outputs -->
+                <module id="output:microclimate:daily" />
+                <module id="output:watercycle:daily" />
+                <module id="output:physiology:daily" />
+                <module id="output:soilchemistry:daily" />
+                <module id="output:soilchemistry:yearly" />
+                <module id="output:report:arable:harvest" timemode="daily" />
+                <module id="output:report:arable:fertilize" timemode="daily" />
+                <module id="output:report:arable:manure" timemode="daily" />
+            </modulelist>
+        </mobile>
+    </setup>
+</ldndcsetup>

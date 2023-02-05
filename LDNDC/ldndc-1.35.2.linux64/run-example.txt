@@ -1,0 +1,64 @@
+
+## Run LandscapeDNDC from the command line from within
+## the base folder of the archive you received as follows:
+##
+## For the command line examples here, we assume that the
+## directory "a_forest_site" contains a valid LandscapeDNDC
+## project with an according project file "a_forest_site.xml".
+
+on Unix or MAC OS X platforms:
+
+$> ./bin/ldndc -c ldndc.conf projects/forest/a_forest/a_forest.ldndc
+
+
+on Windows platforms:
+
+$> .\bin\ldndc -c ldndc.conf projects\forest\a_forest\a_forest.ldndc
+
+
+general synopsis:
+
+        ldndc [options] <project file>
+
+
+
+## [Note: jLDNDC may not be present in your package]
+## Alternatively, you may use jLDNDC which is a very basic
+## graphical user interface written in Java for loading and
+## executing a valid LandscapeDNDC project. For this to
+## work you will need to copy the file "ldndc.conf" to
+## your personal LandscapeDNDC configuration folder:
+
+on Unix or MAC OS X platforms:
+
+$> mkdir ~/.ldndc && cp ldndc.conf ~/.ldndc
+
+
+on Windows platforms:
+
+$> mkdir %userprofile%\.ldndc
+$> copy ldndc.conf %userprofile%\.ldndc
+
+
+## If a configuration file is already present, make sure
+## the settings do not conflict. If input base paths
+## differ and you still want to run the example projects,
+## we suggest you move the examples to the input base
+## path configured in your existing configuration file,
+## accordingly.
+
+After this step double click on "jldndc.sh" on Unix or
+MAC OS X platforms, "jldndc.bat" on Windows platforms.
+
+
+## If you have any questions, you are welcome to send an
+## email to the LandscapeDNDC users mailing list at
+
+        ldndc-users@lists.kit.edu
+
+## If you are not a member of this list, you may consider
+## joining the list (send join request) or otherwise send
+## your question directly to a person officially affiliated
+## with the developement of LandscapeDNDC. For contact
+## information see https://ldndc.imk-ifu.kit.edu
+

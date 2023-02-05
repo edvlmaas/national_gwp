@@ -54,7 +54,7 @@ Cluster/
 /RothC/KBS/auto/
 #/RothC/KBS/output/
 #/RothC/KBS/graph/
-/LDNDC/ldndc-1.30.4.win64/bin/
+/LDNDC/ldndc-1.30.4.win64/doc/
 /LDNDC/ldndc-1.30.4.win64/projects/arable/
 /LDNDC/ldndc-1.30.4.win64/projects/forest/
 /LDNDC/ldndc-1.30.4.win64/projects/grassland/
@@ -63,7 +63,15 @@ Cluster/
 /LDNDC/ldndc-1.30.4.win64/projects/tutorial_3/
 /LDNDC/ldndc-1.30.4.win64/projects/tutorial_4/
 /LDNDC/ldndc-1.30.4.win64/projects/tutorials/
-
+/LDNDC/ldndc-1.35.2.linux64/doc/
+/LDNDC/ldndc-1.35.2.linux64/projects/arable/
+/LDNDC/ldndc-1.35.2.linux64/projects/forest/
+/LDNDC/ldndc-1.35.2.linux64/projects/grassland/
+/LDNDC/ldndc-1.35.2.linux64/projects/tutorial_1/
+/LDNDC/ldndc-1.35.2.linux64/projects/tutorial_2/
+/LDNDC/ldndc-1.35.2.linux64/projects/tutorial_3/
+/LDNDC/ldndc-1.35.2.linux64/projects/tutorial_4/
+/LDNDC/ldndc-1.35.2.linux64/projects/tutorials/
 
 # Specific files
 .nfs*
@@ -96,7 +104,7 @@ test*
 #mean_daily_results.csv
 #scenario_means.csv
 #log.txt
-
+ldndc-latest.linux64.tar.bz2
 
 #/APSIM/*.db*
 #/APSIM/KBS/*.out

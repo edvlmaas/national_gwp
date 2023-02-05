@@ -1,0 +1,1 @@
+call KBS.bat > mylog.txt 2>&1

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ldndcsetup>
+  <setup id="0" name="KBS">
+    <location elevation="288" latitude="42.41" longitude="-85.372"/>
+    <models>
+      <model id="_MoBiLE"/>
+    </models>
+    <mobile>
+      <modulelist>
+        <module id="airchemistry:airchemistrydndc" timemode="daily"/>
+        <module id="microclimate:canopyecm" timemode="daily"/>
+        <module id="physiology:arabledndc" timemode="daily"/>
+        <module id="soilchemistry:metrx" timemode="daily"/>
+        <module id="watercycle:watercycledndc" timemode="daily"/>
+        <!-- outputs -->
+        <module id="output:soilchemistry-layer:daily"/>
+        <module id="output:soilchemistry:yearly"/>
+        <module id="output:microclimate:daily"/>
+        <module id="output:physiology:daily"/>
+        <module id="output:watercycle:daily"/>
+        <module id="output:report:arable:harvest" timemode="daily"/>
+      </modulelist>
+    </mobile>
+  </setup>
+</ldndcsetup>

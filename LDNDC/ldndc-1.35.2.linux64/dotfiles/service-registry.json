@@ -1,0 +1,354 @@
+{
+    "magic": "87edb0f17bfccab42cdaafa73d8a98c03049d426",
+
+    "services": [
+        {
+            "name": "LandscapeDNDC Air Chemistry Reader",
+            "id": "_LD_AirChemistry",
+            "tags": [ "role::source", "zone::atmosphere", "field::airchemistry", "implemented-in::c++" ],
+
+            "requires": [ ],
+            "requires-optional": [ ],
+            "provides": [
+              "atmosphere_air_carbon-dioxide",
+              "atmosphere_air_nitrate_wet_deposition", "atmosphere_air_nitrate_dry_deposition",
+              "atmosphere_air_ammonium_wet_deposition", "atmosphere_air_ammonium_dry_deposition"
+            ],
+            "conflicts": [ ],
+
+            "library-type": "dll",
+              "dll": "ldairchemistry",
+
+            "maintainers": [ "sklatt" ],
+            "web-url": "",
+            "doc": "..."
+        },
+
+        {
+            "name": "LandscapeDNDC Climate Reader",
+            "id": "_LD_Climate",
+            "tags": [ "role::source", "zone::atmosphere", "field::climate", "implemented-in::c++" ],
+
+            "requires": [ ],
+            "requires-optional": [ ],
+            "provides": [
+              "atmosphere_air_pressure", "atmosphere_global_radiation",
+              "atmosphere_air_temperature", "atmosphere_minimum_air_temperature", "atmosphere_maximum_air_temperature",
+              "atmosphere_global_radiation", "atmosphere_longwave_radiation",
+              "atmosphere_water_precipitation_volume_flux", "atmosphere_water_relative_humidity", "atmosphere_water_vapor_pressure_deficit",
+              "land_surface_wind_speed", "vegetation_canopy_wind_speed"
+            ],
+            "conflicts": [ ],
+
+            "library-type": "dll",
+              "dll": "ldclimate",
+
+            "maintainers": [ "sklatt" ],
+            "web-url": "",
+            "doc": "..."
+        },
+
+        {
+            "name": "LandscapeDNDC Event Reader",
+            "id": "_LD_Event",
+            "tags": [ "role::source", "zone::anthroposphere", "field::event" ],
+
+            "requires": [ ":datasource:" ],
+            "provides": [
+                "cut",
+                "defoliate",
+                "fire", "fertilize", "flood",
+                "graze",
+                "irrigate",
+                "harvest",
+                "manure",
+                "plant", "puddle",
+                "regrow",
+                "thin", "throw", "till" ],
+
+            "library-type": "dll",
+              "dll": "ldevent"
+        },
+
+        {
+            "name": "LandscapeDNDC Groundwater Reader",
+            "id": "_LD_Groundwater",
+            "tags": [ "role::source", "zone::pedosphere", "field::groundwater", "implemented-in::c++" ],
+
+            "requires": [],
+            "requires-optional": [],
+            "provides": [ "soil_groundwater_watertable", "soil_groundwater_nitrate" ],
+            "conflicts": [],
+
+            "library-type": "dll",
+              "dll": "ldgroundwater",
+
+            "maintainers": [ "sklatt" ],
+            "web-url": "",
+            "doc": "..."
+        },
+
+        {
+            "name": "LandscapeDNDC Setup Reader",
+            "id": "_LD_Setup",
+            "tags": [ "role::source", "field::setup" ],
+
+            "requires": [],
+            "requires-optional": [],
+            "provides": [ "hru_name", "hru_location", "hru_neighbors" ],
+            "conflicts": [],
+
+            "library-type": "dll",
+              "dll": "ldsetup",
+
+            "maintainers": [ "sklatt" ],
+            "doc": ""
+        },
+
+        {
+            "name": "LandscapeDNDC Site Reader",
+            "id": "_LD_Site",
+            "tags": [ "role::source", "field::site" ],
+
+            "requires": [],
+            "requires-optional": [],
+            "provides": [ "soil_horizons",
+                "soil_soil_type", "soil_humus_type",
+                "site_land_use_history" ],
+            "conflicts": [],
+
+            "library-type": "dll",
+              "dll": "ldsite",
+
+            "maintainers": [ "sklatt" ],
+            "doc": ""
+        },
+
+        {
+            "name": "LandscapeDNDC Site Parameters Reader",
+            "id": "LdndcSiteParametersReader",
+            "tags": [ "role::source", "field::siteparameters" ],
+
+            "requires": [ ":LResources:" ],
+            "requires-optional": [ ":datasource:" ],
+            "provides": [ "site_parameters" ],
+            "conflicts": [],
+
+            "library-type": "dll",
+              "dll": "LdndcSiteParameters"
+        },
+
+        {
+            "name": "LandscapeDNDC Soil Parameters Reader",
+            "id": "LdndcSoilParametersReader",
+            "tags": [ "role::source", "field::soilparameters" ],
+
+            "requires": [ ":LResources:" ],
+            "requires-optional": [ ":datasource:" ],
+            "provides": [ "soil_parameters" ],
+            "conflicts": [],
+
+            "library-type": "dll",
+              "dll": "LdndcSoilParameters"
+        },
+
+        {
+            "name": "LandscapeDNDC Vegetation Parameters Reader",
+            "id": "LdndcVegetationParametersReader",
+            "tags": [ "role::source", "field::speciesparameters" ],
+
+            "requires": [ ":LResources:" ],
+            "requires-optional": [ ":datasource:" ],
+            "provides": [ "vegetation_species_parameters" ],
+
+            "library-type": "dll",
+              "dll": "LdndcVegetationParameters"
+        },
+
+        {
+            "name": "Farmer Agent",
+            "id": "ManagementFarmerAgent",
+            "tags": [ "role::synthesizer", "zone::anthroposphere" ],
+
+            "requires": [],
+            "requires-optional": [
+              "fertilize", "harvest", "irrigate", "manure", "plant", "till" ],
+            "provides": [
+              "fertilize", "harvest", "irrigate", "manure", "plant", "till" ],
+
+            "library-type": "python-module",
+              "python-module": "FarmerAgent",
+
+            "maintainers": [ "ehaas", "sklatt" ]
+        },
+
+        {
+            "name": "Air Chemistry Deposition DNDC",
+            "id": "AirChemistryDepositionDNDC",
+            "tags": [ "role::model" ],
+            "library-type": "dll",
+              "dll": "lddepositiondndc",
+
+            "requires": [],
+            "requires-optional": [],
+            "provides": [],
+
+            "maintainers": [ "dkraus" ],
+            "doc": ""
+        },
+
+        {
+            "name": "Oryza 2000",
+            "id": "Oryza2000",
+            "tags": [ "role::model", "zone::physiology", "zone::physiology::rice" ],
+
+            "requires": [],
+            "requires-optional": [],
+            "provides": [],
+
+            "library-type": "dll",
+              "dll": "ldoryza2000",
+
+            "maintainers": [ "tli", "dkraus" ],
+            "web-url": "http://irri.org/oryza2000",
+            "doc": ""
+        },
+
+        {
+            "X-IGNORE": true,
+
+            "name": "Soil Chemistry DNDC",
+            "id": "SoilChemistryDNDC",
+            "tags": [ "role::model" ],
+
+            "requires": [],
+            "requires-optional": [],
+            "provides": [ "soil_n2o_emission_volume_flux" ],
+
+            "library-type": "dll",
+              "dll": "soilchemistrydndc",
+
+            "maintainers": [ "dkraus" ],
+            "doc": ""
+        },
+
+        {
+            "name": "Watercycle DNDC",
+            "id": "WatercycleDNDC",
+            "tags": [ "role::model" ],
+
+            "requires": [],
+            "requires-optional": [],
+            "provides": [],
+
+            "library-type": "dll",
+              "dll": "watercycledndc",
+
+            "maintainers": [ "dkraus" ],
+            "doc": ""
+        },
+
+        {
+            "name": "Time Aggregator",
+            "id": "TimeAggregator",
+            "tags": [ "role::filter" ],
+
+            "requires": [],
+            "requires-optional": [],
+            "provides": []
+        }
+    ],
+
+
+    "entities": [
+        {
+            "name": "atmosphere_air_temperature",
+            "kind": "number",
+            "unit": "degree celsius",
+
+            "default-provider": "LdndcClimateReader"
+        },
+        {
+            "name": "plant",
+            "kind": "event",
+            "unit": "-",
+
+            "default-provider": "_LD_Event"
+        },
+        {
+            "name": "harvest",
+            "kind": "event",
+            "unit": "-",
+
+            "default-provider": "_LD_Event"
+        },
+        {
+            "name": "fertilize",
+            "kind": "event",
+            "unit": "-",
+
+            "default-provider": "_LD_Event",
+
+            "type": "compound",
+            "range": [
+                {
+                    "name": "type",
+                    "unit": "-",
+
+                    "type": "category",
+                    "range": [ "nh4hco3", "nh3", "no3", "nh4hpo4", "nh4no3", "nh4so4", "so4", "urea" ],
+                    "range-long": [ "ammonium bicarbonate", "anhydrous ammonia", "nitrate", "diammonium hydrogen phosphate", "ammonium nitrate", "ammonium sulphate", "sulphate", "urea" ]
+                },
+                {
+                    "name": "amount",
+                    "unit": "kg ha-1",
+
+                    "type": "real",
+                    "range": [ 0, null ]
+                },
+                {
+                    "name": "depth",
+                    "unit": "m",
+
+                    "type": "real",
+                    "range": [ 0, null ]
+                }
+            ]
+        }
+    ],
+
+
+    "developers": [
+        {
+            "name": "Edwin Haas",
+            "uid": "ehaas",
+
+            "email": "edwin.haas@kit.edu"
+        },
+        {
+            "name": "Ruediger Grote",
+            "uid": "rgrote",
+
+            "email": "ruediger.grote@kit.edu"
+        },
+        {
+            "name": "Steffen Klatt",
+            "uid": "sklatt",
+
+            "email": "steffen.klatt@kit.edu"
+        },
+        {
+            "name": "David Kraus",
+            "uid": "dkraus",
+
+            "email": "david.kraus@kit.edu"
+        },
+        {
+            "name": "Tao Li",
+            "uid": "tli",
+
+            "email": "t.li@irri.org"
+        }
+    ]
+}
+

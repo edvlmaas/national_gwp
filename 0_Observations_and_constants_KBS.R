@@ -297,7 +297,11 @@ apsim_bc_filename <- if(mgmt_scenario_grp==6) {
           "Error")))))
 }
 daycent_path <- paste0("Daycent/",site_name,"/")
-dndc_path <- paste0("LDNDC/ldndc-1.30.4.win64/projects/",site_name,"/")
+if(Sys.info()['sysname']=='Linux') {
+  dndc_path <- paste0("LDNDC/ldndc-1.35.2.linux64/projects/",site_name,"/")
+} else {
+  dndc_path <- paste0("LDNDC/ldndc-1.35.2.win64/projects/",site_name,"/")
+}
 rothc_path <- paste0("RothC/",site_name,"/")
 mill_path <- paste0("Millennial/R/simulation/",site_name,"/")
 

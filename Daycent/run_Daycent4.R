@@ -30,10 +30,14 @@ model_path = paste0("~/Modeling/Daycent/",site_name,"/")
 setwd(model_path)
 
 # local constants
-daycent_executable <- "DD17centEVI.exe"
-daycent_list100 <- "DD17list100.exe"
-#daycent_executable <- "./DDcentEVI_rev279"
-#daycent_list100 <- "./DDlist100_rev279"
+if(Sys.info()['sysname']=='Linux') {
+  daycent_executable <- "./DDcentEVI_rev279"
+  daycent_list100 <- "./DDlist100_rev279"
+} else {
+  daycent_executable <- "DD17centEVI.exe"
+  daycent_list100 <- "DD17list100.exe"
+}
+
 
 # --------------- Step 0: Install this scenario's input files ---------------------
 #

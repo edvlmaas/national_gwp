@@ -97,6 +97,10 @@ APSIMGN_ghaday <- APSIM_out[,c("date","year","N2O_25cm_kgha")] %>%
   mutate(N2OEmissions_ghaday = round(N2O_25cm_kgha*1000,2),
          dayofyear = yday(date))
 
+APSIMGN_ann_gha <- APSIMGN_ghaday %>%
+  group_by(year) %>%
+  summarize(N2OEmissions_ghayr=sum(N2OEmissions_ghaday))
+
 APSIMGN_cum_gha <- APSIMGN_ghaday %>%
   mutate(N2O_gha = cumsum(round(N2O_25cm_kgha*1000,2))) %>%
   select(date,year,N2O_gha)
@@ -248,3 +252,9 @@ N2O_ghaday_piv <- pivot_longer(N2O_ghaday, c(-date),
                                names_to = "source",
                                values_to = "n2o_val")
 
+N2O_ghayr <- APSIMGN_ann_gha
+colnames(N2O_ghayr) <- c("year","APSIM")
+
+N2O_ghayr_piv <- pivot_longer(N2O_ghayr, c(-year),
+                               names_to = "source",
+                               values_to = "n2o_val")

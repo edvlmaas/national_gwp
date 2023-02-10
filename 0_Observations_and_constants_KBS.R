@@ -222,6 +222,8 @@ experiment_year_range <- experiment_start_year:experiment_end_year
 year_range_2100=experiment_start_year:2100
 experiment_start_date <- "1989-01-01"
 experiment_end_date <- "2021-12-31"
+end_exp_period_year <- 2021
+end_fut_period_year <- 2100
 
 depth_m <- 0.25
 equil_C_input <- 305.00 #244.21 #210.84 # g C/m^2 annually
@@ -414,7 +416,7 @@ ObsGas_mean <- ObsGas_raw %>%
             CO2_C=round(mean(CO2_C),2),
             N2O_N=round(mean(N2O_N),2))
 ObsGas_all <- ObsGas_mean[,c("date","year","Treatment","CH4_C","CO2_C","N2O_N")]
-ObsGas <- ObsGas_raw[ObsGas_raw$Treatment==treatment,c("date","year","CH4_C","CO2_C",
+ObsGas <- ObsGas_mean[ObsGas_mean$Treatment==treatment,c("date","year","CH4_C","CO2_C",
                                                   "N2O_N")]
 
 ## Soil moisture

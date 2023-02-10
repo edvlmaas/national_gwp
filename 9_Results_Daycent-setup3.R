@@ -20,8 +20,6 @@ library(broom)
 
 # import Daycent modeled points
 
-## Daycent
-
 ### most output files (*.out) are limited in time to the specific phase
 ### they are run from, so they need to be concatenated together in order
 ### to have the full range of results in one place
@@ -261,6 +259,10 @@ DayGN_ghaday <- Day_summary[,c("time","dayofyear","N2O_gNhad")] %>%
   mutate(year=floor(time),
          date=as.Date(dayofyear,origin=paste0(as.character(year),"-01-01"))-1)
 
+DayGN_ann_gha <- DayGN_ghaday %>%
+  group_by(year) %>%
+  summarize(N2OEmissions_ghayr=sum(N2O_gNhad))
+
 DayGN_cum_gha <- DayGN_ghaday[,c("year","dayofyear","date","N2O_gNhad")] %>%
   mutate(N2O_gha = cumsum(N2O_gNhad)) %>%
   select(-N2O_gNhad)
@@ -271,6 +273,10 @@ DayGN_cum_gha <- DayGN_ghaday[,c("year","dayofyear","date","N2O_gNhad")] %>%
 DayGM_ghaday <- Day_summary[,c("time","dayofyear","CH4_net_gChad")] %>%
   mutate(year=floor(time),
          date=as.Date(dayofyear,origin=paste0(as.character(year),"-01-01"))-1)
+
+DayGM_ann_gha <- DayGM_ghaday %>%
+  group_by(year) %>%
+  summarize(CH4Emissions_ghayr=sum(CH4_net_gChad))
 
 DayGM_cum_gha <- DayGM_ghaday[,c("year","dayofyear","date","CH4_net_gChad")] %>%
   mutate(CH4_gha = cumsum(CH4_net_gChad)) %>%
@@ -442,6 +448,13 @@ N2O_ghaday_piv <- pivot_longer(N2O_ghaday, c(-date),
                                names_to = "source",
                                values_to = "n2o_val")
 
+N2O_ghayr <- DayGN_ann_gha
+colnames(N2O_ghayr) <- c("year","Daycent")
+
+N2O_ghayr_piv <- pivot_longer(N2O_ghayr, c(-year),
+                              names_to = "source",
+                              values_to = "n2o_val")
+
 ##
 CH4_ghaday <- merge(ObsGas[,c("date","CH4_C")],
                     DayGM_ghaday[,c("date","CH4_net_gChad")],
@@ -452,6 +465,13 @@ colnames(CH4_ghaday) <- c("date","Observed","Daycent")
 CH4_ghaday_piv <- pivot_longer(CH4_ghaday, c(-date),
                                names_to = "source",
                                values_to = "ch4_val")
+
+CH4_ghayr <- DayGM_ann_gha
+colnames(N2O_ghayr) <- c("year","Daycent")
+
+CH4_ghayr_piv <- pivot_longer(CH4_ghayr, c(-year),
+                              names_to = "source",
+                              values_to = "ch4_val")
 
 ##
 grainC_gm2 <- merge(ObsGrainCN[ObsGrainCN$crop %in% c("Maize","Soybean","Wheat"),

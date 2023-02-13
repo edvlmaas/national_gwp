@@ -105,7 +105,7 @@ if(weather_ind=="C") {
   
 } else if(weather_ind=="F") {
   
-  fut_dat <- read.csv(file=paste0(fut_weather_path,"fut_clim_scenario_",clim_scenario_num,'.csv'))
+  fut_dat <- read.csv(file=paste0(fut_weather_path,"fut_clim_scenario_",clim_scenario_num,'_reanal.csv'))
   
   # bind experimental and future data together
   exp_dat <- new_dat[,c("month","year","rain_mm.x","tavg")]

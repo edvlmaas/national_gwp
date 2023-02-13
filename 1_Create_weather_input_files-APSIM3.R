@@ -64,7 +64,7 @@ suppressMessages({
   
   } else if(clim_scenario_num>1) {
     
-    fut_dat <- read.csv(file=paste0(fut_weather_path,"fut_clim_scenario_",clim_scenario_num,'.csv'))
+    fut_dat <- read.csv(file=paste0(fut_weather_path,"fut_clim_scenario_",clim_scenario_num,'_reanal.csv'))
     
     # Get experimental period and bind to future
     

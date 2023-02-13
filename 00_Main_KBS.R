@@ -8,13 +8,17 @@
 #
 #######################################
 # Calls:
+# p_Create_future_weather_files.R
+# p_Future_weather_reanalysis.R
+# 1_Create_weather_input_files.R
 # 0_Controller.R
-#
+# 10_Model_Ensemble_results-combined_scenarios2.R
 #######################################
 # Audit Log
 # 11/11/2022: Created script.
 # 11/17/2022: Added ensemble results script to end.
 # 12/21/2022: Added weather script in climate loop.
+# 2/12/2023: Added 
 #######################################
 library(pracma)
 library(dplyr)
@@ -35,6 +39,7 @@ experiment_end_year <- 2021
 fut_weather_path <- paste0("Data/CMIP6/",site_name,"/")
 
 #source("p_Create_future_weather_files.R")
+#source("p_Future_weather_reanalysis.R")
 
 # Loop through the scenarios; set which climate and management
 # scenario numbers to use for this run:
@@ -49,6 +54,7 @@ for (x in clim_nums) { # climate scenarios
   clim_scenario_num <- x
   #p_Create_future_weather_files(clim_scenario_num,latitude,longitude,
   #                              experiment_end_year)
+  #p_Future_weather_reanalysis()
   #source("1_Create_weather_input_files.R")
   for (y in mgmt_grps) { # management scenario groups
     mgmt_scenario_grp <- y # scenario group number
@@ -64,7 +70,7 @@ for (x in clim_nums) { # climate scenarios
       mgmt_scenario_opt <- if(max_scenario_options==1) "" else z
       mgmt_scenario_num <- as.numeric(paste0(mgmt_scenario_grp,mgmt_scenario_opt))
       scenario_name <- paste0(clim_scenario_num,"_",mgmt_scenario_num) 
-      source("0_Controller2_KBS.R")
+      source(paste0("0_Controller2_",site_name,".R"))
     }
     
   } # end loop through management scenario groups

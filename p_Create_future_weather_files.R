@@ -3,9 +3,9 @@
 # Author: Ellen Maas
 # Date: 12/7/2022
 # Description: This procedure generates weather input files for every model in the 
-# format needed by each from CMIP6 future climate projections. 
-#######################################
-# Calls:
+# format needed by each from CMIP6 future climate projections. Output is later
+# compared to the historical observations and realigned to observed regressions.
+# (See p_Future_weather_reanalysis.R)
 #######################################
 # Audit Log:
 # 12/4/2022: Created script.

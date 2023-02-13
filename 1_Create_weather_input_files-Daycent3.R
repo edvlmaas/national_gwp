@@ -94,7 +94,7 @@ if(weather_ind=="C") {
   ########## Create .wth files ##########
   
   # CMIP6 future projection
-  fut_dat <- read.csv(file=paste0(fut_weather_path,"fut_clim_scenario_",clim_scenario_num,'.csv'))
+  fut_dat <- read.csv(file=paste0(fut_weather_path,"fut_clim_scenario_",clim_scenario_num,'_reanal.csv'))
   
   # Select day, month, year, dayofyear, maxt, mint, precip (cm)
   

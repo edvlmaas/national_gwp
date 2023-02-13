@@ -108,7 +108,7 @@ if(weather_ind=="C") {
   
 } else if(weather_ind=="F") {
   
-  fut_dat <- read.csv(file=paste0(fut_weather_path,"fut_clim_scenario_",clim_scenario_num,'.csv'))
+  fut_dat <- read.csv(file=paste0(fut_weather_path,"fut_clim_scenario_",clim_scenario_num,'_reanal.csv'))
   
   ## Select year, dayofyear, radiation (W/m^2), maxt, mint, precip (mm), mean wind (m/s)
   DNDC_basic_esm <- fut_dat[,c("year","dayofyear","rain_mm","tavg","maxt_C","mint_C",

@@ -1967,7 +1967,7 @@ gGWPmm
 # gGWPmmeb
 
 ggsave(filename=paste0(results_path,"GWP_all_scenarios_",clim_num,".jpg"),plot=gGWP)
-ggsave(filename=paste0(results_path,"GWP_by_source_all_scenarios_",clim_num,".jpg"),plot=gGWPst)
+ggsave(filename=paste0(results_path,"GWP_by_source_all_scenarios_",clim_num,".jpg"),plot=gGWPmm)
 
 #*************************************************************
 

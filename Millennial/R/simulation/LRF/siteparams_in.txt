@@ -1,0 +1,4 @@
+param_pH 7.715
+param_bulkd 1508
+param_pc 0.86
+param_claysilt 82.2

@@ -25,5 +25,5 @@ parameters <- data.frame(param_name = c("param_pH","param_bulkd","param_pc","par
 ###########################
 # write parameter files
 ## this does NOT need scenario designators; always the same for the site
-write.table(parameters, file=paste0(mill_path,"/siteparams_in.txt"),
+write.table(parameters, file=paste0(mill_path,"siteparams_in.txt"),
             row.names=F, quote=F, col.names=F, sep=' ')

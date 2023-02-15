@@ -322,6 +322,7 @@ treatment <- if_else(mgmt_scenario_num==1, "CSct",
              if_else(mgmt_scenario_grp==7, "CCct",
              if_else(mgmt_scenario_grp==8, "CRSnt",
              "Error")))))))))))
+# this treatment num provides a crosswalk from LRF treatment num to scenario num
 treatment_num <- if_else(mgmt_scenario_num==1, 2,
                  if_else(mgmt_scenario_num==2, 3,
                  if_else(mgmt_scenario_num==3, 4,
@@ -366,20 +367,20 @@ soil_moist_bias <- if_else(mgmt_scenario_num==1, 0,
                    if_else(mgmt_scenario_grp==7, 0,
                    if_else(mgmt_scenario_grp==8, 0,
                    0))))))))))
-#covercrop_aftercorn <- "Oats"
-#covercrop_afterwheat <- "Red Clover"
+
+# covercrop_aftercotton <- "Rye"
+# covercrop_aftersorghum <- "Rye"
+# covercrop_aftercotton_APSIM <- "moata" #-a fudge taken from wheat
+# covercrop_aftersorghum_APSIM <- "moata"
+# covercrop_aftercotton_Daycent <- "RGA"
+# covercrop_aftersorghum_Daycent <- "RGA"
+
 covercrop_aftercotton <- "Rye"
-covercrop_aftersorghum <- "Rye"
-#covercrop_aftercorn_APSIM <- "Wintaroo"
-#covercrop_afterwheat_APSIM <- "Colenso"
-covercrop_aftercotton_APSIM <- ""
-covercrop_aftersorghum_APSIM <- ""
-#covercrop_aftercorn_Daycent <- "OAT1"
-#covercrop_afterwheat_Daycent <- "CLVC"
-covercrop_aftercotton_Daycent <- ""
-covercrop_aftersorghum_Daycent <- ""
+covercrop_APSIM <- "moata"
+covercrop_Daycent <- "RGA"
 
 obs_path <- paste0("Data/",site_name,"/")
+obs_soil_path <- paste0(obs_path,'Soil/')
 hist_path <- paste0("Data/",site_name,"/Historical Land Use and Yields/")
 hist_filename <- "TX-Lubbock County historical yields and C input.xlsx"
 obs_filename <- "LibertyResearchFarm.xlsx"
@@ -817,11 +818,14 @@ ObsMB <- ObsMB_mean[ObsMB_mean$treatment_num==treatment_num,] %>%
 Fert <- obs_fert_raw[substr(obs_fert_raw$treatment,1,1)=='C',
                      c("date","year","treatment","treatment_num",
                        "replicate","Crop","Amend Placement","Amend Type",
-                       "Total N Amount kgN/ha")] %>%
+                       "Total N Amount kgN/ha","Total P Amount kgP/ha",
+                       "Total K Amount kgK/ha")] %>%
   mutate(crop=Crop,
          amend_method=`Amend Placement`,
          amend_type=`Amend Type`,
-         totalN_kgha=`Total N Amount kgN/ha`) %>%
+         totalN_kgha=`Total N Amount kgN/ha`,
+         totalP_kgha=`Total P Amount kgP/ha`,
+         totalK_kgha=`Total K Amount kgK/ha`) %>%
   select(-c(`Crop`,`Amend Placement`,`Amend Type`,`Total N Amount kgN/ha`))
 
 #######################
@@ -835,12 +839,6 @@ Fert <- obs_fert_raw[substr(obs_fert_raw$treatment,1,1)=='C',
 #          source="Air"
 #   )
 
-rm(obs_biomass_raw,obs_fert_raw,obs_harvest_raw,obs_planting_raw,
-   obs_soilbio_raw,obs_soilchem_raw,obs_soilphys_raw,obs_soiltemp_raw,
-   obs_tillage_raw,obs_treatments_raw,na_cols_df,
-   obs_biomass_tab,obs_fert_tab,obs_harvest_tab,obs_planting_tab,
-   obs_soilbio_tab,obs_soilchem_tab,obs_soilphys_tab,obs_soiltemp_tab,
-   obs_tillage_tab,obs_treatments_tab)
 
 }) # end suppressMessages
 

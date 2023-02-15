@@ -11,6 +11,7 @@
 # LDNDC
 ###########################
 
+library(xml2)
 
 ## this is the top level
 doc <- xml_new_root("site",.version="1.0", .encoding="UTF-8")
@@ -58,7 +59,7 @@ xml_add_child((layer_nodes), paste("layer ",
 
 #doc
 
-write_xml(doc,file=paste0(dndc_path,site_name,"/",site_name,"_site_",
+write_xml(doc,file=paste0(dndc_path,"/",site_name,"_site_",
                           clim_scenario_num,"_",mgmt_scenario_num,".xml"),
           append=T)
 

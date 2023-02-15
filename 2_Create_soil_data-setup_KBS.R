@@ -1,5 +1,5 @@
 #######################################
-# Function: "p_Create_soil_data"
+# Function: "2_Create_soil_data-setup_KBS"
 # Author: "Ellen Maas"
 # Date: "July 11, 2022"
 # Output: Function doesn't return any data, hence the "p" (procedure) naming

@@ -14,6 +14,7 @@
 # 8/30/2022: Created script.
 # 12/22/2022: Reworked linear models to use f_model_coef, 
 # loop for climate scenarios.
+# 2/15/2023: Made y-axes equivalent for future change graphs.
 #######################################
 
 suppressMessages({
@@ -1882,8 +1883,8 @@ for(clim_num in 1:5) {
          plot=gNexp)
   ggsave(filename=paste0(results_path,"scenario_comparison_N2O_fut_grp_6_clim_",clim_num,".jpg"),
          plot=gNfut)
-  
-  
+
+
   #*************************************************************
   
 # GWP Bar charts
@@ -1906,7 +1907,7 @@ gGWP <- scenario_means[scenario_means$Climate_Scenario==clim_num,] %>%
  # scale_y_continuous(breaks=y_breaks) +
   theme(panel.background = element_blank(),
         #        text = element_text(size=16),
-        axis.line = element_line(colour = "black"), 
+        axis.line = element_line(colour = "black"),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(angle = 45,
                                    hjust = 1))
@@ -1927,7 +1928,7 @@ gGWPmm <- gwp_means_piv[gwp_means_piv$source %in% c("mean_CO2e_SOC","mean_CO2e_N
   labs(fill = "Source") +
   theme(panel.background = element_blank(),
         #        text = element_text(size=16),
-        axis.line = element_line(colour = "black"), 
+        axis.line = element_line(colour = "black"),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(angle = 45,
                                    hjust = 1))
@@ -1937,7 +1938,7 @@ gGWPmm
 #####  Not working yet: split GWP bar graphs with error bars
 #####  (see KBS_results/Archive/split_bar_graph_with_error_bars_example.R)
 #
-# gGWPmmeb <- 
+# gGWPmmeb <-
 #   ggplot(gwp_means_piv[gwp_means_piv$source == "mean_CO2e_SOC" &
 #                          gwp_means_piv$Climate_Scenario==clim_num,],
 #          aes(x=scenario_abbrev, y=vals, fill=source)) +
@@ -1959,11 +1960,11 @@ gGWPmm
 #   labs(fill = "Source") +
 #   theme(panel.background = element_blank(),
 #         #        text = element_text(size=16),
-#         axis.line = element_line(colour = "black"), 
+#         axis.line = element_line(colour = "black"),
 #         axis.ticks.x = element_blank(),
 #         axis.text.x = element_text(angle = 45,
 #                                    hjust = 1))
-# 
+#
 # gGWPmmeb
 
 ggsave(filename=paste0(results_path,"GWP_all_scenarios_",clim_num,".jpg"),plot=gGWP)
@@ -1978,19 +1979,20 @@ ggsave(filename=paste0(results_path,"GWP_by_source_all_scenarios_",clim_num,".jp
 gMYchg <- scenario_means[scenario_means$Climate_Scenario==clim_num,] %>%
   ggplot(aes(x=scenario_abbrev, y=mean_MaizeYld_Mgha, fill=factor(scenario_abbrev))) +
   geom_col(position="dodge") +
-  geom_errorbar(aes(ymin=mean_MaizeYld_Mgha-sd_MaizeYld_Mgha, 
+  geom_errorbar(aes(ymin=mean_MaizeYld_Mgha-sd_MaizeYld_Mgha,
                     ymax=mean_MaizeYld_Mgha+sd_MaizeYld_Mgha),
                 width=.2,                    # Width of the error bars
                 position=position_dodge(.9)) +
   ylab(expression('Maize Yield (Mg ha ' ^-1*')')) +
   xlab("") +
+  ylim(-4,1.5) +
   ggtitle(paste(site_name,"Change in Maize Yield-Model Means"),
           paste("Climate Scenario:",climate_desc)) +
   labs(fill = "Scenario") +
   # scale_y_continuous(breaks=y_breaks) +
   theme(panel.background = element_blank(),
         #        text = element_text(size=16),
-        axis.line = element_line(colour = "black"), 
+        axis.line = element_line(colour = "black"),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(angle = 45,
                                    hjust = 1))
@@ -2002,19 +2004,20 @@ gMYchg
 gSYchg <- scenario_means[scenario_means$Climate_Scenario==clim_num,] %>%
   ggplot(aes(x=scenario_abbrev, y=mean_SoyYld_Mgha, fill=factor(scenario_abbrev))) +
   geom_col(position="dodge") +
-  geom_errorbar(aes(ymin=mean_SoyYld_Mgha-sd_SoyYld_Mgha, 
+  geom_errorbar(aes(ymin=mean_SoyYld_Mgha-sd_SoyYld_Mgha,
                     ymax=mean_SoyYld_Mgha+sd_SoyYld_Mgha),
                 width=.2,                    # Width of the error bars
                 position=position_dodge(.9)) +
   ylab(expression('Soybean Yield (Mg ha ' ^-1*')')) +
   xlab("") +
+  ylim(-2,0.8) +
   ggtitle(paste(site_name,"Change in Soybean Yield-Model Means"),
           paste("Climate Scenario:",climate_desc)) +
   labs(fill = "Scenario") +
   # scale_y_continuous(breaks=y_breaks) +
   theme(panel.background = element_blank(),
         #        text = element_text(size=16),
-        axis.line = element_line(colour = "black"), 
+        axis.line = element_line(colour = "black"),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(angle = 45,
                                    hjust = 1))
@@ -2026,19 +2029,20 @@ gSYchg
 gWYchg <- scenario_means[scenario_means$Climate_Scenario==clim_num,] %>%
   ggplot(aes(x=scenario_abbrev, y=mean_WheatYld_Mgha, fill=factor(scenario_abbrev))) +
   geom_col(position="dodge") +
-  geom_errorbar(aes(ymin=mean_WheatYld_Mgha-sd_WheatYld_Mgha, 
+  geom_errorbar(aes(ymin=mean_WheatYld_Mgha-sd_WheatYld_Mgha,
                     ymax=mean_WheatYld_Mgha+sd_WheatYld_Mgha),
                 width=.2,                    # Width of the error bars
                 position=position_dodge(.9)) +
   ylab(expression('Wheat Yield (Mg ha ' ^-1*')')) +
   xlab("") +
+  ylim(-3,2) +
   ggtitle(paste(site_name,"Change in Wheat Yield-Model Means"),
           paste("Climate Scenario:",climate_desc)) +
   labs(fill = "Scenario") +
   # scale_y_continuous(breaks=y_breaks) +
   theme(panel.background = element_blank(),
         #        text = element_text(size=16),
-        axis.line = element_line(colour = "black"), 
+        axis.line = element_line(colour = "black"),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(angle = 45,
                                    hjust = 1))
@@ -2050,19 +2054,20 @@ gWYchg
 gSOCchg <- scenario_means[scenario_means$Climate_Scenario==clim_num,] %>%
   ggplot(aes(x=scenario_abbrev, y=mean_SOC_Mgha, fill=factor(scenario_abbrev))) +
   geom_col(position="dodge") +
-  geom_errorbar(aes(ymin=mean_SOC_Mgha-sd_SOC_Mgha, 
+  geom_errorbar(aes(ymin=mean_SOC_Mgha-sd_SOC_Mgha,
                     ymax=mean_SOC_Mgha+sd_SOC_Mgha),
                 width=.2,                    # Width of the error bars
                 position=position_dodge(.9)) +
   ylab(expression('SOC (Mg ha ' ^-1*')')) +
   xlab("") +
+  ylim(-20,60) +
   ggtitle(paste(site_name,"Change in Soil Organic Carbon-Model Means"),
           paste("Climate Scenario:",climate_desc)) +
   labs(fill = "Scenario") +
   # scale_y_continuous(breaks=y_breaks) +
   theme(panel.background = element_blank(),
         #        text = element_text(size=16),
-        axis.line = element_line(colour = "black"), 
+        axis.line = element_line(colour = "black"),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(angle = 45,
                                    hjust = 1))
@@ -2074,19 +2079,20 @@ gSOCchg
 gN2Ochg <- scenario_gas_means[scenario_gas_means$Climate_Scenario==clim_num,] %>%
   ggplot(aes(x=scenario_abbrev, y=mean_N2O_Mgha, fill=factor(scenario_abbrev))) +
   geom_col(position="dodge") +
-  geom_errorbar(aes(ymin=mean_N2O_Mgha-sd_N2O_Mgha, 
+  geom_errorbar(aes(ymin=mean_N2O_Mgha-sd_N2O_Mgha,
                     ymax=mean_N2O_Mgha+sd_N2O_Mgha),
                 width=.2,                    # Width of the error bars
                 position=position_dodge(.9)) +
   ylab(expression('N2O (Mg ha ' ^-1*')')) +
   xlab("") +
+  ylim(0,0.1) +
   ggtitle(paste(site_name,"Cumulative N2O Emissions-Model Means"),
           paste("Climate Scenario:",climate_desc)) +
   labs(fill = "Scenario") +
   # scale_y_continuous(breaks=y_breaks) +
   theme(panel.background = element_blank(),
         #        text = element_text(size=16),
-        axis.line = element_line(colour = "black"), 
+        axis.line = element_line(colour = "black"),
         axis.ticks.x = element_blank(),
         axis.text.x = element_text(angle = 45,
                                    hjust = 1))
@@ -2104,6 +2110,7 @@ gCH4chg <- scenario_gas_means[scenario_gas_means$Climate_Scenario==clim_num,] %>
                 position=position_dodge(.9)) +
   ylab(expression('CH4 (Mg ha ' ^-1*')')) +
   xlab("") +
+  ylim(-0.1,0) +
   ggtitle(paste(site_name,"Cumulative CH4 Emissions-Model Means"),
           paste("Climate Scenario:",climate_desc)) +
   labs(fill = "Scenario") +
